@@ -62,3 +62,4 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
   return(newList)
 }
 
+external_consistency_dataset <- read.csv("./external_datasets/external_consistency_dataset.csv")
