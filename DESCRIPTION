@@ -15,10 +15,13 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 
     covr,
-    testthat
+    testthat,
+    knitr,
+    rmarkdown
 Imports: 
     quanteda,
     stringr,
     dplyr,
     tibble,
     magrittr
+VignetteBuilder: knitr

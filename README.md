@@ -16,14 +16,19 @@ You can install the current version of this package using:
 ``` r
 devtools::install_github("RohanAlexander/arianna")
 ```
+
+To load the package:
+
+``` r
+library(arianna)
+```
+
 ---
 
 
 # Using the package
 
-The `aRianna` package....
-
-
+Raw text data are often messy and unready for further analysis. The `aRianna` package provides an easy way to clean your text data by picking up text errors in the dataset and replace them with `aRianna`'s predictions. Additionally, `aRianna` introduces the notion of a consistency score, which refers to the proportion of text that is unchanged by the model. This is used to monitor changes during the cleaning process, and to compare the messiness of different texts. There are two types of consistency scores: the internal consistency score and the external consistency score. We define internal consistency as when the model is trained on the corpus itself, and external consistency as when the model is trained on a more general corpus. In `aRianna`, the general corpus trained for external consistency score generation is [insert data set once we decide on one]. Together, these concepts provide a guide to the cleanliness and consistency of a text dataset. This can be important when deciding whether a dataset is fit for purpose; when carrying out data cleaning and preparation tasks; and as a comparison between datasets. 
 
 
 # Examples

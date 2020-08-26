@@ -46,6 +46,18 @@
 <li>
   <a href="reference/index.html">Reference</a>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Articles
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+<li>
+      <a href="articles/arianna-vignette.html">arianna-vignette</a>
+    </li>
+  </ul>
+</li>
       </ul>
 <ul class="nav navbar-nav navbar-right"></ul>
 </div>
@@ -79,12 +91,14 @@
 <a href="#installation" class="anchor"></a>Installation</h1>
 <p>You can install the current version of this package using:</p>
 <div class="sourceCode" id="cb1"><pre class="r"><span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"RohanAlexander/arianna"</span>)</pre></div>
+<p>To load the package:</p>
+<div class="sourceCode" id="cb2"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">arianna</span>)</pre></div>
 <hr>
 </div>
 <div id="using-the-package" class="section level1">
 <h1 class="hasAnchor">
 <a href="#using-the-package" class="anchor"></a>Using the package</h1>
-<p>The <code>aRianna</code> package….</p>
+<p>Raw text data are often messy and unready for further analysis. The <code>aRianna</code> package provides an easy way to clean your text data by picking up text errors in the dataset and replace them with <code>aRianna</code>’s predictions. Additionally, <code>aRianna</code> introduces the notion of a consistency score, which refers to the proportion of text that is unchanged by the model. This is used to monitor changes during the cleaning process, and to compare the messiness of different texts. There are two types of consistency scores: the internal consistency score and the external consistency score. We define internal consistency as when the model is trained on the corpus itself, and external consistency as when the model is trained on a more general corpus. In <code>aRianna</code>, the general corpus trained for external consistency score generation is [insert data set once we decide on one]. Together, these concepts provide a guide to the cleanliness and consistency of a text dataset. This can be important when deciding whether a dataset is fit for purpose; when carrying out data cleaning and preparation tasks; and as a comparison between datasets.</p>
 </div>
 <div id="examples" class="section level1">
 <h1 class="hasAnchor">
