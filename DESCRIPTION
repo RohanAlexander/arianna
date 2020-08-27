@@ -2,12 +2,15 @@ Package: aRianna
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    c(person(given = "Rohan",
+           family = "Alexander",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "rohan.alexander@utoronto.ca"),
+   person(given = "Ke-Li",
+           family = "Chiu",
+           role = c("aut", "cre"),
+           email = "keli.chiu@mail.utoronto.ca"))
+Description: The `aRianna` package provides an easy way to clean your text data by picking up text errors in the dataset and replace them with `aRianna`'s predictions. Additionally, `aRianna` introduces the notion of a consistency score, which refers to the proportion of text that is unchanged by the model.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
