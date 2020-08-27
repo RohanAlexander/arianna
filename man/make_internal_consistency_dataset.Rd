@@ -2,7 +2,7 @@
 % Please edit documentation in R/make_internal_consistency_dataset.R
 \name{make_internal_consistency_dataset}
 \alias{make_internal_consistency_dataset}
-\title{make_internal_consistency_dataset}
+\title{Create an internal consistency dataset}
 \usage{
 make_internal_consistency_dataset(body_of_text)
 }
@@ -10,13 +10,14 @@ make_internal_consistency_dataset(body_of_text)
 \item{body_of_text}{larger amount of text}
 }
 \value{
-
+A collection of n-gram tokens in a tibble
 }
 \description{
 This function takes a large text input creates the dataset that
 is needed.
 }
 \examples{
-
+some_text <- c("we had no idea that you had no idea that they had no idea")
+aRianna::make_internal_consistency_dataset(some_text)
 
 }

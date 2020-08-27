@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>make_internal_consistency_dataset — make_internal_consistency_dataset • aRianna</title>
+<title>Create an internal consistency dataset — make_internal_consistency_dataset • aRianna</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,7 @@
 
 
 
-<meta property="og:title" content="make_internal_consistency_dataset — make_internal_consistency_dataset" />
+<meta property="og:title" content="Create an internal consistency dataset — make_internal_consistency_dataset" />
 <meta property="og:description" content="This function takes a large text input creates the dataset that
 is needed." />
 
@@ -73,7 +73,7 @@ is needed." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">aRianna</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -96,7 +96,7 @@ is needed." />
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="../articles/arianna-vignette.html">arianna-vignette</a>
+      <a href="../articles/arianna-vignette.html">aRianna Vignette</a>
     </li>
   </ul>
 </li>
@@ -116,7 +116,7 @@ is needed." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>make_internal_consistency_dataset</h1>
+    <h1>Create an internal consistency dataset</h1>
     
     <div class="hidden name"><code>make_internal_consistency_dataset.Rd</code></div>
     </div>
@@ -139,14 +139,16 @@ is needed.</p>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    
-
-
+    <p>A collection of n-gram tokens in a tibble</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'>
-
-</div></pre>
+    <pre class="examples"><div class='input'><span class='no'>some_text</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"we had no idea that you had no idea that they had no idea"</span>)
+<span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'>make_internal_consistency_dataset</span>(<span class='no'>some_text</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 2 x 3</span><span>
+#&gt;   tokens       first_words last_word_expected
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>             
+#&gt; </span><span style='color: #555555;'>1</span><span> had_no_idea  had_no      idea              
+#&gt; </span><span style='color: #555555;'>2</span><span> no_idea_that no_idea     that              </div><div class='input'>
+</div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

@@ -1,14 +1,15 @@
-#' @title make_internal_consistency_dataset
+#' @title Create an internal consistency dataset
 #'
 #' @description This function takes a large text input creates the dataset that
 #' is needed.
 #'
 #' @param body_of_text larger amount of text
 #'
-#' @return
+#' @return A collection of n-gram tokens in a tibble
 #'
 #' @examples
-#'
+#' some_text <- c("we had no idea that you had no idea that they had no idea")
+#' aRianna::make_internal_consistency_dataset(some_text)
 #'
 #' @export
 make_internal_consistency_dataset <- function(body_of_text) {

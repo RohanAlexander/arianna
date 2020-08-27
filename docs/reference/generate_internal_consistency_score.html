@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>generate_internal_consistency_score — generate_internal_consistency_score • aRianna</title>
+<title>Generate internal consistency score — generate_internal_consistency_score • aRianna</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,7 @@
 
 
 
-<meta property="og:title" content="generate_internal_consistency_score — generate_internal_consistency_score" />
+<meta property="og:title" content="Generate internal consistency score — generate_internal_consistency_score" />
 <meta property="og:description" content="This function takes a small amount of text and generates an
 internal consistency score" />
 
@@ -73,7 +73,7 @@ internal consistency score" />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">aRianna</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -96,7 +96,7 @@ internal consistency score" />
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="../articles/arianna-vignette.html">arianna-vignette</a>
+      <a href="../articles/arianna-vignette.html">aRianna Vignette</a>
     </li>
   </ul>
 </li>
@@ -116,7 +116,7 @@ internal consistency score" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>generate_internal_consistency_score</h1>
+    <h1>Generate internal consistency score</h1>
     
     <div class="hidden name"><code>generate_internal_consistency_score.Rd</code></div>
     </div>
@@ -143,13 +143,13 @@ internal consistency score</p>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    
+    <p>A list of two tibbles that contain internal consistency and unexpected words</p>
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-
+    <div class='dont-index'><p><code>make_internal_consistency_dataset</code> for consistency_dataset generation</p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'>
-
+    <pre class="examples"><div class='input'><span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'>generate_internal_consistency_score</span>(<span class='st'>"we had no idea that you had no idae"</span>, <span class='no'>consistency_dataset</span>)</div><div class='output co'>#&gt; <span class='error'>Error in dplyr::select(consistency_dataset, -tokens): object 'consistency_dataset' not found</span></div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

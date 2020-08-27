@@ -2,7 +2,7 @@
 % Please edit documentation in R/generate_internal_consistency_score.R
 \name{generate_internal_consistency_score}
 \alias{generate_internal_consistency_score}
-\title{generate_internal_consistency_score}
+\title{Generate internal consistency score}
 \usage{
 generate_internal_consistency_score(text_to_check, consistency_dataset)
 }
@@ -12,13 +12,16 @@ generate_internal_consistency_score(text_to_check, consistency_dataset)
 \item{consistency_dataset}{dataset created from make_internal_consistency_dataset}
 }
 \value{
-
+A list of two tibbles that contain internal consistency and unexpected words
 }
 \description{
 This function takes a small amount of text and generates an
 internal consistency score
 }
 \examples{
+aRianna::generate_internal_consistency_score("we had no idea that you had no idae", consistency_dataset)
 
-
+}
+\seealso{
+\code{make_internal_consistency_dataset} for consistency_dataset generation
 }

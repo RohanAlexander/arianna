@@ -2,7 +2,7 @@
 % Please edit documentation in R/generate_external_consistency_score.R
 \name{generate_external_consistency_score}
 \alias{generate_external_consistency_score}
-\title{generate_internal_consistency_score}
+\title{Generate external consistency score}
 \usage{
 generate_external_consistency_score(text_to_check)
 }
@@ -10,13 +10,13 @@ generate_external_consistency_score(text_to_check)
 \item{text_to_check}{smaller amount of text}
 }
 \value{
-
+A list of two tibbles that contain external consistency and unexpected words
 }
 \description{
 This function takes a small amount of text and generates an
-internal consistency score
+external consistency score
 }
 \examples{
-
+aRianna::generate_external_consistency_score("we had no idea that you had no idae")
 
 }

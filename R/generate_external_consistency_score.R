@@ -1,14 +1,14 @@
-#' @title generate_external_consistency_score
+#' @title Generate external consistency score
 #'
 #' @description This function takes a small amount of text and generates an
-#' internal consistency score
+#' external consistency score
 #'
 #' @param text_to_check smaller amount of text
 #'
-#' @return
+#' @return A list of two tibbles that contain external consistency and unexpected words
 #'
 #' @examples
-#'
+#' aRianna::generate_external_consistency_score("we had no idea that you had no idae")
 #'
 #' @export
 generate_external_consistency_score <- function(text_to_check) {
@@ -16,8 +16,8 @@ generate_external_consistency_score <- function(text_to_check) {
   # Now that we have our collection of n-grams (this will be external consistency
   # because that collection was based on external data that is more general)
   # we want to work out a measure of consistency.
-  text_to_check <- "we had no idea that you had no idae"
-  external_consistency_dataset <- read.csv("./external_datasets/external_training_dataset.csv")
+  path <- getwd()
+  external_consistency_dataset <- read.csv("https://raw.githubusercontent.com/RohanAlexander/arianna/master/external_datasets/external_training_dataset.csv")
   # Create tokens with errors
   tokens_from_example_with_errors <- quanteda::tokens(text_to_check, remove_punct = TRUE)
   tokens_from_example_with_errors <- quanteda::tokens_tolower(tokens_from_example_with_errors)

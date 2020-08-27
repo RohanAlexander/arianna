@@ -1,15 +1,18 @@
-#' @title generate_internal_consistency_score
+#' @title Generate internal consistency score
 #'
 #' @description This function takes a small amount of text and generates an
 #' internal consistency score
 #'
 #' @param text_to_check smaller amount of text
+#'
 #' @param consistency_dataset dataset created from make_internal_consistency_dataset
 #'
-#' @return
+#' @return A list of two tibbles that contain internal consistency and unexpected words
 #'
 #' @examples
+#' aRianna::generate_internal_consistency_score("we had no idea that you had no idae", consistency_dataset)
 #'
+#' @seealso `make_internal_consistency_dataset` for consistency_dataset generation
 #'
 #' @export
 generate_internal_consistency_score <- function(text_to_check, consistency_dataset) {
@@ -45,7 +48,7 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
   all_tokens_with_errors_only <- all_tokens_with_errors
 
   for(token in unique(all_tokens_with_errors_only$tokens)) {
-    if(token %in% external_consistency_dataset$tokens){
+    if(token %in% consistency_dataset$tokens){
       all_tokens_with_errors_only <- all_tokens_with_errors_only[all_tokens_with_errors_only$tokens != token, ]
     }
   }
