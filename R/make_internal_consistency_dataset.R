@@ -14,6 +14,7 @@
 make_internal_consistency_dataset <- function(body_of_text) {
   # Create tokens
   tokens_from_example <- quanteda::tokens(body_of_text, remove_punct = TRUE)
+  tokens_from_example <- quanteda::tokens_tolower(tokens_from_example)
 
   # Create ngrams from the tokens
   toks_ngram <- quanteda::tokens_ngrams(tokens_from_example, n = 3)
@@ -39,7 +40,7 @@ make_internal_consistency_dataset <- function(body_of_text) {
                   first_words = stringr::str_replace_all(first_words, " ", "_")
                   ) %>%
     dplyr::rename(last_word_expected = last_word) %>%
-    dplyr::select(-n, -tokens)
+    dplyr::select(-n)
 
   return(all_tokens)
 }

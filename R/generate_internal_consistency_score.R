@@ -20,6 +20,7 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
 
   # Create tokens with errors
   tokens_from_example_with_errors <- quanteda::tokens(text_to_check, remove_punct = TRUE)
+  tokens_from_example_with_errors <- quanteda::tokens_tolower(tokens_from_example_with_errors)
 
   # Create ngrams from the tokens with errors
   toks_ngram_with_errors <- quanteda::tokens_ngrams(tokens_from_example_with_errors, n = 3)
@@ -39,7 +40,15 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
   # be what we expect.
   all_tokens_with_errors <-
     all_tokens_with_errors %>%
-    dplyr::left_join(consistency_dataset, by = c("first_words"))
+    dplyr::left_join(dplyr::select(consistency_dataset, -tokens), by = c("first_words"))
+
+  all_tokens_with_errors_only <- all_tokens_with_errors
+
+  for(token in unique(all_tokens_with_errors_only$tokens)) {
+    if(token %in% external_consistency_dataset$tokens){
+      all_tokens_with_errors_only <- all_tokens_with_errors_only[all_tokens_with_errors_only$tokens != token, ]
+    }
+  }
 
   # Calculate the internal consistency score:
   internal_consistency <-
@@ -52,14 +61,13 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
 
   # Identify which words were unexpected
   unexpected <-
-    all_tokens_with_errors %>%
+    all_tokens_with_errors_only %>%
     dplyr::mutate(as_expected = last_word == last_word_expected) %>%
-    dplyr::filter(as_expected == FALSE)
+    dplyr::filter(as_expected == FALSE) %>%
+    dplyr::select(-tokens)
 
   newList <- list("internal consistency" = internal_consistency,
                   "unexpected words" = unexpected)
 
   return(newList)
 }
-
-external_consistency_dataset <- read.csv("./external_datasets/external_consistency_dataset.csv")

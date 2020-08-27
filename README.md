@@ -33,12 +33,54 @@ Raw text data are often messy and unready for further analysis. The `aRianna` pa
 
 # Examples
 
+## Internal consistency generation
 
-some_text <- c("rohan is the dad and edward is the baby and rohan is the dad")
+``` r
+some_text <- c("we had no idea that you had no idea that they had no idea")
+consistency_dataset <- aRianna::make_internal_consistency_dataset(some_text)
+aRianna::generate_internal_consistency_score("we had no idea that you had no idae", consistency_dataset)
 
-examples <- aRianna::make_internal_consistency_dataset(some_text)
+## $`internal consistency`
+## # A tibble: 1 x 3
+##   as_expected     n consistency
+##   <lgl>       <int>       <dbl>
+## 1 TRUE            2       0.667
 
-aRianna::generate_internal_consistency_score("rohan is the mum and rohan is the dad", examples)
+## $`unexpected words`
+## # A tibble: 1 x 5
+##   tokens      first_words last_word last_word_expected as_expected
+##   <chr>       <chr>       <chr>     <chr>              <lgl>      
+## 1 had_no_idae had_no      idae      idea               FALSE  
+```
+
+## External consistency generation
+
+``` r
+aRianna::generate_external_consistency_score("we had no idea that you had no idae")
+
+## $`external consistency`
+## # A tibble: 1 x 3
+##   as_expected     n consistency
+##   <lgl>       <int>       <dbl>
+## 1 TRUE            6       0.107
+
+## $`unexpected words`
+## # A tibble: 7 x 4
+##   first_words last_word last_word_expected as_expected
+##   <chr>       <chr>     <chr>              <lgl>      
+## 1 had_no      idae      choice             FALSE      
+## 2 had_no      idae      clue               FALSE      
+## 3 had_no      idae      doubt              FALSE      
+## 4 had_no      idae      idea               FALSE      
+## 5 had_no      idae      other              FALSE      
+## 6 had_no      idae      problem            FALSE      
+## 7 had_no      idae      right              FALSE      
+
+```
+
+
+
+
 
 
 
