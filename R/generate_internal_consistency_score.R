@@ -36,8 +36,7 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
                   first_words = stringr::word(tokens, start = 1, end = 2),
                   last_word = stringr::word(tokens, -1),
                   tokens = stringr::str_replace_all(tokens, " ", "_"),
-                  first_words = stringr::str_replace_all(first_words, " ", "_"),
-                  is_in_dataset = tokens %in% external_consistency_dataset$tokens
+                  first_words = stringr::str_replace_all(first_words, " ", "_")
     )
 
   # Now we combine them so last_word will be what we have and last_word_expected will
@@ -54,23 +53,31 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
     }
   }
 
+  # Group dataset by tokens and sort them by as_expected
+  internal_consistency <-
+    all_tokens_with_errors %>%
+    dplyr::mutate(as_expected = last_word == last_word_expected) %>%
+    dplyr::select(-last_word_expected) %>%
+    dplyr::distinct() %>%
+    dplyr::group_by(tokens)
+  internal_consistency <- internal_consistency[order(internal_consistency$tokens,-internal_consistency$as_expected),]
+  internal_consistency <- internal_consistency[!duplicated(internal_consistency$tokens),]
+
+  true_count <- length(which(internal_consistency$as_expected == TRUE))
   # Calculate the internal consistency score:
   internal_consistency <-
-    all_tokens_with_errors%>%
-    dplyr::select(c(tokens, is_in_dataset)) %>%
-    dplyr::distinct() %>%
-    dplyr::mutate(as_expected = length(which(is_in_dataset == TRUE)))%>%
-    dplyr::mutate(not_as_expected = length(which(is_in_dataset == FALSE)))%>%
-    dplyr::mutate(consistency = length(which(is_in_dataset == TRUE)) / length(is_in_dataset))%>%
-    dplyr::select(-c(tokens, is_in_dataset)) %>%
-    dplyr::distinct()
+    internal_consistency %>%
+    dplyr::ungroup()%>%
+    dplyr::filter(!is.na(as_expected)) %>%
+    dplyr::count(as_expected) %>%
+    dplyr::mutate(consistency = true_count/sum(n))
 
   # Identify which words were unexpected
   unexpected <-
     all_tokens_with_errors_only %>%
     dplyr::mutate(as_expected = last_word == last_word_expected) %>%
     dplyr::filter(as_expected == FALSE) %>%
-    dplyr::select(-c(tokens, is_in_dataset))
+    dplyr::select(-tokens)
 
   newList <- list("internal consistency" = internal_consistency,
                   "unexpected words" = unexpected)
