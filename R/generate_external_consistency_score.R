@@ -16,8 +16,10 @@ generate_external_consistency_score <- function(text_to_check) {
   # Now that we have our collection of n-grams (this will be external consistency
   # because that collection was based on external data that is more general)
   # we want to work out a measure of consistency.
-  path <- getwd()
+
+  # Get the external consistency dataset from remote storage
   external_consistency_dataset <- read.csv("https://raw.githubusercontent.com/RohanAlexander/arianna/master/external_datasets/external_training_dataset.csv")
+
   # Create tokens with errors
   tokens_from_example_with_errors <- quanteda::tokens(text_to_check, remove_punct = TRUE)
   tokens_from_example_with_errors <- quanteda::tokens_tolower(tokens_from_example_with_errors)
@@ -32,7 +34,8 @@ generate_external_consistency_score <- function(text_to_check) {
                   first_words = stringr::word(tokens, start = 1, end = 2),
                   last_word = stringr::word(tokens, -1),
                   tokens = stringr::str_replace_all(tokens, " ", "_"),
-                  first_words = stringr::str_replace_all(first_words, " ", "_")
+                  first_words = stringr::str_replace_all(first_words, " ", "_"),
+                  is_in_dataset = tokens %in% external_consistency_dataset$tokens
     )
 
   # Now we combine them so last_word will be what we have and last_word_expected will
@@ -51,19 +54,21 @@ generate_external_consistency_score <- function(text_to_check) {
 
   # Calculate the external consistency score:
   external_consistency <-
-    all_tokens_with_errors %>%
-    dplyr::mutate(as_expected = last_word == last_word_expected) %>%
-    dplyr::count(as_expected) %>%
-    dplyr::filter(!is.na(as_expected)) %>%
-    dplyr::mutate(consistency = n / sum(n)) %>%
-    dplyr::filter(as_expected == TRUE)
+    all_tokens_with_errors%>%
+    dplyr::select(c(tokens, is_in_dataset)) %>%
+    dplyr::distinct() %>%
+    dplyr::mutate(as_expected = length(which(is_in_dataset == TRUE)))%>%
+    dplyr::mutate(not_as_expected = length(which(is_in_dataset == FALSE)))%>%
+    dplyr::mutate(consistency = length(which(is_in_dataset == TRUE)) / length(is_in_dataset))%>%
+    dplyr::select(-c(tokens, is_in_dataset)) %>%
+    dplyr::distinct()
 
   # Identify which words were unexpected
   unexpected <-
     all_tokens_with_errors_only %>%
     dplyr::mutate(as_expected = last_word == last_word_expected) %>%
     dplyr::filter(as_expected == FALSE) %>%
-    dplyr::select(-tokens)
+    dplyr::select(-c(tokens, is_in_dataset))
 
   newList <- list("external consistency" = external_consistency,
                   "unexpected words" = unexpected)
