@@ -1,0 +1,44 @@
+Many businesses are planning out their CRM data quality strategies for 2015, yet some will fail to win the battle because their approach is simply wrong.
+
+According to Experian’s Data Advantage Report from last year, more than 99 percent of organizations had a plan, but 94 percent still had data errors. That figure was an increase on the previous year’s total too.
+
+The takeaway from the report is simple: Data quality is a battle that requires stamina and commitment.
+
+Fighting the battle means constantly working towards better quality data to improve efficiency, customer satisfaction, reporting and growth. Winning the battle means approaching the issue effectively, using the right techniques.
+
+The Losing Battle
+
+Data quality initiatives require investment and an ongoing focus on improvement. Many businesses see data quality as a cash drain, not a cash gain.
+
+To cut costs, some businesses try to cut back on spending by using members of staff to carry out complex correction and error detection. The report found that 27 per cent of businesses are using manual database editing to tackle data quality. (While 40 per cent of businesses said that they would be using dedicated software for cleaning databases, this was a drop compared to previous years’ figures.)
+
+Here’s the fact: Cutting corners is not a good battle tactic. Manual correction is not fast enough, or accurate enough, to stem the flow of bad data that is being manually entered into other areas of the system. Bad data is also introduced through bad merges, incorrect character sets and the connection of different systems that have different standards and norms. It is also impossible for human reviewers to find fuzzy matches, phonetic matches and duplicate records when scouring a database line by line.
+
+Data quality software does the opposite. It automatically catches new data problems at the input stage before they are committed to a database or customer relationship management system (CRM). It can detect and remove the duplicates that already exist. And as businesses work towards a situation where all data is held in one location, they also cut down on the manual import and export operations that are so problematic.
+
+Persistence
+
+Data quality benefits are well understood in business:
+
+63 percent of respondents wanted to increase efficiency
+
+53 percent aimed to improve customer service
+
+51 percent wanted to make better decisions based on their data
+
+43 percent said they needed to profile customers more effectively
+
+37 percent were working towards a single customer view
+
+
+
+Winning the battle has almost become a utopian goal, but it is not an unachievable one.
+
+Going into battle is daunting, and maintaining the fight on an ongoing basis can be a challenge for everyone, particularly when every single typo generates work and cost. But struggling through with manual editing is a false economy. We are handling more data than ever, and we are responsible for handling it well.
+
+Better data means a better return on investment: better response rates, better customer retention, better productivity. Once you’ve won the battle and have a grip on your data, you’ll realise that cost-cutting is actually the worst battle tactic you could use.
+
+About the Author
+
+Armed with qualifications in mechanical engineering, business and finance, and experience of running engineering and CRM businesses, Martin founded a successful CRM (Customer Relationship Management) software house in 1992, supplying systems to large, medium and small sized companies. Developing a deep understanding of the value of data, he became concerned that many organisations were making decisions based on poor quality data. To fill this gap in the market, he sold the CRM Company and started DQ Global in 2002 to provide data quality solutions, with a mission to detect, correct and prevent data defects which undermine business decisions. Since then, DQ Global has become a global market leader, delivering enterprise-wide data solutions utilising leading edge technology. Martin has gained a wealth of knowledge and experience and has established himself as a Data Quality Improvement Evangelist and an industry expert.
+

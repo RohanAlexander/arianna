@@ -1,0 +1,25 @@
+Thursday, March 18, 2010 | 12:37 PM
+
+Since we launched Google Buzz for mobile, we've been working on ways to make it quicker and easier to share your thoughts and experiences while you're out and about.
+
+
+
+Today, we're excited to release a Google Buzz widget for Android phones that lets you post text and photos with a single tap. Like other mobile access points for Google Buzz, the widget lets you choose to tag your post with the location or place from which it was posted. You can post buzz about a great meal you had and share photos of the new restaurant. To save time, your posts will upload in the background, letting you get back to your scrumptious dessert without a wait.
+
+
+
+The widget is initially available in English for Android phones running v1.6 and later. Search for 'Google Buzz' in the Android Market to download it now. Once installed, you can add it to your home screen: tap "Menu" while on the home screen and select "Add > Widgets > Google Buzz".
+
+
+
+We plan to add support for other languages soon. Visit our Help Center to learn more, ask questions in our Help Forum, or give us suggestions and vote on other people’s on the Mobile Product Ideas page.
+
+
+
+
+
+Update
+
+Posted by Zak Cohen, Software Engineer, Google Mobile
+
+on March 22nd @11:10 PM: You can also directly scan the QR code below to install the widget.

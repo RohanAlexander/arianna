@@ -1,0 +1,40 @@
+If you run OpenStack, you’re probably also looking for ways to do so as easily as possible. Developed by Mirantis, Fuel is an upstream OpenStack community project that helps you eliminate the time-consuming, complex, error-prone process of manual deployments. Fuel is an intuitive, GUI-driven tool that simplifies deploying, testing, and maintaining configurations of OpenStack at scale. Being an OpenStack tool itself, Fuel is not hard-bundled and prevents vendor lock-in.
+
+In a significant enhancement to Fuel’s ongoing evolution, it now runs on Docker to accelerate Fuel application updates, helping you leverage your OpenStack cloud investment with its increased capabilities. Read on for details on how Fuel on Docker can work for you.
+
+Why Fuel on Docker?
+
+Mirantis chose to run Fuel on Docker beginning with Mirantis OpenStack 5.0 because it accelerates Fuel updates through rapid application assembly. With the modifications we made to Puppet, Ruby, and Python code to put Fuel on Docker, you can now redeploy Fuel in less than 30 seconds without rollbacks or cleanup scripts. You can make changes, test them quickly, and rollback if necessary. You can also update the Fuel master node and rollback if you have problems.
+
+Docker enables such straightforward, rapid redeployment because its applications are in portable software “containers,” and run in diverse environments, including laptops running Mac OS X or Windows (using boot2docker), QA servers running Ubuntu in the cloud, and production data center VMs running Red Hat Enterprise Linux. To update a Fuel application in Docker, for example, you just drop the older container and start a new one, saving the 1-2 hours it would have taken to rebuild a Fuel ISO and test your changes.
+
+What’s new
+
+With the improvements of putting Fuel on Docker in Mirantis OpenStack 5.0 came some growing pains that we addressed in 5.1 and 6.0. In the 5.0 release, some users encountered protracted Fuel deployment times and unstable behavior. In addition, Fuel required too much disk space for logs, with the potential for crashing the operating system.
+
+In Mirantis OpenStack 5.1, we reduced the time required to install Fuel on master node into the Docker containers. On a virtualized deployment on an SSD in 5.0, the Fuel master node took about 18 minutes to load images and 9 minutes to start the containers. In 5.1, we reduced image load time to 9 minutes, with 8 minutes to start the containers. When deploying on physical hardware, image load time decreased by 20% in 5.1. Many users recommended using tmpfs on Fuel Master to decrease installation times, but we found that it was unreliable in low memory environments, which slowed the process even further. We were working with 3GB of uncompressed container data, which is just too large to use with tmpfs. Improvements are planned for future releases.
+
+We also made enhancements to Fuel stability in 5.1 with the dockerctl utility tracking configuration activity for Fuel on Docker updates, which pass hundreds of parameters to 13 containers to configure port mappings, disk path mappings, and privileged modes. Dockerctl is particularly important because the mappings are massive for applications that require 5-6 parameters from astute.yaml for each container to deploy the application.
+
+Instead of etcd or other tools that require systemd, we used astute.yaml parameters, preserved the YAML-based local file, and ran Puppet within containers to deploy the Fuel master applications. We won’t necessarily continue to do this, but it was a simpler and less disruptive method than using other available tools. However, the YAML-based local file and Puppet did have several disadvantages, such as contributing to the high volume of mappings in Docker that raised the disk overhead for each container because Puppet and its dependencies were installed. Even so, we’re still running one of the leanest full-blown OS Docker images in production. Docker’s Ubuntu base image is enormous, while our CentOS base image with Puppet installed compresses down to 39MB.
+
+What’s up in Mirantis OpenStack 6.0
+
+Improvements continue in Mirantis 6.0, where we have fixed bugs to correct Fuel configurations that now enable log rotation, freeing up disk space. In addition, when setting system requirements for 6.0, we accounted for logrotate, which stores the last five archives by default. Archive size becomes an important issue when a managed node generates a prolific amount of log data that claims a disproportionate amount of disk space not freed until the archive cycles through the fifth rotation. Based on this consideration, Mirantis multiplied the number of logs by the number of machines and added more space to support a virtual machine that suddenly generates a large amount of logs.
+
+Docker itself needs disk space for logs, which can fill all free space, potentially destroying the file system. No automatic fix is available for this problem, so even with Mirantis’ log store improvements, you still need to track capacity because we can’t predict the volume of logs you will generate. While logrotate updates logs every hour, it doesn’t track free disk space, and no setting is available to maximize the size of the Docker log folder. In fact, the logrotate settings restrict the size of a single log file, which is archived when reached. So even with amplified parameters, you should allocate 30GB exclusively for logs in a 20-node deployment.
+
+Note: If you enable Debug mode, large files rotate every 10 minutes instead of hourly.
+
+More enhancements
+
+In other developments for Fuel on Docker in Mirantis OpenStack 6.0, we used CentOS 6.5 as the operating system for Master Node. Because CentOS 6.5 has no systemd to keep services running, Mirantis uses the Python supervisor utility to start and track Docker containers as well as to run web apps, providing great two-for-one functionality.
+
+Mirantis also developed a simple try-or-fail schema to address container shut downs in Docker, which has no inherent dependency tracking tools. In our solution, if Docker containers try to start but then shut down because PostgreSQL or RabbitMQ are not yet running, the supervisor utility waits for a few seconds and tries to start the failed container again until all containers start up. This method is much easier to maintain than an elaborate priority or dependency-based container deployment sequence. And though dockerctl does have a proper sequence in place when starting all containers, that sequence only applies during the initial deployment.
+
+In addition, Mirantis has also reduced the number of layers per Docker container from ~20 to ~5, reducing the delays imposed by Docker’s devicemapper storage backend. Using CentOS, which relies on Docker’s devicemapper implementation rewritten in the Go language as opposed to AUFS, is also considerably faster. This solution doesn’t scale well, however, so we’re considering other solutions to improve performance, including using other distributions.
+
+Fuel on Docker: To infinity…. and beyond!
+
+Moving forward with Fuel on Docker, Mirantis continues to enhance functionality. As an OpenStack tool, Fuel on Docker remains the best way to deploy, test, and maintain your OpenStack platform. The easiest way to get it, is as a part of Mirantis OpenStack, so download it today to fully leverage your cloud investment.
+

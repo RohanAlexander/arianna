@@ -1,0 +1,283 @@
+Preface
+
+Terminology for 18650 batteries can be very confusing. In this blog post I will clear five common myths.
+
+Myth #1 - You have individual 18650 batteries
+
+Myth #2 - What is better, Li-Po or Li-ion?
+
+Myth #3 - When you charge a cell, its capacity increases
+
+Myth #4 - 18650 batteries can be either Primary or Secondary cells
+
+Myth #5 - Impedance and Resistance are interchangeable terms
+
+I decided to go into some detail for each point so that readers may fully appreciate what lies behind each myth. With detail also lies some complexity. Admittedly I'm worried. I want this post to clear up 18650 battery myths, not confuse even more.
+
+For that reason I added as many metaphors for phenomenon as possible. When you come across these, really take a moment to think about what is going on. I find these metaphors are really the best way to quickly grasp complicated concepts.
+
+And lastly, if you come across any mistakes, have any questions, or disagree with something I've written, please let me know in the comments!
+
+Myth #1 - You have individual 18650 batteries
+
+Answer: Technically, you have individual 18650 cells, not batteries
+
+The terminology problem here arises because of the difference between consumers and engineers.
+
+1 - Cell
+
+Technically speaking, an individual 18650 battery is actually a cell. A cell is the smallest packaged form a battery can take (and for 18650 batteries a cell is normally 4.2V).
+
+2 - Module
+
+The next step up in the hierarchy is a module, which can consist of several 18650 cells connected in either parallel or series. Modules can range in size from several cells to several hundred cells depending on energy requirements.
+
+A BMW i3 lithium-ion battery pack, with viewable individual battery modules
+
+3 - Battery (or Battery Pack)
+
+A battery is a group of cells or modules connected together in either parallel or series, commonly referred to as a battery pack. Both engineers and consumers refer to the final package as a battery pack. However, only engineers typically refer to the pack with the single world “battery” in the context of lithium-ion 18650 batteries. 18650 battery packs almost always contain a BMS (battery management system), which is circuitry that regulates the cells and modules.
+
+If needed to distinguish between a pack and a battery, the “pack” is often smaller, while the “battery” is larger
+
+Do I really have to start calling them cells and not batteries?
+
+Well it depends who you are and what you’re doing.
+
+Calling an individual 18650 cell a battery, is completely acceptable for most people. We do it frequently on Battery Bro. This is because for most consumers, an 18650 is a battery just like an AA is a battery. It a little cylinder thing that gives us power - it’s easy to communicate.
+
+But nomenclature for engineers is different. Concerns for efficiency dictate an adherence to standards and depending on their work philosophy, some engineers can take this quite personally. I have come across such, and do not disagree with them.
+
+That is because typically a battery is a self-contained system capable of powering a device safely. The key point is battery safety. An 18650 cell on the other hand, needs additional regulation circuitry to operate safely because lithium is so chemically reactive.
+
+The addition of a BMS is also critical to maintaining a li-ions expected long cycle life. Individual cells do not have a BMS, that is the job of the pack.
+
+Remember the three tier system used in building battery packs - cells, modules, and battery. Each category has a different set of rules so they can’t share their names. So in some cases the distinction between cell and battery is necessary.
+
+To recap, an individual 18650 is a cell, and a group of 18650s is a battery.
+
+Consumers say: 18650 Battery
+
+Engineers say: 18650 Cell
+
+Consumers say: 18650 Battery Pack
+
+Engineers say: 18650 Battery (or 18650 Battery Pack)
+
+Myth #2 - What is better, Li-Po or Li-ion?
+
+Answer: You can not actually compare the two.
+
+There are two uses for the word LiPo (lithium polymer).
+
+(Uncommon) The original meaning, referring to a “polymer electrolyte” (Common) The new meaning, a cell with a “pouch format” In this new meaning, cells do not have a different electrochemistry than li-ion (lithium ion)
+
+Usage #1 - (Uncommon) Polymer Electrolyte
+
+Many years ago, there was development of a chemistry dubbed LiPo. It never really was applied, and is not often menioned. In this type of cell actual polymer electrolytes are used - but it has not reached commercialization and is very much a prototype research cell.
+
+Usage #2 - (Common) Polymer Casing or Pouch Format
+
+Today, the word LiPo means Lithium Polymer. Polymer being a malleable, soft material that creates the external shell of the battery.
+
+This is a bulging (decomposing) lipo cell (usually from age). Note an 18650 could never bulge like this.
+
+Lithium Polymer (LiPo, LiPoly, etc.) is used for mobile phone and tablet batteries; think of their varying shapes and easy-to-puncture material. Contrast that with the steel-shelled 18650 cylindrical battery - which is standardized, hard, and cylindrical. 18650 (18mm by 65mm) batteries never share the characteristic of using a soft, malleable polymer pouch casing.
+
+If we take a step back we can then see, that both the hard-shelled, and soft-shelled batteries use the same fundamental electrochemistry. They are both lithium-ion (li-ion, liion, etc.) batteries.
+
+That is, they both give us usable energy by shunting lithium ions between the cathode and anode sheets. The ions move in one direction during charge, and in the other direction during discharge. This fundamental movement is present in both the hard 18650 and the soft LiPo type batteries. Both are lithium ion batteries.
+
+Awesome, aren't all these different polymer architectures nice?
+
+Confusion - All cells contain a little polymer, but it’s not reactive
+
+So what is polymer exactly? In ancient Greek, polus had the meaning “many, much” and meros “parts”. A polymer is a large molecule composed of many repeating subunits. This broad definition means there are many types of polymers - notably synthetic plastics, and other natural biopolymers like DNA.
+
+That means even an 18650 cell without a polymer separator, or any electrolyte may still contain “polymer”. In fact lithium ion cells do have internal polymer but it accounts for less than 5% of the total weight and does not provide any electrochemical reactions.
+
+This polymer is often a binding agent. It may be poly(vinylidene fluoride) or PVdF - which helps the mix of chemicals stick to the copper and aluminium foils inside the battery.
+
+This binding agent shouldn’t be confused with the true meaning of lipo. Lip means “pouch format”.
+
+Myth #3 - When you charge a cell, its capacity increases
+
+Answer: When you charge a cell, its charge increases and not its capacity.
+
+The distinction between charge and capacity is not intuitively clear so this myth arises.
+
+The fuel gauge is a great way to think about battery charge
+
+The “Fuel Gage”
+
+The easiest way to explain the charge is with an analogy to a fuel or gas gauge of a car. With this gauge you can easily compare the energy left in your car with the energy you had when it was full. The fuel gauge quickly lets you see how much energy you have left, until you need to recharge.
+
+For batteries, this condition is called the State of Charge (SOC)(%), also known as the “Fuel Gauge” function.
+
+Now think about holding your battery and asking “How charged is it?” It’s the same type of answer you expect if you ask “How much fuel is in my car?” That means when you are talking about charge of a battery, what you really want to know is its SOC (state of charge) - not its capacity.
+
+To recap: When you want to see something like a fuel-gauge for your battery, you are asking about its charge, and not its capacity.
+
+In contrast with the fuel gauge, buckets are a great way to think about battery capacity
+
+Capacity
+
+The best way to understand capacity is to think of it as a bucket. A bucket in the middle of a sandstorm. Every day you can see how much water is in the bucket, and how much can be refilled. However, every time you open the lid, sand gets in and builds up at the bottom of the bucket. Gradually your capacity decreases as sand increases.
+
+The bucket is capacity, and the water is energy. The sand is battery degradation (due to cell oxidation) which is a naturally occurring and irreversible process.
+
+Jump to France in the 1780’s - a man named Charles-Augustin de Coulomb invented the SI unit of electric charge - which is now named after him. The coulomb unit is equal to the amount of electricity produced or consumed in exactly one second by one amp.
+
+When we are talking about battery capacity, we are talking about its coulometric capacity which is derived from discharging the battery.
+
+Coulometric capacity is calculated with the following formula:
+
+(Discharge Current in Amps) x (Discharge Time*)
+
+*Discharge time is the range between its fully charged SOC to the cut-off voltage.
+
+For example:
+
+(2 A) x (2 Hours) = 4Ah or 4000mAh
+
+(20 A) x (6 Minutes) = 2Ah or 2000mAh
+
+The resulting coulometric capacity is expressed in amp hours, or often translated to milliamp hours.
+
+That is the equivalent of “I know how much space is in my bucket, if I drink it with a 2mm straw and it takes me 2 hours, I can say I have 4 millimeter hours left in my bucket.”
+
+If you take this measurement when your bucket is brand new (no sand, no degradation) it is called rated capacity. If you take the measurement after some use, it is called current or actual capacity.
+
+Environmental conditions like temperature and variations in amperage during charge and discharge can significantly alter the useable capacity of a cell. Think of the bucket analogy - if the water is too hot you can’t sip it at full speed. Likewise with brainfreeze on the other end of the spectrum. You can’t measure the bucket well unless the water is at or near its optimal temperature.
+
+Furthermore,
+
+SOC depends on capacity
+
+The SOC reference can be either the current capacity or the rated capacity. Remember current capacity is what the cell or battery can hold, while the rated capacity is what it can hold when it’s brand new, in optimal conditions.
+
+Using the rated capacity can be very misleading because of cell degradation over time.
+
+Without accounting for the loss of performance from degradation, the fuel meter would always read 100% when charged, even if it could only hold half as much fuel as it could in the beginning of its life. Imagine if your fuel tank slowly shrunk over time, and car manufacturers did not tell you.
+
+During high amp continuous discharge or high amp pulses, the cell is used too fast and inefficiencies occur hence the loss of capacity. This is because chemical reactions take a finite time, and more energy can be put in than can be reacted to. The best analogy I have heard to explain this is with the pouring of beer. You have to pour it in slowly to fill it. Pouring it too fast leads to froth and annoyingly little beer.
+
+Discharging at high rates removes more power in an exponential way, and reversely, discharging at low rates increases the run-time significantly. This is dealt with by using Peukert’s equation (I n T = C).
+
+Overview
+
+Charge is like a fuel gauge - it’s easy to see how much you have left. Capacity is the total amount of fuel you can carry. You can measure the capacity for any given SOC (state of charge) but it is only an estimation.
+
+Myth #4 - 18650 batteries can be either Primary or Secondary cells
+
+Answer: All 18650 batteries are secondary cells.
+
+A primary cell is one that is not rechargeable (or can not be easily recharged) after it is discharged. Primary cells are like disposable plates - used once and then discarded.
+
+A secondary cell is one that is rechargeable.
+
+Note: a rechargeable alkaline battery like a rechargeable AA is considered a rechargeable primary cell rather than a secondary cell, adding to confusion
+
+Secondary cells have become more and more popular and have replaced primary cells in many applications. However, in some use-cases like smoke detectors it still makes sense to use primary cells because their self-discharge rate is much lower.
+
+Lithium-ion batteries are secondary cells, but they are used as primary cells were used in the past - for example when they direct power in laptops, mobile phones, and electric bikes. Even though li-ion is often used as primary cells have been in the past - liion is still considered a secondary cell.
+
+Myth #5 - Impedance and Resistance are interchangeable terms
+
+Answer: There is little relationship between the two, and while they both function with the same purpose - the output (in Ohms) is always different.
+
+To understand the difference between DC resistance and AC impedance you should understand that electrical loads have both resistive, and reactive phenomenon.
+
+So keep these two things in mind:
+
+Resistive phenomenon Reactive phenomenon
+
+Know these interchangeable terms:
+
+DC Approach / load = Internal Resistance
+
+AC Approach / signal = Internal Impedance
+
+Ohmic resistance (Ro)
+
+Measuring internal resistance disregards the reactive elements.
+
+This is the inside view of an internal heating element
+
+Looking at the internal resistance of a cell or battery from a purely resistive value (ohms) disregards reactive elements. The best analogy I have heard for this is that of a heating element that produces heat by the friction (resistance) of current passing through. The more internal resistance, the more heat is generated. In this scenario there are no reactive components, only one resistive one determining the output.
+
+When your voltage drops from use, this is because the battery current is flowing through its internal resistance.
+
+The older DC approach
+
+The DC approach is dubbed: Internal Resistance
+
+The first and most common approach is to load-stress the battery. You apply a certain number of amps for a certain given time (eg. 20 amps for 5 seconds) and measure the resulting drop in voltage.
+
+This is like adding friction to the heating element from the previous analogy, and measuring its resulting increase in heat.
+
+How difficult would it be to hear someone from across this room?
+
+A note should be made regarding signal-to-noise ratio. Early DC tests required high-amperage for this reason. Imagine being at a cocktail party and trying to listen to a conversation across the room. It is only possible to do if the person is screaming.
+
+The AC approach
+
+The AC approach is dubbed: Internal Impedance
+
+A newer, improved approach to measuring resistance came after the DC approach. Using AC power, battery scientists were able to send an AC signal through the battery at a very specific frequency. The frequency here is the key point.
+
+If we go back to the cocktail party. Now imagine we are a dog, and the person across the room has a dog-whistle. This is what using a specific AC frequency can do - it can allow us to very accurately discern the signal from the noise with a unique signature.
+
+The problem is that this AC ripple will interact with other elements of the battery (inductive reactance from coil, and capacitance reactive from capacitor) which will degrade the signal quality. This is akin to the dog whistle bouncing off the walls and people.
+
+Impedance is used by manufacturers who frequently test 18650 cells at an AC of 1 kHz.
+
+The newer DC approach
+
+There are newer approaches where high amperage is no longer required, and tiny amounts of pulsed current can be applied to accurately discern the signal. This is akin to now being able to clearly hear a butterfly flap its wings across the room at the cocktail party.
+
+The capacity and SOC (state of charge) of lithium-ion is not correlated with its internal resistance (measured by the DC approach)
+
+Reactions
+
+As we can see, the DC approach to measure internal resistance does not measure anything reactive. It is like a heater, you have more friction and you have more heat - there is nothing else. On the other hand,- the AC ripple reacts with coils and capacitors. One utilizes a DC load, the other an AC signal.
+
+When measuring an 18650 battery or cell, it’s important to note which approach you are using because the resulting ohm values will be different.
+
+A new, fully charged 18650 cell tested with the AC approach (1kHz) may yield between 30 and 60 milliOhms.
+
+While with the equivalent DC approach it may yield 100 to 130 milliOhms.
+
+Comparing resistance to impedance is not comparing apples to oranges - they are different non-interchangeable terms.
+
+Finish
+
+And that is the end of these five battery myths. Here is a recap of the myths and their answers:
+
+Myth #1 - You have individual 18650 batteries
+
+Answer: Technically, you have individual 18650 cells, not batteries
+
+
+
+Myth #2 - What is better, Li-Po or Li-ion?
+
+Answer: You can not compare the two.
+
+
+
+Myth #3 - When you charge a cell, its capacity increases
+
+Answer: When you charge a cell, its charge increases and not its capacity.
+
+
+
+Myth #4 - 18650 batteries can be either Primary or Secondary cells
+
+Answer: All 18650 batteries are secondary cells.
+
+
+
+Myth #5 - Impedance and Resistance are interchangeable terms
+
+Answer: There is little relationship between the two, and while they both function with the same purpose - the output (in Ohms) is always different.

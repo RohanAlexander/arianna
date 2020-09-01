@@ -1,0 +1,57 @@
+
+
+The National Security Agency's headquarters in Fort Meade, Md. (NSA)
+
+Chris Finan is a former Obama administration official who has come to have serious doubts about the National Security Agency's role in domestic surveillance and cybersecurity efforts. In the past, policymakers looked to the NSA for its unparalleled expertise in cryptography and computer security. But Finan argues that rapid improvement in private-sector cybersecurity expertise has made dependence on the NSA unnecessary and, especially in the wake of Edward Snowden's revelations, potentially dangerous. He argues that domestic counterterrorism efforts should depend more on civilian agencies and the private sector, not military agencies such as the NSA.
+
+Finan draws on a wealth of experience developed over several years of high-level government service. Finan served in the military during the Iraq war. After spending two years at a startup, he joined the Obama administration in 2009. He worked on cybersecurity policy, first at the Pentagon and then at the White House. He left government service in 2012 and now works for a Silicon Valley startup that helps companies protect their customers' accounts from being hijacked.
+
+We spoke Thursday. The transcript has been edited for length and clarity.
+
+You're skeptical about the NSA's large role in domestic cybersecurity and surveillance activities. Why is that?
+
+One of the themes of the 2012 cybersecurity debate was thinking about how to leverage the technical crown jewels that are NSA and bring that incredible technical capability to bear on this domestic security problem. Inherent in that assumption is that only NSA has the technical capability to aid our law enforcement and homeland security community. But technology paradigms have changed.
+
+There's an enormous amount of data the federal government collects. They're parsing through that data to generate leads, looking for correlations to potential terrorists overseas, other leads the law enforcement community is looking for, etc. It used to be you needed enormous supercomputer infrastructure to do that well.
+
+Now, due to faster computers and parallelization, anyone can do it. Thanks to Amazon Web Services or Rackspace, if you have access to the Internet, you have access to a supercomputer. [The private sector] can do a lot of the big data capabilities that used to be an inherently government function in the past.
+
+These big data analytics are driving the American economy right now. So to think that a government agency is going to do this better than our tech innovators in this country I think is fallacious. I think it was an old paradigm, it was an old assumption that needs to be challenged.
+
+Still, the NSA has a lot of technical expertise and powerful hardware, right? Why not use that to address domestic security problems?
+
+I don't believe that Americans are comfortable with the military intelligence community having such a central domestic role. We should come up with a strategy to divest the military and intelligence community and instead look for ways to leverage this [private sector] advantage. I think there's a way to leverage our competitive advantage in big data in a way that also is consistent with the Fourth Amendment.
+
+We also have an over-classification problem. I don't condone what Ed Snowden did. He made a commitment to protect classified information. Breaking that commitment was wrong. However, he did bring to light this classification problem, which needs to be debated as a society. The problem with over-classification is you create an inherently closed system. Closed systems are prone to failure. In fact it's not just technology. Think of the political system. Closed totalitarian systems are inherently weaker than open egalitarian systems.
+
+There's a principle called Kerckhoffs's principle, which states that if a code system is open and the only thing that's protected is the key, that's the most secure system. I wish our cryptology guys would think about [that principle in the cybersecurity sector]. It doesn't make sense that we'd have a closed system rather than open it up. Taking a centralized approach to this problem and having a single agency serve as the central aggregation point doesn't scale. That to me is the assumption that I go back to in thinking about ways to open up.
+
+This gets to a larger point. People like Director of National Intelligence James Clapper claim that more transparency will give the terrorists our playbook. I think you can acknowledge the existence of programs without giving away sensitive sources and methods and giving away our counterterrorism playbook.
+
+
+
+Director of National Intelligence James Clapper, right. (Susan Walsh/AP)
+
+So is your proposal that a civilian agency at the Department of Homeland Security would do the kind of dragnet surveillance the NSA is doing today?
+
+No, I'm not in favor of or proposing the continuation of dragnet surveillance. I don't believe that's necessary. I think we've taken an axe approach when scalpels would be more consistent with the Fourth Amendment. I think the FISA Amendments Act and the Patriot Act are overly broad. I favor a more targeted approach, using warrants to collect the data when we absolutely need it.
+
+[Instead, civilian agencies should focus on] providing [information to the private sector.] If the government gets information because of its foreign government intelligence apparatus, it should be able to quickly send that out to the private sector. Primarily as a one-way communicator. Here are threats we're seeing overseas. There's been some of this in the past, but they haven't scaled it up. [The government has] more of an interest in making it a quid pro quo, government receiving information and then giving information back. The private sector is going to be able to operationalize it much better than the U.S. government.
+
+Some of the career officials are hesitant to scale [public-to-private sharing] up because they want to use it as a chit to get access to more data. I think that's the wrong approach. Government should give this threat information to the private sector. We shouldn't adopt the mentality that the government knows better how to do this.
+
+Some in Congress have said we need to promote information sharing. I think that's code for many career national security officials to weaken privacy laws so they can get access to more domestic data. I'm all for pushing information out. I'm all for making it easier for companies to share information between each other, which may require more explicit legal language. I think if we can do that without weakening consumer protections, you can do that.
+
+I want to ensure that kind of sharing is restricted to threat information. I'm all for looking at how to do that, and as long as you keep the liability protections fairly narrow, that would work.
+
+What else can be done to shore up Internet security?
+
+Congress should look at aligning market incentives. For example, publicly traded corporations should report cyber risk as a material risk. I'd like Congress to make sure this is being done at scale across the private sector. That would go a long way toward improving cyber-security, because it would make shareholders more aware.
+
+A third thing is securing critical infrastructure. I was a proponent of some kind of standard for critical infrastructure. There was no appetite for that on Capitol Hill. I think there's certainly more that we can do. The problem though is that many on the Hill immediately look to [the NSA] as the solution. That's just myopic because it doesn't leverage our private sector innovators. There's no way that can scale.
+
+Defenders of the NSA say getting the NSA completely out of domestic surveillance is unrealistic because terrorists increasingly use American services like Gmail. Isn't that an argument for continuing the NSA's role?
+
+[Spying on terrorists' Gmail accounts] should be done by civilian law enforcement agencies with a warrant. It shouldn't be a military agency without a warrant. That's completely inconsistent with the values of this country. I don't care if it's a treasure trove of terrorists. It doesn't matter. There's something fundamentally wrong if that's our strategy. There's got to be a better approach. There's no way we have to rely on the military to be able to do that.
+
+I feel like we've allowed post-9/11 inertia to drive us to the point where we are now. Let's reverse that. Let's think about that deliberately. Let's design a system that can scale to meet that threat. Focus our military and intelligence agencies outward.

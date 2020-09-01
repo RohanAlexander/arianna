@@ -1,0 +1,21 @@
+Besides projecting directions and e-mails in front of your face, Google Glass can also measure biological signs like heart and breathing rates, according to new research. The work suggests a new way for wearable devices to track a person’s stress level and provide instant fitness feedback.
+
+Researchers from MIT’s Media Lab and the Georgia Institute of Technology’s School of Interactive Computing say that they can accurately ferret out this data by monitoring a Glass wearer’s head movements with the gyroscope, accelerometer, and camera built into Google Glass. A paper on the research will be presented at the MobiHealth conference in Athens, Greece, in November.
+
+The project, called BioGlass, could lead to biometric-tracking apps for Google Glass. Looking beyond the controversial head-worn computer, researchers hope their work leads to less obtrusive sensors for self-monitoring via wearable devices.
+
+BioGlass uses the Glass sensors and camera to track the wearer’s ballistocardiogram, or BCG, which is a mechanical signal measuring the tiny body movements that result from the heart pumping blood. BCG tracking has been around since the 1870s, but was hardly used for many years because it was tricky to track without special equipment (such as a frictionless table). More recently, though, research has shown that sensitive motion sensors for electronic devices can easily detect the BCG signal, and at least one company, Quanttus, is building a product that can do so at the wrist (see “This Fitness Wristband Wants to Play Doctor”).
+
+In a study of 12 people, researchers were able to estimate heart and breathing rates nearly as accurately as they could with FDA-approved sensors for tracking the same signals. The results for heart-rate estimation were off by less than a beat per minute and respiration by less than a breath per minute, says Javier Hernandez, a graduate student in MIT’s Media Lab who coauthored the paper.
+
+The researchers built an Android app that captured data from the accelerometer, gyroscope, and front-facing camera of the Google Glass device; in order to get a range of physiological parameters, study participants wore it as they stood, sat, and lay motionless, and then again after riding an exercise bike. Researchers then isolated and extracted heart- and respiration-rate data from the accelerometer and gyroscope readings, and tracked motion in the video by noting pixel displacement over time. They then used this data to extract heart and respiration information.
+
+The researchers are now working on several apps that would use this kind of data for practical purposes; Yin Li, a paper coauthor and graduate student at Georgia Tech, says they’re making an app that captures and analyzes the signals that were investigated in the study in real time (for the study, the signals were analyzed after the fact).
+
+There are plenty of challenges ahead. The researchers still need to test their work with big motions, such as walking around, to see if they can get the same level of accuracy. And it may be difficult to convince people to wear Google Glass in the first place, let alone track their body’s signals with the device. At $1,500, the device is about 15 times more expensive than most fitness trackers, and its in-your-face style is polarizing.
+
+But Rosalind Picard, a paper coauthor and MIT professor who heads the Media Lab’s affective computing research group, says that while the group’s work uses Google Glass, the method would work with any pair of glasses embedded with a camera and the right sensors.
+
+“I would love for my glasses to give me a little quiet indication about my breathing so I can adjust it,” she says.
+
+​

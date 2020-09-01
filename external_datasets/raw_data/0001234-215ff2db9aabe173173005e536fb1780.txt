@@ -1,0 +1,15 @@
+(Image: Oli Scarff/Getty)
+
+It may look like a sci-fi movie prop, but it could be a glimpse at the future of prosthetics.
+
+3D printing can render everyday artefacts in clear plastic, so we can see in unprecedented detail how they work – and this exquisite model of a prosthetic arm is a brilliant example. It is one of the highlights at the London Science Museum’s 3D printing exhibition, which features more than 600 printed objects.
+
+Designed by Richard Hague, director of the Additive Manufacturing and 3D Printing Research Group at the University of Nottingham, UK, and his students the arm shows how the printers can create strong structure, mobile joints and delicate sensors – like spiral-shaped metal touch-detectors – all in one process.
+
+Advertisement
+
+“It’s a mock-up but it shows circuits that sense temperature, feel objects and control the arm’s movement,” says Hague. “3D printing gives us the freedom to make complex, optimised shapes, and our research aim is focused on printing-in electrical, optical or even biological functions.”
+
+Such techniques are also bringing prosthetics to people who previously could not afford them. For instance, the open-source “robohand” project, pioneered by South African carpenter Richard Van As, aims to print cheap, plastic customised prostheses for people who have lost fingers, or who were born with some digits missing or malformed. Some of his work – with the designs available online – is also on show at the Science Museum.
+
+See more: “What our 3D-printed future looks like“

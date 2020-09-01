@@ -1,0 +1,35 @@
+Powerhouse crab pulsar
+
+MAGIC telescopes detect extremely energetic photons
+
+The Crab Pulsar has set a new record: it is sending out the most energetic light radiation that has ever been measured from a star. This observation could challenge our current understanding of pulsars. Moreover, a new mechanism, little understood up to now, appears to play a role in accelerating the particles to such high energies. These findings were reported by a research team associated with the MAGIC telescopes.
+
+Bundle of energy: with its strong magnetic field (white lines), the Crab Pulsar spins around itself nearly 30 times per second injecting energetic electrons in the space region around it. The green and blue shaded regions depict different particle acceleration zones from where the detected photons could originate. The green zone lies in the vicinity of the pulsar's magnetosphere, whereas the blue zone could be as far as 100,000 km away from the pulsar. © Patricia Carcelén Marco Bundle of energy: with its strong magnetic field (white lines), the Crab Pulsar spins around itself nearly 30 times per second injecting energetic electrons in the space region around it. The green and blue shaded regions depict different particle acceleration zones from where the detected photons could originate. The green zone lies in the vicinity of the pulsar's magnetosphere, whereas the blue zone could be as far as 100,000 km away from the pulsar. © Patricia Carcelén Marco
+
+The Crab Nebula is the remnant of a supernova explosion that was observed on Earth in the year 1054. The neutron star has a diameter of just around ten kilometers and rotates around its own axis approximately 30 times per second. Thus, it emits light pulses like a lighthouse, and these pulses stretch across the entire electromagnetic spectrum — from long radio waves to visible light and beyond, to the short waves of energetic gamma rays.
+
+Magnetic fields: Dynamo for light energy
+
+With the help of the MAGIC telescopes, scientists have discovered photons — that is, particles of light — with energy many times higher than what has been seen before. Until just a few years ago, the highest energy observable from the Crab Pulsar was thought to be at 6 GeV (gigaelectronvolts).
+
+In 2008, the MAGIC telescopes recorded an energy spectrum of more than 25 GeV. The observatory trumped its own result in 2012 with measurements of 400 GeV. Since then, MAGIC has measured gamma rays up to 1.5 TeV (teraelectronvolts). However, the researchers are not yet able to explain how the charged particles are accelerated to these extremely high energies.
+
+“In the production of high-energy particles, a central role is played by the enormously strong magnetic field typical for neutron stars, which generates extremely strong electrical fields,” says Razmik Mirzoyan, speaker of the MAGIC collaboration and project leader at the Max Planck Institute for Physics. “In the magnetically charged, complex atmosphere of the neutron star, electrons and their antiparticles, the positrons, are accelerated to nearly the speed of light before they annihilate each other.
+
+In this model, gamma ray energies up to a few gigaelectronvolts can be explained as synchrotron and curvature radiation. To account for the gamma pulses of more than 1.5 TeV that have now been observed, however, there must be another mechanism.
+
+Where on the neutron star is the highly energetic radiation produced?
+
+Mirzoyan elaborates: “We can only observe extremely energetic gamma rays if these electrons somehow succeed in escaping the complex topology of the neutron star’s magnetic field and accelerating themselves in the electric field. Then they join together with the lower-energy radio waves and X-rays to form the pulsar’s cone of light.”
+
+For the “escape” of the gamma rays, an indirect path is considered a possibility: In this process, it is the electrons and positrons emerging directly from the pulsar that escape, but rather the second or third generation of their accelerated “offspring.” These arise at the outermost edge of the magnetic field, at a height of approximately 1500 kilometers.
+
+Here, simply put, energy-rich charged particles interact with ultraviolet radiation and X-rays as well as with the magnetic field. Subsequently, the secondary particles transfer their energy to lower-energy photons, thereby transforming them into highly energetic gamma quanta — which then exit the magnetic field. This energy transfer is known as the inverse Compton mechanism.
+
+By means of the inverse Compton effect, gamma photons could also form far away from the pulsar, in the pulsar wind region — where, likewise, the accelerated particles can encounter X-rays.
+
+However, the extreme gamma rays arrive at the MAGIC telescopes simultaneously with lower-energy radio waves and X-rays — indicating that they are produced within the magnetic field.
+
+“That would mean that all of the radiation is produced in a relatively small region at the edge of the magnetic field, or that the high-energy gamma rays retain a kind of ‘memory’ of radiation at lower energy. At this point in time we can hypothesize that the inverse Compton mechanism is capable of explaining the existence of such energy-rich gamma rays from the pulsar. In the long run, however, we need new, detailed theoretical models that describe this phenomenon,” Mirzoyan concludes.
+
+BW / HOR

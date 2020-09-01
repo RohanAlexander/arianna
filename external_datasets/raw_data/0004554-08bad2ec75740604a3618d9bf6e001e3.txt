@@ -1,0 +1,21 @@
+A new drug figured out how to provide long-acting HIV defense — with as little as one to two doses a year!
+
+The dream of long-acting HIV drugs is becoming a reality each and every day, thanks to sophisticated medical breakthroughs. One of the newest drugs to get our attention has shown promise in creating HIV drugs that can be administered once or twice a year.
+
+As published in the Journal of Clinical Investigation, researchers developed a drug called URMC-099, which has the purpose of lifting the brakes on a process called autophagy.
+
+What is autophagy, you ask?
+
+It works like this: Autophagy is a process our cells use to rid itself of waste, thus allowing them to invade viruses. Without it, our cells are vulnerable to becoming consumed by viruses. HIV in particular prevents autophagy from happening altogether, which is why it's so hard to kill. But scientists have found a way to lift HIV's brake on autophagy. As a result, cells are free of the virus for longer periods of time.
+
+URMC-099 turns autophagy back on in our cells. When combined with nanoformulated antiretroviral drugs, it has potential of unleashing a long-acting HIV defense.
+
+While strategies of developing an HIV vaccine to give lifetime protection from the virus are taking place around the world, URMC-099 seems to be closest to production.
+
+Researchers tested URMC-099 in combo with nanoformulations of two FDA-approved HIV medications (a protease inhibitor called atazanavir and an integrate inhibitor called dolutegravir), according to the study. Experiments were done using human immune cells and in mice engineered to have a human immune system.
+
+After these experiments, it was found that URMC-099’s initiation of autophagy allowed the HIV drugs to be in cells for a longer period of time — nearly 50 times longer!
+
+URMC-099 developer Harris A. Gelbard, professor and director of the Center of Neural Development and Disease at the University of Rochester said the treatment will be mobilized for human use in the next five years.
+
+“This study shows that URMC-099 has the potential to reduce the frequency of HIV therapy, which would eliminate the burden of daily treatment, greatly increase compliance and help people better manage the disease,” Gelbard said to Futurity.org.

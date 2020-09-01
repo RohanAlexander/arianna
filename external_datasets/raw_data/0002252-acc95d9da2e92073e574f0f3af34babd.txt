@@ -1,0 +1,25 @@
+At 49-43, the Minnesota Twins are engaged in a three-team battle for the A.L. Central crown. The Twins are 1.5 games back of the resurgent Chicago White Sox following yesterday’s victory over the Pale Hose (the Detroit Tigers also sit a game and a half back of the division lead). There is essentially no chance that the Wild Card comes out of anywhere but the AL East, so it’s division title or bust for the Twins. The club’s odds of playing postseason baseball — currently 36 percent according to Cool Standings — are heavily influenced by Justin Morneau’s return to health. But the Twins could also use a return to 2008 form from Kevin Slowey.
+
+A second-round pick out of Winthrop in the 2005 draft, Slowey has always boasted off-the-charts control. He issued just 1.3 walks per nine innings in the minors, punching out 8.8 per nine, and surrendering 0.5 HR/9 despite a low ground ball rate. According to Minor League Splits, Slowey induced grounders 41.1 percent of the time on the farm, but many of the fly balls hit against him were weak — his infield fly rate was 19.5 percent.
+
+Slowey made his big league debut in 2007, tossing 66.2 innings with 6.35 K/9, 1.49 BB/9, and a 4.78 xFIP. He owned one of the five lowest ground ball rates among pitchers with 60+ IP, at 28.9 percent. Converesely, the low number of grounders led to lots of round trippers — Slowey gave up 2.16 HR/9. The prospect often compared to Brad Radke had a higher-than usual home run per fly ball rate (13.3 percent), but with so few grounders and ample fly balls hit, homers figured to be a big problem for Slowey if hitters continued to loft the ball so often.
+
+The next year, Slowey’s ground ball rate increased (relatively speaking), and he posted a 4.02 xFIP in 160.1 innings after coming back from an early-season biceps strain. Since then, Slowey’s xFIP has gone in the wrong direction: in 2009, he had a 4.23 mark in 90.2 IP before right wrist surgery ended his season in July, and he currently holds a 4.68 xFIP in 100 innings this season. Slowey’s control remains superb, though he’s walking slightly more hitters (1.35 BB/9 in ’08, 1.49 BB/9 in ’09, and 1.71 BB/9 this year). His K rate, 6.9 per nine in 2008 and 7.44 per nine in 2009, is also a little worse than usual at 6.3 K/9. Another disconcerting sign for Slowey is his ground ball rate.
+
+I used Pitch F/X data from Joe Lefkowitz’s site to find Slowey’s batted ball distribution over the 2008 to 2010 seasons. I also included the MLB averages for pitchers, provided by Harry Pavlidis at The Hardball Times. These numbers differ from the BIS data on Slowey’s player page, but you’ll note a clear change in his batted ball profile:
+
+(Note: Pitch F/X is showing more of Slowey’s fastballs as “sinkers” this season. It seems like this could be a classification change by Pitch F/X instead of a change on Slowey’s part, so I decided to lump all his fastballs together. For the purposes of this article, the MLB averages for the fastball are for four-seamers.)
+
+Slowey’s ground ball rate, already low, has declined sharply. Some of those grounders have been replaced by pop ups, particularly in 2009. But this season, Slowey’s giving up lots of balls classified as flies and liners, which is not a happy development, given that fly balls typically have a slugging percentage between .550 and .600 (Slowey’s career SLG% on fly balls is .639) and liners fall for hits about 72 to 73 percent of the time (about 75 percent for Slowey).
+
+Is Slowey doing anything different in terms of pitch selection this season? He is using his fastball less often, in favor of mid-80’s sliders and mid-70’s curveballs:
+
+Using Lefkowitz’s Pitch F/X tool, I broke down Slowey’s batted ball distribution by pitch type:
+
+In 2010, Slowey’s ground ball rate on his fastball is down, with more flies and liners hit. The rate on his slider has remained about the same, though that GB% is still well under the MLB norm. His GB rates on the curve and changeup are down, with more curves classified as flies and more changeups classified as liners.
+
+How is Slowey faring when batters put these pitches in play? Here are his slugging percentage on contact numbers by pitch type, along with MLB averages from Pavlidis’ article:
+
+Slowey’s slugging percentage on contact with the fastball remains slightly below average, while the SLGCON on his slider has improved. But he’s looking like Charlie Brown when he breaks out the curve or the change. Six of his sixteen homers given up have come on curveballs and changeups.
+
+With opponents rarely chopping the ball into the grass, Slowey has coughed up 1.44 homers per nine innings this season. Also not helping his case is Minnesota’s outfield D — typically featuring some combination of Delmon Young, Michael Cuddyer and Jason Kubel in the corners; Twins fly catchers have a collective -6.8 UZR/150 this season (all have poor career marks, too). Even with outstanding control, it’s going to be hard for Slowey to be more than a league-average starter if he keeps generating so few grounders.

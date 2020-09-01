@@ -1,0 +1,65 @@
+Keeping It Simple
+
+Brad Bollenbach Blocked Unblock Follow Following Mar 17, 2008
+
+Simplicity is the ultimate sophistication.
+
+
+
+— Leonardo da Vinci
+
+I need every word I write.
+
+The titles of my articles are descriptive but unflashy. I strive for short sentences. I formulate simple concepts, act on their hint, and document my experiences in the hopes of inspiring others. I use technology as an instrument of reach, rather than as an intellectual stairmaster. I’m a preacher of straightforward ideas because straightforward ideas kick ass.
+
+My mission in life is to pursue personal growth and to help others grow. My business plan is: 1. Create high-quality content. 2. Tell people about it. 3. Profit.
+
+My path to personal growth is shaped in large part by one tightly-guarded secret: Keeping Things Simple. This isn’t a secret because no one knows about it; it’s a secret because you can scream “Keep it simple!” as loud as you want and no one will hear you.
+
+Simple Is Hard
+
+Simple isn’t easy. Easy means achieved without great effort. Simple means easily understood. I can bang out a complicated article in half the time it takes me to produce a simple one. I never had to learn how to build convoluted software either — it was a natural talent, you might say — but I did have to make a conscious effort to build stuff that didn’t hurt.
+
+But why is simple so hard? How do you start out wanting to build a text editor and end up building an entire operating system instead? Why do guys spend thousands of dollars on ebooks and workshops that promise to teach them the secrets of meeting women instead of taking the direct, cost-free, and equally rejection-prone route of just walking up and saying hi?
+
+In my experience, there are two primary reasons why we overcomplicate things. The first is a loss of focus. When you lose touch with why you’re doing what you’re doing, you inadvertently sentence yourself to trivial pursuits. As a software developer, I see this all the time with frameworks, particularly frameworks that were created out of thin air instead of extracted from working applications. Using them is like going to church: you pray to a higher power to help you make it through the day, you beg forgiveness for your sins, and they keep pestering you for donations. The tagline for software built from these foundations usually ends with “…but the code is really good.”
+
+Whether you’re creating a product, working on expanding your social life, or trying to find a better job, avoiding the thorns of distraction involves regularly asking yourself these questions:
+
+What’s my goal?
+
+How will I know when I’ve achieved it?
+
+How am I measuring my progress?
+
+How well is my current approach working?
+
+It also helps to write down your goals when you set them. Not only does recording your dreams help you flesh out your desired outcome, it also helps remind you of your original intent.
+
+Complexity and the Ego
+
+The other major reason we flock to complexity is a problem of a very different nature, that requires a completely different solution. It’s rooted in our psychology. It comes from the imperial nature of the human ego.
+
+The ego’s primary lubricant can be summed up in one word: More. 10 features are better than 1. 1000 lines of code is better than 100. $500,000/year is better than $100,000/year. Big is better than small. To the ego, Less is kryptonite.
+
+Making things more difficult than they need to be can also be induced by fear. Our ego relies on fear to protect itself and complexity is a great place to hide. Saying hi to a girl is an incredibly simple and direct way to improve your success with women, but the range of potential negative responses could pose a serious threat to who you think you are. A much easier path for the ego to follow is to read about approaching women instead of actually doing it. Not only does this remove the possibility of embarrassing social fumbles, it also quenches the ego’s thirst for more. If you’ve read five seduction ebooks, you’re obviously better off than if you’d only read one.
+
+Of course, all that information is just a diversion. You end up realizing that no matter how much you read about meeting women instead of actually meeting women, the terror of rejection still remains. And no matter what you do, your first several dozen, maybe even several hundred approaches will be as painful as they are instructive.
+
+Dealing with the ego is a complex subject, which I’ve already written much about. To learn more, try these articles:
+
+Reading in itself is obviously not a bad thing. Losing yourself in unnecessary details to avoid doing what you already know needs to be done is a bad thing.
+
+Prioritize Simple Solutions
+
+Of the four major social media websites (Digg, StumbleUpon, reddit, and del.icio.us), I’ve done pretty well on three of them. The final frontier for me was Digg. If you read about how to get attention from these websites, you’ll see people saying you have to create an account, vote up and comment on articles that other users submit, add everyone who votes up your content to your friends list, and so on.
+
+But my goal with 30 sleeps is to write content that changes people’s lives, not to be a social media power user. To increase my presence on Digg, I asked myself “What’s the simplest way to get on the Digg front page?” I came up with the following algorithm:
+
+Write great content. Visit the front page of the relevant section on Digg. Lifestyle/Education, in my case. Find out who’s submitting content that makes the front page of that section. Contact them directly, with links to my best articles.
+
+I found a few such power users who provided their email address in their profile, and specifically said that they’re hungry for interesting links. I contacted each one directly. I made it clear that I don’t spend a lot of time on Digg, but that I do spend a lot of time writing content dealing with personal growth, and provided them with links to some of my best work.
+
+I did this only a few days ago. The results were amazing. My article on information addiction got submitted and was dugg 135 times. That wasn’t quite enough to push it to the front page, but the article got far more attention than anything I’d tried before. (By the way, if you have a Digg account and liked that article, your votes would be greatly appreciated.)
+
+Remember step #2 of the business plan I described earlier? It really is that basic. The more complex your strategy for achieving your goals, the more you’ll slow yourself down. The simplest thing that can possibly work often does.

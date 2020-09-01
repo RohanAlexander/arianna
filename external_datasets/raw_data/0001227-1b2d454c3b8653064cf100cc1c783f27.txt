@@ -1,0 +1,27 @@
+Yeast. They already participate in producing some of the most popular pain-killing substances around: beer and wine. Now, scientists have engineered yeast that can also make one of the most powerful analgesics: morphine. Their work is in the journal Nature Chemical Biology. [Kate Thodey, Stephanie Galanie and Christina D. Smolke, A microbial biomanufacturing platform for natural and semisynthetic opioids]
+
+
+
+Opiates like morphine and codeine are essential for treating severe pain. But making these meds isn’t easy. All are derived from opium poppies, and tens to hundreds of thousands of tons are needed to meet global needs. The crops can also be affected by climate, disease and even political turmoil in the countries where the plants are grown, which further limits commercial production.
+
+To get around these potential challenges, researchers have turned to yeast, an organism that can be grown easily on industrial scales.
+
+
+
+The scientists inserted into yeast cells a handful of genes isolated from the opium poppy. These genes encode the enzymes the plants use to produce opiates. After tweaking the system to adjust the relative amounts of the enzymes, the researchers could feed their yeast a precursor chemical called thebaine, and get pure morphine in return.
+
+
+
+The yeast can’t yet make opiates from scratch. But with a bit more effort and a few more enzymes, yeast may produce painkillers that are prescription strength.
+
+
+
+—Karen Hopkin
+
+
+
+[The above text is a transcript of this podcast.]
+
+
+
+[Scientific American is part of Nature Publishing Group.]

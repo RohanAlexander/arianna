@@ -1,0 +1,33 @@
+Yesterday, news broke of a settlement and a sealed ruling by jury in the case initiated by Ray William Johnson against Jukin Media. At the outset, Johnson sued Jukin Media for inappropriately flagging his content and hitting him with copyright claims for clips used in his highly popular show “=3”. Jukin Media countered but did not win its attempts at getting a summary judgement from the presiding Judge Stephen V. Wilson. Summary judgement is a particular ruling in the courts that is decided upon by the judge according to terms of the law versus factual or evidentiary support, i.e. a judge can determine if an action was unlawful versus sending it to trial. In the Fall of 2015, Judge Wilson ruled against summary judgement pushing the case to trial.
+
+And so it commenced, this past Tuesday, March 1st in downtown Los Angeles. As we previously reported, Johnson and his legal team had the burden of proving that each of the 40 clips in question fell under the terms of Fair Use, specifically, as Johnson’s legal lead, Tom Vidal, noted during opening statements “in the comments and criticism” section of the Fair Use law, also citing parody as a reason Fair Use applied to Johnson’s show. (See below for a full list of Fair Use considerations that the jury had to follow).
+
+While on the opposing side, Jukin Media’s lawyer Jessica Grant pushed the jury to see Johnson as a thief who, despite claiming that his show was for entertainment and not for profit, was making money on the backs of individuals whose rights for revenue were being compromised by Johnson’s thievery.
+
+“This is a case where the creator takes a video, makes money from it and doesn’t pay a penny [to the owner],” she said in her opening statements. “Without these videos, his show wouldn’t even exist.”
+
+And that is the kicker to the entire case. Effectively, with this settlement, Ray William Johnson could no longer have a viable show format unless he decides to pay a licensing fee to every owner of the clips he uses in the show, going forward. His entire business model revolves around low production budget, high views, and in turn, high dollar margins from ad revenues. License fees cut the profits, not to mention the legal team needed to execute those agreements on behalf of the show.
+
+Since premiering the show, Johnson estimates that he’s used over 2000 clips in “Equals Three”, meaning he could also face dozens of residual suits for copyright violations for videos not sourced from the Jukin Media library. Further, as was presented in evidence from Jukin Media’s cross examination of Johnson in court, Jukin gave Johnson the option to pay a $350/clip license fee and he declined, noting that if he had to pay Jukin, he’d have to pay everyone else appearing on “=3”.
+
+Now, who’s the =3? (Sorry, had to. On we go.)
+
+“What this case should not become is who’s the good guy and who’s the bad guy. Whether he has good intent or bad intent is irrelevant,” said Judge Wilson in court.
+
+To a degree, especially for the jury purposes, Wilson was right. But Johnson is simply one example of a creator taking liberties to exploit the law and perhaps he’ll become the cautionary tale the open-web needs to finally put pressure on rampant violators.
+
+Take, for instance, SoFlo Antonio, a prankster who has generated quite a bad wrap amongst the YouTube community for stealing content and reposting as his own (see below video, or check out this Reddit thread, or speak to any MCN that represents YouTube creators). SoFlo has even been said to give source video owners fabricated contracts saying he owns rights to re-publish, monetize, and re-distribute those source videos anywhere on the web, according to one source who works at an MCN and has seen the fabricated contracts.
+
+What’s more is that when angry YouTubers tried to game SoFlo at his own pirating mastery, on Facebook no less, Facebook flagged the fake page, took it down and reallocated the views accumulated from that fake page to SoFlo’s authenticated fan page, according to one creator H3 Productions. Backwards? Seems so.
+
+And, for the often-times average Joes, who are having their content taken from SoFlo, it can be disarming to fight for rights, or to stand up to a “big creator.” According to one executive at an MCN, these situations happen all the time, especially within the prank category on YouTube. A creator knows the holes in YouTube’s system, and can not only exploit them, but also the source video creator.
+
+As YouTube, and other major media companies, have come forth to make statements in favor of backing creators, violators like SoFlo have begun to backoff. Various MCN’s in the space also confirmed that SoFlo has reached out to retain back-licenses for clips he’s used without permission. SoFlo’s videos have resulted in over 85 million views on YouTube and an estimated $20K a month in ad revenues.
+
+“Viral video owners get frustrated when they see their clips used without permission, and Jukin is here to help. We always try to work out a compromise when business disputes like this arise,” said Jonathan Skogmo in a statement.
+
+As the outcome of Ray William Johnson’s case against Jukin Media ripples across the YouTube creator community, one can only hope that he will become a legend in a new way — not as one of YouTube’s first mega-stars, but as one who had his business model jeopardized after misusing the Fair Use clause in the law.
+
+____
+
+FAIR USE CONSIDERATIONS:

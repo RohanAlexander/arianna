@@ -1,0 +1,103 @@
+“It is tails", said Ranjan Madugalle, the match referee, on 23 March 2003, to resounding cheers from the Johannesburg crowd. Sourav Ganguly now had the chance to decide what the Indian team should be doing after winning the toss against the Australians in the World cup final.
+
+The same Indian team had folded for 125 against the Aussies in the group stage match, and there was some effigy burning; the same Aussies, who had crushed every opponent so far, had not been beaten in a World Cup fixture since their loss to Pakistan in a group stage match in 1999.
+
+There was some context to India’s batting collapse in the earlier match: on the preceding tour to New Zealand, the much-vaunted Indian batting lineup couldn’t muster more than 219 runs in over 11 international innings on severely underprepared pitches. Understandably, they were sorely in need of confidence when they landed on South African shores. On the upside, the Indian fast bowlers had a spring in their step after bowling on green tops.
+
+After the debilitating loss against Australia, the Indian team turned a corner, won eight matches on the trot, and reached the final. Did they have a chance against the invincible Aussies?
+
+“Sourav you’ve won the toss. What will you be doing?" boomed Michael Holding in his Jamaican accent.
+
+Fans could barely hear “We’ll have a bowl" in the midst of the din, already having assumed that the result of winning the toss was a foregone conclusion. Wait, what did he just say?
+
+“Why is that?" asked Holding, thrusting the microphone towards Ganguly.
+
+“Because it’s, it’s a bit damp… Uhhh, it’s because of the rain in the morning. We’ll have a go at this first."
+
+This was like turkeys voting for Christmas, so to speak. Was the earlier result playing on his mind?
+
+“So, you’re hoping that your fast bowlers will get a bit of purchase on this surface and you’ll get a couple of early wickets?"
+
+“I definitely think so if they can put the ball in the right place the way they’ve bowled…we’ll definitely get some purchase".
+
+Why did he have to think? All he had to say was “Bat". One syllable. Was it so difficult to say?
+
+“Ricky, would you have done anything different?" asked Holding of the Australian captain, who was barely able to conceal his delight.
+
+“No, would’ve had a bat, actually. It’s always nice to bat in big games in finals; I think so we would’ve had a bat."
+
+See! He was thinking straight. Why couldn’t Ganguly think more like him?
+
+Sure, Ganguly might have had some grounds for bowling first; but, what did the numbers suggest, in the manner of successful chasing teams?
+
+If scores of scarred Indian fans haven’t minimized this window by now, they would recall that India failed to chase 360 in the final. Back in 2003, 360 was an unassailable target. In an article on ESPNcricinfo in January, the metamorphosis of the ODI game has been captured in a snapshot: a first innings score of 300-324 guaranteed victory before 2001 (and this included 60-over games) 9 times out of 10; since 2013, the corresponding figure has slipped to less than 3 times out of 4. The par score has increased from ~225 to ~270 as well.
+
+These results aren’t surprising, considering the evolution of the ODI game. Like the previous article about teams chasing, if we were to demarcate ODIs into nine eras, the increase in strike rate (runs/100 balls) for batsmen (1-7) follow a similar upward trend, with the latest era batsmen scoring at 20 percentage-point higher rates (compared to ~65 in era 1).
+
+However, there are various nuances across the batting order. In general, the effectiveness of an ODI batsman is determined by factors such as how fast one can score his runs (strike rate), his ability to not get dismissed (not out %), and his propensity to score a big number of runs. Like the last time, here too, we will be examining the trends of these factors before moving on to take a look at the top batsmen who were proficient in the first ODI innings.
+
+Ever since Martin Crowe’s team revolutionized ODI batting with Greatbatch’s fireworks at the top of the order in 1992, the role of the ODI opener has never been the same since. The strike rate of the opening batsmen (1-2) has steadily risen over the years, with the greatest bump happening in the era post-1992. The strike rates of no. 4 and no. 6 batsmen have taken a drastic upward turn in the latest era, probably due to the effect of fielding restrictions in the middle overs.
+
+The Not Out percentage shows some unusual patterns; the probability of an opener staying not out is still minuscule, but batting later has its benefits. Of particular interest is the no. 4 (no. 5 as well) during the 2002-2004 era. Probably, teams were trying to emulate the Michael Bevan template of batting through to the end (observe the strike rate in the same era being lower than the opener or no. 6). Understandably, the Not Out percentage is much less when compared to the chasing values (~20%) for middle order batsmen (4-6), since teams batting first have a different mandate (maximizing their resources) compared to while chasing (staying in touch with the required run rate, while conserving wickets).
+
+The propensity of making big scores is a bit different as well. Batsmen batting in the top 4 have had the best chance to register a 50+ score (~1 in 4 innings). Due to increased strike rates, the batsmen at number 6 have had greater opportunities to chip in with big scores recently.
+
+The occurrence of 100+ scores across the batting order shows some unusual trends; the percentage of innings resulting in a 100 increased till 02-04, decreased subsequently, and then rose sharply in the last 2-3 eras. In fact, the 13-16 era was the most productive in terms of individual 100 scores. No doubt, the tinkering of the fielding restrictions in the middle overs has helped some of the middle-order batsmen to amass big scores.
+
+The overall evolution of the ODI game can be deduced by observing the Batting Index benchmark (BI). For the uninitiated reader, it is a product of the batting average (runs/dismissal) and the strike rate (runs/100 balls), divided by 100. For a batsman, the ability to score more runs before getting dismissed, and in a lesser number of balls is highly prized. Since it is a multiplication product, a high BI value implies that the constituent factors are high as well.
+
+The progression of ODI batting can be observed by cursorily glancing through the BI values across the batting order in different eras. Batting was easier at numbers 3 and 4 in the first two eras, before the openers caught up in the post-Greatbatch eras. The numbers have been fairly stable among the top 6 overall, and have tailed off at number 7. The effect of four fielders in the middle overs is there to be seen in the latest era; numbers 3 and 4 have the highest BI values in the table.
+
+A simple way to understand the differences in batting indices while setting a target and chasing a target would be to compare the two. The above table shows the percentage variation of BI (chasing) with BI (setting) as a reference. The positive and negative differences are shown in green and red, respectively. For instance, BI (chasing) was ~15% higher than the corresponding BI (setting value) for openers in the 71-84 era. Of late, BI (chasing) has taken a beating across the batting order.
+
+From the statistics seen so far, we can conclude that batting first and batting second are two different ball games; the lower order batsmen (6-7) suffer comparatively while chasing. The opening batsmen have had a greater influence in the chase compared to batting first. Hence, for a chase, the top 5 batsmen influence it more often than not; and, while batting first, the top 6 influence most games.
+
+In this article, the overall BI (batting positions 1 to 7) has been taken as the baseline. This may cause an under-representation of lower-order batsmen since their BI is not at the same level. However, a universal baseline is much easier to apply across the board and hence will be used in this analysis as well. Similar minimum runs based cutoffs have been chosen (minimum 500 before era 3, and 750 runs for all eras post 1988) with respect to batsmen batting between positions 1-7 while setting a target in different eras.
+
+Once the bar has been set, the identity top-20 batsmen by BI ratios (w.r.t. the 1-7 BI setting baselines) can be easily found out independent of the match context. Since the BI is a temporally dynamic index, comparing different batsmen across eras is also taken care of to some extent.
+
+In the first two eras, Vivian Richards was the master blaster in the first innings. It is also worth recalling that he was top chasing batsman in these two eras as well. Other West Indian greats such as Haynes, Greenidge, and Lloyd are also in the top-20. All-rounders such as Imran Khan and Kapil Dev feature in this list, despite their low batting positions. In the second era, the Aussies dominate the table with Steve Waugh, Jones, Boon and Marsh. Other players who did well batting first were Zaheer Abbas, Gower, Lamb, and Inzamam. It can be seen that the top-10 has been dominated by middle-order batsmen.
+
+Over the next three eras, opening batsmen started to feature a lot more in the higher positions: Lara, Tendulkar, Ganguly, Kirsten, Gilchrist, Jayasuriya, Mark Waugh—all registered good BI ratio values. Other ODI regulars such as Bevan, Ponting, Ranatunga, Aravinda de Silva, Jacques Kallis, Mohd. Yousuf are present as well. Pakistan’s Abdul Razzaq makes an appearance in the top 3 of era 6, despite him batting lower down the order.
+
+In the last three eras, the middle order batsmen have made a comeback: Dhoni, Hussey, de Villiers, Duminy, Pietersen, Sangakkara, Taylor and Yuvraj Singh. The presence of Ireland’s Paul Stirling amongst the familiar names is a big achievement.
+
+Overall, the lists have been dominated by batsmen who have batted in the top 5 positions. The presence of Kapil Dev, Boucher, Razzaq, Imran Khan, Oram, Flintoff and Symmonds in the top-20 show that it is easier for a lower-order batsman to make an impact while setting a target as compared to in a chase. Nevertheless, a small tweak to the index must be formulated to take care of the representation of the lower-order batmen.
+
+From the above tables, Viv Richards’ BI ratio of ~3.17 towers over everyone else. Many batsmen, such as Tendulkar, Sehwag, Amla, de Villiers, and Abbas, have crossed the 2.5 mark. It must also be noted that the spread of BI ratio is not the same across eras; for instance, the top batsman in era 1 has a BI ratio of ~3.17, but the corresponding top batsman in era 6 is only at ~1.99.
+
+In order to take care of this, a BI ratio cutoff of 1.40 can be applied across the board. The choice of the 1.40 BI ratio benchmark is specific, as it narrows the list of elite batsmen to at least 8 players. This ratio of 1.40 represents a 40% better performance, vis-à-vis an average batsman (1-7), while setting a target.
+
+How did these wonderful batsmen fare across different eras?
+
+Only a few players have been able to consistently outperform the rest of the field across different eras; this can be highlighted by the number of times these players have featured multiple times in the BI ratio lists. Needless to say, some of the greatest ODI batsmen feature in this list of players who have crossed BI ratios of 1.75 and 1.40 in different eras.
+
+In the above table, the player’s name, and his nth appearance (in parenthesis) have been indicated at different eras. For example, Miandad made his 2nd appearance at a chasing BI ratio>1.40 in the second era (84-89). It must also be noted that a player’s nth appearance in the 1.75 column is not reported in the 1.40 column, even though it is obvious, but for one exception—Sachin Tendulkar. Tendulkar breached the 1.40 barrier in era 4, and remained above the 1.75 level (and 1.40) in the next 4 eras. No other player has been able to sustain that level of performance for 4 eras, let alone 5. However, it must be remembered that the first era is 15 years long.
+
+In the 1.40 list, many players such as Jayasuriya, Kallis, Lamb, Boon, etc. have made their nth appearance across in non-contiguous eras. And, only five players have breached the 1.40 level in more than 3 eras—Tendulkar, Dhoni, Ponting, Jayasuriya and Kallis. AB de Villiers and Amla are active players, and can make it into this elite list if they maintain their present form.
+
+What about the teams then?
+
+Across eras, only 8-18 batsmen have crossed the 1.40 BI ratio level, which indicates the exclusivity of the benchmark. In five eras, one team led the charts in terms of the stockpile of elite players; barring South Africa in the latest era, the top team with the highest number of high quality 1st innings batting personnel has won international tournaments. Of particular interest is Australia’s stranglehold of champion first innings batsmen from 1994 to 2008.
+
+So, could Ganguly have done things any differently in the 2003 World Cup final?
+
+Australia, with its fantastic target-setting batsmen, were the pre-eminent ODI team for five eras. India too, had equivalent resources while batting first between 1998-2001, but couldn’t keep up with the Aussie might in the next era. Wisden wasn’t wrong in its assessment that this team (without Shane Warne, mind you) would have beaten a Rest of World XI. And then there was the small matter of them being a champion chasing team as well.
+
+ALSO READ: How India chased off the run-chase blues
+
+Zaheer Khan might have been overexcited, and conceded 15 runs in the opening over; the two wickets that Ganguly was hoping for due to the purchase off the wicket never came until the 20th over, when the Aussies were comfortable at 125/2; two formidable batsmen, in the form of Ponting and Martyn, familiar with the art of setting a target, stitched together a massive partnership.
+
+That man Ponting would more than compensate for his sedate first 50 off 74 balls—by scoring his second 50 off his next 29 and finishing with 140 off 121, taking Australia to 359. The Indian bowling lineup which had bowled like a dream for most of the tournament were demolished into submission; Srinath, the elder statesman, conceded 87 runs in what was his last ODI game.
+
+What if India had collapsed batting first, like in the group stage game?
+
+While individual predictions about a specific match can’t be made (and this is what makes the sport fun), take a moment to consider this: against the Aussies in their pomp (1 January 1998 to 31 December 2008), India had the best winning record against them while batting first; they only won five out of 27 matches batting second (fifth). After Tendulkar’s twin assaults in Desert Storm™ and Desert Storm Reloaded™, India hadn’t won a single match chasing against Australia until late 2007. No wonder the CB series victory against Australia in 2008 was a watershed moment.
+
+On this basis, India had a better chance to win the match if they had batted first. Sigh. If only…
+
+PaajivsPunter is an anonymous collaborative blog. They seek to write original, well-researched and thought-provoking articles. So far, they’ve written opinion pieces, commentary, perspectives, satire, analytical features and long-form narratives on cricket.
+
+ALSO READ: Is R. Ashwin the all-rounder India has been dreaming of?
+
+Comments are welcome at feedback@livemint.com

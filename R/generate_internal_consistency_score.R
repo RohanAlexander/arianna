@@ -27,7 +27,6 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
 
   # Create ngrams from the tokens with errors
   toks_ngram_with_errors <- quanteda::tokens_ngrams(tokens_from_example_with_errors, n = 3)
-
   all_tokens_with_errors <- tibble::tibble(tokens = toks_ngram_with_errors[[1]])
 
   all_tokens_with_errors <-

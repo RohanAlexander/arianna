@@ -1,0 +1,11 @@
+Posted in: Android, Mobile phones, Mobile software
+
+CyanogenMod 11 Nightly builds are now available for the Sony Xperia Z1 Compact. This is the first CyanogenMod treatment the Xperia Z1 Compact is getting since its launch earlier this year.
+
+CyanogenMod 11 is based on the latest Android 4.4.2 KitKat version. The custom ROM weighs about 250MB and you can have it right now.
+
+Before jumping in, you should consider the “nightly” nature of the available ROMs though. This means there will be some bugs or features not working properly, but those will be fixed within the upcoming “stable” release.
+
+Finally, if your Xperia Z1 Compact doesn’t come with unlocked bootloader or you don’t know your way around custom ROMs, I strongly advice you not to proceed because you may end up bricking your device.
+
+Source (download links) | Via

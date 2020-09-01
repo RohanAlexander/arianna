@@ -1,0 +1,25 @@
+Earlier this month, KrebsOnSecurity published The Reincarnation of a Bulletproof Hoster, which examined evidence suggesting that a Web hosting company called HostSailor was created out of the ashes of another, now-defunct hosting firm notorious for harboring spammers, scammers and other online ne’er-do-wells. Today, HostSailor’s lawyers threatened to sue this author unless the story is removed from the Web.
+
+Obviously, I stand by my reporting and have no intention of unpublishing stories. But I’m writing about HostSailor again here because I promised to post an update if they ever responded to my requests for comment.
+
+The letter, signed by Abdullah Alzarooni Advocates in Dubai — where HostSailor says it is based — carries the subject line, “Warning from Acts of Extortion and Abuse of the Privacy of Third Parties.” It lists a number of links to content the company apparently finds objectionable.
+
+Could this same kind of legal pressure be why security industry giant Trend Micro removed all reference to HostSailor from the report that started all this? Trend hasn’t responded to direct questions about that.
+
+Astute readers will notice in the letter (pasted below) a link to a Twitter message from this author among the many things HostSailor’s lawyers will like me to disappear from the Internet. That tweet to HostSailor’s Twitter account read:
+
+“Potential downside of reporting ISIS sites: The hosting firm (ahem @HostSailor) may share your info/name/report with ISIS. Opsec, people!”
+
+I sent that tweet after hearing from a source with whom I’ve been working to report sites affiliated with the jihadist militant group ISIS. The source had reported to HostSailor several of its Internet addresses that were being used by a propaganda site promoting videos of beheadings and other atrocities by ISIS, and he shared emails indicating that HostSailor had simply forwarded his abuse email on to its customer — complete with my source’s name and contact information. Thankfully, he was using a pseudonym and throwaway email address.
+
+HostSailor’s twitter account responded by saying that the company doesn’t share information about its customers. But of course my tweet was regarding information shared about someone who is not a HostSailor customer.
+
+This isn’t the first time KrebsOnSecurity has been threatened with lawsuits over stories published here. The last time I got one of these letters was in Sept. 2015, from a lawyer representing AshleyMadison’s former chief technology officer. The year before, it was Sony Pictures Entertainment, whose lawyers lashed out a large number of publications for too closely covering its epic and unprecedented data breach in 2014.
+
+Prior to that, I received some letters from the lawyers for Igor Gusev, one of the main characters in my book, Spam Nation. Mr. Gusev’s attorneys insisted that I was publishing stolen information — pictures of him, financial records from his spam empire “SpamIt” — and demanded that I remove all offending items and publish an apology.
+
+My attorney in that instance laughed out loud when I shared the letter from Gusev’s lawyers, calling it a “blivit.” When I apparently took more than a moment to get the joke, he explained that a “blivit” is a term coined by the late great author Kurt Vonnegut, who defined it as “two pounds of shit in a one-pound bag.”
+
+Only time will tell if this letter is a blivit as well. I’ve taken the liberty of sanitizing the PDF document it came in, and converting that into two image files – in case anyone wants to take a look.
+
+Tags: Abdullah Alzarooni Advocates, blivit, HostSailor, Kurt Vonnegut, trend micro

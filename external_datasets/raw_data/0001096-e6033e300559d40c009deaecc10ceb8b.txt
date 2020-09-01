@@ -1,0 +1,37 @@
+We’re excited to announce VMware Workstation 11 and Player 7 Pro today with general availability in December 2014.
+
+VMware Workstation 11
+
+VMware Workstation™ 11 delivers leading-edge features and performance that technical professionals rely on every day when working with virtual machines. With support for the latest version of Windows and Linux, the latest processors and hardware, and the ability to connect to VMware vCloud Air, VMware Workstation is the perfect tool to increase productivity, save time and leverage the cloud.
+
+VMware Workstation 11 updates include:
+
+Ready for Windows 10 Tech Preview – Run hundreds of operating systems including the latest Microsoft Windows 10 Tech Preview. Technical users can also run the latest Linux distributions including Ubuntu 14.10, RHEL 7, CentOS 7, Fedora 20, Debian 7.6 and many more.
+
+– Run hundreds of operating systems including the latest Microsoft Windows 10 Tech Preview. Technical users can also run the latest Linux distributions including Ubuntu 14.10, RHEL 7, CentOS 7, Fedora 20, Debian 7.6 and many more. State of the Art Performance – VMware Workstation supports the latest Intel 64-bit x86 processors, including the new Haswell microarchitecture for maximum performance. Taking advantage of key new Haswell extensions, the solution also delivers up to 45 percent improvement in CPU intensive operations like multimedia and encryption/decryption compared to Workstation 10.
+
+– VMware Workstation supports the latest Intel 64-bit x86 processors, including the new Haswell microarchitecture for maximum performance. Taking advantage of key new Haswell extensions, the solution also delivers up to 45 percent improvement in CPU intensive operations like multimedia and encryption/decryption compared to Workstation 10. Powerful Virtual Machines and Graphics – Create virtual machines with up to 16 vCPUs, 8 TB virtual disks, 64 GB memory, and now 2GB video memory. Graphics-intensive applications can now be given an additional boost by allocating up to 2 GB of video memory per virtual machine.
+
+– Create virtual machines with up to 16 vCPUs, 8 TB virtual disks, 64 GB memory, and now 2GB video memory. Graphics-intensive applications can now be given an additional boost by allocating up to 2 GB of video memory per virtual machine. Connection to VMware vCloud Air – Connect to VMware vCloud Air to extend and scale virtual machines on a public cloud. Developers can easily connect to VMware vCloud Air and upload, run, and view virtual machines right from the Workstation interface to easily collaborate with remote team members and scale through a public cloud.
+
+VMware Player 7 Pro
+
+VMware Player 7 Pro™ is a streamlined desktop virtualization application that runs multiple operating systems on the same computer without rebooting. With its simple user interface, unmatched operating system support and portability, it’s now easier than ever for IT professionals to get their users up and running with a corporate desktop. Player 7 Pro is licensed for commercial use and is enabled to run restricted virtual machines created by VMware Workstation 11 and Fusion® Pro 7.
+
+Key Features Include:
+
+Enhanced Operating System Compatibility – VMware Player 7 Pro will run on the latest release of Windows including Windows 8.1 and will support prevalent operating systems like Windows XP and Windows 7 in a virtual environment so users can continue to run legacy applications as long as they need.
+
+– VMware Player 7 Pro will run on the latest release of Windows including Windows 8.1 and will support prevalent operating systems like Windows XP and Windows 7 in a virtual environment so users can continue to run legacy applications as long as they need. Greater Hardware Compatibility – VMware Player 7 Pro will be optimized to run on today’s modern hardware including the latest PC laptops and high-resolution tablets.
+
+– VMware Player 7 Pro will be optimized to run on today’s modern hardware including the latest PC laptops and high-resolution tablets. Updated VMware Compatibility – VMware Player 7 Pro will be able to run restricted virtual machines created by VMware Workstation 11 or VMware Fusion 7 Pro. Restricted virtual machines secure corporate desktops with encryption, runtime password protection, USB access restriction, isolation between the host and guest OS, and time limitation.
+
+New System Requirements
+
+While 32 bit operating systems are supported inside virtual machines, VMware Workstation 11 and Player 7 Pro will require 64 bit processor and 64 bit host operating systems for advanced computing and enhanced performance.
+
+Availability and Pricing
+
+VMware Workstation 11 and VMware Player 7 Pro will be available for purchase in December for $249.99 and $149.99 respectively. Upgrades from VMware Workstation 9.x and 10.x to Workstation 11 will be priced at $149.99 and upgrades from VMware Player 6 Plus to VMware Player 7 Pro will be priced at $79.99, at the time of availability.
+
+Customers who purchase VMware Workstation 10 and VMware Player 6 Plus between October 2014 and December 2014 will receive a free electronic upgrade to VMware Workstation 11 and VMware Player 7 Pro respectively. For more details, visit the upgrade page.

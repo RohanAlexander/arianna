@@ -1,0 +1,29 @@
+The electronic currency Bitcoin works because of encryption and a blockchain -- a widely accessible, distributed record of everyone who has created, accessed or altered a given file. Bitcoin's blockchain tracks who has had each Bitcoin, verifies its authenticity, and so on.
+
+This technology, however, has much broader applications. As governments move to release more data and documents online, verifying the authenticity of those files will become increasingly important. In the future, governments could use blockchains to track and verify the ownership of property records, banking records, securities or anything else posted on an open data platform.
+
+Brian Forde, the director of the MIT Media Lab's Digital Currency Initiative, explores the concept in the video below.
+
+By 2020, using blockchain technology might even become a best practice for the verification of public records online.
+
+Makes sense, @digiphile. You could be right. — Jessica Rosenworcel (@JRosenworcel) August 31, 2015
+
+"Property records, particularly in the developing world, are notoriously subject to hacking," Oliver Goodenough, a professor at Vermont Law School, observed in an interview. "Honduras got money to do an electronic record land registry, but when they were done, many key properties were held by relatives of people who set up the ledger. Now, a contract was awarded to a company in Texas to set up a blockchain-based property system."
+
+That example and others are drawing attention in other contexts, from countries around the world. In the United States, the blockchain might be a way of validating voter records before and after elections, making entries perusable and insulating them from fraud. It might also be relevant to securities, adding a technological component that would make fraud by corrupt officials much harder.
+
+Given how blockchain technology has matured in recent years, Goodenough says it's just going to require hard work to get it into use -- and he hopes that Vermont will be a leader in that area.
+
+"This could give sunshine and make it very hard to screw the system," he told me. "The blockchain will not cook us breakfast, but it might tell us who cooked breakfast."
+
+For more, watch Goodenough's talk earlier this year at Stanford (embedded below) on the state of legal technology:
+
+Governments haven't been the biggest fans of Bitcoin, given the use of the cryptocurrency on the shadier parts of the Internet, including drug deals on the Deep Web. But at least one recognizes the potential of blockchains.
+
+This summer, Vermont took a couple of step toward smart contracts, agreements that contain technology that automatically tracks versions and authors. On June 3, Peter Shumlin, the state's governor, signed an economic development act into law that commissioned a report on the opportunities and risks of using blockchain technology to validate public records and "electronic facts."
+
+An amendment to the economic development bill submitted by state Sen. Becca Balint suggested that "blockchain technology shall be a recognized practice for the verification of a fact or record, and those facts or records established through a valid blockchain technology process shall have a presumption of validity for matters to be determined subject to, or in accordance with, the laws of the State of Vermont."
+
+"This study will provide reasonable recognition for the blockchain as a way to establish facts, providing a rebuttable presumption that the fact was true," Goodenough, who drafted the amendment, told The Huffington Post. "We are just establishing legal recognition that this is a way of establishing evidence."
+
+Goodenough, who directs the Center for Legal Innovation at the Vermont School of Law, has been researching the potential of smart contracts and automated securities that can automatically record who has accessed, changed or traded them.

@@ -1,0 +1,99 @@
+Sound artist Patrick Noecker constructs a blind taste test to examine an audience's reception to the same piece of music played at both 440 and 432 Hz. This is his story.
+
+When a musician uses a tuner, he or she will likely tune their A string or respective medium to the A at 440 Hertz or when the needle is pointing straight up. This a reference point for all other strings to be tuned to or “pitched” around. And it is not the notes, but their relationship to each other that creates harmony or “music.”
+
+Determining a starting point or middle ground, historically speaking, has been greatly debated. In 1859 the French enacted a law that their concert pitch would rest at 435hz. In 1939, at an international standards conference in London, it was determined that 440hz would be the standard for Britain and most developed nations followed suit. This was reaffirmed in 1955 and 1975 by the International Organization for Standardization. A growing number of artists and musicians today believe that concert pitch should be taken down to 432hz arguing that a middle pitch at 432 is easier on a singer’s vocal chords, relieves excessive tension on the instrument body, and that 432hz is more in tune with the vibration of all things. Maria Renold was perhaps the first to boldly state this unproven claim in her work, Scales, Tone, Intervals and Concert Pitch, C=128hz. Renold states that 440hz “disassociates the connection of consciousness to the body and creates anti social conditions in humanity.”
+
+In other words, 440hz has bad vibes, literally.
+
+Over the last 10 years I have routinely experimented with middle pitch. It doesn’t mean my instruments and apps aren’t in tune when I play them, it means that I set my base pitch where I want it, not where the tuner or a musical society of standards says it should be. Around 2000, I began to reconsider 440A. It seemed preposterous to me that you have to be at this range to play “music.” In 2001, I prepared my bass with a wooden dowel under all four strings and applied this to my solo project RAFT and a new group called n0 things. By abandoning the notion of concert pitch, I was able to find a place that felt good sonically. A pivotal moment for me was when I strung a rubber band from the horn of my bass back to the dowel rod under the strings and began plucking it as a hook for a song. The resonant thud had overtones I desired to hear even though the setup wasn’t very practical, musically speaking, but it really got down to the bones of what a sound is or can be beyond the standards of music and concert pitch; the “play-here-to-be-a-musician” school of thought. What was peskily ringing inside my own head could now see light and enter into new creative territory. So I began settling into this new relationship between my strings, strange vibrations and my free-to-run sound-self. By the time n0 things had come and gone, I had a system, and A was at 436hz. I had developed something new that came from abandoning concert pitch. I developed all of this much further in the band These Are Powers.
+
+Hopes&Fears asked me to test my aesthetic quandry with a blind taste test at their offices in Brooklyn. The series of pitches I arranged for this two-set sonic demonstration/sound bath was designed to reveal the audible differences between long tones relative to 440hz and 432hz. My second objective was to reveal the physical and emotional effects of the different pitches, which could possibly give us our own answers about this debated subject of 440 versus 432. That said, an audience survey for each piece was needed and I would refrain from telling them which piece was which until after the experiment. Mike Sheffield of Hopes&Fears and I wrote up a questionnaire that would help us document potential emotional and physical reactions for each set. We asked attendees what they ate before coming, what colors they saw during the show, and other experiences (like shapes and moods) they each felt during the pieces. We focused primarily, however, on the following 11 emotions and asked audience members to document which ones, if any, they experienced during 432 and 440. The emotions were as follows:
+
+Discomfort Restlessness Irritability Calm
+
+Pain Sadness Happiness Numbness
+
+Lethargy Panic Relaxation
+
+In order to get an accurate set of responses, I played the same piece “Rethinking Concert Pitch” exactly the same, twice, the first one in 432 and the second in 440, each for 30 minutes. The notes and hertz ranges I chose to present for this demonstration were determined by my own emotional and physical reactions during the research and design phase. I used an app on my Iphone called Signal Generator to find my ranges. It allowed me to quickly scroll through all the semitones around 432 and 440.
+
+Once I found a semitone or tone that l thought had deep content, I rounded it up or down to the nearest note, which would help me express the differences in terms of music rather than hz. I used a very handy conversion chart written by a guy named BH Suits, to help me convert the notes in 432 to 440 and vice versa. For instance, I could look at the chart and see what D was in 432 (288hz) and then what it was in 440 (293.66hz). This way I could keep both sets harmonically identical and equally relative to the middle pitch in both pieces.
+
+The stereo output on my Iphone allowed me to create a left and right signal as I also wanted to model the output after the brain, left-side, right-side, me as corpus callosum mediating both. I enacted this set up based on my gut-belief that higher tones work better with one side of the brain than the other, that side being the right side.
+
+After finding the tones on Signal Generator, I’d punch them into the preset option on an app called Function Generator, which I set to run on the right side through its stereo function. In 432 for instance, I created sine tone presets between 108hz and 647hz, and between 110hz and 659hz for 440. I ran these tones through two 1x12 amps spread about 15 feet apart. On the left side, via the Moog Filtatron App, I ran an oscillating sub frequency out of two 1x15 bass amps (about 15 feet apart) at 54hz for 432 and 55hz for the 440 piece. Both apps could run in the background, or at the same time. The Moog generated the sub frequency, the Tone Generator created the mids, highs and one low pitch, 108hz for 432 and 110hz for 440.
+
+Again, I set the apps identically for both pieces, using the same notes, and the same amount of oscillation. The notes for each set were A, G, F#, E, D, C# and B.
+
+The subjects/audience members were surrounded by the sound as I had set up chairs between the four amps. I wanted them to be immersed so that they could experience the full sonic spectrum.
+
+The first set was in 432; the range alleged to be more pure, more in tune with humans, and more conducive to health and well-being. That set did yield results suggesting just that, yet other results were more surprising.
+
+Select reactions to set 1 at 432hz:
+
+“The 1st third of the set I got deep into a zone, eyes closed and dreamy. Midway through I became very alert and the last third I experienced some agitation.”
+
+“I think the durational sounds made me feel an extreme awareness of heightened mental and physical (realms).”
+
+“The sounds were soothing to me.”
+
+“At first I was a bit anxious, but then it felt like a soft wave overtook me and carried me into a soft fuzzy womb. I thought about a forest and then about masturbating. I thought about a sad moment in my last breakup.”
+
+“...Could really get lost in them (the sounds) moments I got distracted...I emerged with tears…..heartbreak, reconnection, dreamy thoughts, past things/people, future feelings.”
+
+“Elemental, from deep in the Earth, breaking different levels of surface in arcs.”
+
+“Moments of calm, moments of tension...pleasure at intentional listening, felt pretty absorbed by the sound, felt some meandering thoughts.”
+
+“It felt like being underwater with building pressure and amorphous feelings.”
+
+“I was on a boat on the sea and then drifted off into nothingness.”
+
+“The Dawn Breaks in Summer.”
+
+We took a break after the first set at 432. Again, the audience was unaware what it was in, 432 or 440. Everyone had a drink, the rain continued to pour and the mood was pretty neutral among all. It didn’t feel like a party, but there weren’t any bad vibes, mainly, it was void of extremes.
+
+I began the second set in 440 about a half hour after the break.
+
+I immediately felt how the sound was moving faster. After all, hz is a measurement of how many times a tone or sound is occurring in a single second and 440 is higher than 432. The hair on my arms seemed to stand up and I felt a more intense vibration moving through my body. I could definitely feel that if 432 were a drug, it would be one that induced a lethargic or mellow body high. Maybe 440 would be like a drug that mentally stimulated you & made you feel an energetic body high. In any case, vibrations were hitting me harder and faster. I hadn’t experienced this kind of shaking feeling during my practices. It felt like my innards were being stirred around. I wasn’t sure if it was a good or bad thing, but something was happening.
+
+“I thought to myself...Maybe this is what the 432truthers are talking about….”
+
+Exactly 30 minutes later, the set was over. The audience filled out another questionnaire regarding this set. Some results met my expectations, yet others completely defied what I thought would be the case. Basically, I didn’t expect all the “happy” responses.
+
+Select reactions to set 2 at 440 hz:
+
+“Slightly anxious, my perfect pitch made aware at the first note that it was in 440. Hyper self aware, hypersensitive, alert. I could smell things, I thought of unfinished projects. Thought about how funny the word masturbate is.”
+
+“...like a dream or driving….”
+
+“I thought it was more peaceful (than the first).”
+
+“Scenes of driving down dark highways in tunnels in the rain....less natural feeling.”
+
+“This time I was checking my phone a lot. Previous one was more calming, but intense in dark way. 2nd was more dissonant.”
+
+“Less thoughts, more calm, some random thoughts surfaced but mostly absorbed in the sound. Felt clearing/cathartic “healing” however I wonder if other variables affected my experience.”
+
+“The first version felt more intense but just because of the amplitude of those tones...I was in the moment for the most part, few random thoughts passed by…”
+
+“At the beginning of the 2nd set I spontaneously started thinking about things I was grateful for. I imagined being active and defranic in my body. Had the immersive feeling I get when sitting in the sun.”
+
+“I was thinking about a sci-fi church. It felt clearer, richer and less off-putting.”
+
+“I enjoyed this one more. Sounds familiar and major key. Set 2 felt less alien.”
+
+“I was able to go deeper into this. The 440 piece had more movement, more energy, and I was lost in the swirls of the waves. It was more energetic, perhaps potentially more unsettling, but with this piece I was lost more in the beats of the overtones...more rounded, less angular."
+
+Overall, the reactions were pretty varied. And the data around 432 didn’t reveal it to be this transformative and magical sound, but the majority surveyed in set 1 at 432 stated that it was very calming and relaxing. In fact, 83% said they felt calm at 432, while 80% did for 440. A majority, 77.7%, in 432, however, claimed to see dark shades, (black, brown, blue and purple) while during 440, 60% said they saw greens, yellow, red, amber and orange. I think that’s interesting because 432 is definitely a little darker, a little more mysterious. That said, the unease experienced by 44.4% of those surveyed during the 432 set, could perhaps be a reaction by the parasympathetic nervous system to the foreign sonics of 432hz. The descriptions about mood during 432 found a majority siting “contemplative, calm, pondering and relaxed.” The shapes audience members experienced during 432 and some in 440 were described as round, oval and tunnel-like. Shape description for 440 was similar to 432 although some described more triangles and jaggedness.
+
+Here’s two tables of percentages showing the moods experienced during 432 and 440. Calm was the most cited emotion.
+
+1st set at 432hz RESPONSE: Percentage of the 18 surveyed who felt this way Discomfort: 27.7 Restlessness: 44.4 Irritated: 11.11 Calm: 83.33 Pain: 16.66 Sadness: 22.22 Numbness: 38.88 Lethargy: 38.88 Panic: 5.55 Relaxed: 61.1 Happiness: 16.6 2nd set at 440hz RESPONSE: Percentage of the 15 surveyed Discomfort: 20 Restlessness: 40 Irritated: 13.33 Calm: 80 Pain: 6.66 Sadness: 6.66 Numbness: 13.33 Lethargy: 13.33 Panic: 6.66 Relaxed: 73.33 Happiness: 46.66
+
+With all this in mind, through my own research and conducting this demo, I have concluded that 432hz and the harmonic structure relative to it delivers warmer tones that seem more receptive to blending as a harmony. The sound, and this is a fact, is moving slower per second, which may explain its calmer vibration. The fact that calm was the top-sited emotion during both sets tells me that 432 and 440 both have the power to affix and transform the listener. Then again, 7% more people cited discomfort during 432, not to mention that sadness was higher in 432. Maybe 432 has more significant extractive power. I’m not sure, in fact I don’t know if any of these claims about 432 carry any weight other than the scientific fact that they’re moving slower and are lower. I keep looking at the charts going, hmmm….I don’t think there’s anything to this debate, at least based on my mostly unscientific data collection, all despite the fact that I prefer 432. I tried to control the variables as much as possible to get honest reactions. That said, I think what it comes down to is the individual.
+
+We all vibrate differently. The middle pitch you choose should simply be about what works for you. I’ve always been into lower registers, especially being a bass player, and thus I favor 432. The fact that happiness was cited by almost half during 440 versus not even a quarter for 432 tells me that there’s a reason 440 is the middle pitch of pop and classical. It’s like candy for musicians and listeners. 432 is a more savory area and definitely, at least in my ears, more mysterious. I’ll continue using 432 structures as much as possible. I love how sine tones sound in this range. 440 is just too high for me. I’ll keep tuning my bass to around 436. 440 is not for me. The question is, what is best for you?
+
+I suggest finding out.

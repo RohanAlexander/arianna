@@ -1,0 +1,33 @@
+Ten years ago, Jules Urbach had an insight.
+
+Back then, film companies would spend hundreds of millions of dollars on rendering, which turns 2-D or 3-D models into photorealistic scenes and is used in CGI (computer-generated imagery) animation, for just a few thousand frames. At 24 frames a second, that adds up just to a few minutes of an entire movie.
+
+He realized that the way they were doing it — using a type of processor called a CPU that is commonly used in computers — it was never going to get faster or cheaper.
+
+Instead, he realized it could be done 40 times faster on a type of processor known as a GPU, which is a graphics cards designed for gaming devices such as Playstations and Xboxes.
+
+That is now the most common method of rendering video games. And to accommodate demand, his company, OTOY, founded in 2009, and its main software, OctaneRender, have been using GPUs in the cloud with services such as Amazon, Google and Microsoft Azure.
+
+Even back then, he could see that the appetite for such work might grow to the point it would be difficult for his company to keep up. So he dreamed up — and patented — the idea of a peer-to-peer network where anyone with some GPUs could contribute work to render scenes and pay out each of these contributors. Back then, the Bitcoin network had just started running and no more than a few academics and tech hobbyists knew about it. But now, as the cryptocurrency market has exploded and options like Ethereum are available to build new blockchain-based networks, Urbach’s vision is now possible — and OTOY is launching a token for it: Render.
+
+“The demand for this work is so high that we have no other choice but to have another solution,” he says. “A lot of people are familiar with rendering in terms of computer graphics in films but it’s seeping into all parts of our lives. People don’t realize it’s in advertising, in billboards, in your Zillow real estate Matterport capture.”
+
+[Ed note: Investing in cryptocoins or tokens is highly speculative and the market is largely unregulated. Anyone considering it should be prepared to lose their entire investment.]
+
+OTOY is just one of a number of existing non-blockchain-focused companies that are issuing tokens to launch decentralized networks in their industry. The first to announce such an initiative was Kik messenger app, which recently raised $98 million but fell short of its goal of $125 million. Despite having 15 million monthly active users a month, only 10,000 people purchased tokens for its proposed token-based network for digital communication. While OTOY has an impressive roster of advisors, including Eric Schmidt, the chairman and former CEO of Google, and Brendan Eich, the cofounder and former CEO of Mozilla and CEO of Brave software, which launched the Basic Attention Token, plus big-name clients such as Facebook and Unity, it remains to be proven that an established company can successfully create a token-based network that also attracts its competitors and users outside its base and is therefore truly decentralized.
+
+OTOY’s Render token could be well-positioned to do so. This year, it secured a deal to provide the entire rendering pipeline for Facebook — the social network’s virtual reality camera data uses OTOY. “OTOY has long been on the cutting edge of rendering technology. Their products were a natural fit for our efforts in pushing media to a new level of immersion,” said Eric Cheng, Facebook’s head of immersive media, by email. OTOY has also partnered with Unity, software akin to a Photoshop, but for mobile games such as Pokemon Go. Unity claims its software is used to make a third of top games. And the VR/augmented reality industry could be on the cusp of taking off. A July 2016 Goldman Sachs report projected that VR/AR will see $95 billion in revenue by 2025 — comparable to the $111 billion hardware market for laptops and $63 billion for desktops. Goldman and Deutsche Bank anticipate VR/AR will become a bigger part of a variety of sectors including gaming, live events, virtual shopping experiences or “v-commerce,” healthcare and fitness, communication such as Skype or FaceTime, trainings and education, tourism, and social experience apps such as watching movies with others through VR.
+
+OTOY estimates that what is called the OctaneRender Cloud Network could bring on seven million users (mostly game developers on Unity). Advisor Eich also sees potential for Ethereum miners to switch to Render. “As Ethereum evolves toward proof of stake or other future technologies that don’t require GPU power, that become more power efficient, the GPUs that were for mining Ethereum could be used on Render,” he says. Urbach even imagines iPhones and iPads doing rendering as they recharge overnight, though he calls that an “ambitious” goal.
+
+However, according to a Markets and Markets report, rendering is now only a $1 billion industry and is expected to grow only to $2.9 billion by 2022, so that may limit the potential market cap for the Render token, especially since the network wouldn’t constitute the entire industry. OTOY, using other projections, projects that revenue in 2021 would be $10-$20 billion even if RNDR took just 2% of the industry.
+
+While some crypto players like Eich are excited about the Render token, others are more skeptical. Brian Kelly of digital asset hedge fund Brian Kelly Capital Management says, “There’s nothing terribly unique about it. It’s a model that could be replicated fairly easily. There’s not a big moat around it from what I can tell.”
+
+However, Urbach countered in an email, “The centralized iteration of our rendering model hasn’t been replicated anywhere near our scale, and it’s a good indicator of how hard it is to scale to millions of GPUs in a decentralized way as we plan to do now with RNDR.”
+
+Lucas Ryan of cypto hedge fund Metastable Capital wasn’t convinced the token was necessary and felt such rendering work could be paid for in, say, Ether. Also, Golem network, a decentralized computing platform, might work just as well. Urbach says payment in other tokens doesn’t scale and notes that with Render (unlike Golem Network Tokens), a hash of the assets used behind the render source enables the tokens to be easily distributed to the contributors, putting IP rights on the blockchain.
+
+Render is aiming to raise $134 million from its token sale, which starts October 5. As with the other existing companies launching tokens, it will be interesting to see how well OTOY can redirect its success so far with its company toward a decentralized network.
+
+Be sure to get Forbes' twice-weekly all things blockchain email newsletter, Crypto Confidential! Sign up here.

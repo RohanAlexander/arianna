@@ -1,0 +1,15 @@
+A serious security vulnerability in Windows code is currently being exploited, Google researchers said on Monday.
+
+Google discovered the flaw, which also affects Adobe's Flash media player, on Oct. 21. Adobe issued a fix a few days later, but Microsoft still has not issued its own, according to a Google blog post. Google said its policy is to publish actively exploited critical vulnerabilities seven days after it reports them to the software's creator.
+
+The flaw, which exists in the Windows kernel, can be used as a "security sandbox escape," according to Google. Most software contains sandboxes in order to stop malicious or malfunctioning programs from damaging or snooping on the rest of the computer.
+
+It's unclear how extensively the Windows flaw has been exploited. Google said only that it is being "actively exploited." In a statement, Microsoft acknowledged the security flaw and criticised Google for disclosing it before a fix was ready.
+
+"We believe in coordinated vulnerability disclosure, and today's disclosure by Google puts customers at potential risk," a Microsoft spokesperson told VentureBeat. "Windows is the only platform with a customer commitment to investigate reported security issues and proactively update impacted devices as soon as possible."
+
+The company added that it recommends Windows owners use the Microsoft Edge browser, though it did not say whether Edge can prevent the vulnerability from being exploited. Google, meanwhile, said its Chrome browser prevents the exploit.
+
+Citing a source close to Microsoft, VentureBeat reported that the vulnerability requires Flash to be exploited. Since Adobe has already issued a fix for Flash, users with the latest Flash updates may be protected even without a Microsoft fix.
+
+This article originally appeared on PCMag.com.

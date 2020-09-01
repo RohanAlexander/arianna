@@ -1,0 +1,11 @@
+Apple has been dealt yet another blow by the U.S. Patent & Trademark Office after receiving confirmation that its famous “rubber banding” patent, which plays a key role in the company’s fight against Samsung, is invalid. The “final” decision comes after the USPTO tentatively rejected all claims in the ‘381 patent back in October 2012.
+
+While the initial ruling invalidated all 20 claims in patent ‘381, three of them (14, 17, and 18) have been reinstated in the latest decision. The other 17, however — which includes the key “over scroll bounce” feature that Apple is so protective of — are still considered invalid.
+
+But according to FOSS Patents, this “final” decision can still be appealed. Apple now has two months to respond to the Central Reexamination Unit, and if necessary, the company can send its appeal to the Patent Trial and Appeal Board. If Apple still doesn’t get the decision it’s looking for after that, then the appeal can go to the U.S. Court of Appeals for the Federal Circuit.
+
+It will “take years” before a true, final decision is made on the validity of this patent, FOSS Patents reports.
+
+Patent ‘381 played a key role in Apple’s $1.05 billion damages award against Samsung last summer. At the time, Judge Lucy Koh didn’t consider the first Office action deeming the patent invalid to be relevant, but this decision could have an impact on whether or not we see a new trial.
+
+This is the second blow Apple has been dealt by the USPTO in under a week, with the company having been denied its trademark for “iPad mini.”

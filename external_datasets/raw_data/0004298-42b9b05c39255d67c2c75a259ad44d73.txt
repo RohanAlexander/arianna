@@ -1,0 +1,21 @@
+The Ubuntu Touch platform is very close to the release, and very few people have actually realized what kind of potential it holds. It's open source, it has quite a few apps in the store, it's completely Linux based, and it's designed by a dedicated team. It has the possibility of becoming a real success and it's well under way towards that goal.
+
+Canonical announced a couple of years ago that they had started the work on a new operating system for the mobile platform. The team was doing releases for many years, they had a working OS for TVs and they have dabbled with the idea of putting Ubuntu or the Unity desktop on the phone. In fact, one of their first projects in this direction was called Ubuntu for Android.
+
+Some users might remember their demos that were working from the original Nexus phone. Users would just plug in the device to a monitor and the OS became a full-fledged Linux distribution.
+
+It captured the imagination, and even if nothing really came out of it, the same kind of thinking went into the design of the phone and into the idea of convergence.
+
+Convergence is the future
+
+The idea of convergence is not something new and it meant a different thing two or three years ago. Today it means two things. Developers want to make a single operating system that can run on PCs, tablets, phones, and everything else from a single codebase, and app developers want to make a single apps that can run on all of them.
+
+It might sound like a difficult thing to accomplish, but Ubuntu is already there and this is happening right not. It won't become the norm at least for a couple more years, but there are already apps that can run on different platforms without modifications.
+
+Ubuntu Touch is the tip of the spear for the idea of convergence and it will be the first operating system out there with this kind of capability. This opens new horizons for the OS, which will be able to run apps that would otherwise be confined to a life on the desktop, with just a minimal implication from its developer.
+
+It's difficult to envision the future of Ubuntu Touch as a successful platform and I'm guessing that its developers are having the same difficulties. They know a lot more about the project and about its capabilities, but this is a very volatile industry that loves you today and hates you tomorrow.
+
+Canonical now has an opportunity to make a real impact with a product that is radically different from everything else. If you take all of these features together, the convergence, the fact that it's open source, the unique design, and the huge community behind Ubuntu, you will find that there is nothing like it in the entire industry.
+
+This is the main feature of Ubuntu Touch, its uniqueness. It's not the fastest, it doesn't have the most apps, but it has heart and the people who are building it are really passionate and opened about their work. This alone makes it a winner.

@@ -1,0 +1,29 @@
+SATELLITI E CLIMA
+
+La stagione estiva del 2017 sarà ricordata come una delle più calde e secche di sempre ed ha messo a dura prova il territorio dell’Italia, soprattutto le aree del centro-sud che per oltre tre mesi non hanno visto una goccia di pioggia. Le conseguenze di questo periodo difficile hanno tenuto banco sui media quasi ogni giorno: drastica riduzione delle riserve d’acqua, incendi boschivi e miliardi di euro di danni all’agricoltura.
+
+
+
+Per approfondire questo fenomeno estremo e comprenderne al meglio i meccanismi per il futuro, gli scienziati dell’IRPI (Istituto di Ricerca per la Protezione Idrogeologica) del CNR stanno utilizzando i dati satellitari, in particolare quelli relativi all’umidità del suolo provenienti dal Soil Moisture CCI Project dell’ESA.
+
+
+
+Questo progetto, che fa parte della Climate Change Initiative promossa dall’ente spaziale europeo, è stato ideato per fornire alla comunità scientifica che si occupa di cambiamento climatico un efficace strumento di indagine. Il database del Soil Moisture Project a breve sarà reso disponibile anche attraverso il Copernicus Climate Change Service.
+
+In base ai dati sull’umidità del suolo, i ricercatori dell’IRPI hanno constatato che in alcune zone dell’Italia centrale - come la Toscana - la siccità ha cominciato a farsi sentire già alla fine del 2016 e che nei primi sei mesi del 2017 la media delle precipitazioni si è ridotta a meno della metà, creando condizioni aride simili a quelle verificatesi nel 2007 e nel 2012. Nella foto a destra, la situazione dell'umidità del suolo in Italia ad agosto 2017 (qui in alta risoluzione).
+
+
+
+Anche altri paesi europei hanno sofferto la siccità nell’estate 2017, ma i dati relativi all’Italia centrale mostrano una situazione molto pesante per quanto riguarda i livelli di umidità del suolo.
+
+
+
+Queste informazioni vengono raccolte dai satelliti misurando le microonde rifesse o emesse dal suolo; l’intensità della misurazione dipende dalla quantità di acqua presente.
+
+
+
+I satelliti, inoltre, possono rilevare altri effetti della siccità come la variazione dei livelli dei laghi. Il lago di Bracciano (foto in alto a sinistra - qui in alta risoluzione), ad esempio, è stato monitorato dalla missione Sentinel-2 le cui immagini hanno documentato chiaramente la forte diminuzione del livello e la conseguente variazione della linea di costa.
+
+
+
+Dallo spazio e dalle attività di ricerca correlate, quindi, può derivare un valido supporto alle amministrazioni locali per il controllo dell’andamento della siccità e per approntare strumenti efficaci a combatterla.

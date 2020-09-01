@@ -1,0 +1,29 @@
+Are Planets Like Proxima b Water Worlds?
+
+Those of us fascinated by dim red stars find these to be exhilarating days indeed. The buzz over Proxima b continues, as well it should, given the fact that this provocative planet orbits the nearest star. We also have detections like the three small planets around TRAPPIST-1, another red dwarf that is just under 40 light years out in the constellation Aquarius. These are small stars indeed, just 8 percent the mass of the Sun in the case of the latter, while Proxima Centauri is about 10 times less massive (and 500 times less luminous) than the Sun.
+
+But just what might we find on planets like these? A new paper from Yann Alibert and Willy Benz (University of Bern) drills down into their composition. The researchers’ goal is to study planet formation, with a focus on planets orbiting within 0.1 AU, a range that includes the habitable zone for such stars. While a forthcoming paper will look at the formation process of these planets in greater detail, the present work studies planetary mass, radius, period and water content.
+
+To do this, Alibert and Benz have developed computer simulations that model red dwarf planetary systems, assuming a central star with a tenth the mass of the Sun and a protoplanetary disk around each modeled star. Putting the model into motion, the scientists studied a series ranging from a few hundred to thousands of such stars, with 10 planetary embryos in each disk — each embryo was modeled as having an initial mass equal to that of the Moon, and the initial location of each planetary embryo was drawn at random.
+
+The results, according to Alibert:
+
+“Our models succeed in reproducing planets that are similar in terms of mass and period to the ones observed recently. Interestingly, we find that planets in close-in orbits around these type of stars are of small sizes. Typically, they range between 0.5 and 1.5 Earth radii with a peak at about 1.0 Earth radius. Future discoveries will tell if we are correct!”
+
+Image: Artist’s impression of Earth-sized planets orbiting a red dwarf star. Credit: @ NASA, ESA, and G.Bacon (STScI).
+
+The most striking aspect of this work is likely to be Alibert and Benz’ findings on the water content of small planets in the habitable zone. The amount of water is found to depend upon the location at which the planet has accreted planetesimals, their composition being dictated by the thermal structure of the disk and the location of the snowline, which varies depending on disk mass. Note this: A significant fraction of the planets modeled show more than 10 percent water. Contrast this with the Earth, whose fraction of water is roughly 0.02%.
+
+The study shows a correlation between the mass of a planet and the water fraction, with planets that do not contain a high degree of water being lower in mass (generally below one Earth mass), while planets totally devoid of water are all less massive than one Earth mass. Alibert and Benz see this as the result of migration, with more massive planets migrating from further out in the system, thus collecting water-rich material from beyond the snowline.
+
+Water may be a key to habitability, and the ‘habitable zone’ is defined as the zone in which liquid water can exist on the surface. But water to the extent of deep global oceans is problematic. A large enough water layer can produce high pressure ice at the bottom, preventing the carbonate-silicate cycle that regulates surface temperature over long timescales from operating. Without this mechanism, atmospheric CO 2 cannot cycle through the weathering of rocks on the Earth’s surface and the eventual subduction of calcium carbonate. High temperatures and pressures eventually return CO 2 to the atmosphere by processes like volcanism, regulating global temperatures.
+
+We don’t know how much of a factor the loss of this process might be on planets around red dwarf stars, as the paper takes pains to note:
+
+In the case of low mass stars, which evolve on much longer timescales, this may not be a major problem, as the stellar flux varies on timescales much longer than in the case of the Sun. In this situation, a process that stabilizes the surface temperature may not be necessary. The second reason [why large amounts of water may be detrimental for habitability] is connected to the fact that for planets with too much water an unstable CO 2 cycle destabilizes the climate making habitability more challenging… Again, this was demonstrated for solar-type stars and a similar process may or may not exist for low mass stars.
+
+So we have a computer model that produces planets similar in mass and radius to the interesting worlds we’re finding around some nearby red dwarfs, with a peak in the distribution of radius at about one Earth radius. The authors argue that the properties of the disk potentially correlate with the mass of the star, thus determining the water content of emerging planets. Deep oceans on planets in the habitable zone of red dwarfs may be the norm, in which case we need to know a great deal more about climate on such exotic worlds.
+
+…our models show that the properties of the disk and their potential correlation with the mass of the star are the most important parameters determining the characteristics, in particular the water content, of the emerging planet population. In this context, observational constraints on mass and lifetime of discs in orbit of low-mass stars become of paramount importance.
+
+The paper is Alibert and Benz, “Formation and composition of planets around very low mass stars,” accepted at Astronomy & Astrophysics (preprint).

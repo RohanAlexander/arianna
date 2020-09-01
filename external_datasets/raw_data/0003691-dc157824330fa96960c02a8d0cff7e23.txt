@@ -1,0 +1,13 @@
+Co-founded by Lochlainn Wilson and Yuka Kojima, the project has a very prominent supporter: Philip Rosedale, who tells me he plans to make his new VR-compatible world High Fidelity compatible with the FOVE. In fact, he believes the eye-tracking technology is so important for the future of VR, it'll become standard in the next generation of VR HMDs:
+
+FOVE: The World's First Eye Tracking Virtual Reality Headset , is a new Kickstarter VR project which incorporates eye-tracking technology into a VR head-mounted display (or HMD) to very cool effect -- watch:
+
+"Being able to see exactly where someone else is looking is probably the most important missing component of 1:1 communication in a virtual environment, if we have head and upper body motion, facial gestures, and hand movement," as Philip puts it to me. "Eye contact is extremely important and eye movement is a rich form of communication. Having used it, I can attest to the fact that FOVE has demonstrated successful, accurate eye tracking in an HMD. So we can expect that second generation HMD's will have eye tracking built in, and that this will be a big and important advance in 1:1 presence."
+
+That sounds right to me. With Philip's first VR world, Second Life, the avatar eye-lock function is an incredibly compelling way to create simulated connectivity between two people. Go here to consider getting in on this Kickstarter.
+
+Thanks to Adrian Cutler for the tip!
+
+Please share this post:
+
+Tweet

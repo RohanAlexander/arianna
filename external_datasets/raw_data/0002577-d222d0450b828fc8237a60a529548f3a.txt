@@ -1,0 +1,181 @@
+Get answers from your peers along with millions of IT pros who visit Spiceworks.
+
+Here are some stories we’ve found across the internet from tech support folks we’d love to share.
+
+Each of them is full of fun and drama.
+
+
+
+1. Making users liars since 1975
+
+Once, I had a user come in…
+
+User: My MacBook air is really slow.
+
+Me (while opening up terminal and running uptime): Hmm, when was the last time you rebooted?
+
+User: Oh, a few days ago.
+
+Me: According to your compute, it’s been up for 41 days.
+
+User: It’s lying.
+
+
+
+
+
+She also had 5 Chrome Windows with at least 20 tabs apiece, Spotify, Photoshop, Word, AND Excel.
+
+
+
+
+
+2. Now you see me, now you don’t.
+
+Customer: Do I have to watch my computer screen to use your app?
+
+Me: It’s considered a best practice. Otherwise you can’t see what people are saying.
+
+Customer: I see…
+
+
+
+
+
+3. Cat and mouse
+
+Me: Good afternoon, this is Ari. How can I help you?
+
+Lady: My son’s computer is just pissing me off. He is traveling with his new wife. Can you help me?
+
+Me: Sure. Have you started the computer?
+
+Lady: Oh yeah.
+
+Me: I will need to see the configuration. Can you do a left click on the Start button bottom left of your screen with the mouse?
+
+Lady: That arrow thing is acting like a son of a bitch, not moving. The right clicks seems to show me some shit.
+
+Me: Could you please lift the mouse and check that the ball is moving freely and there is no dirt?
+
+Lady: Ah… uh… Now I know where that bloody ball came from. My cat’s been playing with it since yesterday…
+
+
+
+
+
+4. P as in Peter
+
+Me: Sir, do you see a login screen asking for username and password?
+
+User: Yes.
+
+Me: Type admin as username.
+
+User: Badmi?
+
+Me: No, sir, its admin. A as in alfa, D as in delta, M as in Mike, I as in India, N as in November…
+
+User: Admin, right.
+
+(35 minutes passed. Finally, the user did it.)
+
+Me: Can you type the word password in the password field and click login?
+
+User: Bassword. “Invalid bassword.”
+
+Me: Try again. Type P as in Paul.
+
+User: B as ball?
+
+Me: No sir. It’s P as in Peter or P as in parrot.
+
+User: B as Beter?
+
+Me (trying again): P as papa.
+
+User: B as bapa,
+
+(This next part is my favorite.)
+
+Me (losing my temper): Sir, it’s not AB… it’s abcdefghijklmnop. P. P!
+
+User: Oh so it’s P! Huh!! I’ll try now.
+
+
+
+
+
+5. My computer is not yours
+
+Me: XYZ technical support, how may I assist you?
+
+User: I have some difficulty in locating some files on my computer, it seems I am not able to open any files
+
+Me: Sir, could you please check whether you are able to get the Desktop screen.
+
+User: Yes, now what?
+
+Me: Can you open My Computer?
+
+User: How can I open your computer?
+
+
+
+
+
+6. Fix it!
+
+Customer: Fix it!
+
+Me: Fix what, ma’am?
+
+Customer: My Internet connection. Can’t you tell why I’m calling?
+
+Me: No, ma’am, the technology doesn’t work that way.
+
+(I apologize for any inconvenience, and then check her connection. Everything is fine. I even test with ping and packet testing; again, very strong signal to the Internet.)
+
+Me: Ma’am, are you using a router?
+
+Customer: I don’t know. You guys installed it all.
+
+Me: Ma’am, we don’t install routers. Do you know the name of the router you’re using?
+
+Customer: No.
+
+Me: We can test the modem to make sure it’s working. Can you take your laptop into the room with the modem and unplug the modem from the rou—
+
+(Had I finished, I would have asked her to connect the laptop to the modem directly.)
+
+Customer: No. I couldn’t possibly do that! You just need to fix it.
+
+Me: Ma’am, are you suffering from an illness or injury preventing me from helping you today?
+
+Customer: No, and I couldn’t possibly be bothered with that. The modem and the laptop are on different floors. I called you to fix it. Why can’t you just fix it?
+
+
+
+
+
+7. Push When Ringing
+
+Me: Thank you for calling [Cell Phone Provider]. This is [My Name]. How may I assist you today?
+
+Customer: Yes. Every time my phone rings and I try to answer it, my phone shuts off. It happens every time.
+
+Me: Well, that is pretty odd. Let me see if I can figure out what the issue with your handset is.
+
+(After spending almost an hour trying to look up account info and diagnose what could possibly be wrong with this woman’s phone with no luck, I am about to give up and replace the phone.)
+
+Me: So that I can write up in your account what exactly is happening so we can replace your phone, what button are you pushing when trying to answer the phone?
+
+Customer: The “Push When Ringing” button.
+
+Me: I’m sorry, which button?
+
+Customer: “Push When Ringing.” You know? P-W-R.
+
+Me: I think I know the problem…
+
+What are the funniest tech support stories you’ve ever heard? Share with us.

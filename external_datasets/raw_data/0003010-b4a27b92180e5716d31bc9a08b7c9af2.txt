@@ -1,0 +1,39 @@
+Breaking News Emails Get breaking news alerts and special reports. The news and stories that matter, delivered weekday mornings.
+
+Aug. 22, 2016, 8:10 PM GMT / Updated Aug. 22, 2016, 8:10 PM GMT By Maggie Fox
+
+Researchers have developed a way to make a mouse transparent — by removing the liquids and fats from its tissue.
+
+They hope their method can be used to make a complete, unsliced model of a human brain, with all the delicate nerve connections untouched. And they say their see-through mouse might reduce the need for lab scientists around the world to kill living mice just to study their organs.
+
+Researchers in Germany have made mice see-through with a special method of dissolving skin that makes "see through" mice for lab research. Ali Ert?rk Ludwig / Maximilians University of Munich
+
+“Now, for the first time, we have a powerful tool that can make the human brain transparent and reduce it size to fit an imaging microscope for mapping,” Ali Ertürk, a brain researcher at Ludwig Maximilians University of Munich in Germany, said in written comments.
+
+"I believe that now, using uDISCO, scientists can start to build whole body atlases for various biological systems such nerves, vasculature and immune cells."
+
+The method, described in the journal Nature Methods, is called ultimate DISCO (short for 3-D imaging of solvent-cleared organs). It not only makes it possible to see entire structures in place, but shrinks the body so that it fits under a microscope.
+
+“We expect that this method is easily applicable to small monkeys, even to a whole human brain in the near future,” Erturk wrote.
+
+“We all know the big fuss (rightfully) around mapping the human brain. But so far there is not any approach that even comes close to mapping any part of human brain at individual neuron level.”
+
+A mouse with its skin removed during various stages of examination, taken with a bright field camera. Cell, Yang et al / AP
+
+The technique might also save the lives of at least some lab animals, Erturk said.
+
+“In research, we usually sacrifice the animals to collect a small piece of their tissue,” he wrote.
+
+“The rest of the animal actually is wasted. I believe that now, using uDISCO, scientists can start to build whole body atlases for various biological systems such nerves, vasculature and immune cells innervating whole body. This will at least provide the basic knowledge about how a healthy organ is organized in terms of these mapped systems (nerves, vessels etc.). This information will be available to everyone.”
+
+The team first anesthetized living mice, and used various agents to make it possible to image the desired systems using fluorescent light or other processes — akin to getting, for instance, an infusion of a contrast agent before getting an MRI or heart catheter scan.
+
+Once the contrast dye or agent was pumped though the tissue, the mice were killed and their tissues cleared of water and fat.
+
+Water and lipids scatter light, making tissue opaque.
+
+Scientists have come up with good images of organs and event whole bodies by slicing tissue very thinly, imaging it, and then recreating a 3-D version using a computer.
+
+But even the thinnest slices can disrupt delicate neurons and their connections, Erturk noted.
+
+“That means, while their cell body resides in one side of the brain, it can make connections to the other side of the brain (several centimeters away) or even to the spinal cord, which might be more than a meter long," he wrote. "Therefore, when we want to study brain diseases such as Alzheimers’s disease or schizophrenia, making thin sections of biological specimen would degrade important information on neuronal connectivity."

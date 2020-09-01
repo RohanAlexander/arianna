@@ -1,0 +1,13 @@
+This publication is available in Web form and also as a PDF document . Please forward any comments to tcc-doc@nmt.edu .
+
+Describes an implementation of a class for representing rational numbers in the Python programming language.
+
+1. Introduction
+
+This document describes a Python module for working with rational numbers. It is intended as an example of a Python class for students new to object-oriented programming.
+
+This publication assumes that the reader has had a general introduction to the construction of Python classes. In particular, you should know that the name of the class's constructor method is always __init__ . Method names such as __init__ , which start and end with two underbar ( _ ) characters are called special methods.
+
+This class makes heavy use of Python special methods to implement the common mathematical operators such as + and - . For example, when you have two instances x and y of some class, using the - (subtract) operator invokes the special method __sub__( x , y ) .
+
+Relevant online files:

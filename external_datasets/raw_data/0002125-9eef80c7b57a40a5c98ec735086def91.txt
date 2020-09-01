@@ -1,0 +1,83 @@
+The latest beta of Persevere features a new native object storage engine called JavaScriptDB that provides high-end scalability and performance. Persevere now outperforms the common PHP and MySQL combination for accessing data via HTTP by about 40% and outperforms CouchDB by 249%. The new storage engine is designed and optimized specifically for persisting JavaScript and JSON data with dynamic object structures. It is also built for extreme scalability, with support for up to 9,000 petabytes of JSON/JS data in addition to any binary data.
+
+
+
+These statistics are even more impressive when one considers all the additional functionality that Persevere provides while outperforming these other storage systems. MySQL utilizes traditional fixed structure schemas requiring homogenous records in a table, while JavaScriptDB (as well as CouchDB) support storage of heterogeneous objects of any structure in tables. Persevere/JavaScriptDB goes further with the flexibility to evolve schemas and handle partial schemas. Persevere also provides integrated server side JavaScript (SSJS) with persistence, Comet-driven data change notifications, JSONQuery, standards based HTTP interface with content negotiation, JSON-RPC interface to SSJS, cross-domain handling, CSRF protection, and more. All of these things are additional features that one would have to add to the stack for other storage systems, making them even slower. Persevere includes this functionality out of the box, while still maintaining extremely fast performance.
+
+Test Scenario
+
+These tests were performed on a Mac/OS-X with a 2GHz dual-core Intel processor and 1 GB 667 MHz DDR2 memory. The PHP/Apache/MySQL setup used MAMP 1.7.2 which includes PHP 5.2.6, MySQL 5.0.41, and Apache 2.0.59. The CouchDB tests were performed with CouchDBX version 0.8 (which uses CouchDB 0.8.1). Persevere’s nightly builds from late March were used for JavaScriptDB tests.
+
+Three different operations were performed in the tests:
+
+Insert/POST operation to create a new object
+
+Update/PUT operation to update an object
+
+Query/GET to search for objects by an (indexed) field/property
+
+On the PHP/MySQL tests, all operations were handled by a very simple PHP script that first did a quick security check query against a small table (actually empty for the tests) to emulate the security capabilities of Persevere and CouchDB (although CouchDB’s security capabilities are limited, and probably often require additional logic), and then the main query was executed against MySQL, whether it be an INSERT, UPDATE, or SELECT. All the created objects/records had four properties/fields for all three systems. In MySQL, two properties were indexed, one being the primary key, the other being the property that was queried on in the query requests. In CouchDB, a simple view was created that indexed on a single property. This view was used for the requests that queried by index. Both Persevere and CouchDB tests used their standard HTTP interface for creating, updating, and querying.
+
+Tests were carried out by a HTTP client running on 10 threads concurrently issuing a sequence of 200 of each type of request. The “full test” performed create, update, and query requests. The “write test” performed create and update requests, and the “read test” only performed query requests. The files used to perform the benchmarks are available here.
+
+
+
+Test Conclusions
+
+Two sets of tests were run—one that used fast commits that do not wait for committed data to be actually physically written to the disk (allowing for normal OS write-back caching), and high-integrity commits which cause the committed data to be forced to the disk. JavaScriptDB has a setting for choosing which style of commits to use. In MySQL, the MyISAM storage engine was used for fast commits, and the InnoDB storage engine was used for high-integrity commits. CouchDB always uses high-integrity commits.
+
+While PHP is not the fastest language, the script that was used for these tests was very trivial, and it’s unlikely that PHP code execution significantly detracted from the overall performance of the PHP/MySQL combination. With this simple, streamlined PHP script, a very fast classic setup was used. Alternate languages would not be likely to improve the performance by very much. Yet, Persevere’s JavaScriptDB still beat this setup by a significant margin. With more complex request handlers that might provide more of the functionality that Persevere already provides, the margin would be likely to increase even more. Quite simply, the classic application server + MySQL database setup is hard-pressed to compete with Persevere in terms of performance for most normal database interactions.
+
+So how does Persevere achieve this level of performance with the JavaScriptDB storage? The dynamic object-oriented nature of the data that is stored in JavaScriptDB is much different than that of a traditional relational database, so a number of innovative approaches were employed.
+
+Direct Data-Bound Object Representation
+
+One of the central concepts of Persevere is that all persisted data is mapped to JavaScript objects. This enables server side JavaScript functions and handlers to easily be able to interact with persisted data, and provides a convenient in-memory representation of data that allows for intuitive normal object-oriented data interaction. However, in Persevere this more than just a convenient API—it also facilitates efficient memory utilization by providing a single in-memory representation that can be reused at multiple levels.
+
+In a traditional application stack, a record must have separate in-memory representations for each different level in the stack. A database may have an in-memory representation before serializing result sets back to the application. The application may have result set level representation, which then might be mapped to an object representation. Every one of these levels consumes more memory. These extra layers increase latency and overhead as well. In addition, most database driven applications rely on TCP/IP communication with the database, which consumes a large amount of resources as well. With the JavaScriptDB, the single in-memory object is efficiently reused at the database level for all result sets and data caching. This not only means less memory-consumption, but it also translates to more efficient CPU cache utilization for Persevere, and direct low-latency access to data.
+
+Shared Cache of Objects with Copy-on-Write
+
+Not only are in-memory objects shared between the application level and the database level, but Persevere also utilizes a shared cache of objects between threads to ensure that any given record/object only exists in memory at most one time. Traditional application frameworks process separate HTTP requests concurrently and each request will have its own result set and a copy of data. These can lead to significant duplication of data in memory. With Persevere, objects are always reused if they are still available in memory.
+
+While this technique is relatively simple for read-only data, Persevere still maintains virtual memory isolation between threads to protect against concurrent access between threads and ensuing race conditions. Persevere does this by performing copy-on-write style values in objects. When a property is modified, internally its value is modified to being a “transactional” value that actually has multiple states depending on which thread is accessing the objects. Therefore an object can be modified by one thread, but another thread can access the same object without seeing the uncommitted change. Property changes are made visible when transactions are committed. This technique allows Persevere to maintain transactional isolation between concurrent request handlers, while minimizing the record/objects that must be held in memory. Persevere’s architecture combined with JavaScriptDB’s integration minimizes memory consumption, allowing internal caches to be maximized for optimal performance.
+
+Persevere utilizes the sophisticated least recently used (LRU) caching capabilities of the Java Virtual Machines’s (JVM) soft referencing mechanism. In-memory objects, as well as JavaScriptDB’s indices, are cached via soft reference tables. This allows the JVM to utilize an integrated view of reachability and object access timestamps to determine which objects to collect and discard. This means that objects that are reachable by currently executing code will always stay in the cache (since they must stay in memory due to reachability) as long as they are reachable. Unreachable objects are then discarded according to LRU strategies. Since the JVM’s garbage collection handles object collection at a global level, it is also able to optimally select objects for collection without being constrained by module level view. This means that if the indices are not being used frequently, more memory can be allocated to the object cache and vice versa. Caches are maintained according to usage and reachability with the JVM’s global perspective for optimal discarding strategy.
+
+Append-based Database Storage
+
+JavaScriptDB uses an append-based database format to store data. Many traditional database will synchronously commit data to a transaction log file before committing data to the main storage table, which requires multiple writes. On the other hand, JavaScriptDB appends transactional data directly to the main storage file such that writes can be committed with a single IO operation. This also enables JavaScriptDB to efficiently maintain a version history of the database and its records. The storage file is essentially a running log of transactions, and these transactions are exposed as the Transaction table. By storing data as a sequential set of transaction, JavaScriptDB not only can persist data quickly, it also provides efficient access to the transactions that have taken place and a version history of the database and objects within it.
+
+Adaptive On-Demand Concurrent Indexing
+
+JavaScriptDB features a dynamic approach to indexing that minimizes the configuration and management required to create and maintain tables, and maximizes performance. By default, JavaScriptDB indexes all properties of persisted objects, so typical queries can almost always be run in fast O(log n) time. However, the indexer does not block write operations to complete index updates when objects are added, deleted, or modified. Rather, the indexer execution takes place concurrently in a background asynchronous task executing threads. As objects are indexed, the index update operations are delegated to the appropriate index nodes, which are also executed as asynchronous tasks. When an index is needed for a query, any outstanding updates along the node tree path are completed so the query can execute.
+
+It is worth noting that this on-demand indexing does not mean that the entire index must be updated to execute a query. Often (and usually in the case of large databases) an object may be updated that affects an index node that isn’t used in a subsequent query. In this case, the query can still execute without waiting for the index node to be updated. JavaScriptDB properly orchestrates concurrent indexing such that nodes are updated through lower-priority background threads when possible, and immediately updated on-demand as necessary. This allows write operations to take place very quickly, while still allowing indexes to be ready for fast query operations as well. This also allows Persevere to utilize resources and CPU processing more evenly and smoothly. Background processes can take CPU time as needed when client requests are not demanding immediate data retrieval.
+
+
+
+Furthermore, JavaScriptDB uses adaptive techniques with indexing. If a particular index has been unused for some time while many objects have been added to a table with the corresponding property, JavaScriptDB will stop proactively updating the index to conserve resources. When an index is no longer proactively updated, the index will only be updated on-demand, when a query is performed that requires that index. Once the index is updated, it will resume proactive updates (at least until disuse causes it to go back to a non-proactive update state). This approach allows JavaScriptDB to automatically do appropriate and efficient indexing with minimal manual configuration. JavaScriptDB does also support manual configuration of indexes, for situations where you may want explicit control of indexing.
+
+Batched writes in integrity mode
+
+One of the most expensive operations that a database can perform is a forced synchronous disk write operation. These operations are necessary for high-integrity commit mode where the commit does not return until the database is certain that the data has actually been written to the disk, fulfilling the durability component of ACID compliance. These operations can take around 10ms. In order to improve the performance of high-integrity commits, Persevere will detect when multiple writes are taking place concurrently and batch multiple writes together in a single synchronous disk write operation. When a number of concurrent write requests are being sent to Persevere, this can significantly reduce the number of synchronous writes that must take place and greatly improve performance.
+
+Pluggable Storage
+
+
+
+Persevere uses a pluggable storage system. JavaScriptDB is one of several data source plugins (the default data source) that can be used with Persevere. Persevere supports heterogeneous storage configurations. This means you can leverage the performance and flexibility of JavaScriptDB in Persevere without abandoning existing relational databases, as well as other data sources. Even custom data sources can be created for unique storage systems.
+
+The ServerJS working group is also considering a standard API for database interaction that might possibly allow JavaScriptDB to be used as a standalone database engine for use by other Rhino-based frameworks like Helma (of course Persevere + JavaScriptDB can already be used with existing JavaScript modules, and it can be used as a database for Java applications through it’s Java API).
+
+Future Improvements
+
+This is the first release of JavaScriptDB, so there is still significant opportunities for continuing to improve and refine this storage engine. Currently, JavaScriptDB does not utilize indices for nested object queries (the equivalent of inner joins in relational DBs). Consequently queries of the form [?prop1=’something’] will execute in O(log n) time, but queries of the form [?prop1.prop2='something'] will only execute in O(n) . Future versions will provide fast O(log n) for a much broader range of queries. A later release will also provide true ACID compliance (the current version does not fulfill the atomicity constraint). Finally, replication/clustering services will be added in the future as well, for distributing Persevere workload across multiple servers.
+
+Real Value
+
+As Alex Payne pointed out, the economy may be ending the era of disregard for system performance and efficiency with the excuse of buying more servers. More servers costs more money, and architectures like Persevere that can efficiently handle large numbers of users and traffic with minimal hardware resources equates to real money saved.
+
+Persevere combines numerous advanced capabilities for web-accessible data including standards-based HTTP interface, JSONQuery, JSON-RPC, server side JavaScript, Comet-based data notifications, robust security, and more. Now these capabilities are available with speed and scalability that outperforms the most common web application systems, allowing you to build high-performance client/server Ajax web applications with unprecedented ease, efficiency, and value.
+
+Update: Jan Lehnardt pointed out that CouchDB is now at version 0.9.0 and OS-X is not the optimal platform for CouchDB, so the latest version CouchDB can presumably improve upon the CouchDB performance shown in these tests. Hopefully we can progress towards better benchmarking tools for this new breed of databases.

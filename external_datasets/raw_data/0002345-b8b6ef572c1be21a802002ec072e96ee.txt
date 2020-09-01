@@ -1,0 +1,15 @@
+Overnight Valve released the Dota 2 Workshop tools, and some people reckon in doing so the company soft-launched the long-awaited Source 2 game engine.
+
+"Everything in this package is a new game," wrote RoyAwesome on the Dota 2 subReddit.
+
+A reference to Source 2 in the Dota 2 mod tools.
+
+"It's all the Dota assets and code ported over to Source 2. That's why Hammer is different. That's why the console is different."
+
+Hammer is Valve's map creation program for Source. A video of the new version being messed about with is below.
+
+"The general consensus around the Source reverse engineering community is that this is really Source 2," RoyAwesome continued.
+
+Valve, which operates on US West Coast time (eight hours behind UK time), is yet to make any announcement around Source 2, but it has been rumoured for some time.
+
+Gamer Network's tech wizards tell me Valve may have simply released tools that relate to the Source 2 engine to be used to mod Dota 2, rather than launched the engine proper, but Valve's plan is unclear. We'll have more on Source 2 as the story develops.

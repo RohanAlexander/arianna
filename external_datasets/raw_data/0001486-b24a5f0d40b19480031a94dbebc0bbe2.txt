@@ -1,0 +1,35 @@
+Share
+
+Yesterday, Twitter took the lid off its recent acquisition Vine. It’s a social app that allows you to make six-second, looped, GIF-like videos. It has an interface very reminiscent of Instagram, primarily because for the time being it’s mobile-only (although its deal with Twitter means its content is embeddable in Twitter cards, so Vines are showing up there plenty).
+
+Vine is fun, creative, simple, social, and as it turns out, something news outlets are busy experimenting with. It isn’t anything revolutionary, however. It’s not a threat to all that many apps or platforms out there – but Facebook shut it off anyway.
+
+Yes, within a day of Vine’s launch, Facebook pulled the ability for Vine users to find Facebook friends who were also using the new app.
+
+When asked for comment, a Facebook rep pointed me to this just-posted blog entry:
+
+“For the vast majority of developers building social apps and games, keep doing what you’re doing. Our goal is to provide a platform that gives people an easy way to login to your apps, create personalized and social experiences, and easily share what they’re doing in your apps with people on Facebook. This is how our platform has been used by the most popular categories of apps, such as games, music, fitness, news and general lifestyle apps.
+
+For a much smaller number of apps that are using Facebook to either replicate our functionality or bootstrap their growth in a way that creates little value for people on Facebook, such as not providing users an easy way to share back to Facebook, we’ve had policies against this that we are further clarifying today (see I.10).”
+
+Vine isn’t the only app to feel Facebook’s cold shoulder: Mobile text and voice messaging app Voxer also lost Facebook access recently, because after its update to Messenger, Facebook now sees it as a competitor. Voxer says that while Facebook isn’t where it’s getting user growth from, it is a disappointing development. “We are sorry that a channel for engagement is being shut down by Facebook to the detriment of our community. But we aren’t alone, and it is both a lesson and a warning for other companies to be careful about counting on third party services that can be easily taken away.” Russian search giant Yandex’s Wonder app – essentially a mobile, voice-activated version of Graph Search – is yet another product that found itself on the outs with Facebook.
+
+What is the deal?
+
+What’s maybe most upsetting about this series of events is that it’s not even surprising anymore. For the last year, social-networking platforms have been cutting off varying levels of access to one another. A quick recap of all the most unfriendly moments in social networking that have been going on:
+
+It didn’t use to be like this. I fully realize how “I remember when a gallon of gas used to cost a nickel” that sounds, but it’s true. In their infancy, social-networking platforms had a share-and-share-alike attitude, where you could cross-post and import contacts and find friends and use apps that were pulling mass amounts of useful data from outside APIs. It was a beautiful, brief moment in time.
+
+Of course, these platforms weren’t what they are now. They were more basic, features were limited, content wasn’t embedded as richly, there was less to interact with. As they’ve grown, so too have their databases of social information, and thus their worth. Twitter has a tight grip on the interest graph, Facebook on the social graph, Google on the information graph. They want bits and pieces of what the others have. But instead of trading, and sharing, the walls have gone up and silos have been erected. Power grabs are being made. And we lose. Every time, we lose.
+
+These moves are perfectly within the rights of the companies making them, but that doesn’t mean it’s right, or that we have to like it. These outlets can’t call themselves Open Platforms anymore; they can’t just reinterpret that phrase to mean that they invite developers to work with them, under their rules, on their terms – and that if you’re an app with a major competitor, it’s game over.
+
+It’s also a bit confounding, because it’s not as if Vine is going to challenge Facebook for social network dominance, or Instagram is going to be the new Twitter.
+
+The slippery slope here is bigger than just losing contact-finding abilities. Cross-posting could get killed off; developers will become warier about working with a platform, and the goal will be to get acquired, a la Instagram and Vine, to assure compatibility. There’s also fear that if you do happen upon something that really connects and inspires users, the dominant networks are simply going to clone it (although, that largely hasn’t worked out well).
+
+With great power comes great responsibility, and a handful of social networks are finding themselves in this position right now. But instead of doing what Spider-Man would do and creating an open, thriving, connected social Web, they are building walls and cutting off ways for us to create and share various types of content. Social networking won’t work if platforms and apps exist as their own solitary islands of wonderful, unshareable, unfindable content.
+
+There are hints of very monopolistic behavior. But what can we do? Right now, we’re just watching the big platforms get bigger. We’ll be left wondering what could have become of the small startups that never had a chance to grow.
+
+The views expressed here are solely those of the author and do not reflect the beliefs of Digital Trends.

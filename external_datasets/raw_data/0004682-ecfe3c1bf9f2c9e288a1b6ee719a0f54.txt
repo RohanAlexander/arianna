@@ -1,0 +1,29 @@
+Thinking About Saturn After Cassini
+
+Several recent news items on Enceladus have me wanting to catch up with mission possibilities and the instruments that will drive them. NASA’s thinking in that direction takes in a remote sensing instrument called SELFI, an acronym standing for Submillimeter Enceladus Life Fundamentals Instrument. The plan here is to examine the chemical composition of the plumes of water vapor and icy particles that are regularly lofted into space from Enceladus’ south pole, in the region we’ve come to know as the ‘tiger stripes.’
+
+Cassini data on the slight wobble in the orbital motion of Enceladus backs up the idea that the ocean beneath its ice is global, a body likely kept liquid by tidal energies as the moon is pulled and squeezed by Saturn in its orbit. The same process is likely the cause of the cracks that allow ocean water to escape into space, from perhaps as many as 100 sites on the surface.
+
+Image: The Cassini spacecraft detected hydrogen in the plume of gas and icy material spraying from Enceladus during its deepest and last dive through the plume on Oct. 28, 2015. This graphic illustrates a theory on how water interacts with rock at the bottom of the moon’s ocean, producing hydrogen gas. A Goddard team wants to develop an instrument that would reveal even more details about the hydrothermal vents and perhaps help answer if life exists on this ocean world. Credit: NASA/JPL-Caltech/Southwest Research Institute.
+
+Gordon Chin (NASA GSFC), principal investigator for SELFI, describes it as a significant improvement over current submillimeter-wavelength technologies. Says Chin:
+
+“Submillimeter wavelengths, which are in the range of very high-frequency radio, give us a way to measure the quantity of many different kinds of molecules in a cold gas. We can scan through all the plumes to see what’s coming out from Enceladus. Water vapor and other molecules can reveal some of the ocean’s chemistry and guide a spacecraft onto the best path to fly through the plumes to make other measurements directly.”
+
+The GSFC team is using NASA R&D funding to increase the spectrometer’s sensitivity in the 557 GHz range, where the strongest signal from water is to be found. The goal is to explore the entire system of surface vents on Enceladus, measuring water and traces of other gases. The work also includes creating a radio frequency data-processing system, and a digital spectrometer for the RF signal that will convert it into digital signals to allow the measurement of the gases emerging from the plumes in terms of their quantity, temperature and velocity.
+
+Calling it “one of the most ambitious submillimeter instruments ever built,” Chin says in this NASA overview that SELFI should be able to detect and analyze 13 molecular species, ranging from water in various isotopic forms to methanol, ammonia, ozone, hydrogen peroxide, sulfur dioxide, and sodium chloride. Work on the instrument is sufficiently encouraging that the GSFC team believes SELFI will eventually be part of a proposal for a future mission to Saturn.
+
+Image: Dramatic jets of ice, water vapor and organic compounds spray from the south pole of Saturn’s moon Enceladus in this image captured by NASA’s Cassini spacecraft in November 2009. Credit: NASA/JPL-Caltech/Space Science Institute.
+
+Assuming it flies, the instrument should allow us to deduce the composition of the global ocean, and its potential for hosting extraterrestrial life. We have no idea whether Enceladus has warm hydrothermal vents of the sort that sustain life at the bottom of Earth’s ocean, but the prospect is enticing not only for this moon but for many of the other icy moons in the outer Solar System.
+
+Into Saturn’s Depths
+
+On the subject of Saturn, be aware as well of an interesting mission possibility called Hera, proposed as an M-class mission led by the European Space Agency, with collaboration from NASA (thanks Mike Fidler for the tip). The plan here is to detach an atmospheric probe from a ‘carrier-relay’ spacecraft as it approaches Saturn, letting the Hera probe enter Saturn’s atmosphere to study its tropopause, descending to pressure levels of at least 10 bars.
+
+From the proposal page:
+
+The primary science objectives will be addressed by an atmospheric entry probe that would descend under parachute and carry out in situ measurements beginning in the stratosphere to help characterize the location and properties of the tropopause, and continue into the troposphere to pressures of at least 10 bars. All of the science objectives, except for the abundance of oxygen, which may be only addressed indirectly via observations of species whose abundances are tied to the abundance of water, can be achieved by reaching 10 bars.
+
+The Hera proposal recalls two previous missions, the first being the Galileo probe that was carried aboard the main Galileo spacecraft to Jupiter, entering the Jovian atmosphere on December 7, 1995 and continuing to function for close to an hour as it descended. The other analog is, of course, Cassini carrying the Huygens probe for the spectacular 2005 landing on Titan. That was a collaboration between ESA and NASA that paid off handsomely, and it provides a model for the carrier/data relay spacecraft model that Hera would use.

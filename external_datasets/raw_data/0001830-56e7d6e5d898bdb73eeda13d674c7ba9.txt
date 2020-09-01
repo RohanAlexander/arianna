@@ -1,0 +1,85 @@
+Artist's concept of astronauts in an Orion capsule helping direct robotic teleoperations on the moon's farside.
+
+NASA is pressing forward on assessing the value of a "human-tended waypoint" near the far side of the moon — one that would embrace international partnerships as well as commercial and academic participation, SPACE.com has learned.
+
+According to a Feb. 3 memo from William Gerstenmaier, NASA's associate administrator for human exploration and operations, a team is being formed to develop a cohesive plan for exploring a spot in space known as the Earth-moon libration point 2 (EML-2).
+
+Libration points, also known as Lagrangian points, are places in space where the combined gravitational pull of two large masses roughly balance each other out, allowing spacecraft to essentially "park" there.
+
+A pre-memo NASA appraisal of EML-2, which is near the lunar far side, has spotlighted this destination as the "leading option" for a near-term exploration capability. [Gallery: Visions of Deep-Space Station Missions]
+
+EML-2 could serve as a gateway for capability-driven exploration of multiple destinations, such as near-lunar space, asteroids, the moon, the moons of Mars and, ultimately, Mars itself, according to NASA officials.
+
+A capabilities-driven NASA architecture is one that should use the agency's planned heavy-lift rocket, known as the Space Launch System, and the Orion Multi-Purpose Crew Vehicle "as the foundational elements."
+
+The Lagrange points for the Earth-moon system. NASA is evaluating an early mission with the Orion capsule placed at Earth-moon L2. Astronauts parked there could teleoperate robots on the lunar farside. (Image: © David A. Kring, LPI-JSC Center for Lunar Science and Exploration)
+
+Cadence of compelling missions
+
+The memo spells out six strategic principles to help enable exploration beyond low-Earth orbit:
+
+Incorporating significant international participation that leverages current International Space Station partnerships.
+
+U.S. commercial business opportunities to further enhance the space station logistics market with a goal of reducing costs and allowing for private sector innovation.
+
+Multiuse or reusable in-space infrastructure that allows a capability to be developed and reused over time for a variety of exploration destinations.
+
+The application of technologies for near-term applications while focusing research and development of new technologies to reduce costs, improve safety, and increase mission capture over the longer term.
+
+Demonstrated affordability across the project life cycle.
+
+Near-term mission opportunities with a well-defined cadence of compelling missions providing for an incremental buildup of capabilities to perform more complex missions over time.
+
+Quiet zone
+
+According to strategic space planners, an EML-2 waypoint could enable significant telerobotic science on the far side of the moon and could serve as a platform for solar and Earth scientific observation, radio astronomy and other science in the quiet zone behind the moon.
+
+Furthermore, the waypoint could enable assembly and servicing of satellites and large telescopes, among a host of other uses.
+
+If NASA succeeds in establishing an astronaut-tended EML-2 waypoint, it would represent the farthest humans have traveled from Earth to date, the memo points out.
+
+Extended stays at EML-2 would provide advancements in life sciences and radiation-shielding for long-duration missions outside of the Van Allen radiation belts that protect Earth, scientists say.
+
+Robotic roll-out of an antenna — part of a low-frequency array of radio antennas to observe the first stars in the early universe. (Image: © Joe Lazio/JPL )
+
+Next step
+
+Gerstenmaier noted that moving forward on international, commercial and academic partnerships will "require significant detailed development and integration."
+
+Moreover, Gerstenmaier added, EML-2 "is a complex region of cis-lunar space that has certain advantages as an initial staging point for exploration, but may also have some disadvantages that must be well understood."
+
+A NASA study team is assigned the task of developing near-term missions to EML-2 "as we continue to refine our understanding and implications of using this waypoint as part of the broader exploration capability development," the memo explains.
+
+The study is targeted for completion by March 30, 2012.
+
+A working group of International Space Station members — a meeting bringing together space agencies from around the world — is being held in Paris this week with NASA’s EML-2 strategy likely to be discussed with international partners.
+
+Proving ground
+
+Bullish on the promise of telerobotics exploration of the moon from EML-2 is Jack Burns, director of the Lunar University Network for Astrophysics Research (LUNAR) Center at the University of Colorado, Boulder. LUNAR is funded by the NASA Lunar Science Institute.
+
+Burns and his team have been collaborating with Lockheed Martin (builder of the Orion Multi-Purpose Crew Vehicle) for more than a year to plan an early Orion mission that would go into a halo orbit of EML-2 above the lunar far side.
+
+"This is extremely exciting from both the exploration and science sides," Burns told SPACE.com. "This mission concept seems to be really taking off now because it is unique and offers the prospects of doing something significant outside of low-Earth orbit within this decade."
+
+In collaboration with Lockheed-Martin, the LUNAR Center is investigating human missions to EML-2 that could be a proving ground for future missions to deep space while also overseeing scientifically important investigations.
+
+Astronauts at an in-space habitat near the moon could achieve near-telepresence, allowing greatly increased functionality of robots on the lunar surface compared to control from Earth. (Image: © Dan Lester, University of Texas)
+
+Roadways on the moon?
+
+In a LUNAR Center white paper provided to SPACE.com, researchers note that an EML-2 mission would have astronauts traveling 15 percent farther from Earth than did the Apollo astronauts, and spending almost three times longer in deep space. [Lunar Legacy: Apollo Moon Mission Photos]
+
+Such missions would validate the Orion spacecraft's life-support systems for shorter durations, could demonstrate the high-speed re-entry capability needed for return to Earth from deep space, and could help scientists gauge astronauts’ radiation dose from cosmic rays and solar flares. Doing so would help verify that Orion provides sufficient radiation protection, as it is designed to do, researchers said.
+
+On such missions, the white paper explains, Orion astronauts could teleoperate gear on the lunar far side. For instance, the moon-based robotic hardware could obtain samples from the geologically appealing far side — perhaps from the South Pole-Aitken basin, which is one of the largest, deepest and oldest craters in the solar system.
+
+Also on a proposed lunar robotic agenda is deployment of a low-frequency array of radio antennas to observe the first stars in the early universe.
+
+Among a number of research jobs, the LUNAR team has been investigating how modest equipment could be used to fuse lunar regolith into a concrete-like material, which could then be used for construction of large structures, without the expense of having to carry most of the material to the lunar surface.
+
+The ability to fabricate hardened structures from lunar regolith could also foster on-the-spot creation of solar arrays, habitats, and radiation shielding and maybe, even roadways on the surface of the moon.
+
+Leonard David has been reporting on the space industry for more than five decades. He is a winner of last year's National Space Club Press Award and a past editor-in-chief of the National Space Society's Ad Astra and Space World magazines. He has written for SPACE.com since 1999.
+
+Follow SPACE.com for the latest in space science and exploration news on Twitter @Spacedotcom and on Facebook.

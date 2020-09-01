@@ -1,0 +1,17 @@
+Modern airplanes are basically a giant computer, and the latest reminder of that fact came Friday.
+
+The Federal Aviation Administration has issued a warning about the Boeing 787 Dreamliner's computer system, which has a software counter that could periodically shut down all electrical power and "result in loss of control of the airplane." To prevent that, airlines must completely power down the electrical systems on the plane at least once every 248 days.
+
+The directive applies to all 787 model airplanes.
+
+Globally, 258 of the aircraft are currently in use by airlines, with more than 800 more ordered for future delivery.
+
+Boeing reported the issue — which it said was found during laboratory testing — to the FAA, which issued an airworthiness directive (AD) on Friday:
+
+This AD requires a repetitive maintenance task for electrical power deactivation on Model 787 airplanes. This AD was prompted by the determination that a Model 787 airplane that has been powered continuously for 248 days can lose all alternating current (AC) electrical power due to the generator control units (GCUs) simultaneously going into failsafe mode. This condition is caused by a software counter internal to the GCUs that will overflow after 248 days of continuous power. We are issuing this AD to prevent loss of all AC electrical power, which could result in loss of control of the airplane.
+
+In addition to the turn-it-off, turn-it-on solution, Boeing is also working on a software fix that will address the issue in a more permanent way. The directive is a temporary measure until that fix is in place.
+
+Since its introduction in 2007, the Dreamliner has had more than its fair share of problems. In 2013, all 787s were grounded because of the potential for battery fires. Sparking that directive was an incident at Logan Airport in Boston, where an unoccupied Japan Airlines 787 caught fire after a nonstop flight from Tokyo.
+
+Boeing is still betting heavily on the 787 as a profit engine, along with its other popular twin-jet aircraft such as the 777 line and 737 series. In recent months, airlines have been rolling out a stretched version of the 787, known as the 787-900.

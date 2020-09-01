@@ -1,0 +1,15 @@
+The polls were wrong. And because we are obsessed with predicting opinions rather than listening to them, we didn’t see it coming. So, the world woke up believing that Republican candidate Donald Trump had a 15% chance of winning based on polling predictions – roughly the same chance of rolling a total of six if you have two dice. Despite those odds, the next US president will be Donald Trump.
+
+I have a few ideas about what went wrong. In the four years I’ve spent as a data journalist, I’ve been concerned by how much faith the public has placed in polling. Just like you’d check the weather before getting dressed, many people checked presidential polling numbers before heading out to vote. That’s understandable. Politics can feel as unpredictable as the weather, and who wouldn’t want to eliminate uncertainty? The world is a scary and confusing place right now.
+
+But those are two very different kinds of forecasts. One is based on natural science, the other on social science. People are different from planets – they can change their minds, they can decide to not share their opinions or they can flat-out lie. And that’s before you even get to some of the statistical issues that make polling inaccurate.
+
+That’s not new information. Polling analysts like me knew the numbers were inaccurate before Brexit happened. Despite that, the polling predictions kept coming. Why?
+
+I spent almost two years working for Nate Silver’s website FiveThirtyEight, where I hoped to learn the secrets of political forecasting. I walked away totally disillusioned. It sometimes seemed as though their interpretation of the math wasn’t free from subjective bias. There was also a certain arrogance that comes from being part of an elite that “gets the numbers”, and an entrenched hierarchy meant that predictions weren’t properly scrutinised.
+
+But analysts such as Silver, a man dubbed an oracle, a soothsayer and a savant have an interest in continuing to share these predictions. Where would the man’s career be if he simply replied “don’t know” when asked what Americans would do? It’s not just FiveThirtyEight. The New York Times also got it wrong, along with Reuters, NBC news and countless others. Just about everyone did – because they couldn’t resist the temptation to try to guess human behaviour.
+
+I’m guilty too – I wrote column after column under the label “sceptical polling”, explainers and videos cautioning against the use of polls, but no one really cared. I carried on describing who was ahead because readers still wanted me to.
+
+And so you, the reader, are also complicit in this huge mistake. You probably didn’t want to hear “it’s complicated”. You probably didn’t want to have a difficult conversation with your aunt whom you knew was voting for Trump. You probably didn’t want to think too much about the fact that the United States is a country deeply divided along racial and economic lines. Instead, you’d rather hit refresh on a little web page that tells you how America will vote. Too bad the numbers were wrong.

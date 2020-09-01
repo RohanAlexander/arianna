@@ -1,0 +1,19 @@
+We don’t see it in our Gmail settings (yet), but Webmonkey reports that Gmail Labs has added a very useful opt-in feature for sending text / SMS messages to mobile phones using the built-in Chat functionality.
+
+Update: the Labs team found a glitch and is pushing the release back a bit (‘probably within two weeks’).
+
+Update 2: make sure you read the open letter the Webmail team at AOL writes to Google. It’s supposed to be funny, I guess, but it’s really not and quite unprofessional to boot.
+
+Turning the option on in your Gmail account settings apparently enables you to send an SMS as soon as you start typing a phone number into Chat’s search box. When you enter new phone numbers, it will save the digits in your contact entries as well. This means that when contacts go offline, the chat window will give you the option to switch to SMS.
+
+Our invitation for a live demo was lost in the mail, but Webmonkey has been given a demonstration of the experimental feature by Gmail product manager Keith Coleman and adds:
+
+The first time you send a text message, it will appear on the person’s phone as coming from a number in the 406 area code. Google has made several thousands of these numbers available for Gmail users, and once a number is associated with your account, all of the text messages you send through Gmail will come from that number. The 406 number works both ways, so your friend can reply to you via text message. Also, your friend can save that number in their phone as belonging to you, and they can even use it to initiate new chats with you.
+
+We haven’t been able to try this out ourselves yet, but Google does list the text messaging feature on its ‘What’s new in Gmail Labs‘ page (only for US phones, for now).
+
+This is probably one of the first results we’re seeing from Google’s acquisition of GrandCentral (dating back to June 2007 already).
+
+No official word yet on the Gmail blog (the GrandCentral blog has been silent since last April), but we suspect an announcement and general roll-out to follow soon.
+
+(Image credit: monkey_bites)

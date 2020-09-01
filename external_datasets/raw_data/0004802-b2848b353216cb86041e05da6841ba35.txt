@@ -1,0 +1,13 @@
+What do you like best?
+
+I've been a SDL Trados user for many years, since I decided, together with my business partner, to move to open-source software. OmegaT is a very stable program: I've been using it for many years and I've experienced just 2 or 3 crashes, mainly caused by lack of resources of my system. OmegaT is very fast, with lots of advanced features. The greatest proof of appreciation is the fact that I've based my professional life on it. I use it on a daily basis to earn my living as a technical translator. A key feature for me and my company is the "team project" feature, that allows several translators to work together on a project in real time.
+
+What do you dislike?
+
+In a word: nothing. Of course there are a few missing features, such as a "status" field for each translation unit, but I know from the user forum that they're working on it. New versions are regularly released, so it's quite likely that in a few months from now the software will be even more complete.
+
+Recommendations to others considering the product
+
+I recommend not to stop on the surface. The GUI of OmegaT might be not top-notch, but that's because it's essential and tries not to become the bloatware that many other cat tools have become.
+
+What business problems are you solving with the product? What benefits have you realized?

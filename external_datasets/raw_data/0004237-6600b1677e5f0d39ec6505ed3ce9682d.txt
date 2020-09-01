@@ -1,0 +1,35 @@
+New types of CC|utility|gapclosers|escapes
+
+Created by Xeran Version 2: 15-07-2013
+
+New types of CC and Escapes
+
+Abstract
+
+I wanted to make a list of possible new and unique types of CC (especially more soft types), utility and gapclosers/escapes, without the ne ed of giving everyone a leap or dash. This list can be us ed for further god design concept inspiration or as an example for how new gods could be designed without giving them everything. Especially carry’s, assassins (and mages) should been giving less (or not at all) higher tier o f CC/escapes. To create ‘balance’ b etween power, C C/utility and escapes. I would appreciated any feedback, but moreover additions and suggestions of you own, because I want to make an as complete list as p ossible. Therefore I will try to make several u pdates if needed.
+
+Disclaimer: Because this is only about new ideas an concepts I didn0t bothered about mana costs, CD’s and actual values, because this aren’t finalized abilities. Most aren’t complete abilities and need some extra effect, other target area (cone, circle, line) and/or damage applied to it.
+
+Currently in general and in my opinion:
+
+CC:
+
+Stun>taunt>Root>mesmerize>silence>cripple>etc.
+
+Escapes:
+
+Jump>dash>etc. (teleport depends)
+
+Crowd control
+
+Disarm (can’t AA)
+
+For X amount of seconds auto attacks cannot be used by enemies (doesn’t affect minions). This is basically a specialized version like silence, cripple and cleave. <
+
+Chill (attack speed debuff)
+
+Thought of, because of Chromzepher
+
+The attack speed of enemies is decreased by XXXX % for XXX seconds.
+
+Cleave (Cut through buffs, cancels all channeled bu ffs like steroids)

@@ -1,0 +1,51 @@
+Android OS version: 8.1.0_r7
+
+8.1.0_r7 For devices: Kenzo
+
+Kenzo Authors build: xyyx
+
+xyyx Source code: https://github.com/nitrogen-project | https://github.com/nitrogen-os-devices
+
+https://github.com/nitrogen-project | https://github.com/nitrogen-os-devices Developers: xyyx
+
+xyyx Thanks: billchen1977 for brilliant work on Kenzo, ezio84, beanstown106, maxwen and etc.
+
+billchen1977 for brilliant work on Kenzo, ezio84, beanstown106, maxwen and etc. Google Apps: opengapps.org
+
+opengapps.org Recovery: TWRP
+
+Attention:
+
+I don't force you to use my ROM. I fix bugs that doesn't require many commits from CAF.
+
+If you don't like something, please, use another ROM and don't write in this thread. Please.
+
+SELinux in permissive mode. It is ready for enforcing. But I like no denies.
+
+Go to your recovery
+
+Wipe Data
+
+Install ROM and Gapps zip.
+
+Reboot - 1st boot takes around 5-10 minutes.
+
+Code: Status Bar: - Network traffic; - Bluetooth device battery level in status bar; - Adjust brightness by sliding across the status bar; - Input method selector notification. Quick Settings: - Number of rows and columns; - Quick pulldown; - No QS on secured lockscreen; - Brightness slider; - Smart pulldown; - Show/hide adaptive brightness icon in QS; - LTE enable/disable tile. - Hiding tile's caption Buttons: For devices with hardware buttons - Enable/disable buttons; - Adjust brightness; - Keys brightness timeout; - Reassignment hardware buttons action; - Volume rocker wake; - Playback control by volume keys; - Allow volume keys to enable/disable “Do Not Disturb” mode. Navigation Bar: - 3 type navigation bar mode: Smartbar (as usual in android) and Fling (navbar from “Dirty Unicorns” rom), AOSP Navbar; - Pulse settings in Fling navbar; - Navbar height control in portrait and landscape orientations; - Context buttons layout position; - Context buttons transparency; - Button touch animation; - Cursor arrows in navbar while typing; - Force show/hide navbar on the bottom side when device is rotated; Gestures: - Open camera by double tap the power button; - Double tap on lockscreen to put the device to sleep; - Double tap status bar to put the device to sleep; Lock Screen: - Lock screen shortcuts; - Show/hide weather on lock screen; - Longpress power button with lock screen turn on torch; Power Menu: - Customizing power menu; - Enable/disable power menu on secure lock screen. Recents apps: - Exclude apps from the recents panel; - Select recents view. - Clear all button positions Miscellaneous: - Screenshot type – fullscreen screenshots or selected area as a screenshots; - Enable MTP instead charging after connect to PC; - Wakelock blocker; - Alarm blocker - App ops; - Wake up device if charger is plugged/unplugged; - Allow signature spoofing (microG). Other: - Quick unlock - Enable/disable dashboard suggestions, conditions;
+
+Pal
+
+Known Bugs:
+
+XDA:DevDB Information
+
+Nitrogen OS, ROM for the Xiaomi Note 3 Pro Standart/Prime
+
+XDA:DevDB Information
+
+[ROM] ► [8.1.0] ► [OTA] ► Nitrogen OS Beta, ROM for the Xiaomi Redmi Note 3
+
+Contributors
+
+Version Information
+
+Based on AOSP xyyx (Max) - main developerCopy the ROM and Gapps in SD card.EnjoyStable builds HERE Testing versions HERE Mirror for SF - HERE If you like my ROM, you can support me.xyyx:- sim detection after boot (random)- VOLTE video call- hidden wifi (need to turn off and on display after adding)8.x OreoLinux 3.10.xAOSP, CM, Pure, DU, OmniROMTesting2017-01-112018-03-04

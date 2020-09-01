@@ -1,0 +1,263 @@
+New Datamined Patch - Class Changes, Passive Effects, Rift Keystones, Item Set Names, Bounty Scrolls, New Banners, Warlords of Draenor Buff, Lots of Graphics
+
+Warning - all things below should NOT be considered as a confirmation or anything close to it. This is datamining and not everything is a representation of what would be in the game.
+
+Update 4: Added Set Item bonuses. There are quite some changes!
+
+Update 3: Added portraits. Faces are as follows: Enchanted Soul Fragment, Lord Wynton, Spirit Barbarian, Spirit Crusader, Spirit Crusader Male, Westmarch Boy, Adria Boss, Cow King, Zayl, Common Angel, BSmith Apprentice, Sophia. Looks like this might be it for the patch!
+
+Update 2: Added buff icons from items, Warlords of Draenor "flag" buff, new Bounty target Health Bar and Legendary Reagents. Fixed incorrect Pool of Reflection string.
+
+Update: Added a lot more pictures. Made Warlords of Draenor Buff more obvious in the notes below.
+
+New Graphics - Icons, Items, Portraits, UI
+
+Set Item Bonuses
+
+DiabloFans Quote: Krelm's Buff Bulwark (New)
+
+2 pieces: [+500 Vitality] Chantodo's Resolve 2 pieces: [Your shields heal for 25% of their remaining amount when they expire.] (New) Legacy of Nightmares
+
+2 pieces: [This ring sometimes summons a Skeleton when you attack.] (Seems like it was missing from the tooltip the last few builds) Born's Command 2 pieces: [+15% Life] (Down from 20%)
+
+3 pieces: [Increases experience rewarded per kill by 20%] (Moved from 2 pieces)
+
+3 pieces: [Reduces cooldown of all skills by [{VALUE1}*100|1|]%.] (New) Cain's Destiny
+
+3 pieces: [50% Better Chance of Finding Magical Items] (Down from 100%) Captain Crimson's Trimmings
+
+2 pieces: [Reduces cooldown of all skills by [{VALUE1}*100|1|]%.] (New)
+
+2 pieces: [Regenerates 2000 Life per Second] (Up from 1945)
+
+3 pieces: [Reduces all resource costs by 10%.] (New)
+
+3 pieces: [+50 Resistance to all elements] (Down from 100) Aughild's Authority
+
+2 pieces: [Reduces damage from ranged attacks by 0.07%] (Moved from 3 pieces)
+
+3 pieces: [Reduces damage from Elites by 15%] [Increases damage versus Elites by 15%] (New) Asheara's Vestments 3 pieces: [Melee attackers take 3498 Holy Damage per hit] (Removed) Guardian's Jeopardy 2 pieces: [+250 Vitality] (Down from 975
+
+2 pieces: [Regenerates 2000 Life per Second] (Up from 1945)
+
+3 pieces: [+15% Movement Speed] (New) Demon's Hide
+
+2 pieces: [Melee attackers take 6000 Fire Damage per hit] (Up from 3498)
+
+3 pieces: [Chance to Deal 25% Splash Damage on Hit.] (Changed from 5.1% chance to Fear on Hit) Sage's Journey
+
+2 pieces: [+250 Intelligence] [+250 Strength] [+250 Dexterity] [+250 Vitality] (All values down from 975) Hallowed Protectors
+
+2 pieces: [Attack Speed increased by 10%] (Up from 8%) The Shadow's Mantle (Ninja Set) 2 pieces: [Automatically cast Smoke Screen when you fall below 25% Life. This effect may occur once every 30 seconds.] (Moved from 4 pieces. Replaces: Your Spike Traps lure enemies to them)
+
+4 pieces: [Reduce all cooldowns by 1 second every time you kill a demon.] (New) Helltooth Harness (Witch_Doctor_Set_x1) 4 pieces: [ Reduces cooldown of Wall of Zombies by 2 seconds. ] (Previously 500 Intelligence)
+
+6 pieces: [NYI] (Previously 500 Intelligence)
+
+Item Passive Effects
+
+DiabloFans Quote: New ItemPassive_Unique_Ring_739_x1 - Elemental skills have a chance to trigger a powerful attack that deals [{VALUE1}*100]% weapon damage:
+
+*Cold skills trigger Freezing Skull
+
+*Poison skills trigger Poison Nova
+
+*Lightning skills trigger Charged Bolt
+
+ItemPassive_Unique_Bow_008_x1 - Ravens flock to your side.
+
+ItemPassive_Unique_Ring_586_x1 - Wall of Zombies spews acid, dealing [{VALUE1}*100]% weapon damage every second for its entire duration. (Was NYI till now)
+
+ItemPassive_Unique_Ring_587_x1 - All damage taken is split between wearers of this item. (Was NYI till now) Changed ItemPassive_Unique_Ring_533_x1 - Strafe gains the effect of the Drifting Shadow rune. (Previously removed Hatred cost)
+
+ItemPassive_Unique_Ring_602_x1 - Your Spike Traps lure enemies to them. Enemies may be taunted once every {VALUE1} seconds. (Added taunt mechanic description)
+
+ItemPassive_Unique_Ring_600_x1 - Summons shadow clones to your aid when you Stun an enemy. This effect may occur once every {VALUE1} seconds. (Added occurrence limitation)
+
+ItemPassive_Unique_Ring_615_x1 - Healing wells replenish all resources and reduce all cooldowns by {VALUE1} seconds. (Now also reduces cooldowns)
+
+ItemPassive_Unique_Ring_621_x1 - Fan of Knives gains the effect of the Fan of Daggers rune. (Changed from having a knock back effect)
+
+ItemPassive_Unique_Ring_626_x1 - Grasp of the Dead gains the effect of the Rain of Corpses rune. (Changed from having no cooldown)
+
+ItemPassive_Unique_Ring_643_x1 - Blocks have a chance of summoning a charging wolf that deals [{VALUE1}*100]% weapon damage to all enemies it passes through. (Added creature details, changed from hell hound)
+
+ItemPassive_Unique_Mighty_1H_011_x1 - Chance on attack to Whirlwind furiously for 325% weapon damage as Physical every second for 6 seconds. (Finally added actual numbers!)
+
+Warlords of Draenor Buff
+
+NOTE that Blizzard uses QUAD DAMAGE as a placeholder for CE stuff.
+
+DiabloFans Quote: WoDFlagBuff_name - Collectors Edition Buff
+
+WoDFlagBuff_desc - QUAD DAMAGE
+
+Rift Keystones, Item Set Names, Bounty Scrolls, New Banners
+
+DiabloFans Quote: Bnet_EscapeMenu.txt RaiseDifficulty - Raise Difficulty Errors.txt NephalemRiftWarning_PlayerNeedsKey - Five Rift Keystone Fragments are needed to conjure a Nephalem Rift.
+
+PowerUnusableInDifficulty - You can't do that in this difficulty level.
+
+DifficultyTooLow - You must be in a higher game difficulty for that.
+
+ItemCannotBeEnchantedLegacy - The mystic cannot enchant legacy items.
+
+ItemCannotBeEnchantedMysticLevelRequired - The mystic needs to be level {s1} to enchant this item type. General.txt LootRunClosesWarning - Nephalem Rift closes in:
+
+QuestUpdateNewBountyChatMessage - {s1}, {s2}
+
+StatAbbr - {s1}k HeroDetails.txt SplashDamage - Area Damage (Renamed from Splash Damage) ItemSets.txt Ninja_Set_x1 - The Shadow’s Mantle
+
+Thorns_Set_x1 - Thorns of the Invoker
+
+Earthquake_Set_x1 - Might of the Earth
+
+Golden_Oxen_Set_x1 - The Legacy of Raekor
+
+Dot_Set_x1 - Raiment of the Jade Harvester
+
+Monkey_King_Set_x1 - Monkey King's Garb
+
+Arcane_Wraps_Set_x1 - Vyr's Amazing Arcana
+
+Witch_Doctor_Set_x1 - Helltooth Harness
+
+War_Harness_Set_x1 - Krelm’s Buff Bulwark BuffTooltips.txt X1_Passive_BountyScroll_DemonDamage_0 - Bounty Scroll
+
+X1_Passive_BountyScroll_DemonDamage_0_desc - 25% increased damage to Demons.
+
+X1_Passive_BountyScroll_UndeadDamage_0 - Bounty Scroll
+
+X1_Passive_BountyScroll_UndeadDamage_0_desc - 25% increased damage to Undead.
+
+X1_Passive_BountyScroll_BeastDamage_0 - Bounty Scroll
+
+X1_Passive_BountyScroll_BeastDamage_0_desc - 25% increased damage to Beasts.
+
+X1_Passive_BountyScroll_TeddyBear_0 - Cuddle Bear!
+
+X1_Passive_BountyScroll_TeddyBear_0_desc - You feel more cuddly.
+
+X1_Passive_BountyScroll_RunSpeed_0 - Bounty Scroll
+
+X1_Passive_BountyScroll_RunSpeed_0_desc - 30% increased movement speed. Powers.txt X1_Passive_BountyScroll_DemonDamage_name - Bounty Scroll
+
+X1_Passive_BountyScroll_UndeadDamage_name - Bounty Scroll
+
+X1_Passive_BountyScroll_BeastDamage_name - Bounty Scroll
+
+X1_Passive_BountyScroll_RunSpeed_name - Bounty Scroll Tutorials.txt X1_PoolsOfreflection_2 - You now have a pool of bonus experience which will persist between games. Dying will remove this bonus.
+
+X1_PoolsOfreflection_2_title - Pools of Reflection Bonus
+
+X1_RiftKeystone_title - Rift Keystone Fragments
+
+X1_RiftKeystoneInventory - Use 5 Rift Keystone Fragments to open a Nephalem Rift at the Nephalem Obelisk in town.
+
+X1_RiftKeystoneInventory_title - Rift Keystone Fragments
+
+X1_RiftKeystoneComplete - You now have 5 Rift Keystone Fragments. You can go back to the Nephalem Obelisk in town and open a Nephalem Rift.
+
+X1_RiftKeystoneComplete_title - Rift Keystone Fragments X1_LoadscreenTips.txt TIP056 - Primary or secondary properties proceeded by an orange bullet icon {icon:bullet2} are not factored into item comparisons.
+
+TIP057 - Shift-click on player names to link them.
+
+TIP058 - Holding down the SHIFT key while assigning paragon points will speed up the process by assigning them ten at a time. BannerAccents.txt banner_basic_sigilAccent_BatWings_01 - Wings
+
+banner_basic_sigilAccent_Goblet_01 - Goblet
+
+banner_basic_sigilAccent_MoonStar_01 - Moon & Sun
+
+banner_basic_sigilAccent_Orb_01 - Orb
+
+banner_basic_sigilAccent_Rose_01 - Roses
+
+banner_basic_sigilAccent_Serpent_01 - Serpent
+
+banner_basic_sigilAccent_Snakes_01 - Snakes
+
+banner_basic_sigilAccent_Leaves_02 - Vines
+
+banner_basic_sigilAccent_Rays_01 - Rays
+
+banner_basic_sigilAccent_Sun_01 - Evenstar BannerPatterns.txt banner_basic_pattern_wave_04 - Wind
+
+banner_basic_pattern_cross_05 - Cruces
+
+banner_basic_pattern_cross_06 - Crucifix
+
+banner_basic_pattern_drip_03 - Scalloped
+
+banner_basic_pattern_fire_02 - Flares
+
+banner_basic_pattern_fire_03 - Fire
+
+banner_basic_pattern_starburst_01 - Infinity
+
+banner_basic_pattern_starburst_02 - Starburst
+
+banner_basic_pattern_starburst_03 - Sunburst BannerShapes.txt banner_basic_shape_chevron004 - Highborn
+
+banner_basic_shape_chevron005 - Royal
+
+banner_basic_shape_chevron006 - Imperial
+
+banner_basic_shape_goth004 - Exultant
+
+banner_basic_shape_point006 - Hallowed
+
+banner_basic_shape_point007 - Glorious
+
+banner_basic_shape_point008 - Westmarch
+
+banner_basic_shape_rectangle002 - Reserved
+
+banner_basic_shape_rectangle003 - August BannerSigils.txt banner_basic_sigilMain_Axe_01 - Axe
+
+banner_basic_sigilMain_Bird_01 - Ascendance
+
+banner_basic_sigilMain_Crus_01 - Crusader
+
+banner_basic_sigilMain_Hood_01 - Malthael's Hood
+
+banner_basic_sigilMain_Orb_01 - Crucible
+
+banner_basic_sigilMain_Rose_01 - Thorny Rose
+
+banner_basic_sigilMain_Scythe_02 - Scythes
+
+banner_basic_sigilMain_Shield_03 - Crusader Shield
+
+banner_basic_sigilMain_Sickle_01 - Sickles
+
+banner_basic_sigilMain_Soulstone_01 - Black Soulstone
+
+banner_basic_sigilMain_Malskull_01 - Reaper
+
+banner_basic_sigilMain_Axe_01_alt_01 - Axe
+
+banner_basic_sigilMain_Bird_01_alt_01 - Ascendance
+
+banner_basic_sigilMain_Crus_01_alt_01 - Crusader
+
+banner_basic_sigilMain_Flail_01 - Flails
+
+banner_basic_sigilMain_Flail_01_alt_01 - Flails
+
+banner_basic_sigilMain_Hood_01_alt_01 - Malthael's Hood
+
+banner_basic_sigilMain_Malskull_01_Alt_01 - Reaper
+
+banner_basic_sigilMain_Orb_01_alt_01 - Crucible
+
+banner_basic_sigilMain_Rose_01_alt_01 - Thorny Rose
+
+banner_basic_sigilMain_Scythe_02_alt_01 - Scythes
+
+banner_basic_sigilMain_Shield_03_alt_01 - Crusader Shield
+
+banner_basic_sigilMain_Sickle_01_alt_01 - Sickles
+
+banner_basic_sigilMain_Soulstone_01_alt_01 - Black Soulstone
+
+Class Changes

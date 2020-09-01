@@ -1,0 +1,105 @@
+Digital
+
+Sunrise
+
+Polizei und Staat wollen Sie im Internet umfassend überwachen. Jeder zweite Schweizer sagt «Nein, danke!»
+
+
+
+Telefon- und Netzüberwachung
+
+Polizei und Staat wollen Sie im Internet umfassend überwachen. Jeder zweite Schweizer sagt «Nein, danke!»
+
+Telekomfirmen sollen für die Strafermittler die Internet-Überwachung ausbauen. Auch Handy- und Internetabos können vielleicht bald nur noch im Laden und mit einem Ausweis abgeschlossen werden. Das kommt beim Volk schlecht an, wie eine aktuelle Umfrage zeigt.
+
+Seit 2002 wird jede Bewegung von Schweizer Handybesitzern ein halbes Jahr lang aufgezeichnet. Swisscom, Sunrise und Orange müssen im Auftrag des Bundes von jedem Kunden folgende Daten auf Vorrat speichern:
+
+Mit wem er wann und von wo aus kommuniziert hat
+
+Wer sich wann und für welche Dauer ins Internet eingeloggt hat
+
+Wer wann wem eine E-Mail oder SMS geschickt hat
+
+Wo sich der Handynutzer gerade befindet
+
+Diese Internet- und Mobilfunkdaten werden ohne Verdacht auf eine strafbare Handlung von allen Bürgern gespeichert. Der Bundesrat will die Vorratsdatenspeicherung mit der Revision des Überwachungsgesetzes BÜPF ausbauen: «Das Gesetz ist nötig, um Drogenhandel, Kinderpornographie, Terrorismus und organisierte Kriminalität zu bekämpfen», sagte SP-Bundesrätin Simonetta Sommaruga.
+
+Jüngeren und Frauen ist Überwachen eher «egal»
+
+Fast die Hälfte der Schweizer lehnt die Speicherung von Daten auf Vorrat grundsätzlich ab. Dies ergab eine repräsentative Umfrage des Internet-Vergleichsdienstes Comparis. Nur knapp jeder Dritte begrüsst es demnach, dass der Staat Telefon- und Internetdaten von Bürgern ohne Tatverdacht über mehrere Monate speichern lässt.
+
+Knapp jeder Dritte befürwortet das prophylaktische Datensammeln als «gut». Keine eindeutige Position hat jeder fünfte Befragte. Über 50-Jährige stehen der Vorratsdatenspeicherung häufiger misstrauisch gegenüber als jüngere Personen. Frauen drücken eine stärkere Egal-Haltung aus als Männer, die wiederum verstärkt «nicht damit einverstanden» sind. Die Umfrage zeigt ferner: Je geringer der Bildungsabschluss, desto höher ist der Anteil der Gleichgültigen.
+
+Alle weiteren Informationen zum Überwachungsgesetz BÜPF finden Sie hier:
+
+Wer wird überwacht?
+
+Die Vorratsdatenspeicherung betrifft alle Bürger und Firmen, die Kommunikation über das Internet oder die Post nutzen, also die gesamte Bevölkerung. Die Überwachung soll mit der Revision des Überwachungsgesetzes BÜPF ausgeweitet werden.
+
+Wie oft müssen die Mobilfunk-Provider den Behörden Auskunft geben?
+
+Im Jahr 2013 wurden von den Strafverfolgungsbehörden insgesamt 16'000 Auskunftsbegehren an die Provider gestellt, Tendenz steigend. (Siehe nachfolgende Grafik) Um die 7000 Anfragen betreffen die auf Vorrat gespeicherten Nutzerdaten, das macht fast 20 pro Tag. Weitere 9000 Auskünfte teilen sich auf Direktüberwachungen der Handy- und Internetnutzung (~4000) sowie auf Auskünfte zur Seriennummer des Mobiltelefons, bzw. der SIM-Karte (~5000) auf. (Quelle: Dienst ÜPF / Digitale Gesellschaft)
+
+grafik: watson.ch
+
+So soll die Überwachung ausgebaut werden
+
+Die Revision des Überwachungsgesetzes (BÜPF) fordert im Kern drei Ausweitungen der bestehenden Möglichkeiten.
+
+Erstens: Die Vorratsdatenspeicherung (wer mit wem wann und von wo aus kommuniziert hat) soll von sechs auf zwölf Monate verlängert werden.
+
+grafik: watson
+
+Zweitens: Nebst Swisscom und Co. sollen auch Schweizer E-Mail-Provider, Cloud-Anbieter, Kurznachrichten-Apps wie Threema und Anbieter von öffentlichen WLANs wie Restaurants die Nutzerdaten speichern.
+
+grafik: watson
+
+Drittens: In der gezielten Direktüberwachung von einzelnen Personen, gegen die ein Verdacht vorliegen muss, soll neu der Einsatz von Spionageprogrammen (Trojaner) auf PCs und Smartphones erlaubt werden. So kann auch die verschlüsselte Kommunikation per E-Mail, Skype, Threema etc. via PC, Tablet und Smartphone überwacht werden. Für den Einsatz des Staatstrojaners wird ein richterlicher Beschluss vorausgesetzt.
+
+So funktioniert der Staatstrojaner video: srf/10vor10
+
+Mit der BÜPF-Revision soll auch der polizeiliche Einsatz von Handystörsendern (IMSI-Catcher) erlaubt werden. Diese Geräte geben sich als Mobilfunkantenne aus und schieben sich im Handynetz zwischen die Mobiltelefone und das eigentliche Mobilfunknetz. Smartphone-Nutzer, die sich in der Nähe eines IMSI-Catchers der Polizei befinden, könnten so identifiziert und überwacht werden.
+
+Bild: watson
+
+Die KAPO Zürich sagte im April auf Anfrage: «Die Kantonspolizei Zürich besitzt zwei IMSI-Catcher, mit denen ausschliesslich Mobiltelefone geortet werden können. Weitere Beschaffungen sind nicht geplant. Wo und bei wem die Geräte beschafft wurden, geben wir nicht bekannt.
+
+
+
+Eingesetzt werden die Geräte ausschliesslich mit richterlicher Genehmigung im Rahmen der Gesetze. Primär wird diese Technik zur schnellen Ortung von Mobiltelefonen vermisster Personen, also Such- und Rettungsaufgaben, verwendet. Weitere Anwendungsmöglichkeiten finden sich bei kriminalpolizeilichen Aufgabenstellungen.
+
+
+
+Aus taktischen Überlegungen können wir keine näheren Angaben über den Einsatz der IMSI-Catcher machen. Für Personenkontrollen und bei Demonstrationen werden die Geräte nicht eingesetzt. Personenbezogene Daten werden mit dieser Technik nicht erhoben.»
+
+Was Orange, Sunrise und Swisscom an der Überwachung stört
+
+Die Gegner der BÜPF-Revision setzen sich aus einer losen Allianz von Grünen und Piraten, Liberalen und Konservativen sowie Unternehmern und Konsumentenschützern zusammen. Die Überwachungsgegner erhalten seit Kurzem Sukkurs von den grossen Telekomanbietern. Diese stören sich an der momentan fehlenden Rechtssicherheit sowie am Mehraufwand und den Zusatzkosten, die für sie durch den Ausbau der Überwachung entstehen.
+
+Das sagt Orange zur Ausweitung der Internet-Überwachung
+
+«Der BÜPF-Entwurf weist schwerwiegende Mängel auf. Insbesondere ist das Prinzip der Verhältnismässigkeit nicht gewahrt, da die Fernmeldedienst-Anbieter für beliebige, neue Überwachungsformen hohe und kaum planbare Investitionen in Systeme tätigen müssen.»
+
+«Würde die Aufbewahrungsfrist der Nutzerdaten gesetzlich von 6 auf 12 Monate verlängert, so müsste mit erheblichen Kostenfolgen und einer wesentlich grösseren Anzahl von Anfragen gerechnet werden.»
+
+«Neu sollen wir auch speichern müssen, wer wann welche Website besucht hat, was im Vergleich zur Aufbewahrung von Telefonieverbindungsdaten viel aufwändiger ist. Für die Rechnungsstellung an die Kunden ist dies überhaupt nicht nötig und wird daher schon aus Daten-/Persönlichkeitsschutzgründen momentan nicht gemacht.»
+
+«Die Begehrlichkeiten der Behörden sind gross und wir könnten mit dem in vielen Punkten bewusst offen formulierten Gesetzesentwurf zur Speicherung weiterer Daten verpflichtet werden.»
+
+Swisscom zur Ausweitung der Internet-Überwachung
+
+Bei Swisscom nervt man sich über das Prinzip, dass eine Telekomfirma die Strafverfolgung mitfinanzieren soll. «Es kann nicht sein, dass letztlich die Kunden die Strafverfahren subventionieren müssen», sagte Andreas Locher gegenüber SRF. Er leitet bei der Swisscom das Überwachungs-Team, das «nichts anderes tut als Abhöraktionen am Telefon ermöglichen, melden, wer wann wem eine SMS schickt oder Namen von Handynutzern ausliefern, und das Tag und Nacht», wie das SRF schreibt.
+
+Hinzu komme möglicherweise eine Ausweispflicht, sagen Orange und Swisscom unisono: Handy- oder Internetabos könnten allenfalls nicht mehr online gekauft werden, sondern nur mit einem Ausweis im Laden. Die Telekom-Verkaufsläden müssten Kopien der Ausweise aufbewahren, befürchtet Locher. Für ihn wäre dies «eine Art ausgelagerte Polizeidatenbank», schreibt SRF.
+
+Sunrise zur Ausweitung der Internet-Überwachung
+
+«Eine Revision des BÜPF für eine klarere Definition der Überwachungsformen findet Sunrise grundsätzlich sinnvoll. Mit Sorge stellen wir jedoch fest, dass die Ausweitung der Überwachung weitgehende und negative Auswirkungen auf den Betrieb der Unternehmen haben wird.»
+
+«Die Anliegen und Bedürfnisse der Strafverfolgung sollen die Revision des BÜPF nicht einseitig dominieren. Insbesondere die Aufbewahrungspflicht für auf Vorrat gespeicherte Daten soll nicht auf zwölf Monate ausgedehnt werden, sondern bei sechs bleiben. Dies aus Gründen der Verhältnismässigkeit und dem damit verbundenen deutlichen Mehraufwand für die betroffenen Unternehmen».
+
+Das Zwischenfazit
+
+Orange, Swisscom und Sunrise schlagen sich, so sieht es zumindest aus, auf die Seite der Überwachungskritiker. Ob aus Kosten- und Imagegründen oder aus der Überzeugung, dass die geplanten Massnahmen zu weit gehen, kann den BÜPF-Kritikern letztlich egal sein. Den Mobilfunkprovidern kommt eine entscheidende Rolle im Hinblick auf ein wahrscheinliches Referendum zu. Sie verfügen über die Mittel, die den Überwachungsgegnern für eine sichtbare Anti-BÜPF-Kampagne bislang fehlten.
+
+Abonniere unseren Newsletter

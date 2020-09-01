@@ -1,0 +1,55 @@
+Analysis For IBM, storage value is moving to software, with object storage and flash growing while legacy disk and tape products see revenue falls.
+
+In Big Blue’s fourth 2016 quarter overall revenues dropped nine per cent but storage hardware revenues fared worse, dropping 11.1 per cent, with no end in sight.
+
+This continues a trend seen for the past four years. The only bright spots seem to be flash arrays (FlashSystem) and server-based storage but we don’t know how bright. IBM’s financial reporting singles out storage hardware but not flash hardware within it.
+
+IBM doesn’t report server-based storage separately nor identify storage software revenues as a single reporting category; all of which hampers our ability to know what’s going on.
+
+We can see what’s been happening with the storage hardware category generally and it ain’t pretty. Here's four charts showing what’s what.
+
+Chart number one is a look at IBM’s quarterly revenues from 2010 to the end of 2015, with storage hardware revenues separately tracked.
+
+Click chart for larger view
+
+Chart two is a look at storage hardware revenues on their own to make things clearer.
+
+A trendline has been added to show the downward trend
+
+Our third chart summarises this in an annual view.
+
+Four straight years of decline
+
+Chart four abstracts out each quarter and shows its value year by year.
+
+We see a consistent decline in storage revenues here.
+
+The message here is that IBM storage hardware revenues have seen four straight years of decline and there is no end in sight. IBM management does not identify storage hardware as an area needing attention, despite annual revenues having dropped 35 per cent over four years, from $3.7bn in 2011 to $2.4bn in 2015.
+
+Martin Schroeter, IBM’s CFO, said in prepared remarks: “A couple of years ago we laid out our strategic imperatives around big data and analytics, around cloud, and around mobile and security.” In 2015’s final quarter “Our strategic imperatives continued strong performance, up 26 per cent for the year. This now represents 35 per cent of IBM’s revenue.”
+
+Within that: “With 57 per cent revenue growth over the last year, cloud is now a $10 billion business for us. This made us the largest cloud provider in 2015.”
+
+Cloud is the big thing, in Schroeter's view. “To address opportunities we see in this space, in 2015 we made seven cloud acquisitions including Cleversafe for object storage, Gravitant for cloud brokerage services, and Clearleap for cloud video services. We also invested nearly a billion dollars in capital expanding our global cloud data centre footprint to 46.”
+
+It’s not that hardware, per se, is bad, though. In Schroeter's words: “Our Systems Hardware revenue was up, driven by z Systems and Power. … This was the fourth consecutive quarter of growth in both z Systems and Power. … about half of our systems segment revenue in 2015 was to address analytics workloads, or hybrid and private clouds. … Even though the Unix market is declining, by delivering innovation and repositioning the platform, our Power systems have grown four quarters in a row.“
+
+But that apparent determination to grow the non-x86 server business was not paralleled in the storage hardware business; “The growth in our servers was mitigated by a seven per cent [constant currency] decline in storage hardware, which continues to be impacted by weakness in traditional disk and tape.”
+
+Analysis
+
+IBM could exit the commodity x86 server hardware business and focus on its proprietary z Systems and Power Servers. No such exit strategy appears possible in general disk and tape storage, where commoditisation of disk is affecting IBM.
+
+“Value in the storage market continues to shift to software and offering requirements that are driving demand for flash and object-based storage,” said Schroeter. “We are well-positioned in these new areas, with growth in flash, and our recent acquisition of Cleversafe.”
+
+This implies that IBM is not at all well-positioned in the general SAN and filer hardware area, and products here have been left on their own. We can infer that development budgets for these product areas will not be growing.
+
+Will IBM be looking to build hyper-converged infrastructure appliances (HCIA) using its Power servers as a base? We think not, as commodity x86 server-based HCIAs could undercut them on price.
+
+Our thinking is that IBM could be doing well in server-based storage, but may be thinking that capacity-focussed SAN and filer storage is heading towards a commoditised on-premises game, which it doesn’t want anything to do with, or to public cloud provision where its storage software, like Cleversafe, has a role.
+
+Therefore, IBM’s storage hardware business could dip to a $2bn annual revenue run rate by the end of 2016 and fall below $2bn in 2017.
+
+In the fourth 2015 quarter, storage hardware accounted for 32 per cent of IBM’s hardware business. We expect that to fall below 30 per cent this year, and head towards a 25 per cent contribution.
+
+This is, it seems to us, a managed decline, with IBM wanting a smaller, but presumably more profitable, storage hardware business to eventually emerge. ®

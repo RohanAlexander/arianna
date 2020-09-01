@@ -1,0 +1,33 @@
+Oscar night is days away. Presumably the Stonecutters are just about done rigging it, so let’s lay out our best predictions for who’s going to go home with statuettes.
+
+Here’s how we figure this: Unlike presidential elections, there’s no clear-cut way to predict the Oscar winners. Betting markets are probably your best bet. But there are a dozen or so lesser awards — including the Golden Globes, Writers Guild Awards, and Satellite Awards — that precede the big dance, and we can use these as quasi-polls. For example, the winner of the Directors Guild of America award for best director usually wins the Oscar for best director.
+
+And just as our presidential model gives more weight to surveys conducted by pollsters who have a good track record, I turned the 25-year accuracy rate for each of these award shows into scores, prioritizing awards by organizations whose voting members aligned with the members of the Academy (actors and directors, for instance) :
+
+The result? We add up the scores for the winners, assign partial credit for nominees, and voila! Here’s the state of the best picture race:
+
+It’s pretty tight. Sometimes — such as in the 2012 race — there’s an overwhelming front-runner. Not this time. “Boyhood” took home top honors at a lot of the reasonably predictive awards — Golden Globes (drama), BAFTAs, several critics groups — but “Birdman” took home the gold when it really counted, at the Directors Guild, Producers Guild, and Screen Actors Guild award shows. As a result, “Birdman” is the slight favorite to win, mostly based on the historical predictive rate of the guild award shows.
+
+This category is the only one we measured in which the model splits from the prevailing wisdom of the (generally reliable) betting markets. On the Hollywood Stock Exchange (HSX), one such market, options on “Boyhood” are substantially out-pricing options on “Birdman.”
+
+Also seeing some love at HSX is “American Sniper,” which was excluded from basically every other award show. Upsets do happen with some regularity, and given the film’s recent box office success, it may be a dark horse in the race. But personally, I’m going with “Birdman.” I wouldn’t be shocked if the actors, writers and producers of the Academy find it in themselves to give the Oscar to a film about an actor-writer-producer putting on a play.
+
+Of the other five top honors at the Oscars — best director, best actor, best actress, best supporting actor and best supporting actress — only two are truly competitive this year.
+
+The first is best director, another “Birdman” versus “Boyhood” fight:
+
+Sure, Wes Anderson has a fighting chance here, but this is another category in which Richard Linklater got the vast majority of the wins in earlier awards, but Alejandro G. Iñárritu got the one that counts, the Directors Guild award. In the past 25 years, the winner of the Directors Guild award for best director of a feature film won the Oscar for best director 84 percent of the time. Still, the sheer number of wins puts Linklater ahead here, and betting markets agree with the model that Linklater has an edge.
+
+Finally, to break up the tedium, we get Eddie Redmayne leading the pack for best actor.
+
+This is the last category in which it’s even close to a fight. Redmayne has been scooping up awards left and right for his portrayal of Stephen Hawking. Redmayne took home the heavily predictive BAFTA, Screen Actors Guild, and Golden Globe (drama) awards for best actor. And while Michael Keaton has done well among critics, Redmayne appears to have a substantial lead.
+
+There’s consensus in the other categories.
+
+Julianne Moore has all but swept the best actress categories in any awards show worth a damn. While Marion Cotillard grabbed the New York Film Critics Circle award, Moore won in everything else she was a contender for.
+
+J.K. Simmons — who dominated in “Whiplash,” my personal favorite best picture nominee — also nearly pulled off a sweep, but the National Board of Review gave Edward Norton its best supporting actor award. Not quite my tempo.
+
+Patricia Arquette is the only best supporting actress nominee to win any of the awards we track. She’s the odds-on favorite for her part in “Boyhood.”
+
+The good news? This year, the most exciting awards will be saved for the very end of the Oscars presentation. There’s always an opportunity for an upset, though. Next up, I’ll see just how likely we are to get a surprise.

@@ -1,0 +1,59 @@
+Update on Nov 7, 2018 : Back to OrgMode. Again.
+
+What I want
+
+Notes app needed.
+
+Must support images and attachments.
+
+Mobile-first. Absolutely need a notes app that syncs across computer and phone. That’s just how I function.
+
+Ideally, there should be a backup option that keeps my notes unlocked if when the app starts degrading a few years from now.
+
+when the app starts degrading a few years from now. OrgMode is ideal, but images cause Emacs scrolling to be wonky on the desktop, and recreating agenda mode on the mobile would be a challenge. But glad to see apps like Orgzly take on it.
+
+Since my blog and books are already in Markdown, it would make sense to just stick to Markdown for notes as well.
+
+What I tried before
+
+Evernote sync was so unreliable that I had stopped using it.
+
+OneNote wouldn’t let me even create an account (would complain about password, regardless of how small or long, how simple or complicated a password I try)
+
+Quiver seemed promising, but the iOS app is still in beta and currently only provides a read-only view to the notes. And it does not support iCloud sync, only third-party sync mechanisms, which is strange for a Mac+iOS app combination.
+
+Currently using Apple Notes. The downside is that exporting notes for publishing / sharing is a pain. For example, I can’t copy a note for sharing as text on messaging platforms like Slack, because it loses all the links and formatting.
+
+Why Bear app
+
+Mac app and iOS app that syncs seamlessly
+
+Markdown CommonMark FTW
+
+CommonMark FTW Real tags
+
+Cross-Note Links (yay, a personal wiki)
+
+Web Clipper that converts a web page into Markdown and saves images as well
+
+Copy to clipboard as Markdown
+
+Export as PDF, image, etc.
+
+Privacy – uses iCloud Sync, no servers of their own
+
+Backup into an open format called textbundle
+
+Beautifully designed app by an Italy-based studio
+
+Why not Bear app
+
+No web version, esp. to access from my Linux laptop. They are working on it.
+
+Long-term availability? I’m glad they have a subscription model, so that they are encouraged to maintain the app, instead of creating an upgrade treadmill ( I’m looking at you, Alfred app [1]). Worst case, they have a really good backup feature, that also exports attachments. Last time I checked, Evernote does a bad job at this. The “export” menu command only exports the text of the notes as an xml file. How can you not include attachments in the backup?
+
+[1]). Worst case, they have a really good backup feature, that also exports attachments. No Siri integration, not sure if Apple has provided a Siri “intent” for note-taking though.
+
+This is a quick note on why I have started using Bear notes app
+
+[1] Alfred now has a Mega Supporter License with lifetime free upgrades.

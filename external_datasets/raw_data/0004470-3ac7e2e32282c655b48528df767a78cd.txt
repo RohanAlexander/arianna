@@ -1,0 +1,29 @@
+Jibo robot snags new Sensory cloud-free speech control
+
+Home robot companion Jibo may be able to recognize natural speech but it won’t demand a web connection to do it, the first ‘bot to feature a new offline engine that cuts the cord. Jibo, announced last year and expected to ship in 2016, may look like a kitchen appliance brought to life, but thanks to Sensory’s new TrulyNatural system will be able to perpetually listen and react to a broad range of voice commands without requiring a connection to the cloud as most speech-recognition does.
+
+Handiwork of Cynthia Breazeal, an associate professor of media arts and sciences at MIT and director of the Personal Robots Group at the MIT Media Lab, Jibo stands 11-inches tall and has a moving LCD for a face. It’s designed to be a storyteller for kids, a companion for the elderly, and a quick way to keep up to date with news and web searches for everyone else.
+
+It was enough to score almost $2.3m in a crowdfunding campaign, though deliveries aren’t expected until sometime next year, and product demonstrations themselves will only be shown this year.
+
+TrulyNatural’s magic is based on shrinking the voice-recognition engine down to the point where it’s small enough to be installed locally and efficient enough to run without demanding huge servers in the crowd.
+
+In fact, Sensory says, one version can fit “hundreds” of recognizable words into less than 1MB on a smartphone or wearable. For Jibo, though, that number can be far, far larger, not to mention work without the lag that’s normally involved when speech is shuttled to remote servers for processing. Sensory claims an error rate of less than 8-percent for 1m attempts.
+
+“We believed it’s the highest capacity large vocabulary recognizer out on the market today,” Sensory CEO Todd Mozier says.
+
+TrulyNatural will initially recognize US English, Mandarin Chinese, Korean, Japanese, UK English, French, Spanish, and German; Italian, Portuguese, and Russian will follow later on in 2015.
+
+Meanwhile, there are SDKs for iOS, Android, Windows, and Linux. While completely offline use is supported, another implementation can blend both local and cloud-based processing, the server-side component expanding on the core functionality whenever there’s a working connection.
+
+For Jibo, it should mean the robot is more responsive, which will help it feel more lifelike. Since Breazeal and her team revealed the project, for instance, Amazon launched its Echo speech-controlled assistant, but that involves cloud-based processing and the lag that entails.
+
+Interestingly Sensory can also identify individual speakers, not only differentiating between them but improving its voice recognition engine on a per-user basis by learning how each specific person speaks.
+
+However, robotics are only one potential implementation for TrulyNatural. Sensory is also targeting automotive applications, which could mean car infotainment systems that react to a wide range of natural phrases and instructions but don’t need a web connection, as is relied upon in Android Auto.
+
+For drivers, that extra turn of speed and responsiveness could be even more important. One of TrulyNatural’s abilities, for instance, is distinguishing between over half a million different song titles, perfect for a Tesla-style spoken jukebox search.
+
+Intel is also using Sensory technology, demonstrating offline recognition earlier this year as embedded in the Jarvis headset.
+
+MORE Sensory

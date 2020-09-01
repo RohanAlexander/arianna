@@ -1,0 +1,29 @@
+Google's Chrome is on the brink of replacing Firefox as the second-most-popular browser, according to one Web statistics firm.
+
+Data provided by StatCounter, an Irish company that tracks browser usage using the free analytics tools it offers websites, shows that Chrome will pass Firefox to take the No. 2 spot behind Microsoft's Internet Explorer (IE) no later than December.
+
+As of Wednesday, Chrome's global average user share for September was 23.6%, while Firefox's stood at 26.8%. IE, meanwhile, was at 41.7%.
+
+The climb of Chrome during 2011 has been astonishing: It has gained eight percentage point since January 2011, representing a 50% increase.
+
+During that same period, Firefox has dropped almost four percentage points, a decline of about 13%, while IE has also fallen four points, a 9% dip.
+
+That means Chrome is essentially reaping all the defections from Firefox and IE.
+
+If the trends established thus far this year continue, Chrome will come close to matching Firefox's usage share in November, then pass its rival in December, when Chrome will account for approximately 26.6% of all browsers and Firefox will have a 25.3% share.
+
+StatCounter is not the only Web metrics company that publicly posts browser share statistics, however. Data provided by U.S.-based Net Applications, for example, shows a much bigger gap between Firefox and Chrome: In its numbers for August, Net Application had Firefox with a 22.6% share of desktop browser usage, and Chrome at 15.5%.
+
+Using Net Applications numbers, Chrome could have a 17.8% share by the end of 2011, short of Firefox's projected 22.3%. But if the pace of change lasts, Chrome should pass Firefox on Net Applications' chart by mid-2012.
+
+Because Net Applications weights its numbers to more better estimate usage share in countries from which relatively few users navigate to sites it monitors, the company's data theoretically paints a more accurate picture because it factors in the huge Chinese market.
+
+Some browser makers -- Microsoft in particular -- cite that as a reason why they regularly defer to Net Applications' numbers. Not coincidentally, Net Applications pegs IE with a much higher share -- 55.3% -- than do other metrics firms such as StatCounter.
+
+Both Net Applications and StatCounter, however, have traced the same trends: usage declines of IE and Firefox, and a corresponding climb in Chrome.
+
+Chrome may pass Firefox as the world's second-most-popular browser by the end of the year. (Data: StatCounter.)
+
+Gregg Keizer covers Microsoft, security issues, Apple, Web browsers and general technology breaking news for Computerworld. Follow Gregg on Twitter at @gkeizer, on Google+ or subscribe to Gregg's RSS feed . His e-mail address is gkeizer@computerworld.com.
+
+See more articles by Gregg Keizer.

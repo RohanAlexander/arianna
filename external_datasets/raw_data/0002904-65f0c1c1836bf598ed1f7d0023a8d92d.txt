@@ -1,0 +1,33 @@
+FROM: Project Lead
+
+TO: Arma 3 Users
+
+INFO: Helicopters DLC released, 1.34 update released, MP mode "Support"
+
+PRECEDENCE: Flash
+
+SITUATION
+
+Late yesterday afternoon we rolled the Helicopters DLC out of its hangar for lift off. Of course the 1.34 update contained not just the premium additions, but also the free platform update for everyone. We are very happy to be able to continue supporting the game in this way. By buying the game and DLC you provide us with the opportunity to strengthen, expand and enrich the platform and game. For an in-depth look at what changes arrived with Arma 3 Helicopters and version 1.34, read through the SPOTREP. Modders can do the same for the latest update of sister product Arma 3 Tools in the TECHREP.
+
+What's next for the team? Development focus will be on the second DLC: Marksmen. It is to follow a similar approach by delivering a set of premium assets, bundled with relevant new platform updates for all. We're right in the middle of producing the first new personal firearms and developing concepts for the rest of them. Meanwhile the designers and programmers are prototyping new gameplay features for weapon handling. In parallel, we do also have pre-production and early production of the Expansion terrain in progress. Finally, we obviously will be doing post-release support of Arma 3 Helicopters and we'll continue the maintenance cycle. Do check out this splendidly splendid write-up by Creative Director Jay Crowe on all of these topics.
+
+INTELLIGENCE
+
+Friendly reminder: if you have bought a Supporter Edition or own the DLC Bundle, you already own Arma 3 Helicopters DLC. This is not true for the (Digital) Deluxe Edition. If you've forgotten what version you own, one way to find out could be to check Steam. In the client, open Arma 3's properties. Visit the DLC tab and there it should list your DLC plus Digital Deluxe Edition content packages.
+
+Last Friday the voting stage for the Make Arma Now War Singleplayer category closed. This voting process selected the 20 finalists for that category (to be revealed in detail over the coming weeks). The other categories are in process of having their finalists selected by a Bohemia Interactive Task Force. After that, a soon-to-be-announced jury will carefully select the winners. Good luck to all contestants!
+
+OPERATIONS
+
+One cool part of the 1.34 platform update is the "Support" multiplayer mode. This mode was designed to focus on aerial logistics, rather than combat (although the sessions are not exactly peaceful!). You and your friends are helicopter pilots whose main responsibility is to capture sectors by transporting infantry NPCs to them. Extra support options are Sling Loading supplies and performing casevacs. The mode does a great job of showing the many improvements that Helicopters DLC allowed us to make. We decided however, not to lock this mode to owners of the DLC. Everyone can play it and non-premium helicopters are available besides the Huron and Taru. The design Task Force consisting of Jirí Wainar, Nelson Duarte and Václav Oliva is looking forward to your feedback in this forums thread. A good way of trying the mode is to connect to one of our official servers. We're also hoping to livestream the mode this Friday!
+
+We are tracking one server crash that is particularly elusive. Our working theory is that it may be caused by a recent Steam client update, because the same crash affects our other games (e.g. DayZ) without those receiving updates. We are in direct contact with Valve's network engineers to get to the bottom of this. The investigation will hopefully result in either a fix of their client, or a way for us to solve the issue ourselves.
+
+LOGISTICS
+
+Check out this nifty little web app to search and filter scripting commands. Kudos to Craig Vander Galien for creating it!
+
+The 1.34 update added a bunch of nice decorative objects for scenario designers. You'll find objects to bring your airports and heliports alive, as well as objects for Forward Operating Bases (from fuel bladders to desktop PCs and canteen supplies to sports equipment). The SPOTREP lists all of them, but you may have to explore the editor for a while to find the right categories. Shout out to our colleagues in Black Element Thailand, who did a good job of creating many of these!
+
+#splendid

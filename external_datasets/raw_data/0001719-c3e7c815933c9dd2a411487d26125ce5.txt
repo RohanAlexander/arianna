@@ -1,0 +1,33 @@
+In 2005, MIT professor Richard Schrock won the Nobel Prize in chemistry for developing catalysts for a reaction that is widely used to produce pharmaceuticals, fuels and other synthetic chemicals. That reaction, known as olefin metathesis, involves breaking and making double bonds between carbon atoms to produce new types of carbon-carbon double bonds.
+
+One limitation to the metathesis reaction is that it had not been possible to control the configuration of the olefin products, which can occur in one of two configurations. However, Schrock and his collaborator Amir Hoveyda at Boston College have now developed a catalyst that yields almost exclusively the more desirable configuration, known as cis.
+
+In a paper appearing in the Nov. 3 issue of Nature, the researchers report using their new catalyst to generate the cis form of two natural compounds that have been of great interest to scientists because of their potential as cancer drugs. They expect that the catalyst, which contains tungsten, could also be useful for controlling the configuration of hundreds of other natural products, as well as new variants of those natural compounds.
+
+“Sought by many investigators for almost two decades, this milestone achievement will be welcomed by the synthetic community as a major advance in organic synthesis,” says K.C. Nicolaou, a professor of chemistry at the Scripps Research Institute, who was not involved in this project.
+
+Lead authors of the paper are Miao Yu, a graduate student in Hoveyda’s lab, and Chenbo Wang, a postdoc at Boston College. Oxford University researchers Andrew Kyle, Pavol Jakubec and Darren Dixon are also authors of the paper.
+
+Making rings
+
+In the Nature paper, the researchers focused on synthesizing macrocycles — compounds that contain large rings of nine or more atoms. Compounds of this type often have potent biological activity, making them useful as drugs, says Hoveyda, a professor of chemistry and the principal author of the paper, in whose laboratory the organic chemistry was carried out.
+
+The researchers were able to synthesize two naturally occurring macrocycles, epothilone and nakadomarin. Epothilone, originally found in a soil-dwelling bacterium, blocks cancer cells from dividing by interfering with the cell skeleton; several variants of the compound are now in clinical trials for the treatment of cancer. Nakadomarin, first discovered in a marine sponge, has both anticancer and antimicrobial activity.
+
+Both compounds can be made in about 16 chemical steps, the last of which is a metathesis closing of the ring through formation of a double bond between two carbon atoms.
+
+Metathesis, whose mechanism was first proposed by Yves Chauvin in 1971, requires a catalyst — a special compound that consists of a metal atom attached to one or more organic structures known as ligands. In 1986, Schrock, now MIT’s Frederick G. Keyes Professor of Chemistry developed the first catalyst that could perform this reaction. Chauvin and Schrock shared the 2005 Nobel Prize for chemistry with Robert Grubbs, who later developed different catalysts for metathesis that contain ruthenium.
+
+When each of the two carbon atoms in the double bond has another carbon atom attached to it, the attached carbons can point in the same direction (the cis configuration) or in opposite directions (the trans configuration).
+
+The cis configuration is found in most naturally occurring compounds. Hoveyda speculates that the cis configuration might be better able to interact with biological structures such as cell receptors, or is better able to cross the cell membrane. Unfortunately, most metathesis reactions produce a mixture of cis and trans, with trans usually predominating (up to 80 percent). Mixtures of cis and trans products are very difficult to separate.
+
+‘An efficient solution’
+
+The team’s new catalyst steers the reaction toward predominantly the cis form due to the size and shape of one of the ligands attached to the metal in the catalyst. This ligand is so large and bulky that it prevents any carbon atoms attached to the intermediate in the reaction from pointing toward it, forcing them into a cis configuration. Using this catalyst, the researchers were able to generate the cis configuration of epothilone and nakadomarin more than 95 percent of the time.
+
+“It turns out to be a surprisingly efficient solution, but nobody’s ever done it before,” Schrock says.
+
+Another advantage of the tungsten catalyst is that tungsten is much more abundant than ruthenium, which is a precious metal used in other, more popular metathesis catalysts. Ruthenium’s worldwide annual production is only about 12 tons, and one kilogram costs about $10,000. In contrast, about 60,000 tons of tungsten are produced worldwide per year, at a cost of about $50 per kilogram.
+
+Schrock and Hoveyda have started a company called XiMo to work with clients, particularly companies that synthesize drugs or other chemicals such as polymers, pesticides and fragrances, to develop new catalysts to make their production processes more efficient.

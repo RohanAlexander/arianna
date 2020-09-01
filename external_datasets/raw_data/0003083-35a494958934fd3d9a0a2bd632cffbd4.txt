@@ -1,0 +1,57 @@
+Singaporean retail service provider (RSP) MyRepublic has called "bull****" on claims by Australian National Broadband Network (NBN) CEO Bill Morrow that consumers don't need and wouldn't use 1Gbps broadband, and has announced that it is launching a "gigatown" to prove customers' desire for higher speeds.
+
+"It's absolute bull****," MyRepublic Australia managing director Nicholas Demos said in an interview with ZDNet.
+
+"Australians want faster internet ... it is just a ludicrous statement to say there is not a requirement for it."
+
+Demos argued that 82 percent of NBN's users are on speeds of 25Mbps or less only because the incumbent RSPs have simply moved customers from their existing plans and price points onto the same plans and pricing on NBN services.
+
+In the 12 weeks since launching as an NBN RSP, Demos said MyRepublic has signed up 10,000 customers to its high-speed plans, which proves that customers do want faster services -- as does the fact that 40 percent of its New Zealand customers are already on 1Gbps plans.
+
+Arguing in November that the NBN had not yet properly launched, because RSPs are simply offering the same services, speeds, and pricing as before, MyRepublic offers just one package at one price on the highest possible speed tier available for each customer.
+
+Demos blamed the lack of 1Gbps NBN products on the network company's connectivity virtual circuit (CVC) charge, which reserves a consumer's bandwidth from the point of interconnect and is priced depending on usage of data.
+
+"The CVC pricing that the NBN are charging, it's not economical," he told ZDNet.
+
+"Yes, they do offer retailers such as us a product with CVC pricing -- a one-gig product -- but it's just priced out of the market and no consumer will buy it at that price in Australia."
+
+MyRepublic has announced that it plans to convince NBN of the desirability of 1Gbps broadband by bearing the cost of connecting consumers in one Australian town with 1Gbps services and gauging uptake of the service.
+
+"We're launching a one-gigabit town in Australia ... just to show there is demand for it, it does work, people want it, but it's the [NBN] product that is wrong, which is why you can't offer it to the mass market at the moment," Demos told ZDNet.
+
+The RSP will on Friday put out the call for consumers to express their interest in receiving a 1Gbps broadband connection, which will inform MyRepublic's decision on which town to connect -- although it would have to be in an area with full fibre-to-the-premises connectivity, Demos conceded.
+
+The 1Gbps pricing will remain the same as MyRepublic's other packages, at AU$60 per month, with the gigatown to be launched in the next few months.
+
+MyRepublic's statements follow Morrow's claim during NBN's financial results presentation on Thursday that RSPs are not offering 1Gbps packages to consumers due to a lack of demand.
+
+"We have roughly a million and a half homes that can have a technology to get a gigabit-per-second service capability today. We have a product that we can offer the retailers, should they want to sell it," Morrow said.
+
+"The reality is that a couple of the retailers have signed up for a trial ... but they have chosen not to offer that to the consumers.
+
+"I will presume it's because there isn't that big of a demand out there for them to actually develop a product to sell to those end users."
+
+On its fixed-line network, NBN again reported the majority of its users as being on the 25/5Mbps speed tier as of December 31, with 51 percent of users choosing these speeds, while 31 percent were on the 12/1Mbps speed tier; 13 percent were on 100/40Mbps; 4 percent were on 50/20Mbps; and 1 percent were on 25/10Mbps.
+
+Calling 1Gbps "a lot of bandwidth", Morrow claimed NBN has "scoured" the globe to speak with RSPs and carriers that have 1Gbps products that have seen limited uptake due to consumers not needing those speeds, or not wanting to pay for them.
+
+"We asked the question, 'Has anybody actually used that amount of bandwidth?' And the answer was unanimously 'no'," Morrow said.
+
+"There are not that many applications that warrant much above the products that are being sold on NBN today, so I suspect that's the main reason. 'If I have to pay for it to move from 100[Mbps] up to a gigabit per second, I don't really have the application or the need for it, so why would I pay more to do that?' I believe that's the market dynamic that is occurring today."
+
+Morrow acknowledged that there will be applications in future that will need more bandwidth, such as alternate reality, artificial intelligence, and 8K video, but said the demand is not there now.
+
+"All of these other things could certainly drive up more of that consumer need, but we haven't seen that as of yet," NBN's chief executive said.
+
+"Even if we offered it for free, we see the evidence around the world that they wouldn't use it anyway."
+
+NBN has since claimed that Morrow's statements were taken out of context.
+
+"NBN is disappointed to see media coverage today has taken comments on internet speeds by our CEO out of context," an NBN spokesperson told ZDNet.
+
+"While the NBN network does offer 1Gbps wholesale services to retailers, to date no retailer has elected to sell these services. That is a commercial decision for the retailers."
+
+Morrow's statements came despite the City of Adelaide last month putting out a call for providers for its 10Gbps fibre broadband network; Telstra launching a 1Gbps 4G mobile network; and the majority of RSPs in New Zealand offering a 1Gbps service as of the end of last year across the New Zealand government's NBN equivalent.
+
+In Singapore, 10Gbps broadband services have been offered by both Singtel and M1 for a year.

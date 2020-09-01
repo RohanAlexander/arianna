@@ -1,0 +1,35 @@
+We hear a lot about what could be done with the Blockchain, this decentralized ledger which record permanently and almost instantly information from all around the world. This is the first time in our history that we created such a ledger, it's not about chatting with someone else, it's about agreeing on facts with everyone else every couple of minutes.
+
+However we don't hear much about the actual projects the big corporations are working on. Let's see the 7 most important:
+
+1. IBM and Samsung - IoT
+
+Would you like to see your fridge, your phone and your car transact with other things? IBM and Samsung are working on a project unveiled at CES 2015 called ADEPT which will serve as a ledger of existence for billions of devices that will autonomously broadcast transactions between each other’s.
+
+2. NASDAQ, NYSE – Stock Exchange
+
+Or how to bypass Automated Clearing House which take days to record wall street transactions. "As Blockchain technology continues to redefine not only how the exchange sector operates, but the global financial economy as a whole, Nasdaq aims to be at the center of this watershed development." said Bob Greifeld, CEO, Nasdaq
+
+3. Deloitte - Audit & Consulting
+
+Real time auditing, land registry and reconsolidation between trading partners, this is just the top of the iceberg Deloitte is building with its new platform called Rubix.
+
+Deloitte is also working internally on a stealth solution to automate some of its auditing processing
+
+4. BNP, Barclays, City, UBS, Société Générale, Goldman Sachs, Santander - Banks
+
+Do you know that your banks depends heavily on some protocol to transfer money? Using the Blockchain will allow them to get rid of VISA, Mastercard and SWIFT.
+
+5. Minecraft - Games and Virtual reality
+
+Every game has it's own currency system and some become so important that you can find a stable exchange rate with fiat currencies. This is the case with World of Warcraft gold or Second Life Linden dollars. Blockchain bring to these world a currency that they can use inside the game and trade on Amazon at the same time. Some servers of Minecraft already implemented such systems.
+
+6. Western Union - Money transfer solutions
+
+The famous dinosaur of money transfer is facing a big threat with the new Fintech startup and want to face it with the same weapon. They already set up a lab with Ripple to study the Blockchain technology and improve their cross border payment. Will they adapt?
+
+7. Honduras, Isles of man - Governments
+
+We would expect the Blockchain to be used for a voting system, but it seems the first aspect interesting for government is registries. Registry of lands in one case, registry of companies in the other one, notaries might not be such an important job in the future.
+
+If you want to know more and discuss details, let me some comments or send me a private message. I would also be pleased to hear some more examples !

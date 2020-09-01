@@ -1,0 +1,31 @@
+The MoD is pouring millions of pounds into research on a “quantum compass” that will be far more accurate than GPS and immune to jammers or hackers, with potential applications in everything from nuclear submarines to your next smartphone.
+
+Quantum technology is already being explored in universities and companies worldwide for potential applications in communications and computation, but several UK academic projects backed by cash from the MoD are focusing on how it can be used in sensing and precision timing - both of which could lead to a “game-changing” navigation device. It could also give birth to the most precise clock ever created.
+
+The whole field hinges upon an unusual field of physics called quantum mechanics which explores how particles on a sub-atomic level can act as both a physical particle and an electromagnetic wave at the same time.
+
+Quantum TNS (timing, navigation and sensing) involves cooling atoms down to temperatures a billion times colder than outer space. Unlike GPS, which relies on triangulation from a network of satellites, it very accurately measures movements from a known position to keep track of location.
+
+With the first products expected in the next five years, its potential impact on the electronics, defence and telecommunications could be huge.
+
+Currently submarines use GPS while surfaced but rely on crude accelerometers when underwater to track position with dead reckoning. But spending just one day underwater can lead to inaccuracy of up to a kilometre. With quantum TNS this error could be kept to as little as one metre.
+
+To highlight the potential in this new area of technology a conference is taking place today at the National Physical Laboratory in Teddington to showcase 13 new research projects being funded by DSTL to bring the technology to market.
+
+Neil Stansfield, who is tasked with exploring “emerging and disruptive technologies” at the MoD’s Defence Science and Technology Laboratory, said that defence may be an early adopter of quantum TNS but that the civil market is “potentially enormous” and could see the technology built-in to cars and phones.
+
+“We’ve done quite a lot of looking at the physics, and most of the basics are either proven or we know what needs to be done to prove it. The uncertainty is not ‘can we do it’, but ‘how long will it take’,” he said. “We’re at the beginning of a journey here.
+
+“The size of the equipment we’re building is, if you imagine a shoebox that stretched out to about a metre long. That’s in one axis, so you’d need three of those to do 3D.”
+
+When the first atomic clock was developed at the NPL it was the size of a room, now they are the size of a suitcase. It is hoped that navigation devices using quantum mechanics will follow the same rate of miniaturisation.
+
+The idea is based on a Nobel Prize-winning theory which showed atoms could be frozen with a laser. In the navigation systems now being developed at the DSTL a vacuum container with between one and ten million atoms, all moving at around the speed of a jet aircraft, is hit by lasers and cooled to temperatures a billion times colder than outer space. These atoms at that point become coldest known bodies in the universe.
+
+The atoms are slowed until they are moving at just a few millimetres a second. They can then be unfrozen for precise lengths of time to take exact measurements of how far they moved, therefore allowing precise calculations on how the whole device moved in that time or changes in gravitation. One problem yet to be overcome is that these two possibilities cannot be told apart – a large object to the north of the sensor would give the same reading as acceleration to the south. It is thought that maps showing high-gravitation areas will be able to solve this issue.
+
+The speed with which this quantum TNS is adopted in commercial products is hard to predict, said Stansfield, and largely dependent on consumer demand. But the National Physical Laboratory’s Bob Cockshott said that there was definite potential.
+
+“Maybe six or eight years ago the idea of every phone having GPS in it was ludicrous, now the chipset costs a couple of dollars. I think we'll see the same sort of trajectory here. Perhaps in a number of years these devices could be built-in to all devices,” he said. “The really pressing need now is for something that works when you can’t see the satellite. GPS is never going to tell you what floor of the car park you’re on.”
+
+Cheap and compact laser technology has been developed by the telecoms industry, so much of the building blocks for these quantum TNS devices is ready to go, he said. And there will be applications long before it is minituarised to the extent needed to fit into smartphones: “That metre-long shoebox won’t fit in your pocket, but it certainly will fit in a modest-sized aircraft.”

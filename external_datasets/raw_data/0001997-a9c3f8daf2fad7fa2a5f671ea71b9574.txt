@@ -1,0 +1,245 @@
+Project Euler is a collection of interesting computational problems intended to be solved with computer programs. Most of the problems challenge your skills in algorithm design rather than your knowledge of mathematics.
+
+Thanks to short concrete problems and number-only solutions you don’t have to thinker with IDEs, GUI designers, programming libraries and frameworks, so Project Euler is an excellent tool for learning a new programming language or improving your core programming skills.
+
+
+
+Why use Scala
+
+Although all general-purpose programming languages are Turing-complete and thus suitable for Project Euler, each language has its own philosophy and set of tools. In spite of programming language “holy wars”, the truth is that different tasks demand different tools.
+
+Since Scala is a multi-paradigm programming language, it allows programmers to efficiently express a wide range of common programming patterns. Most Project Euler problems imply advanced transformation of numeric or symbolic data and Scala’s functional programming features are the perfect tool for that purpose (moreover, unlike pure functional languages, being a hybrid language, Scala provides object-oriented capabilities when modeling or simulation is required).
+
+So, what does Scala have to offer for Project Euler? Here is the list of most valuable features:
+
+scripting,
+
+type-inference,
+
+first-class functions,
+
+tail call optimization,
+
+lazy evaluation,
+
+excellent collection library,
+
+sequence comprehensions.
+
+On the top of everything else, Scala brings enjoyment to your coding. According to The Right Tool Scala is ranked high in the following categories:
+
+Thus Scala is the right tool for those who want to mingle the useful with the pleasant.
+
+Sample solutions
+
+This section contains solutions to the first 33 problems. You may use them either to size up how well Scala plays in Project Euler, or to compare your own solutions with the samples.
+
+Keep in mind, that the purpose of these solutions is to demonstrate Scala in the first place, so the problems are just a “canvas” to show the elegance and expressiveness of the language. Many times I intentionally preferred a direct and concise solution (if it performs reasonably fast) to a “math-savvy” one.
+
+All the code is available as a GitHub repository.
+
+See also:
+
+Problem 1
+
+Add all the natural numbers below one thousand that are multiples of 3 or 5.*
+
+val r = (1 until 1000).view.filter(n => n % 3 == 0 || n % 5 == 0).sum assert(r == 233168) // 7 ms
+
+Problem 2
+
+Find the sum of all the even-valued terms in the Fibonacci sequence which do not exceed four million.*
+
+lazy val fs: Stream[Int] = 0 #:: fs.scanLeft(1)(_ + _) val r = fs.view.takeWhile(_ <= 4000000).filter(_ % 2 == 0).sum assert(r == 4613732) // 1 ms
+
+Problem 3
+
+Find the largest prime factor of a composite number.*
+
+def factors(n: Long): List[Long] = (2 to math.sqrt(n).toInt) .find(n % _ == 0).fold(List(n))(i => i.toLong :: factors(n / i)) val r = factors(600851475143L).last assert(r == 6857) // 1 ms
+
+Problem 4
+
+Find the largest palindrome made from the product of two 3-digit numbers.*
+
+val r = (100 to 999).view .flatMap(i => (i to 999).map(_ * i)) .filter(n => n.toString == n.toString.reverse) .max assert(r == 906609) // 102 ms
+
+Problem 5
+
+What is the smallest number divisible by each of the numbers 1 to 20?*
+
+val r = Range(20, Int.MaxValue) .find(n => Range(2, 21).forall(n % _ == 0)).get assert(r == 232792560) // 23 s
+
+Problem 6
+
+What is the difference between the sum of the squares and the square of the sums?*
+
+val numbers = 1 to 100 def square(n: Int) = n * n val r = square(numbers.sum) - numbers.map(square).sum assert(r == 25164150) // 1 ms
+
+Problem 7
+
+Find the 10001st prime.*
+
+lazy val ps: Stream[Int] = 2 #:: Stream.from(3).filter(i => ps.takeWhile(j => j * j <= i).forall(i % _ > 0)) val r = ps(10000) assert(r == 104743) // 24 ms
+
+Problem 8
+
+Discover the largest product of five consecutive digits in the 1000-digit number.*
+
+val s = """<raw input data>""" val r = s.filter(_.isDigit).map(_.asDigit) .sliding(5).map(_.product).max assert(r == 40824) // 33 ms
+
+Problem 9
+
+Find the only Pythagorean triplet, { a , b , c }, for which a + b + c = 1000.*
+
+val limit = (1 to 1000).find(n => n + math.sqrt(n) >= 1000).get val rs = for (b <- 2 until limit; a <- 1 until b; c = 1000 - a - b if a * a + b * b == c * c) yield a * b * c val r = rs.head assert(r == 31875000) // 32 ms
+
+Problem 10
+
+Calculate the sum of all the primes below two million.*
+
+lazy val ps: Stream[Int] = 2 #:: Stream.from(3).filter(i => ps.takeWhile(j => j * j <= i).forall(i % _ > 0)) val r = ps.view.takeWhile(_ < 2000000).foldLeft(0L)(_ + _) assert(r == 142913828922L) // 1 s
+
+Problem 11
+
+What is the greatest product of four numbers on the same straight line in the 20 by 20 grid?*
+
+val s = """<raw input data>""" val ns = s.split("\\s+").map(_.toInt) def m(i: Int, p: Int, c: Int): Int = if (c > 0) ns(i) * m(i + p, p, c - 1) else 1 def ms(xs: Seq[Int], ys: Seq[Int], p: Int) = ys.flatMap(y => xs.map(x => m(20 * y + x, p, 4))) val ps = ms(0 to 19, 0 to 15, 20) ++ ms(0 to 15, 0 to 19, 1) ++ ms(0 to 15, 0 to 15, 21) ++ ms(3 to 19, 0 to 15, 19) val r = ps.max assert(r == 70600674) // 4 ms
+
+Problem 12
+
+What is the value of the first triangle number to have over five hundred divisors?*
+
+lazy val ts: Stream[Int] = 0 #:: ts.zipWithIndex.map(p => p._1 + p._2 + 1) def p(t: Int) = Range(1, Int.MaxValue) .takeWhile(n => n * n <= t) .foldLeft(0)((s, n) => if (t % n == 0) s + 2 else s) val r = ts.find(p(_) > 500).get assert(r == 76576500) // 1 s
+
+Problem 13
+
+Find the first ten digits of the sum of one-hundred 50-digit numbers.*
+
+val s = """<raw input data>""" val r = s.split("\\s+").map(_.take(11).toLong).sum .toString.take(10).toLong assert(r == 5537376230L) // 2 ms
+
+Problem 14
+
+Find the longest sequence using a starting number under one million.*
+
+def from(n: Long, c: Int = 0): Int = if (n == 1) c + 1 else from(if (n % 2 == 0) n / 2 else 3 * n + 1, c + 1) val r = (1 until 1000000).view.map(n => (n, from(n))) .reduceLeft((a, b) => if (a._2 > b._2) a else b)._1 assert(r == 837799) // 1 s
+
+Problem 15
+
+Starting in the top left corner in a 20 by 20 grid, how many routes are there to the bottom right corner?*
+
+def f(row: Seq[Long], c: Int): Long = if (c == 0) row.last else f(row.scan(0L)(_ + _), c - 1) def r(n: Int) = f(Seq.fill(n + 1)(1L), n) assert(r(20) == 137846528820L) // 1 ms
+
+Problem 16
+
+What is the sum of the digits of the number 21000?*
+
+val r = BigInt(2).pow(1000).toString.view.map(_.asDigit).sum assert(r == 1366) // 1 ms
+
+Problem 17
+
+How many letters would be needed to write all the numbers in words from 1 to 1000?*
+
+val units = Array(0, 3, 3, 5, 4, 4, 3, 5, 5, 4, 3, 6, 6, 8, 8, 7, 7, 9, 8, 8) val tens = Array(0, 0, 6, 6, 5, 5, 5, 7, 6, 6) lazy val name: Int => Int = { case n if n < 20 => units(n) case n if n < 100 => tens(n / 10) + (if (n % 10 > 0) units(n % 10) else 0) case n if n < 1000 => name(n / 100) + 7 + (if (n % 100 > 0) 3 + name(n % 100) else 0) case 1000 => 11 } val r = (1 to 1000).map(name).sum assert(r == 21124) // 1 ms
+
+Problem 18
+
+Find the maximum sum traveling from the top of the triangle to the base.*
+
+val s = """<raw input data>""" val grid = s.trim.split("
+
+").map(_.split("\\s+").map(_.toInt)) def f(rows: Array[Array[Int]], bottom: Seq[Int]): Int = { val ms = bottom.zip(bottom.tail).map(p => p._1 max p._2) val ss = rows.last.zip(ms).map(p => p._1 + p._2) if (ss.length == 1) ss.head else f(rows.init, ss) } val r = f(grid.init, grid.last) assert(r == 1074) // 2 ms
+
+Problem 19
+
+How many Sundays fell on the first of the month during the twentieth century?*
+
+val lengths = Array(31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31) val ls = for (y <- 1900 to 2000; m <- 1 to 12) yield if (m == 2) if (y % 4 == 0 && (y % 100 != 0 || y % 400 == 0)) 29 else 28 else lengths(m - 1) val fs = ls.scanLeft(1)((ws, l) => (ws + l) % 7) val r = fs.slice(12, 1212).count(_ == 0) assert(r == 171) // 2 ms
+
+Problem 20
+
+Find the sum of digits in 100!*
+
+def f(n: BigInt): BigInt = if (n < 2) 1 else n * f(n - 1) val r = f(100).toString.view.map(_.asDigit).sum assert(r == 648) // 1 ms
+
+Problem 21
+
+Evaluate the sum of all amicable pairs under 10000.*
+
+val ds = (0 until 10000).view .map(n => (1 to (n / 2)).filter(n % _ == 0).sum) val as = ds.zipWithIndex.collect { case (n, i) if n < 10000 && ds(n) != n && ds(n) == i => i } val r = as.sum assert(r == 31626) // 658 ms
+
+Problem 22
+
+What is the total of all the name scores in the file of first names?*
+
+val r = io.Source.fromFile("names.txt").mkString.split(",") .map(_.init.tail).sorted.map(_.map(_ - 64).sum) .zipWithIndex.map(p => p._1 * (p._2 + 1)).sum assert(r == 871198282) // 38 ms
+
+Problem 23
+
+Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.*
+
+val as = (0 to 28123).map(n => (1 to (n / 2)).filter(n % _ == 0).sum) .zipWithIndex.filter(p => p._1 > p._2).map(_._2) val exc = as.view.flatMap { a => as.takeWhile(_ <= (28123 - a)).map(_ + a) } val r = (1 to 28123 diff exc).sum assert(r == 4179871) // 5 s
+
+Problem 24
+
+What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?*
+
+def ps(s: String): Iterator[String] = if (s.length == 1) Iterator(s) else s.toIterator.flatMap(c => ps(s.filterNot(_ == c)).map(_ + c)) val r = ps("0123456789").drop(999999).next().toLong assert(r == 2783915460L) // 712 ms
+
+Problem 25
+
+What is the first term in the Fibonacci sequence to contain 1000 digits?*
+
+lazy val fs: Stream[BigInt] = 0 #:: fs.scanLeft(BigInt(1))(_ + _) val r = fs.view.takeWhile(_.toString.length < 1000).length assert(r == 4782) // 468 ms
+
+Problem 26
+
+Find the value of d < 1000 for which 1/ d contains the longest recurring cycle.*
+
+val ps = (2 until 1000).map(i => (1 to 2000) .find(BigInt(10).modPow(_, i) == 1)) val r = 2 + ps.indexOf(Some(ps.flatten.max)) assert(r == 983) // 2 s
+
+Problem 27
+
+Find a quadratic formula that produces the maximum number of primes for consecutive values of n .*
+
+lazy val ps: Stream[Int] = 2 #:: Stream.from(3).filter(i => ps.takeWhile(j => j * j <= i).forall(i % _ > 0)) def isPrime(n: Int) = ps.view.takeWhile(_ <= n).contains(n) val ns = (-999 until 1000).flatMap { a => (-999 until 1000).map(b => (a, b, (0 to 1000).view .takeWhile(n => isPrime(n * n + a * n + b)).length)) } val t = ns.reduceLeft((a, b) => if (a._3 > b._3) a else b) val r = t._1 * t._2 assert(r == -59231) // 6 s
+
+Problem 28
+
+What is the sum of both diagonals in a 1001 by 1001 spiral?*
+
+def cs(n: Int, p: Int): Stream[Int] = (n * 4 + p * 10) #:: cs(n + p * 4, p + 2) val r = 1 + cs(1, 2).take(500).sum assert(r == 669171001) // 1 ms
+
+Problem 29
+
+How many distinct terms are in the sequence generated by a b for 2 ≤ a ≤ 100 and
+
+2 ≤ b ≤ 100?*
+
+val r = (2 to 100).flatMap(a => (2 to 100) .map(b => BigInt(a).pow(b))).distinct.length assert(r == 9183) // 17 ms
+
+Problem 30
+
+Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.*
+
+def max(d: Int) = math.pow(10, d).toInt - 1 def sum(n: Int) = n.toString.map(_.asDigit) .map(math.pow(_, 5).toInt).sum val limit = Stream.from(1).find(d => max(d) > sum(max(d))).get val r = (2 to max(limit)).view.filter(n => n == sum(n)).sum assert(r == 443839) // 2 s
+
+Problem 31
+
+Investigating combinations of English currency denominations.*
+
+def f(ms: List[Int], n: Int): Int = ms match { case h :: t => if (h > n) 0 else if (n == h) 1 else f(ms, n - h) + f(t, n) case _ => 0 } val r = f(List(1, 2, 5, 10, 20, 50, 100, 200), 200) assert(r == 73682) // 15 ms
+
+Problem 32
+
+Find the sum of all numbers that can be written as pandigital products.*
+
+val ms = for { a <- 2 to 10000; b <- 2 to 10000 / a m = a * b; s = a.toString + b + m if s.length == 9 && (1 to 9).mkString.forall(s.contains(_)) } yield m val r = ms.distinct.sum assert(r == 45228) // 73 ms
+
+Problem 33
+
+Discover all the fractions with an unorthodox cancelling method.*
+
+val rs = for (i <- 1 to 9; j <- (i + 1) to 9; k <- 1 to 9 if k * (9 * i + j) == 10 * i * j) yield (10 * i + j, 10 * j + k) val p = rs.reduceLeft((n, d) => (n._1 * d._1, n._2 * d._2)) def gcd(n: Int, d: Int): Int = if (d == 0) n else gcd(d, n % d) val r = p._2 / gcd(p._1, p._2) assert(r == 100) // 5 ms
+
+Tags: problem, Programming, project euler, puzzle, scala, solution

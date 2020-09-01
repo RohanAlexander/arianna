@@ -1,0 +1,35 @@
+A discussion on combining CDDL and GPL code
+
+Benefits for LWN subscribers The primary benefit from subscribing to LWN is helping to keep us publishing, but, beyond that, subscribers get immediate access to all site content and access to a number of extra site features. Please sign up today!
+
+Within the context of an event dedicated to discussing free and open-source software (FOSS) legalities, such as the Free Software Legal & Licensing Workshop (LLW), the topic of conflicting licenses was bound to come up. The decision by Canonical to start shipping the ZFS filesystem with its Ubuntu server distribution back in February led to a discussion at LLW about distributing the kernel combined with ZFS. Discussions at LLW are held under the Chatham House Rule, which means that names and affiliations of participants are only available for those who have agreed to be identified. This year's LLW was held in Barcelona, April 13-15.
+
+Both the CDDL, which is the license under which ZFS is distributed, and the GPLv2, the license used for the kernel, are considered open-source licenses, but they are, to some extent, incompatible with each other. Executable code that is licensed under the CDDL can be re-licensed, as described in section 3.5 of its text. The source code, however, must be distributed under the CDDL (section 3.1).
+
+This conflicts with GPL section 2(b) that states: "You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License." This means that both the executable and the source code, and any modifications made to either, must be distributed under the GPL. Although it is true that Canonical also distributes ZFS as a Filesystem in Userspace (FUSE) module, in which case the kernel and the module are considered separate entities and no license conflict exists, Canonical also distributes ZFS as a native kernel module, which gives rise to a clash of licenses with regard to the source code.
+
+The spirit of the licenses
+
+Mishi Choudhary, from the Software Freedom Law Center, explained as much in her talk "ZFS Licensing". She noted that Linus Torvalds himself had been asked way back in 2003 whether the kernel developers considered a module to be a separate entity and, therefore, not subject to the GPL's copyleft clause that governed the rest of the kernel. Torvalds's answer was a resounding "no".
+
+However, Choudhary considers the conflict between the two licenses to be resolvable and, along with her colleague, Eben Moglen, has published a paper explaining why. In her talk she explained that, even though a conflict existed, none of the parties, or even any third party, was being damaged if one or the other license was being infringed upon. The source code was still being freely distributed, regardless of whether it was being done under one license or the other. Therefore, even if the letter of one of the licenses was not being respected, at least "its spirit" was.
+
+Choudhary and Moglen argued that enforcing a strict interpretation of the letter of both licenses would have, in this case, more negative consequences than positive. There are precedents in Western law for interpreting a contract or license in its spirit, rather than literally. In the case of the GPL, the spirit of section 2(b) is that the source code must be distributed under a copyleft license. As that is what happens under the CDDL, the spirit of the GPL's clause is respected.
+
+This led to a rather heated Q&A session, with Moglen himself flying in from New York specifically to field questions on the matter. Before Choudhary's presentation, the attendees had listened to two talks that advocated taking a hard stance against all infringements and how taking infringers to court had served to establish the GPL and related licenses as valid legal documents (see last week's article on enforcement and compliance of FOSS licenses).
+
+At this point, the Q&A had moved on to a fishbowl format, in which attendees could come up and sit on stage to share their thoughts. Many did.
+
+Multiple attendees felt that interpreting clauses in the GPL "in their spirit" would undo the enforcement work and weaken the license's legal standing, leading to a slippery slope that infringers could take advantage of. "Why," an infringer could argue, "is clause 2(b) not taken literally in the Canonical case, but it is for me?" Attendees also felt that, by not applying licenses literally, developers that had already licensed their work under the likes of the GPLv2 would wonder why they bothered; and those that were considering using the license would now be reluctant, because the move to interpreting the license in its spirit would make it seem vague and ambiguous.
+
+Moglen stated that this was already happening, but for a different reason: companies he worked with were "fleeing the GPL" because of its inflexibility. He argued that this case was an example of how applying a literal interpretation of the clause would cause more damage than good to the collaborative model of development, which is the cornerstone of the free-software movement.
+
+Many attendees saw the argument as a way to appease a prominent player that had violated a license, and opened a door to a slew of "convenience" violations that would weaken strict licenses further. Moglen countered that he could imagine a scenario in which two FOSS-defending organizations entered in a dispute with each other over conflicting FOSS licenses and, if that happened, the legal war would tear the community apart.
+
+That characterization may have been a mistake. Attendees took offense at the notion that, by defending the literal validity of the GPLv2, a license Moglen himself had been instrumental in creating, they would somehow be made responsible for a hypothetical demise of the free-software movement. As the morning sessions drew to a close, there was the prevalent feeling that the CDDL-GPL issue had opened a rift in the FOSS legal community.
+
+Conclusion
+
+The proliferation and complexity of FOSS licenses were bound to lead to a conflict sooner or later. As Choudhary and Moglen's talk and Q&A session showed, the question of whether it is better for the free-software community to always apply a strict interpretation of a license, or take a more lenient approach when it conflicts with a another FOSS license, remains unanswered. We will hopefully learn more as the conflict between ZFS and the kernel plays out.
+
+[ The author would like to thank Red Hat and Intel for assisting with his travel expenses and the Free Software Foundation Europe (FSFE) for help during the event. ]

@@ -1,0 +1,73 @@
+15 January 2017
+
+Docker for Automating Honeypots or Malware Sandboxes
+
+Docker became very popular in the last few years for being such a flexible tool to isolate processes in so called containers. If you haven't played with it yet, I highly recommend you to watch my free course on Docker Security. But if you have, I'd like to give you a insight that provide significant value for automating honeypots or malware sandboxes. I'm talking about 'docker diff' and how to dynamically spot changes on it.
+
+$ docker diff
+
+It's possible to keep track of every file changed in a container since its creation from an image, thus it's possible to know what files the attacker/malware have created, modified or deleted. Here's an example: let's create a container from an Ubuntu image and leave it running using sleep
+
+$ docker run --name my_sandbox --detach ubuntu sleep 2000 fc04fa5bf6a4f16f3fa3f8379bd1935c66cde00c8b16330e0a5683517f24ad48
+
+Let's check if it's running:
+
+$ docker ps CONTAINER ID IMAGE COMMAND NAMES fc04fa5bf6a4 ubuntu "sleep 2000" my_sandbox
+
+Ok, it's running. Let's try docker diff to see if any files were changed after we used the 'sleep' command.
+
+$ docker diff my_sandbox # No output
+
+It turns out that 'sleep' doesn't create/modify/delete any file. Let's create one file in this container then:
+
+$ docker exec my_sandbox touch /tmp/test # No output
+
+Ok, file created. Let's see if docker diff shows something now:
+
+$ docker diff my_sandbox C /tmp A /tmp/test
+
+Here it is, a new directory (/tmp) and a new file (/tmp/test). It's empty, but let's copy it anyways to our host machine using docker cp
+
+$ docker cp my_sandbox:tmp/test ./test # No output
+
+File copied!
+
+But the problem is, in case we want to automate this process to, for example, send every new file to VirusTotal, how could we get notified when a file is created? We have a few options:
+
+Perform a pooling in docker diff <container_name>
+
+Share a volume between docker host and container and use tools like inotify-tools or pyinotify.
+
+Using pyinotify
+
+Let's use pyinotify to see an example. After installing it, open 2 tabs in your terminal. In the first, start the container and in the second start pyinotify script to monitor the files located in the shared volume.
+
+$ # First Tab $ docker run --name my_sandbox --detach -v " $( pwd ) /deleteme:/app" ubuntu sleep 2000 e4e92df3d3198b3747ee48becac2742f4666a61706f0b50a3c97d344b2a64b22
+
+Container started sharing the volume deleteme relative to the current directory $(pwd)
+
+$ # Second Tab $ vim monitor.py
+
+Time to add the content of our monitor.py file
+
+#!/usr/bin/python import pyinotify , subprocess # Directory to watch # We'll use the shared volume with docker container directory_to_watch = '/home/anderson/deleteme/' def onChange ( ev ): # Print changed file on the screen # But could be your code to upload the file to VirusTotal # Or anything you want cmd = [ '/bin/echo' , 'File' , ev . pathname , 'changed' ] subprocess . Popen ( cmd ) . communicate () wm = pyinotify . WatchManager () wm . add_watch ( directory_to_watch , pyinotify . IN_CLOSE_WRITE , onChange ) notifier = pyinotify . Notifier ( wm ) notifier . loop ()
+
+Then we run it to monitor our files:
+
+$ # Second Tab $ python monitor.py
+
+Ok, time to back to Tab #1 and create some files from within the container:
+
+$ # First Tab $ docker exec -it my_sandbox touch /app/oi
+
+Great, file created. Let's check the output of our python script:
+
+$ # Second Tab $ python monitor.py File /home/anderson/deleteme/oi changed
+
+As you can see, the file creation was detected. It also works with modifications for existing files.
+
+This is just the beginning of course. We'd need to intercept network requests configuring a proxy in Docker settings, get the logs from the container and perform some analysis on it and any more ideas to analyze container activity without placing agents or anything inside of it. This way the difference between a non-honeypot and a honeypot/malware sandbox will become less and less apparent.
+
+Edit: you may want to read the next post: Preventing Docker Escaping Attacks
+
+That's all for today. Thank you!

@@ -1,0 +1,9 @@
+
+
+The sounds a modern car makes are deliberate, designed, and a deception: the clicking of the turn signal isn't a mechanical tick-tock; it's an MP3 of a mechanical tick-tock, played back through hidden speakers. The engine's rumble is tuned with active noise-cancelling that mutes the tones that jangle the ears.
+
+But as you reduce the speed that the drive shaft is rotating, you lower the frequency of the sound it’s making. There comes a lower limit where the engine is making what Gordon calls “groan-y and moan-y” noises which people find unpleasant. The car sounds broken. So cars had to keep the engine’s RPM above a certain level, hurting their fuel efficiency, or risk alienating customers.
+
+GM’s solution was to implement active noise cancellation, the same technique used in some headphones to quiet ambient noise. Microphones in the body listen to the ambient sounds the car and engine are making, and the car plays the opposite of that over the vehicle’s speakers. The sound waves from the engine are cancelled out by the sound from the entertainment system, netting a quieter ride that can be more fuel efficient without being so bothersome.
+
+Some sounds in the car are completely artificial. The telltale clicking of a turn signal was once an artifact of the mechanical process that turned the light on and off. But that mechanism has long since been replaced by an electronic circuit that operates silently. Still, audible feedback is valuable so the car plays an MP3 file of a turn signal over the speakers.

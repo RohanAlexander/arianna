@@ -1,0 +1,15 @@
+But a month before the news conference, court documents show, Mr. Levison had already received a subpoena for Mr. Snowden’s encrypted e-mail account. The government was particularly interested in his e-mail metadata — with whom Mr. Snowden was communicating, when and from where. The order, from the Federal District Court in Alexandria, Va., required Mr. Levison to log Mr. Snowden’s account information and provide the F.B.I. with “technical assistance,” which agents told him meant handing over the private encryption keys, technically called SSL certificates, that unlock communications for all users, he said.
+
+“It was the equivalent of asking Coca-Cola to hand over its secret formula,” Mr. Levison said.
+
+By July, he said, he had 410,000 registered users. Similar services like Hushmail, a Canadian encrypted e-mail service, had lost users in 2007 after court documents revealed that the company had handed 12 CDs’ worth of decoded e-mails from three Hushmail accounts to American law enforcement officials through a mutual assistance treaty.
+
+“The whole concept of the Internet was built on the idea that companies can keep their own keys,” Mr. Levison said. He told the agents that he would need their request for his encryption keys in writing.
+
+A redacted version of that request, which was among the 23 documents that were unsealed, shows that the court issued an order July 16 for Lavabit’s encryption keys. Prosecutors said they had no intention of collecting any information on Lavabit’s 400,000 other customers. “There’s no agents looking through the 400,000 other bits of information, customers, whatever,” Jim Trump, one of the prosecutors, said at a closed Aug. 1 hearing.
+
+But Mr. Levison said he spent much of the following day thinking of a compromise. He would log the target’s communications, unscramble them with the encryption keys and upload them to a government server once a day. The F.B.I. told him that was not enough. It needed his target’s communications “in real time,” he said.
+
+“How as a small business do you hire the lawyers to appeal this and change public opinion to get the laws changed when Congress doesn’t even know what is going on?” Mr. Levison said.
+
+When it was clear Mr. Levison had no choice but to comply, he devised a way to obey the order but make the government’s intrusion more arduous. On Aug 2, he infuriated agents by printing the encryption keys — long strings of seemingly random numbers — on paper in a font he believed would be hard to scan and turn into a usable digital format. Indeed, prosecutors described the file as “largely illegible.”

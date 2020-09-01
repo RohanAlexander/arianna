@@ -1,0 +1,11 @@
+Nearly a fifth of the people on the planet live without access to electricity, and while generators can be used to provide power to these areas, most are too expensive or not portable enough to offer a real alternative. That’s where students at ETH Zurich stepped in. As part of their masters thesis project, the team created a low-cost portable hybrid generator that can provide enough power to supply over 20 homes with electricity – and it produces clean water as well.
+
+Students John Oldridge and Till Richter from the Laboratory of Energy Conversion at ETH Zurich wanted to create a system that was both portable and affordable that could easily be launched in areas that lack energy resources. After six months of research, they revealed a prototype compact enough to fit on a trailer, with a diesel generator – assisted by solar cells producing 10% of the power – that can produce power for 100 people in twenty households every day.
+
+In addition to producing power, the generator can also provide clean water. Using waste heat, the generator can heat water above the temperature where pathogens can survive, providing over 260 gallons of clean water a day. A central computer monitors resources to prevent overloading and allows for preloaded cards to be used by patrons to track individual billing.
+
+Dubbed SMiG, the project is currently looking for funding, after which it will be tested in developing countries in Asia and Africa.
+
++ ETH Zurich
+
+Via Phys.Org

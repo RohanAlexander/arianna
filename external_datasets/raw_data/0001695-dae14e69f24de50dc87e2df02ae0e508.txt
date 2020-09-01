@@ -1,0 +1,31 @@
+Sans crazy arcade installation
+
+It's been a real joy re-experiencing classic titles from Sega's past. With the recent releases of Outrun and Fantasy Zone II bringing back some serious nostalgia trips, the folks at Sega have still got plenty of 3D remasters in store. Though the spring phase of Sega's 3D Classics series is drawing to a close, there's still one more title in the wings, and that's the return of the underrated and super enjoyable Thunder Blade.
+
+Much like Outrun, the 3D release of Thunder Blade has seen some time on the market overseas, but the Western crowd is now finally going to get a taste of the action on May 14. Just before its debut, I got to experience a special hands-on look with the title, along with a quick chat with producer Yosuke Okunari. And we got to learn what was like porting this unique arcade shooter to the handheld.
+
+
+
+Originally released in 1987, Thunder Blade brings players to the helm of a heavily armed attack helicopter as they battle waves of foes in tanks, jets, and battleships across a variety of locations. Much like the other Sega offerings of its time, the story is kept light in favor of offering accessible and fast arcade-style gameplay. You're the good guy, everyone else is bad -- shoot them. Though unlike most other shoot-'em-up titles, Thunder Blade features a unique take on perspective, as the action will transition from an overhead angle to the over-the-shoulder look similar to Space Harrier during key sections of the stage. This dynamic switch of perspective made it a welcome fit for the 3D remaster.
+
+"We felt that this point of view was extremely well suited for a stereoscopic 3D conversion," said producer Yosuke Okunari. "When we went to actually build the game out in 3D, we found that it gained a very unique sense of actually being suspended in their air, and was even more impactful than the original game. This same thing happened with 3D Galaxy Force II, where by implementing stereoscopic 3D, the game's visual view point style transcended in to its final form, you could say."
+
+Thunder Blade has made the transition quite well, and the new hardware has done wonders for the gameplay. The frame rate is rock solid, and the controls for the 3DS are super sharp and make controlling the attack chopper feel very accurate. The left stick controls movement and altitude, while both shoulder buttons control speed (increase and decrease). Though the 3DS is a far cry from the control scheme found on the original arcade release -- which featured a flight stick and a special chair that sought to emulate the cockpit of a helicopter -- I can safely say that 3D Thunder Blade is a fine port, and the action still kept me on my toes during the hectic battles.
+
+Much like the other 3D Classic titles, Thunder Blade makes exquisite use out of the new 3D visuals and hardware. One of the most striking elements is its depth of view during altering perspectives, and the new 3D visuals do well to enhance the view and sense of movement during the action. Though the draw distances unfortunately haven't been improved, I was still quite impressed with how the visuals sharpened up. Interestingly enough, the transition to 3D meant having to design the new visuals around the new perspectives independently, and layering them on top of one another.
+
+"For this version, we had to implement 3D separately for each of these three types of scenes," said the producer. "The boss stages were particularly difficult. The original game actually had preset depths. Even more so than some of the Genesis games, there were a number of situations where we wouldn't really have to worry about if we left them in 2D, suddenly [having] paradoxical situations when we put them into 3D."
+
+"Thunder Blade has three types of gameplay for every stage. The first are scenes that are from the top-down, which allow you to fully appreciate and enjoy changing your helicopter’s altitude. The second are scenes that are 'over the shoulder,' which are reminiscent of After Burner II. The last are the boss battles, where you are not able to change your altitude but you are placed into a forced-scroll situation where you can control your speed and progression. There are no other games that allow you to experience these three types of gameplay all in a single game."
+
+Though they were keen on keeping the 3D remaster as it was with the original title, they did implement some new features -- both out of necessity and the desire to include new content with the original game. As some areas didn't take to the new 3D visuals too well, such as shadows glitching out and boss battles resulting in odd bugs, they had to be cut in order to preserve the experience. But in order to make up for this, they implemented a stage that's brand new to the original Thunder Blade. Okunari stated that the new level will be consistent with the rest of the game and really offer an exciting finish.
+
+"The new stage feels natural and uses the graphical style of the era, all while taking advantage of the stereoscopic 3D to deliver a scene where you flying into the center of a base, reminiscent of the final Death Star scene in Return of the Jedi. The boss has a really awesome background to it as well, so I encourage everyone to check it out."
+
+Not only that, there's the new Arrange mode which is unlocked after completing the arcade mode. In Arrange Mode, players will control an alternate helicopter with different weapons and tackle stages that have some additions to them. While the the original arcade mode is exciting, the extra content goes above and beyond what I expected.
+
+I was pretty damn pleased with how 3D Thunder Blade turned out. It helped to scratch that shooter itch I had after playing Space Harrier and After Burner, and Thunder Blade definitely holds its own. While the style and approach is a bit different, I still found it to be a welcome addition to the Classics series. And it's a fine 3D remaster, too. This title is a good one to close out the spring phase of the Classics series, and it'll definitely hold you over till the summer titles come a knocking.
+
+You are logged out. Login | Sign up
+
+Click to open photo gallery:

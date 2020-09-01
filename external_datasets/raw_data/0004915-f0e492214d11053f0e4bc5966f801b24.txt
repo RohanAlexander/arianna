@@ -1,0 +1,59 @@
+Code Golf is the amusement of writing as short as possible a program to perform a given task. So for example, if the task is to compute the average of a list of numbers (which could be changed at any moment), you might do this:
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9] sum = 0 for num in numbers: sum = sum + num avg = sum / len(numbers) print("The average is", avg)
+
+140 characters (just by coincidence!), or this:
+
+n=[1,2,3,4,5,6,7,8,9] print(sum(n)/len(n))
+
+42 characters. In doing this you sacrifice readability, e.g. removing redundant spaces, and shortening variable and function names to 1 character. It’s just one step away from obfuscated programming, where the goal is to conceal what the program does! And PEP8 goes out the window… Obviously (I hope) the point of the exercise is simply for the intellectual challenge; and if you’re competitive, there are websites where you can compete against other programmers.
+
+Besides the intellectual challenge, you may also find it improves your coding skills and language knowledge. Of course, you won’t want to take the obfuscating code-shortening techniques back into your professional environment, but other aspects of golf coding concern the use of appropriate algorithms, and knowledge of the available features of your programming language. You’ll find code golfing to be good programming exercise!
+
+Another restriction, for your delectation and delight, is to restrict the programs to be no longer than 140 characters, so that they may be tweeted. Here are some examples. I’ll add more as I tweet them. Please follow me @Tuxar_uk and so long as it’s clear to me that you tweet relevant stuff, I’ll follow you back. We could exchange code tweets – preferably in Python, but other mainstream languages (such as you might find on a standard Linux installation, e.g. C, Perl) would be acceptable too.
+
+This is an adaptation of the introductory program at the Python Turtle page. The changes are:
+
+Remove syntactically redundant spaces (e.g. between ‘import’ and ‘*’)
+
+Replace ‘True’ with ‘1’
+
+In the loop, put statements on same line whenever possible (to avoid indentation space)
+
+Make the picture bigger (no golf effect but nicer picture!)
+
+Remove ‘done()’
+
+from turtle import* color('red','blue') begin_fill() while 1: fd(600);lt(170); if abs(pos())<1:break end_fill()
+
+119 characters. Unfortunately we needed several to be able to append the image link.
+
+116 characters. This is adapted from Rosetta Code (‘Other version’). The most evil thing here was to use 1.4 as the square root of 2, so as to get both the code and the picture into the tweet. In future I’ll tweet the program and picture separately.
+
+Dragon Curve @ Wikipedia.
+
+137 characters. Ignore the warnings!
+
+from pylab import* from numpy import* i=99 X,Y=mgrid[-2:2:999j,-2:2:999j] C=Z=X*1j+Y while i:X[(abs(Z)>2)]=i;Z=Z*Z+C;i-=1 show(imshow(X))
+
+Mandelbrot Set @ Wikipedia.
+
+139 characters
+
+Harmonograph @ Wikipedia.
+
+129 characters.
+
+Fractal @ Wikipedia.
+
+112 characters, smallest of all! I started with this code (190 characters, even if it says 90) and found a symmetry I could exploit. L() & R() are essentially the same, with sign changes. Also the function defs for l() & r() aren’t needed.
+
+Try replacing S(7,1) with S(8,1). It will take longer but draw a bigger picture.
+
+Sierpiński arrowhead curve @ Wikipedia. It’s a fractal curve similar in appearance and identical in limit to the Sierpiński triangle.
+
+Koch Snow Flake
+
+Further Information
+
+[welcomewikilite wikiurl=”https://en.wikipedia.org/wiki/Code_golf” sections=”Short description” settings=””]

@@ -1,0 +1,27 @@
+rbutr Puts Climate Information In Front of Those Who Need It Most
+
+Posted on 6 May 2012 by Shane Greenup
+
+Guest post by Shane Greenup.
+
+It is an unfortunate fact that most people will tend to only see information which confirms their current beliefs. Thanks to choosing friends with similar beliefs, choosing news programs which report things in a way which we find agreeable, and now thanks to the filter bubble concept, even Google and Facebook are selectively giving us more of what we have previously indicated we liked and clicked on.
+
+This is a real problem for those of us who are interested in genuinely finding the truth in this sea of opinions. How do we inform ourselves completely when everywhere we look (whether by design or by accident) we only see more self-confirming bias? Perhaps more importantly, how do we reach everyone else who is trapped in their own bubble of self-confirmation, and don’t even realise it?
+
+In an attempt to help with this problem we have recently launched an application which provides a surprisingly simple way out of this self-confirmation bubble for anyone who cares to look. It is called rbutr, and it simply allows people to connect one webpage which makes a claim, to another webpage which rebuts that claim. In doing so, any future visitors to the original claim webpage are then able to see that that page has been rebutted, and can easily click through to read the rebuttal.
+
+Take for example a recent Op-Ed in the Wall Street Journal: No Need to Panic About Global Warming. Within our system we already have 8 rebuttals listed for this page. Following one of them to Phil Plait’s Bad Astronomy blog we get a thorough debunking of the op ed, including use of Skeptical Science’s Escalator animation. Interestingly, there is also a rebuttal posted to Phil Plait’s rebuttal, taking you to an article which argues against the escalator graphic. Looking at that article though, you are then able to click through to another rebuttal on SkS itself, defending the graphic, which has also provided links to a few other articles which argue against W.M.Briggs’ article criticising the escalator. Using rbutr you are able to immediately step outside the single perspective presented on any one of these websites, and see the greater internet-wide discussion which is taking place.
+
+One point which is particularly worth noting about rbutr, which separates it from other apps designed to inform people about particular subjects, is that rbutr is neither subject specific, nor agenda driven. This is important, because the way that people are trapped within their own confirmation-bubble means that the people who most need to install an application like Skeptical Science’s climate change myth debunking tool, won’t even know it exists! However, if the tool is genuinely neutral and the subject matter presented by the tool is entirely up to the contributors, then hopefully it is just as likely to be used by creationists as it is to be used by evolutionists, by anti-vaccinationists as by vaccine supporters, and of course, by all people on all perspectives of the climate change debate. Because really, preaching to the converted is not much help to anyone…
+
+What Do We Hope To Achieve?
+
+We do hope to have a significant impact on the way information is accessed online. Since launching our beta just over a month ago, rbutr has had press coverage in The Australian, a great review by Tim Farley of SkepTools, and made it in to the final 52 of the 1078 applications for the Knight Media News Challenge - we're waiting to see if we've made it in to the top 15, and then one of the winners who will receive a large grant to fund ongoing development costs of our application.
+
+Our current goal is to build a large, vibrant and active community who are all interested in improving the quality of online discourse and information in general. Providing a way for people to readily inform themselves with quality information.
+
+We are also looking at ways rbutr can be used to provide a platform on which an online crowdsourced debates can be conducted - allowing opposing sides to present their arguments and counter arguments to the best of their ability (as a global community), rather than relying on fallible individuals, or moderators to control the exchanges. The exact details are still being sorted out, but if you register with rbutr we will be sure to keep you informed, and if you are interested in participating or helping out, please feel free to contact us.
+
+In the end, we just hope that for every new article which pops up repeating an already debunked myth, it will be fast and simple to add a rbutr link to an already existing rebuttal, immediately quashing any new-resurgence of the old myth for all rbutr users, who will then hopefully spread that rebuttal to other non-rbutr users, helping to keep the mole-whackers one step ahead of the nonsense-spreaders...
+
+Head over to http://rbutr.com, register, install the plugin (chrome only at the moment – we are still in beta testing), and let us know what you think! We’re eager for as much feedback and thoughts as we can get during these early stages.

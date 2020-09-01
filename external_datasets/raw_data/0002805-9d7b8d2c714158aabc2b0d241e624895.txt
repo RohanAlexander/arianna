@@ -1,0 +1,101 @@
+NV Energy fights to keep rooftop solar from cutting into its profit
+
+The future of solar energy in Nevada is at stake in a furious battle that likely won’t be resolved as the 2015 state legislative session nears an end next month.
+
+Solar advocates, Nevada businesses and solar industry reps are pushing for more rooftop solar, saying it’s unfair to force consumers to remain chained to the grid and warning that the state could lose thousands of jobs if it doesn’t adapt. State utility NV Energy claims more household solar means increased prices for traditional customers who can’t or won’t install solar panels on their houses or businesses.
+
+It comes down to money for both sides It’s all about dollars for both the solar industry and NV Energy. The utility says ratepayers will be charged an additional $8 million for every percentage point the net metering cap increases. Rooftop solar customers receive a credit worth about 7 cents per kilowatt-hour for powering their homes and the grid with solar electricity. That credit is an incentive to go solar, but it’s also a means for consuming less power from NV Energy, biting into the company’s profit. The solar industry says a tariff and locked-in cap rate will kill the majority of the 6,000 jobs the industry brought to Nevada over the past five years and will limit consumer choice. Early in the legislative session, NV Energy unloaded a team of lobbyists to squelch any attempt to raise the cap. Solar followed with its own lobbying effort, congregating with a consortium of gaming and tech interests. The battle heated up after a bill draft to raise the cap to 10 percent died without a single public hearing or vote. Solar advocates met with lawmakers and the governor — whose outside advisers lobby for NV Energy — but had little success. Now, as time winds down in the session, only one solution is on the table — a punt. Republican Sen. Patricia Farley’s amendment to a building codes bill would allow the Public Utilities Commission to raise the solar cap and to impose up to three tariffs on net metering customers. The eleventh-hour measure was the only way to save the solar industry this session, Farley said. “It gave the solar industry a vehicle to start a discussion,” Farley said. The amendment cleared the Senate and is moving through the Assembly. The compromise is not ideal for companies such as SolarCity and Sunrun, which lease solar panels to customers who participate in net metering. Industry officials say proposed fees could hurt business by discouraging people from participating in a net metering program. Rooftop customers — who pay bills to both the utility and solar companies — pay about 20 percent less for solar than conventional energy, and the fees, industry leaders say, could bite into their cost savings. Adding fees and restricting the cap would be a big win for Berkshire Hathaway Energy and one of its few net metering successes nationally. Berkshire failed to impose caps in Utah and Washington. Arizona instituted a $5 to $7 net metering charge for homeowners. A fee is pending in Wisconsin. Colorado has no cap and no fees. In other words, utility companies in more than 40 states have unsuccessfully fought to eliminate net metering or impose fees.
+
+Much of the fight revolves around Nevada’s cap on net metering, an arrangement by which people with rooftop solar can sell extra power they generate back to the grid. Nevada is likely to hit its limit as early as this summer, solar advocates say, which will make it less advantageous for homeowners to tap the enormous solar energy potential of Southern Nevada.
+
+The Legislature seems to have sided with NV Energy. On May 17, it passed a solar bill that failed to raise the cap but gave Nevada’s regulatory Public Utilities Commission the ability to levy new fees on net metering customers who come online after the cap is hit. The new fees seem intended to protect NV Energy’s income from what the company has characterized as an unfair subsidy at the expense of nonsolar ratepayers.
+
+While NV Energy, owned by Warren Buffett’s Berkshire Hathaway, battles to keep the cap in place, it’s also fighting on another front. A consortium of casinos and businesses is looking to leave NV Energy’s grid and start generating their own power, saying they’re being placed at a competitive disadvantage because they’re paying more for energy than their business rivals in nearby states. The state Public Utilities Commission has said it would charge hefty fees — $27 million in the case of Las Vegas data center Switch — to let industrial ratepayers leave the system.
+
+Meanwhile, the utility is facing another threat in the form of technological advances. Tesla’s Powerwall unit, a relatively cheap storage battery that can charge up on solar power, can help business operators and homeowners reduce their reliance on the grid — or, for the very wealthy, leave it altogether.
+
+How the regulated monopoly came to be
+
+In exchange for building power plants, power lines, distribution networks and maintaining electrical systems, Nevada, like many states, gives public utilities an authorized rate of return. Here, that rate is about 8 percent, authorized by the Nevada Public Utilities Commission. NV Energy’s net income in 2014 was about $354 million, according to Berkshire Hathaway Energy’s SEC filings.
+
+NV Energy did not respond to a request for comment on this story.
+
+Giving a utility a regulated monopoly over generating and providing power is a compromise. The utility gets a guaranteed profit and in return gives access to everyone who needs it and ensures capacity for all users. It’s the commission that holds the utilities to the bargain, said Stephen Brown, director of the Center for Business and Economic Research at UNLV.
+
+“The utility doesn’t have an incentive to operate in the community interest,” Brown said. “That doesn’t mean they don’t, but that’s not their economic incentive. We’re relying on the utility commission to make sure that the utility operates in the public interest.”
+
+More rooftop solar production means more competition for NV Energy.
+
+The way competition disrupts the energy industry parallels the shift in the telecommunications industry, said Steven Weissman, director of the energy program at UC Berkeley’s Center for Law, Energy and the Environment.
+
+“It started with one monopoly utility and a black rotary dial phone in everybody’s home,” said Weissman, referring to AT&T and its monopoly on the U.S. telephone system until its breakup in 1984.
+
+By 1996, Weissman said, Congress forced companies to provide competitors access to infrastructure. And the emergence of mobile phone technology made the fight over access to landline infrastructure obsolete.
+
+“Now you have a whole generation of people who decide not to get a landline,” Weissman said. “If the phone companies were able to gain anything by resisting opening their networks to competitive providers, it was something of only limited duration. They didn’t create something that preserved their business model long-term.”
+
+The way AT&T and its descendents adapted to the loss of their monopoly was to spread into the broadband and mobile sectors, but big electric utilities have been comparatively slow to adapt to competition from new ways of producing power.
+
+“What utilities are doing is instinctively looking for ways to take this pesky new technology and bat it away,” Weissman said.
+
+Some companies want to produce their own power, but quitting the grid comes at a cost
+
+A group of Nevada companies wants to break from NV Energy and stop paying the utility for energy. Instead, the companies want to start generating and purchasing their own power and quit the grid.
+
+The group calls itself the Nevada Coalition to Protect Ratepayers and includes Las Vegas Sands and Wynn Resorts, solar companies SolarCity and Sunrun, and Switch.
+
+The utilities commission ruled this month that Switch would have to pay $27 million to leave the grid. Switch has asserted it should pay about $18 million.
+
+Borenstein said exit fees weren’t unjustified.
+
+“I’m sympathetic to the Public Utilities Commission’s view,” Borenstein said. “I would be suspicious of numbers utilities put out, but I don’t think it should be free for customers to just walk away … (They) built the grid to support customers, and there’s all these sunk costs. There may be stranded assets for which costs have to be recovered. When you leave, you have to bear some of those costs.”
+
+Yet the combination of limits on net metering programs and high exit fees seems to leave companies squeezed in the middle. Switch has said its energy costs in Nevada are 30 percent higher than competitors’ in nearby states.
+
+Some energy companies elsewhere are adapting to new technology and demands for clean energy and more distributed generation. In California, public utility Southern California Edison is testing how to integrate Tesla Powerwall users, both residential and commercial, with its grid. The utility is performing test runs with a small number of Powerwall users to see if the batteries can, in aggregate, be helpful to Edison’s grid needs.
+
+“The idea would be: How could a residential storage unit be used to help the grid?” said Kevin Payne, the utility’s senior vice president for customer service. “We could take power (from battery units) when necessary or inject power when it would be helpful to do that.”
+
+Payne said the ability to control a customer’s energy requirements or regulate the way customers pump power back into the grid could be a significant resource for the utility if battery storage users increase.
+
+In contrast to NV Energy’s resistance to distributed generation, Payne said Southern California Edison is adapting its vision for its power grid to incorporate new technological advances its customers might use.
+
+“The grid of the future is going to need to be upgraded and modernized,” Payne said. “Today … power flows from the top to the bottom. Going forward, the grid is going to have different characteristics: generation, solar or other, batteries, demand response. It’s going to require upgrades to the grid to see what’s happening and manage the two-way flow of power.”
+
+Arguments for and against legislative changes to solar
+
+Some say an increase in rooftop solar production would cause the traditional grid to collapse, others say solar would help meet power needs and help the state reach alternative energy mandates.
+
+Senate Bill 374, passed May 17, states that once the net metering cap is hit, new net metering customers will have to pay an additional tariff, to be determined by the Nevada Public Utilities Commission. That means anyone who installs a solar system on a roof after the cap is hit will pay higher rates to use and sell solar energy than net metering customers do now, though how much higher remains unclear.
+
+A bill proposed this year to raise the cap from 3 percent to 10 percent never passed. State Sen. Patricia Farley discussed an amendment to SB374 that would pass authority over the cap to the utilities commission, but the amendment wasn’t included in the final version of the bill.
+
+Solar industry representatives say the cap must be raised to allow for consumer choice and more industry jobs.
+
+“(People’s) consumer choices are driving the growth of a home-grown industry,” said Will Craven, a spokesperson for SolarCity, a solar power system provider and installer. “Rooftop solar jobs by definition must happen in-state.”
+
+Several solar advocates point to a study commissioned by the Nevada Public Utilities Commission as proving net metering benefits all customers — those who generate energy and traditional customers.
+
+What the state’s study, released last year, actually said was that it’s probably a wash. Net metering probably won’t ultimately cost non-participants more. Distributed generation may be more expensive than building large utility-scale solar plants, but Nevada is required to source 25 percent of its power from renewable sources by 2025, and power from net metering customers may offset the cost of buying renewable power or building more renewable energy plants.
+
+Many experts question whether distributed generation is the most cost-effective route for the state to invest in clean energy. Severin Borenstein, a University of California, Berkeley economist who specializes in energy regulation and energy markets, said neither solar industry advocates nor the public utility are being honest about real costs.
+
+With distributed generation, Borenstein said, “You lose the economies of scale. And the economies of scale are really large. The economics overall pretty clearly favor grid-scale generation, both wind and solar.”
+
+Borenstein said the way net metering is structured is indeed a subsidy.
+
+“You’re basically giving them (net metering customers) retail price credit for putting power into the grid,” Borenstein said. “If (the credit for power) were at wholesale rates, it wouldn’t be a subsidy.”
+
+Proper rate design — crafting fees to reflect the true costs and benefits of individual solar power generation — is key to fairness, Borenstein said.
+
+“Utilities say if you keep installing solar, the grid’s going to collapse and we’re going to go out of business,” Borenstein said. “There really isn’t much chance of that, and we should be a having a discussion about that, whether that’s the best way to put in renewables. Instead, you get politicians who are either boosting utilities or playing to the residential photovoltaic advocates with all this free consumer choice stuff. It’s not true consumer choice if you can just fall back on the grid and the rates don’t reflect the cost.”
+
+But in the fight between the utility and solar industry advocates, experts say, a real public discussion of the costs of distributed generation versus utility-scale clean power from solar and wind plants is being lost.
+
+What is net metering?
+
+The solar energy policy fight in Nevada revolves around a net metering cap, a limit on the amount of solar power that can be bought back from people or institutions with renewable energy systems.
+
+If a home or business generates more power from the sun than it uses in a month, NV Energy will buy the extra at retail power rates and give the customer a credit, the net of their power usage and power production. That means a homeowner with solar panels may be able to run his or her house largely on solar energy during the day and resell what he or she doesn’t use to the grid, seeing real reductions in energy costs.
+
+But there’s a limit on the amount of net metering the state allows, and solar advocates and solar industry companies say Nevada will hit the existing cap this year, perhaps as early as late summer. The cap is set at 3 percent of the utility’s peak capacity, or 225 megawatts.

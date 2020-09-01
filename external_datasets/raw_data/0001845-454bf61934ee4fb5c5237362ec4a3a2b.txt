@@ -1,0 +1,27 @@
+Wireless charging is hardly a ubiquitous feature in smartphones and tablets at this point. It's often optional—phones from certain carriers will have it, or you'll be able to add it to a phone using a special charging case. But if you pick a phone at random off the shelf, chances are good that it won't support wireless charging out of the box.
+
+Google's most recent Nexus devices, on the other hand, have all included built-in support for the feature—the Nexus 4, Nexus 5, and 2013 Nexus 7 all support wireless charging. While any charging pad that supports the Qi (pronounced "chee") standard will work with them, as of last week Google will sell you its own Nexus-branded charger to match. This is actually the second Nexus charger that Google has made, after the now-discontinued (and somewhat problematic) Nexus 4 wireless charger. Google sent us one of the new chargers, and we put it through its paces to see if it's worth the $50.
+
+Unboxing
+
+Recent Nexus phones and tablets have come in well thought out, understated blue boxes, and the Nexus wireless charger follows the trend. Lift the lid off the box and the charger will be sitting right there, staring you in the face.
+
+The charger itself is a surprisingly small square that's 2.36 inches on each side and half an inch thick, but it's pretty dense—it weighs 3.7 ounces, not all that much less than the Nexus 5's 4.59 ounces. The glossy black top is unadorned save for a faint Nexus logo in the center, and the sides are a blank matte plastic except for the side with the micro USB port embedded in it.
+
+On the underside, Google has applied some sticky but not-quite-adhesive material that plants the charger firmly to whatever surface you'd like, but it doesn't leave a residue when you pry it off. This material is not quite as sticky as tape, but it's grippy enough that it could hang out on the wall of my office for 15 or 20 seconds before falling on the floor (whoops). It should easily keep the charger from sliding around on your desk or bedside table, but if you move it around a lot you'll need to clean the dust and grit off it to keep it sticky.
+
+You won't find a mention of the Qi standard anywhere on Google's product page, but that appears to be what the Nexus charger is using. It's listed as being compatible with the Nexus 4, Nexus 5, and the 2013 Nexus 7, but it should also work fine with other Qi-enabled phones (or phones with Qi-compatible charging cases).
+
+Once you've stuck the charger where you want it, you just need to set your phone or tablet on top of it to start charging. Magnets will pull the device into place and keep it there, so the device isn't in any danger of slipping off the charger or moving too much if you need to poke at it while it's charging. Centering the tablet on the charger can be a little tricky, but all three Nexus devices make a distinctive notification sound when charging wirelessly to tell you when you've done it correctly.
+
+On the whole, the design of the charger is better thought out than the old Nexus 4 wireless charger. That device had an angled face (which made it difficult to impossible to use with anything larger than a phone) and used the same not quite adhesive material to hold the slippery Nexus phone to the charger. As we've noted, this material picks up dust and other detritus easily, and the dirtier it is the worse it is at sticking to things. The Nexus 4 charger had the more distinctive design, but the new charger is definitely more functional.
+
+Power draw and charging speeds
+
+This was my own first foray into wireless charging, so I was interested in seeing how much power the charger used compared to a standard wired charger plus how this affected charging speeds. Using an ever handy Kill-A-Watt meter, I measured power draw at the wall for both the wireless charger and a standard micro USB charger (these figures are for the adapter that shipped with the 2013 Nexus 7, but the figures for the one that comes with the Nexus 5 were about the same). These figures were each taken when the phone's battery was mostly empty and with the screens turned off (the numbers will generally go up when the screen is on and the device is in active use, and they'll fall as you near the end of a charge cycle).
+
+Device Power draw (micro USB) Power draw (wireless charger) Nexus 5 6.6 Watts 6.0 Watts Nexus 7 (2013) 7.5 Watts 6.1 Watts
+
+The Nexus 5 and Nexus 7 will both draw more power through a micro USB charger than the wireless charger, which is par for the course—wireless charging usually isn't as fast as charging through a cable. These differences in power draw are reflected in charge times. The Nexus 7 takes about two hours and 56 minutes to charge using its power adapter, but six hours and six minutes to charge using the wireless charger. The wireless charger draws about 25 percent less power, but it takes 100 percent more time to charge the tablet. Keep in mind that the convenience of wireless charging also takes longer and is less efficient.
+
+Wireless charging is still a nice feature—it's a good box to check, but its exclusion wouldn't keep us away from an otherwise attractive phone or tablet. If your phone does support Qi, and you're in the market for a nice charger, you could do worse than Google's. Unlike its first try, the new Nexus Wireless Charger is unobtrusive, attractive, and functional. It's a little pricey at $50 (compared both to other charging pads and to the adapter that came with your phone), but it gets the job done.

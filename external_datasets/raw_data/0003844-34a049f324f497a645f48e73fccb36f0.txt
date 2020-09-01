@@ -1,0 +1,23 @@
+Posted: March 26, 2014 by Armando Orozco
+
+Last updated: March 31, 2016
+
+Coin mining is a key component for digital currencies like Bitcoin and Dogecoin. The mining creates new coins and helps keep them secure.
+
+Malware authors have targeted the cryptocurrencies from different angles and one way is distributing ‘miners’ to unsuspecting users.
+
+Android has had some reported occurrences of coin miners being distributed outside Google’s Play Store, but now some have managed to make their way in.
+
+Security Company Trend Micro has uncovered two apps containing code to mine Dogecoin, together having more than one million installs.
+
+The apps aren’t described as coin miners but as a song manager and shopping app.
+
+Coin mining is resource intensive, so running on a mobile device could drain a battery quickly. The developers of these apps are aware of this and built-in functionality for the mining to take place when the device is charging.
+
+Trend Micro reported these apps to Google and at this time they are still available in the Play Store.
+
+It would be interesting to hear Google’s stance on these apps, I would think coin mining is acceptable, but failing to mention the mining behaviors isn’t.
+
+One of the apps, Songs, has already updated and removed the mining code. Although they’re removed the code, I would not trust this app or developer. They could easily update again reintroducing the code.
+
+Malwarebytes Anti-Malware Mobile detects Android/Trojan.BitCoinMiner.p. Although, they don’t have the traditional Trojan behaviors, functionality is hidden from users.

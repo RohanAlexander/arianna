@@ -1,0 +1,37 @@
+man7 .org Training and Consulting
+
+Linux and UNIX programming training and consulting by Michael Kerrisk
+
+Download the man7.org Training Overview brochure (PDF)
+
+Training courses
+
+The following courses are all available for onsite delivery, and in some cases are scheduled as public courses.
+
+Tailored versions of the above courses are also available for courses delivered onsite. Contact us to discuss your requirements.
+
+About the trainer
+
+After focusing on programming and writing in more recent years, I am now once more conducting frequent training courses on Linux/UNIX system programming and a number of related low-level programming topics that are of particular relevance for developers of low-level user-space applications in domains ranging from embedded to enterprise server systems. The emphasis of my courses is on providing deep conceptual understanding coupled with intensive in-class practical work.
+
+I work closely with my customers, providing personalized assessment of their training needs, and where necessary customizing my courses to those needs. My customers range from small and medium-sized businesses to multinational companies and governments. Past customers include Google, IBM, BMW, Axis Communications, Cisco Systems, Hewlett-Packard, Container Solutions, and the French and British governments. (References from past and current customers are available upon request.)
+
+I have a unique set of qualifications and experience that ensure course participants receive training of a very high standard:
+
+I have been programming on UNIX systems since 1987 and teaching UNIX system programming courses since 1989 .
+
+. I'm the author of The Linux Programming Interface widely acclaimed as the definitive work on Linux system programming.
+
+widely acclaimed as the definitive work on Linux system programming. I am actively involved in Linux development—working with kernel developers on testing, review, and design of new Linux kernel-user-space APIs.
+
+Since 2004, I have been the maintainer of the Linux man-pages project the manual pages documenting the Linux kernel-user-space and GNU C library APIs. As well as being the project maintainer, I have also written or cowritten around 40% of the 1000+ manual pages provided by the project.
+
+For further information about the trainer, as well as many other reasons why you might want to choose man7.org training courses, look here.
+
+Consulting
+
+I provide consulting expertise in the same areas as the courses listed above. Please contact me to discuss your requirements and my consulting rates.
+
+Contact
+
+For inquiries about courses and consulting, you can contact us in the following ways:

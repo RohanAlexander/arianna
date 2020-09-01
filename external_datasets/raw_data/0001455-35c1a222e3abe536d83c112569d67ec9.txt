@@ -1,0 +1,213 @@
+For the similarly-named personality trait distinct from the disorder, see Sensory processing sensitivity
+
+Sensory processing disorder Synonyms Sensory integration dysfunction Specialty Psychiatry
+
+Sensory processing disorder (SPD; also known as sensory integration dysfunction) is a condition where multisensory integration is not adequately processed in order to provide appropriate responses to the demands of the environment.
+
+Sensory integration was defined by occupational therapist Anna Jean Ayres in 1972 as "the neurological process that organizes sensation from one's own body and from the environment and makes it possible to use the body effectively within the environment".[1][2] Sensory processing disorder has been characterized as the source of significant problems in organizing sensation coming from the body and the environment and is manifested by difficulties in the performance in one or more of the main areas of life: productivity, leisure and play[3] or activities of daily living.[4]
+
+Sources debate whether SPD is an independent disorder or represents the observed symptoms of various other, more well-established, disorders.[5][6][7][8] SPD is not recognized by the Diagnostic and Statistical Manual of the American Psychiatric Association[9][10], and the American Academy of Pediatrics has recommended that pediatricians not use SPD as a diagnosis.[9]
+
+Signs and symptoms [ edit ]
+
+Symptoms may vary according to the disorder's type and subtype present. SPD can affect one sense or multiple senses. While many people can present one or two symptoms, sensory processing disorder has to have a clear functional impact on the person's life:
+
+Signs of over-responsivity,[11] including, for example, dislike of textures such as those found in fabrics, foods, grooming products or other materials found in daily living, to which most people would not react, and serious discomfort, sickness or threat induced by normal sounds, lights, movements, smells, tastes, or even inner sensations such as heartbeat.
+
+Signs of under-responsivity, including sluggishness and lack of responsiveness; and Sensory cravings,[12] including, for example, fidgeting, impulsiveness, and/or seeking or making loud, disturbing noises; Sensorimotor-based problems, including slow and uncoordinated movements or poor handwriting.
+
+Sensory discrimination problems, that might manifest themselves in behaviors such as things constantly dropped.
+
+Critics have noted that what proponents claim are symptoms of SPD are both broad and, in some cases, represent very common, and not necessarily abnormal or atypical, childhood characteristics. The checklist of symptoms on the website of the SPD Foundation, for example, includes such warning signs as "My infant/toddler has problems eating," "My child has difficulty being toilet trained," "My child is in constant motion," and "My child gets in everyone else's space and/or touches everything around him." -- "symptoms" which read much like the day-to-day complaints of an average parent.[13]
+
+Relationship to other disorders [ edit ]
+
+Sensory processing issues represent a feature of a number of disorders, including anxiety problems, ADHD,[14] food intolerances, behavioral disorders, and particularly, autism spectrum disorders.[15][16][17][18][19][20][21] This pattern of comorbidities poses a significant challenge to those who claim that SPD is a identifiably specific disorder, rather than simply a term given to a set of symptoms common to other disorders.[22] Dr. Catherine Lord, a leading autism expert and the director of the Center for Autism and the Developing Brain at New York-Presbyterian Hospital, argues that sensory issues are an important concern, but not a diagnosis in themselves. "I do think there's a value in attending to how a child is perceiving sensations, thinking about whether he could be uncomfortable. Where I get concerned is labeling that as a separate disorder."[23]
+
+Two studies have provided preliminary evidence suggesting that there may be measurable neurological differences between children diagnosed with SPD and control children classified as neurotypical[24] or children diagnosed with autism.[25] Despite this evidence, the fact that SPD researchers have yet to agree on a proven, standardized diagnostic tool undermines researchers' ability to define the boundaries of the disease and makes correlational studies, like the ones about structural brain abnormalities, less convincing.[13]
+
+Causes [ edit ]
+
+The exact cause of SPD is not known.[26] However, it is known that the mid-brain and brain stem regions of the central nervous system are early centers in the processing pathway for multisensory integration; these brain regions are involved in processes including coordination, attention, arousal, and autonomic function.[27] After sensory information passes through these centers, it is then routed to brain regions responsible for emotions, memory, and higher level cognitive functions. Damage in any part of the brain involved in multisensory processing can cause difficulties in adequately processing stimuli in a functional way. Sensory processing is viewed as a spectrum and how individuals process stimuli varies from person to person. Individuals with SPD tend to fall on the extreme ends of the sensory spectrum[28], either hyposensitive or hypersensitive.
+
+Research [ edit ]
+
+Current research in sensory processing is focused on finding the genetic and neurological causes of SPD. EEG[29] and measuring event-related potential (ERP) are traditionally used to explore the causes behind the behaviors observed in SPD. Some of the proposed underlying causes by current research are: EEG recording
+
+Differences in tactile and auditory over responsivity show moderate genetic influences, with tactile over responsivity demonstrating greater heritability. Bivariate genetic analysis suggested different genetic factors for individual differences in auditory and tactile SOR. [30]
+
+People with Sensory Processing Deficits have less sensory gating (electrophysiology) than typical subjects. [31] [32]
+
+People with sensory over-responsivity might have increased D2 receptor in the striatum, related to aversion to tactile stimuli and reduced habituation. In animal models, prenatal stress significantly increased tactile avoidance. [33]
+
+Studies using event-related potentials (ERPs) in children with the sensory over responsivity subtype found atypical neural integration of sensory input. Different neural generators could be activated at an earlier stage of sensory information processing in people with SOR than in typically developing individuals. The automatic association of causally related sensory inputs that occurs at this early sensory-perceptual stage may not function properly in children with SOR. One hypothesis is that multisensory stimulation may activate a higher-level system in frontal cortex that involves attention and cognitive processing, rather than the automatic integration of multisensory stimuli observed in typically developing adults in auditory cortex. [34]
+
+Recent research found an abnormal white matter microstructure in children with SPD, compared with typical children and those with other developmental disorders such as autism and ADHD.[35][36]
+
+Diagnosis [ edit ]
+
+Although sensory processing disorder is accepted in the Diagnostic Classification of Mental Health and Developmental Disorders of Infancy and Early Childhood (DC:0-3R), it is not recognized as a mental disorder in medical manuals such as the ICD-10[37] or the DSM-5.[38]
+
+Diagnosis is primarily arrived at by the use of standardized tests, standardized questionnaires, expert observational scales, and free play observation at an occupational therapy gym. Observation of functional activities might be carried at school and home as well.
+
+Depending on the country, diagnosis is made by different professionals, such as occupational therapists, psychologists, learning specialists, physiotherapists and/or speech and language therapists.[39] In some countries it is recommended to have a full psychological and neurological evaluation if symptoms are too severe.
+
+Standardized tests
+
+Sensory Integration and Praxis Test (SIPT)
+
+DeGangi-Berk Test of Sensory Integration (TSI)
+
+Test of Sensory Functions in Infants (TSFI)[40]
+
+Standardized questionnaires
+
+Sensory Profile, (SP) [41]
+
+Infant/Toddler Sensory Profile [40]
+
+Adolescent/Adult Sensory Profile
+
+Sensory Profile School Companion
+
+Indicators of Developmental Risk Signals (INDIPCD-R) [42]
+
+Sensory Processing Measure (SPM) [43]
+
+Sensory Processing Measure Preeschool (SPM-P)[44]
+
+Other tests
+
+The large number of different forms and tools of assessment listed here reflects what critics have argued is a fundamental problem with the diagnosis process: SPD researchers have yet to agree on a proven, standardized diagnostic tool, a problem that undermines the ability of researchers to define the boundaries of the disorder.[13][23]
+
+Classification [ edit ]
+
+Sensory processing disorders have been classified by proponents into three categories: sensory modulation disorder, sensory-based motor disorders and sensory discrimination disorders [50] (as defined in the Diagnostic Classification of Mental Health and Developmental Disorders in Infancy and Early Childhood).[51][52]
+
+Sensory modulation disorder (SMD) Sensory modulation refers to a complex central nervous system process[50][53] by which neural messages that convey information about the intensity, frequency, duration, complexity, and novelty of sensory stimuli are adjusted.[54]
+
+SMD consists of three subtypes:
+
+Sensory over-responsivity. Sensory under-responsivity Sensory craving/seeking.
+
+Sensory-based motor disorder (SBMD) According to proponents, sensory-based motor disorder shows motor output that is disorganized as a result of incorrect processing of sensory information affecting postural control challenges, resulting in postural disorder, or developmental coordination disorder.[50][55]
+
+The SBMD subtypes are:
+
+Dyspraxia Postural disorder
+
+Sensory discrimination disorder (SDD)
+
+Sensory discrimination disorder involves the incorrect processing of sensory information.[50] The SDD subtypes are:[56]
+
+1. Visual 2. Auditory 3. Tactile 4. Gustatory (taste) 5. Olfactory (smell) 6. Vestibular (balance) 7. Proprioceptive (feeling of where parts of the body are located in space)
+
+Treatment [ edit ]
+
+Sensory integration therapy [ edit ]
+
+Vestibular system is stimulated through hanging equipment such as tire swings
+
+The main form of sensory integration therapy is a type of occupational therapy that places a child in a room specifically designed to stimulate and challenge all of the senses.[57]
+
+During the session, the therapist works closely with the child to provide a level of sensory stimulation that the child can cope with, and encourage movement within the room. Sensory integration therapy is driven by four main principles:
+
+Just right challenge (the child must be able to successfully meet the challenges that are presented through playful activities)
+
+Adaptive response (the child adapts his behavior with new and useful strategies in response to the challenges presented)
+
+Active engagement (the child will want to participate because the activities are fun)
+
+Child directed (the child's preferences are used to initiate therapeutic experiences within the session)
+
+Sensory processing therapy [ edit ]
+
+This therapy retains all of the above-mentioned four principles and adds:[58]
+
+Intensity (person attends therapy daily for a prolonged period of time)
+
+Developmental approach (therapist adapts to the developmental age of the person, against actual age)
+
+Test-retest systematic evaluation (all clients are evaluated before and after)
+
+Process driven vs. activity driven (therapist focuses on the "Just right" emotional connection and the process that reinforces the relationship)
+
+Parent education (parent education sessions are scheduled into the therapy process)
+
+"joie de vivre" (happiness of life is therapy's main goal, attained through social participation, self-regulation, and self-esteem)
+
+Combination of best practice interventions (is often accompanied by integrated listening system therapy, floor time, and electronic media such as Xbox Kinect, Nintendo Wii, Makoto II machine training and others)
+
+The treatments themselves may involve a variety of activities and interventions (for example, prism lenses). Children with hypo-reactivity may be exposed to strong sensations such as stroking with a brush, vibrations or rubbing. Play may involve a range of materials to stimulate the senses such as play dough or finger painting. Children with hyper-reactivity, on the other hand, may be exposed to peaceful activities including quiet music and gentle rocking in a softly lit room. Treats and rewards may be used to encourage children to tolerate activities they would normally avoid. While occupational therapists using a sensory integration frame of reference work on increasing a child's ability to adequately process sensory input, other OTs may focus on environmental accommodations that parents and school staff can use to enhance the child's function at home, school, and in the community.[59][60] These may include selecting soft, tag-free clothing, avoiding fluorescent lighting, and providing ear plugs for "emergency" use (such as for fire drills).
+
+Evaluation of treatment effectiveness [ edit ]
+
+Some of these treatments (for example, sensorimotor handling) have a questionable rationale and no empirical evidence. Other treatments (for example, prism lenses, physical exercise, and auditory integration training) have had studies with small positive outcomes, but few conclusions can be made about them due to methodological problems with the studies.[61] [62] [63] In its overall review of the treatment effectiveness literature, AETNA concluded that "The effectiveness of these therapies is unproven.",[64] while the American Academy of Pediatrics concluded that "parents should be informed that the amount of research regarding the effectiveness of sensory integration therapy is limited and inconclusive."[65] A 2015 review concluded that SIT techniques exist "outside the bounds of established evidence-based practice" and that SIT is "quite possibly a misuse of limited resources."[66]
+
+Epidemiology [ edit ]
+
+It has been estimated by proponents that up to 16.5% of elementary school aged children present elevated SOR behaviors in the tactile or auditory modalities.[67] This figure is larger than what previous studies with smaller samples had shown: an estimate of 5–13% of elementary school aged children.[68] Critics have noted that such a high incidence for just one of the subtypes of SPD raises questions about the degree to which SPD is a specific and clearly identifiable disorder.[13]
+
+Proponents have also claimed that adults may also show signs of sensory processing difficulties and would benefit for sensory processing therapies,[69] although this work has yet to distinguish between those with SPD symptoms alone vs adults whose processing abnormalities are associated with other disorders, such as Autism Spectrum Disorder.[70]
+
+Controversy [ edit ]
+
+There are concerns regarding the validity of the diagnosis. SPD is not included in the DSM-5 or ICD-10, the most widely used diagnostic sources in healthcare. The American Academy of Pediatrics (AAP) states that there is no universally accepted framework for diagnosis and recommends caution against using any "sensory" type therapies unless as a part of a comprehensive treatment plan. In fact, in a 2012 statement, the AAP states that "Because there is no universally accepted framework for diagnosis, sensory processing disorder generally should not be diagnosed." When an occupational therapist does recommend sensory integration therapy, the AAP instructs that the therapist is aware that, "parents should be informed that the amount of research regarding the effectiveness of sensory integration therapy is limited and inconclusive." As such, most health insurance considers sensory integration therapy to be "investigational" and will not cover it. In the United States and UK, sensory processing disorder is not likely to qualify an individual for disability benefits, so the supporters of sensory processing disorder recommend having a child diagnosed for a related disorder that will qualify them for disability insurance. As was noted above, a 2015 review of research on Sensory Integration Therapy (SIT) concluded that SIT is "ineffective and that its theoretical underpinnings and assessment practices are unvalidated", that SIT techniques exist "outside the bounds of established evidence-based practice", and that SIT is "quite possibly a misuse of limited resources".[66]
+
+Manuals [ edit ]
+
+SPD is in Stanley Greenspan's Diagnostic Manual for Infancy and Early Childhood and as Regulation Disorders of Sensory Processing part of The Zero to Three's Diagnostic Classification. but is not recognized in the manuals ICD-10 or in the recently updated DSM-5. However, unusual reactivity to sensory input or unusual interest in sensory aspects is included as a possible but not necessary criterion for the diagnosis of autism.
+
+Misdiagnosis [ edit ]
+
+Some state that sensory processing disorder is a distinct diagnosis, while others argue that differences in sensory responsiveness are features of other diagnoses and it is not a standalone diagnosis. The neuroscientist David Eagleman has proposed that SPD may be a form of synesthesia, a perceptual condition in which the senses are blended.Specifically, Eagleman suggests that instead of a sensory input "connecting to [a person's] color area [in the brain], it's connecting to an area involving pain or aversion or nausea".
+
+Researchers have described a treatable inherited sensory overstimulation disorder that meets diagnostic criteria for both attention deficit disorder and sensory integration dysfunction.
+
+Society [ edit ]
+
+The American Occupational Therapy Association (AOTA) supports the use of a variety of methods of sensory integration for those with sensory processing disorder. The organization has supported the need for further research to increase insurance coverage for related therapies. They have also made efforts to educate the public about sensory integration therapy. The AOTA's practice guidelines currently support the use of sensory integration therapy and interprofessional education and collaboration in order to optimize treatment for those with sensory processing disorder. The AOTA provides several resources pertaining to sensory integration therapy, some of which includes a fact sheet, new research, and continuing education opportunities.[71]
+
+History [ edit ]
+
+Sensory processing disorder as a specific form of atypical functioning was first described by occupational therapist Anna Jean Ayres (1920–1989).[72]
+
+Original model
+
+Ayres's theoretical framework for what she called Sensory Integration Dysfunction was developed after six factor analytic studies of populations of children with learning disabilities, perceptual motor disabilities and normal developing children.[73] Ayres created the following nosology based on the patterns that appeared on her factor analysis:
+
+Dyspraxia: poor motor planning (more related to the vestibular system and proprioception)
+
+Poor bilateral integration: inadequate use of both sides of the body simultaneously
+
+Tactile defensiveness: negative reaction to tactile stimuli
+
+Visual perceptual deficits: poor form and space perception and visual motor functions
+
+Somatodyspraxia: poor motor planning (related to poor information coming from the tactile and proprioceptive systems)
+
+Auditory-language problems
+
+Both visual perceptual and auditory language deficits were thought to possess a strong cognitive component and a weak relationship to underlying sensory processing deficits, so they are not considered central deficits in many models of sensory processing.
+
+In 1998, Mulligan found a similar pattern of deficits in a confirmatory factor analytic study.[74][75]
+
+Quadrant model
+
+Dunn's nosology uses two criteria:[76] response type (passive vs active) and sensory threshold to the stimuli (low or high) creating 4 subtypes or quadrants:[77]
+
+High neurological thresholds
+
+Low registration: high threshold with passive response. Individuals who do not pick up on sensations and therefore partake in passive behavior.[78] Sensation seeking: high threshold and active response. Those who actively seek out a rich sensory filled environment.[78]
+
+Low neurological threshold
+
+Sensitivity to stimuli: low threshold with passive response. Individuals who become distracted and uncomfortable when exposed to sensation but do not actively limit or avoid exposure to the sensation.[78] Sensation avoiding: low threshold and active response. Individuals actively limit their exposure to sensations and are therefore high self regulators.[78]
+
+Sensory processing model
+
+In Miller's nosology "sensory integration dysfunction" was renamed into "Sensory processing disorder" to facilitate coordinated research work with other fields such as neurology since "the use of the term sensory integration often applies to a neurophysiologic cellular process rather than a behavioral response to sensory input as connoted by Ayres."[50]
+
+See also [ edit ]
+
+References [ edit ]

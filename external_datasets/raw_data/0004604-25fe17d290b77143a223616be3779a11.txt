@@ -1,0 +1,21 @@
+One of the challenges on the way to realizing the benefits of quantum computing is finding a way to compactly assemble and then precisely control enough quantum bits to deliver on the technology’s enormous processing potential.
+
+Researchers at Penn State University said they’ve made a big advance.
+
+Quantum bits, or qubits, are the quantum equivalent of the bits used in traditional computing. While today’s bits typically represent data as 0s or 1s, qubits can be both 0 and 1 at the same time through a state known as superposition.
+
+To achieve their breakthrough, the scientists first corralled quantum atoms into a 3D array. To construct it, they used beams of light to trap and hold the atoms in a cubic arrangement of five stacked planes, much like a sandwich made with five slices of bread. Each plane had room for 25 equally spaced atoms; in all, the arrangement formed a cube with an orderly pattern of individual locations for 125 atoms.
+
+The scientists filled some of the possible locations in the array with qubits consisting of neutral cesium atoms possessing no positive or negative charge. Then, they used crossed beams of laser light to target individual atoms in the lattice, causing a shift in the energy levels of those atoms.
+
+When the scientists then bathed the whole array with a uniform wash of microwaves, the state of the atoms with the shifted energy levels changed, while the states of all the other atoms did not.
+
+To demonstrate their control over the qubits in their array, the researchers changed the states of selected atoms in three of the stacked planes in order to draw the letters P, S, and U—the letters that represent Penn State University—as shown in the image above.
+
+“We have set more qubits into different, precise quantum superpositions at the same time than in any previous experimental system,” said David Weiss, the physics professor who led the research team. “Our paper demonstrates that this novel approach is a precise, accurate, and efficient way to control large ensembles of qubits for quantum computing.”
+
+The paper was published last Friday in the journal Science.
+
+Currently, the system offers a reliability of about 99.7 percent, but the team hopes to increase that to 99.99 percent, Weiss said. Also among their goals is to focus on quantum entanglement, whereby the state of one particle is implicitly correlated with the state of the others around it.
+
+“Filling the cube with exactly one atom per site and setting up entanglements between atoms at any of the sites that we choose are among our nearer-term research goals,” Weiss said.

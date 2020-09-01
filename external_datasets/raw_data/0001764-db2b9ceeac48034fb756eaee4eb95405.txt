@@ -1,0 +1,75 @@
+Category 5 cable, commonly referred to as Cat 5, is a twisted pair cable for computer networks. Since 2001, the variant commonly in use is the Category 5e specification (Cat 5e). The cable standard provides performance of up to 100 MHz and is suitable for most varieties of Ethernet over twisted pair up to 1000BASE-T (Gigabit Ethernet). Cat 5 is also used to carry other signals such as telephony and video.
+
+This cable is commonly connected using punch-down blocks and modular connectors. Most Category 5 cables are unshielded, relying on the balanced line twisted pair design and differential signaling for noise rejection.
+
+Cable standard [ edit ]
+
+The specification for category 5 cable was defined in ANSI/TIA/EIA-568-A, with clarification in TSB-95.[1] These documents specify performance characteristics and test requirements for frequencies up to 100 MHz.
+
+The cable is available in both stranded and solid conductor forms. The stranded form is more flexible and withstands more bending without breaking. Patch cables are stranded. Permanent wiring used in structured cabling is solid-core. The category and type of cable can be identified by the printing on the jacket.[2]
+
+Termination [ edit ]
+
+TIA/EIA-568-B.1-2001 T568A Wiring Pin Pair Wire Color 1 3 1 white/green 2 3 2 green 3 2 1 white/orange 4 1 2 blue 5 1 1 white/blue 6 2 2 orange 7 4 1 white/brown 8 4 2 brown TIA/EIA-568-B.1-2001 T568B Wiring[3] Pin Pair Wire Color 1 2 1 white/orange 2 2 2 orange 3 3 1 white/green 4 1 2 blue 5 1 1 white/blue 6 3 2 green 7 4 1 white/brown 8 4 2 brown A Cat 5e Wall outlet showing the two wiring schemes: A for T568A , B for T568B Category 5 patch cable in T568B wiring
+
+Cable types, connector types and cabling topologies are defined by TIA/EIA-568-B. Nearly always, 8P8C modular connectors (often referred to incorrectly as RJ45 connectors[5][6]) are used for connecting category 5 cable. The cable is terminated in either the T568A scheme or the T568B scheme. The two schemes work equally well and may be mixed in an installation so long as the same scheme is used on both ends of each cable.
+
+Variants [ edit ]
+
+The category 5e specification improves upon the category 5 specification by revising and introducing new specifications to further mitigate the amount of crosstalk.[7] The bandwidth (100 MHz) and physical construction are the same between the two,[8] and most Cat 5 cables actually meet Cat 5e specifications, though they are not specifically certified as such.[9] The category 5 was deprecated in 2001 and superseded by the category 5e specification.[10]
+
+Applications [ edit ]
+
+Category 5 cable is used in structured cabling for computer networks such as Ethernet over twisted pair. The cable standard provides performance of up to 100 MHz and is suitable for 10BASE-T, 100BASE-TX (Fast Ethernet), and 1000BASE-T (Gigabit Ethernet). 10BASE-T and 100BASE-TX Ethernet connections require two wire pairs. 1000BASE-T Ethernet connections require four wire pairs. Through the use of power over Ethernet (PoE), power can be carried over the cable in addition to Ethernet data.
+
+Cat 5 is also used to carry other signals such as telephony and video.[11] In some cases, multiple signals can be carried on a single cable; Cat 5 can carry two conventional telephone lines as well as 100BASE-TX in a single cable.[12][13][14][15][16] The USOC/RJ-61 wiring standard may be used in multi-line telephone connections. Various schemes exist for transporting both analog and digital video over the cable. HDBaseT (10.2 Gbit/s) is one such scheme.[17]
+
+Characteristics [ edit ]
+
+The use of balanced lines helps preserve a high signal-to-noise ratio despite interference from both external sources and crosstalk from other pairs.
+
+Insulation [ edit ]
+
+Outer insulation is typically polyvinyl chloride (PVC) or low smoke zero halogen (LSOH).[citation needed]
+
+Example materials used as insulation in the cable[24] Acronym Material PE Polyethylene FP Foamed polyethylene FEP Fluorinated ethylene propylene FFEP Foamed fluorinated ethylene propylene AD/PE Air dielectric/polyethylene LSZH or LS0H Low smoke, zero halogen LSFZH or LSF0H Low smoke and fume, zero halogen
+
+Bending radius [ edit ]
+
+Most Category 5 cables can be bent at any radius exceeding approximately four times the outside diameter of the cable.[25][26]
+
+Maximum cable segment length [ edit ]
+
+The maximum length for a cable segment is 100 m per TIA/EIA 568-5-A.[27] If longer runs are required, the use of active hardware such as a repeater or switch is necessary.[28][29] The specifications for 10BASE-T networking specify a 100-meter length between active devices.[30] This allows for 90 meters of solid-core permanent wiring, two connectors and two stranded patch cables of 5 meters, one at each end.[31]
+
+Conductors [ edit ]
+
+Since 1995, solid-conductor UTP cables for backbone cabling is required to be no thicker than 22 American Wire Gauge (AWG) and no thinner than 24 AWG, or 26 AWG for shorter-distance cabling. This standard has been retained with the 2009 revision of ANSI TIA/EIA 568.[32]
+
+Although cable assemblies containing 4 pairs are common, category 5 is not limited to 4 pairs. Backbone applications involve using up to 100 pairs.[33]
+
+Individual twist lengths [ edit ]
+
+The distance per twist is commonly referred to as pitch. Each of the four pairs in a Cat 5 cable has differing precise pitch to minimize crosstalk between the pairs. The pitch of the twisted pairs is not specified in the standard. Measurements on one sample of Cat 5 cable yielded the following results.[34]
+
+Pair color [cm] per turn Turns per [m] Blue 1.38 72 Green 1.53 65 Orange 1.78 56 Brown 1.94 52
+
+Since the pitch of the various colors is not specified in the standard, pitch can vary according to manufacturer and should be measured for the batch being used if cable is being used in non-Ethernet situation where pitch might be critical.
+
+Environmental ratings [ edit ]
+
+United States and Canada fire certifications[35] Class Phrase Description Standards LSZH Communications low-smoke zero halogen NES‑711, NES‑713, MIL‑C‑24643, UL 1685 CMP Communications plenum Insulated with fluorinated ethylene propylene (FEP) and polyethylene (PE) and jacketed with low-smoke polyvinyl chloride (PVC), due to better flame test ratings. CSA FT6[36] or NFPA 262 (UL 910) CMR Communications riser Insulated with high-density polyolefin and jacketed with low-smoke polyvinyl chloride (PVC). UL 1666 CMG Communications general purpose CSA FT4 CM Communications Insulated with high-density polyolefin, but not jacketed with PVC and therefore is the lowest of the three in flame resistance. UL 1685 (UL 1581, Sec. 1160) Vertical-Tray CMX Communications residential UL 1581, Sec. 1080 (VW-1) CMH CSA FT1
+
+Some cables are "UV-rated" or "UV-stable" meaning they can be exposed to outdoor UV radiation without significant destruction.[citation needed]
+
+Plenum-rated cables are slower to burn and produce less smoke than cables using a mantle of materials like PVC. Plenum-rated cables may be installed in plenum spaces where PVC is not allowed.[37]
+
+Shielded cables (FTP or STP) are useful for environments where proximity to RF equipment may introduce electromagnetic interference, and can also be used where eavesdropping likelihood should be minimized.
+
+Comparison with later standards [ edit ]
+
+The Category 6 specification improves upon the Category 5e specification by extending frequency response and further reducing crosstalk. The improved performance of Cat 6 provides 250 MHz bandwidth and supports 10GBASE-T (10-Gigabit Ethernet) for distances up to 55 meters.[10] Category 6A cable provides 500 MHz bandwidth and supports 10GBASE-T for distances up to 100 meters. Both variants are backwards compatible with Category 5 and 5e cables.
+
+Notes [ edit ]
+
+^ Z 0 = R + j ω L G + j ω C {\displaystyle Z_{0}={\sqrt {\frac {R+j\omega L}{G+j\omega C}}}} f R L = R 2 π L {\displaystyle f_{RL}={\frac {R}{2\pi L}}} f G C = G 2 π C {\displaystyle f_{GC}={\frac {G}{2\pi C}}} f R L > f G C {\displaystyle f_{RL}>f_{GC}} corner frequency (or break frequency) is defined as f R L {\displaystyle f_{RL}} f R L {\displaystyle f_{RL}} Z 0 = L C {\displaystyle Z_{0}={\sqrt {\frac {L}{C}}}} [20] The characteristic impedance of a transmission line is given by. There are two important transition frequencies related this equation:and. Typically we haveand the(or) is defined asbecause at frequencies greater thanthe familiar "lossless" relationfor characteristic impedance holds true to excellent approximation. Unfortunately neither of the terms corner frequency nor break frequency are consistently used in the literature. Most often these frequencies are not given any special name, and the topic itself is glossed over in most modern texts.

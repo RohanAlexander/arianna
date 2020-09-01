@@ -1,0 +1,49 @@
+What does it mean to be present?
+
+It's knowing that when you’re sitting in your cubicle at work, crammed in the middle seat of an airplane, being entranced at a concert or working up a sweat at the gym that what you’re experiencing is real. It’s not a dream or trick, and reality’s realness is something we just take for granted.
+
+See also: Virtual Reality Is Ready to Manipulate Your Memories
+
+Presence is also the term most thrown around this weekend Oculus Connect, because it’s the concept so important to making virtual reality successful.
+
+"We went from trying to convince ourselves we’re there, to trying to convince ourselves we’re not there,” said Oculus VR CEO Brendan Iribe during his keynote address to a room of a thousand or so people, mostly developers currently working on virtual reality software of their own.
+
+But so far the Oculus Rift has remained a portal into another world that’s not quite transportive. The two different development kits, the second a big improvement over the first, have technical limitations that even the Oculus team admits pull you out of the experience. A stuttering display, low resolution and problems with motion tracking have kept VR from sucking us in.
+
+But on Saturday, I finally felt that presence inside a world that wasn't my own. And I can't stop thinking about the experience.
+
+Secrets in a Room
+
+The first thing about the Oculus Crescent Bay, the newest virtual reality headset prototype announced at Oculus Connect on Saturday, is that it takes a room to simulate. You aren't stuffed into an office chair — even though the Oculus team loves repeating, for liability reasons, that the Rift is a sitting experience. Instead, I stood on a square pad in the middle of an 8-by-8 room. I stared at a camera while the headset was lowered over my eyes.
+
+The first things you notice, immediately, is that this Oculus Rift is a lot lighter. The team said it has improved the design so the headset no longer feels bulky. The first version was hardly something you could see yourself wearing for an extended period of time, and while this is still bulky, it's less so.
+
+The second thing immediately apparent are the built-in headphones, which snapped over my ears. They looked cheap, like something from a call center headset, at first glance. This is the first time Oculus included audio to the Rift headset experience.
+
+I'm told to try to stay on the mat in the center of the room. Then the demo is switched on.
+
+Virtual reality may be amazing, but it still doesn't look cool. Here I am wearing the Crescent Bay prototype.
+
+Diving Into Crescent Bay
+
+A small dinosaur was looking right at me. It was undeniably a Tyrannosaurus Rex, miniaturized to a the size of a horse. It looked at me with its amber eyes and rolled its head about. Then it chuffed right in my face, steam rising from its nose. I could almost feel the heat of it.
+
+That T-Rex, spotlighted on a black field, felt more real than any dream. It was also crisper than anything on television. And, thanks to the Crescent Bay’s motion tracking, it saw me. Having such a powerful beast follow my gaze was chilling.
+
+It faded out, and was replaced by a new scene, an experience that happened several times ever. Describing each in long detail would probably be about as exciting as listening to someone monologue about their dreams, but here are some highlights:
+
+A gray-skinned alien sassed at me in a unearthly tongue. It too followed my every move. I leaned in, right in its face, and it leaned back to avoid me. Its dark, iridescent eyes followed me as it continued its brusque speech. Moving and crouching were things I wanted to do in each experience. The ability to walk in virtual reality made it feel far more real than sitting.
+
+A toy city sprawled in front of me. My first reaction was to lean in close, watching the cars zoom by. As I loomed above, I tried to peek into windows of skyscrapers, or follow the path of a train as it whipped around buildings.
+
+In a gilded, ornate room I became distracted with the furniture, only to raise my head to a mirror and notice a happy mask bobbing there. The mask moved and floated on a ephemeral figure, trapped there as I made it dance.
+
+I felt real vertigo when I found myself on top of a tall building in some near-future city. Looking over the edge to the streets below made the blood rush to my head, and made me remind myself it wasn't real.
+
+A second T-Rex, this one full-size, charged me. I instinctively crouched, then looked up to see his torso passing over me. Then I turned around quickly to watch him disappear into the darkness.
+
+These experiences were short and to the point, each designed to let you feel something brief and wondrous before snapping you to the next. There were no frame-rate issues, no pixelated display and no latency issues if you turned your head too quickly. It was a forward-looking vision on how powerful virtual reality really can be.
+
+Oculus VR would not release the specs of Crescent Bay, and said there are no plans to make this hardware available to developers. Instead, it represents a proof of concept for the consumer version, which still doesn't have a release date. The company has confirmed this is the final update it will release before the consumer Oculus Rift though.
+
+The attendees were thrown headfirst into a deeper virtual reality experience than we've ever seen. It's like Oculus VR's staff intended us to go out and proselytize its power, which is hard to describe beyond, "you're going to have to try it yourself."

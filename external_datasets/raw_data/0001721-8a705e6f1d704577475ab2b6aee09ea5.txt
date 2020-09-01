@@ -1,0 +1,57 @@
+Following the trade deadline there was much speculation and criticism over the moves, or lack thereof, of Peter Chiarelli. And in hindsight it was well deserved, as Andrez Meszaros and Corey Potter proved to be not enough on the backend—the duo rarely surpassed Matt Bartkowski on the depth chart, as Mezsaros appeared in four games, and Potter only one. Soon after the deadline, Bruins’ President Cam Neely revealed on 98.5 The Sports Hub’s Felger and Mazz radio show that a deal was in the works, but ultimately fell through at the last minute.
+
+"We were in on something else that we felt would have been good for us if it could’ve gotten accomplished, but it wasn’t entirely in our control in that regard… I think it may potentially have laid some groundwork for the future. But again, you have to have a dance partner… We had a deal in principle that was predicated on another team getting something done."
+
+The Boston Globe’s Fluto Shinzawa wrote the following morning that the "deal in principle" was for the Canucks’ Alexander Edler, reporting that the deal was contingent on Ryan Kesler being traded to the Pittsburgh Penguins. Had the trade gone through, the Bruins likely would’ve had to give up at least two high prospects (Bartkowski/Spooner/Khokhlachev), and likely a draft pick. Chiarelli noted that the negotiations weren’t a total loss, as he was able to "lay some groundwork", and that it would be revisited during the off-season. Flash-forward nearly three months to the day, and there’s one major variable PC may not have seen coming: former Bruins’ Assistant GM is now the general manager of the Vancouver Canucks, replacing Mike Gillis at the end of May. So what ripple effect does this have for the future of the Bruins blue line, you ask?
+
+First off, let’s look at a couple major factors. We’ll start with Edler’s current contract.
+
+SEASON AHL SALARY NHL SALARY P. BONUSES S. BONUS AAV CAP HIT 2013-14 $3,250,000 $3,250,000 $0 $1,000,000 $5,000,000 $5,000,000 2014-15 $4,250,000 $4,250,000 $0 $2,000,000 $5,000,000 $5,000,000 2015-16 $6,000,000 $6,000,000 $0 $3,000,000 $5,000,000 $5,000,000 2016-17 $6,000,000 $6,000,000 $0 $3,000,000 $5,000,000 $5,000,000 2017-18 $6,000,000 $6,000,000 $0 $0 $5,000,000 $5,000,000 2018-19 $4,500,000 $4,500,000 $0 $0 $5,000,000 $5,000,000
+
+2013-14 was the first season of a six year, $30M deal for Alex Edler. The $5 million annual cap hit would put him second on the Bruins, in front of Johnny Boychuk and Dennis Seidenberg. It would also give him the longest term of any defenseman on the team by two years, with Zdeno Chara and Seidy both up at the end of the 2017-18 season. Edler just turned 28, younger than Johnny Boychuk and only about six months older than both Adam McQuaid and Kevan Miller. He would just be turning 33 at the end of the contract, giving you the prime of his career at a reasonable price.
+
+Next, how about we take a look at his production in his seven full seasons in the NHL.
+
+SEASON TEAM GP G A P +/- PIM PPG SHG GWG S S% 2007-08 CANUCKS 75 8 12 20 6 42 4 0 0 124 6.4 2008-09 CANUCKS 80 10 27 37 11 54 5 0 1 145 6.9 2009-10 CANUCKS 76 5 37 42 0 40 2 0 0 161 3.1 2010-11 CANUCKS 51 8 25 33 13 24 5 0 1 121 6.6 2011-12 CANUCKS 82 11 38 49 0 34 5 1 0 228 4.8 2012-13 CANUCKS 45 8 14 22 -5 37 5 0 0 113 7.1 2013-14 CANUCKS 63 7 15 22 -39 50 4 0 0 178 3.9 NHL TOTALS 494 58 170 228 -11 287 30 1 2 1,080 5.4
+
+While Edler is statistically a career minus player, last year was clearly the anomaly. Following the trade of Roberto Luongo at the deadline, Edler had a plus rating in just two of his final 19 games played, a -14 rating over that same span. Not that being -25 prior to the trade was much better, but in a year where Vancouver finished third-worst in the West, it can be chalked up to a down year.
+
+Offensively numbers were down as well, with his lowest PPG average since his rookie season. His primary points were down by shooting percentage was also at its lowest in four seasons. But his track record shows a different story. Among the four Canucks’ defenseman with 5000+ minutes played since 2008—the other three being Bieksa, Hamhuis, and Garrison—Edler has the best Corsi and Fenwick ratings both 5-on-5 and on the penalty kill, and is 2nd on the team on the man advantage. In comparison with the Bruins, he is right in line with Johnny Boychuk and Zdeno Chara, the B’s leading defenseman in the same categories over that time-span.
+
+Even Strength:
+
+# Player Name Team TOI G A FirstA Points Shots iFenwick60 iCorsi60 1 EDLER, ALEXANDER Vancouver 6457:21 19 69 29 88 568 7.879 11.856 2 BIEKSA, KEVIN Vancouver 6442:08 20 72 27 92 542 7.507 11.018
+
+# Player Name Team TOI G A FirstA Points Shots iFenwick60 iCorsi60 1 BOYCHUK, JOHNNY Boston 5266:40 18 44 24 62 548 8.841 12.680 2 CHARA, ZDENO Boston 8067:27 28 96 49 124 764 7.832 11.864
+
+Penalty Kill:
+
+# Player Name Team TOI G A FirstA Points Shots iFenwick60 iCorsi60 1 EDLER, ALEXANDER Vancouver 781:45 1 0 0 1 21 1.919 2.072 2 HAMHUIS, DAN Vancouver 1243:50 1 3 3 4 24 7.507 1.495
+
+# Player Name Team TOI G A FirstA Points Shots iFenwick60 iCorsi60 1 BOYCHUK, JOHNNY Boston 670:12 0 4 2 4 16 2.149 2.596 2 CHARA, ZDENO Boston 1233:56 1 7 4 8 40 2.431 2.577
+
+[source: stats.hockeyanalysis.com]
+
+All these numbers and figures probably have you thinking, "Yeah, we could use a young puck-moving defenseman with a good numbers." But here’s the thing...
+
+You don’t want Alexander Edler on the Bruins.
+
+First of all, Edler’s cap hit might be reasonable once the salary cap increases in a few years, but with Jarome Iginla’s cap penalty on the books for next season, the B’s are assumed to be docked around $4.5 million, bringing their projected 2014-15 salary cap down from $71M to $66.5M. Even with Savard’s money on LTIR, Edler would put the Bruins against the cap, forcing them to make significant moves (trades or contract buyouts) before signing their own free agents. His $5M cap hit is comparable to Keith Yandle, who would give you much more bang for your buck.
+
+When seeking a puck-moving defenseman, don’t forget the embarrassment of blue line riches the Bruins currently have under their belt. Not only does Boston have Dougie Hamilton under contract as he steadily grows in all facets of the game, but they have Torey Krug and Matt Bartkowski in their RFA years. Assuming they give Krug a multi-year deal and sign Bart to a qualifying offer, that’ll give the big club eight defenseman. In the system, they have David Warsofsky, Zach Trotman, Joe Morrow, and the newly signed Linus Arnesson. While Arnesson is more of a lock-down defenseman, Morrow, Warsofsky and Trotman have an offensive skillset, as the three combined for 85 points in their collective 165 games played in the minors last season. Joe Morrow, who came over in the Tyler Seguin deal, is the most highly-touted prospect, while David Warsofsky—also currently an RFA—is the most NHL-ready, as he appeared in six games with the Boston during the regular season (1G, 1A, +1), and followed that up with a great showing in the Calder Cup Playoffs with 9 points in 12 games.
+
+Regardless of the defensive prospects possibly ready to make the jump, the trade for Edler was rumored to cost the Bruins’ a couple highly valued forward prospects. Both Ryan Spooner and Alexander Khokhlachev were in the reported package headed to Vancouver. Koko led the P-Bruins in 2013-14 in points during the AHL regular season, and led the team with 9 goals in 12 games during the Calder Cup Playoffs. Spooner, who had 11 assists in 23 games with Boston, had the highest point-per-game percentage with Providence (.938) during the regular season, and led the team with 15 points in 12 playoff games. Either Khokhlachev or Spooner—or both—could be a welcome addition to the big club, giving a new look and added speed to the Bruins 3rd and 4th lines in 2014-15.
+
+The main issue with the Edler trade isn’t the player himself. It’s the position and style. Between current D-men, both on the team and in the system, the Bruins have very good puck movers on their blue line; Zdeno Chara, Torey Krug, Dougie Hamilton and Johnny Boychuk all tallied more points than Edler. But aside from the strength of Kevan Miller, Dennis Seidenberg and Zdeno Chara, they have a slender defensive core. A skater heavy on the puck who has awareness in his own zone is a much bigger need. And Edler defensively isn’t enough to put the Bruins over the top. So if not Edler, who? Hint: Stay in the Canucks’ division.
+
+Mark Giordano would be the ideal candidate, as he brings solid offensive touch while staying responsible in his zone. He led the Flames with a 12+ rating in 2013-14 despite the team goal differential being an abysmal -32. He’s skated alongside Jarome Iginla for five seasons, and both would be vying for their elusive first Stanley Cup. His presence would be welcomed both on and off the ice, as he could complement Johnny Boychuk or Dennis Seidenberg for a lock-down 2nd defensive pairing. Giordano has two years remaining on his contract at $4.02 million per year, so he’s cheaper than Edler, which could potentially lower the cost of the assets shipped out. In both zones, he’s more consistent, and his production has had a bigger upside than Edler’s over the last few seasons.
+
+A. Edler M. Giordano
+
+But enough of the armchair GM talk. What about Jim Benning? In all likelihood, Benning being in Vancouver hurts the chances of an Edler trade.
+
+There are two logical reasons for this. First, from what Behind The B showed us last season, Jim Benning was a key voice in the Bruins’ front office in regards to the Tyler Seguin trade. Assuming this wasn’t a one-time occurrence, it seems that Benning was and had been heavily involved in trade negotiations alongside Chiarelli. Odds are he was a facilitator leading up to the deadline, and there’s a good chance that Benning wanted Edler on his team. Now that Jim has him, why give Edler up? Remember, the Canucks may have been sellers last season due to their record, but if they can get their goaltending situation figured out, there’s plenty of firepower in their arsenal to make them a playoff threat in the West next season. Dumping Edler would hurt that cause.
+
+Secondly, a deal with his former team in his first season would require Benning to undoubtedly win the trade. Benning would be shipping out a Top 4 defenseman just one year after the Canucks signed him to a mutli-year contract, and therefore would have to make the return not only fair, but great. Otherwise he runs the risk of being accused of hooking up his old pals in Boston on the cheap. To make matters worse, Benning knows the prospects in the Bruins system, so he won’t be fooled by any throw-ins Peter Chiarelli might try to claim are diamonds in the rough. He’ll likely want the same package proposed in March, if not more.
+
+If you are a Bruins fan that wanted Alexander Edler, then Jim Benning as the Canucks’ GM is bad news. But if you’re a Bruins fan that wants a better team next year, with many of their new, young talent intact, the "trade that never was" may just have been a blessing in disguise. Then again, you can’t deny those dance moves.

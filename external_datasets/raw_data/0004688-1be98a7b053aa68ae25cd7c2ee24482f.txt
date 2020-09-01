@@ -1,0 +1,157 @@
+As IT systems become more complex and the need for better solutions to manage hundreds and thousands of services and applications increases, administrators have realized that using traditional operational methods to manage scalable systems are not working any more. Tools for configuration management and automation become essential. Such tools can be used to install a certain software on hundreds of servers just by defining a few lines of code. They can also be used to continuously deploy a new version of an application to a testing or production environment …
+
+In this post I am going to use Ansible, which is one of the popular orchestration tools nowadays, to install a node.js application, with all its needed components. To make it a little more fun I have chosen a chess game application that is based on https://github.com/benas/gamehub.io – a real-time multiplayer game server based on node.js, Express, SocketIO, MongoDB and ElasticSearch.
+
+What is Ansible?
+
+Ansible is a powerful orchestration and IT automation tool created by Michael DeHaan at 2012. This tool can be used to install a piece of software on remote host(s), deploy applications, rollout updates, run ad-hoc tasks or to even manage your own local machine.
+
+Ansible works by pushing commands to servers through SSH connections, it is an agent-less tool that doesn’t require a daemon or an agent running on the remote destination, which means all you need to start using ansible is the tool itself and an SSH network connection. This makes it very simple to deploy in most enterprise environments as SSH is already setup for most of the infrastructure.
+
+Later we will see that Ansible uses the YAML language to write its own tasks and instructions, which makes it very easy to read and use.
+
+Ansible has one of the best documentation you can encounter, this post will not go through how to use Ansible or a getting started guide, but you need to familiarize yourself with a few concepts before you start with Ansible:
+
+Ansible is Agent-less
+
+Ansible only requires SSH access on the remote host to be able to run tasks and operations on that host. It can be used to run tasks on several hosts at the same time as long as it has remote SSH access on them.
+
+Ansible is Idempotent
+
+An idempotent operation is an operation that will always yield the same result when it’s called with the same input and ran on the same machine. Ansible runs on that concept, which means if you ran an Ansible task on the same machine multiple times you will get the same result and Ansible is smart enough to detect the first change and not repeat the operation multiple times.
+
+Ansible is Modular
+
+Ansible comes with a set of modules, those modules control system resources and applications. An example for that is the setup module that is used to gather information about the remote hosts. These modules can be used as ad-hoc commands or using playbooks.
+
+Introducing The NodeJS Application
+
+We will walk through installing an open-source Node.js application called ChessHub.io which is based on Gamehub.io which is a real time gaming server developed by Mahmoud Ben Hassine.
+
+The GameHub application requires the following components to run on a server:
+
+Node JS
+
+Express JS
+
+Passport JS
+
+Socket.io
+
+Handlebars.js
+
+Mongo DB
+
+ElasticSearch
+
+We will be installing Node.js, MongoDB, ElasticSearch as separate components while the others will be installed as dependencies of the application. (located in package.json file)
+
+Setting up the Application Environment
+
+The application will basically run on 2 machines on DigitalOcean, one to run the Node.js server along with Nginx and the other server is for ElasticSearch and MongoDB servers. The following is a simple diagram describing the entire setup:
+
+The communication between the two machines will be done through the private network which will be configured when we create the 2 droplets. As an addition i will use Ansible also to create those droplets before starting the configuration.
+
+Creating The Ansible Playbook
+
+The playbook will consists of several roles, each role will be responsible for set of tasks to install a component or a piece of software.
+
+To simplify the process, I will discuss the playbook in three parts or plays:
+
+Part 1: Provisioning droplets and common tasks.
+
+Part 2: Front-end roles (Nginx, NodeJS,..)
+
+Part 3: Backend roles (Elasticsearch, MongoDB,..)
+
+Before going through each part we need first to take a look on the big picture, the file structure of the project will be as the following:
+
+$ tree -L 2 . |-- digital_ocean.py |-- do_droplets.yml |-- env |-- group_vars | `-- all.yml |-- playbook.yml |-- README.md `-- roles |-- application |-- common |-- elasticsearch |-- mongo |-- nginx `-- nodejs
+
+The project consists of 6 roles in total, and a file for all the variables inside group_vars directory, also the do_droplets.yml is the file that is responsible for creating the DigitalOcean droplets, in the next few sections I will reference some snippets from the playbook and the roles, you can find the whole thing here if you are interested.
+
+Part1: Provisioning Droplets and Common Tasks
+
+DigitalOcean has an API that allows you to list, create, delete, stops, etc. droplets and at the 2nd of April, DO announced that V2 of its API came out of the Beta version after nine months of its release to include more features than V1.
+
+Ansible uses a famous python wrapper called dopy to communicate with the API, and as of Ansible 2.0, Version 2 of the DigitalOcean API is used, but since version 2 still in alpha testing state, we are going to use Ansible 1.9 and version 1 of the DigitalOcean API
+
+Before starting with the tasks that will create the droplets, make sure that dopy is installed:
+
+$ sudo pip install dopy
+
+To create a new droplet, I will use Jeff Geerling’s dynamic inventory for DigitalOcean, This inventory requires two environment variables to be set:
+
+DO_CLIENT_ID DO_API_KEY $ export DO_CLIENT_ID=xxxxx $ export DO_API_KEY=xxxxxx
+
+In the do_droplets.yml file we will create two tasks that are responsible for creating two machines and use them later to to run the rest of the roles:
+
+do_droplets.yml --- - hosts: localhost connection: local gather_facts: false tasks: - name: Create Front-end Droplet digital_ocean: state: present command: droplet name: node1 private_networking: yes size_id: 64 image_id: 13089493 region_id: 7 ssh_key_ids: 430781 unique_name: yes register: node1 - name: Add node2 to the inventory. add_host: ansible_ssh_host: "{{ node1.droplet.ip_address }}" ansible_ssh_port: 22 name: node1 groups: node1 when: node1.droplet is defined - name: Create Backend-end Droplet digital_ocean: state: present command: droplet name: node2 private_networking: yes size_id: 64 image_id: 13089493 region_id: 7 ssh_key_ids: 430781 unique_name: yes register: node2 - name: Add node2 to the inventory. add_host: ansible_ssh_host: "{{ node2.droplet.ip_address }}" ansible_ssh_port: 22 name: node2 groups: node2 when: node2.droplet is defined - hosts: - node1 - node2 remote_user: root tasks: - name: Wait for port 22 to become available. local_action: "wait_for port=22 host={{ ansible_eth0.ipv4.address }}"
+
+Basically these plays do the following:
+
+1. Create the Frontend and the Backend droplets each with 1GB of ram and add my key to the root user, also enable private networking.
+
+2. Wait until the port 22 become available in both nodes.
+
+Common Role
+
+The common role installs the commonly used packages like vim, curl, git-core, etc, the task will go like this:
+
+- name: Install needed packages apt: name={{ item }} state=present update_cache=yes with_items: common_packages
+
+The previous lines describe how to use the apt module to install packages at the remote hosts using apt-get command, the {{ item }} is an iteration through a list variable which is in this case the common_packages variable, the variable is simply a list of packages names like this:
+
+common_packages: - vim - screen - sudo - htop - strace - curl - wget - git-core
+
+After installing the common packages, it add a swap to the machine, and finally add a user and its key to the droplet.
+
+Part 2: Installing Nginx and Node.js
+
+The following part will be added to the playbook.yml in order to add 3 roles one for Nginx and the other is for Nodejs installation, and the last one is for installing the application itself.
+
+The Nginx role is simple, it adds the repository for Nginx package and installs Nginx and add the default configuration which may be little tricky, as we will see in a bit:
+
+--- - name: Include Gzip Configuration include_vars: gzip.yml when: nginx_gzip == "on" - name: Add Nginx Repository apt_repository: repo='ppa:nginx/{{ nginx_version }}' state=present register: nginxrepo - name: Install Nginx apt: pkg=nginx state=installed update_cache=true when: nginxrepo | success notify: - Start Nginx - name: Remove Default Site file: dest=/etc/nginx/sites-enabled/default state=absent when: nginx_delete_default | bool - name: Add Nginx Configuration template: src=nginx.conf.j2 dest=/etc/nginx/nginx.conf notify: - Restart Nginx
+
+The role adds a template configuration for the nginx.conf file, the template is written in Jinja2 templating language, which can contain variables, if conditions, loops, etc. A snippet from the configuration will be like the following:
+
+# event mod Configuration # ########################### events { # 1024 worker_connections {{nginx_worker_connections }}; # 32 worker_aio_requests {{ nginx_worker_aio_requests }}; # on accept_mutex {{ nginx_accept_mutex }}; }
+
+Nodejs Role
+
+The Nodejs role adds the repository of Nodesource that includes an up to date nodejs and npm packages, and then it installs them after updating the apt cache:
+
+- name: Add the Nodesource apt key apt_key: url=https://deb.nodesource.com/gpgkey/nodesource.gpg.key state=present - name: Add nodesource repository apt_repository: repo='deb https://deb.nodesource.com/node_0.10 trusty main' state=present - name: Install nodejs and some dependencies apt: name={{ item }} update_cache=yes state=present with_items: - nodejs - build-essential
+
+Application Role
+
+The application role will fetch the ChessHub application and installs the dependencies, i modified some of the code to be able to connect to ElasticSearch and MongoDB on different host, so i will be using my fork of the Chesshub application.
+
+The application role will do everything related to the deployment of the application, starting from creating the application directory, to installing the Nginx configuration and restarting the service, for example it will fetch the source code using git module and modify the configuration of the application:
+
+- name: Fetch the application source git: repo={{ git_repo }} dest=/var/www/chesshub accept_hostkey=yes force=yes - name: Install custom application configuration template: src=default.json dest=/var/www/chesshub/config/default.json
+
+And finally it will run the application using Forever tool and restart Nginx which will proxy all the requests to port 3000.
+
+Part 3: Backend roles (Elasticsearch, MongoDB,..)
+
+The rest of the roles are very simple. They basically install each tool and start it, except for MongoDB it will modify configuration file to make Mongo listen to any traffic coming from the private network.
+
+Note: I didn’t put security in consideration in this little project, as I am just illustrating a deployment of node.js using Ansible, but if you are going to deploy a similar deployment in production, there are a lot of other measures you have to take, which may be a topic for another post.
+
+There is no need to upload a new template if you are just going to change one line to the configuration, as in this case when we want to change the bind address configuration in /etc/mongod.conf:
+
+- name: bind address to the private ip lineinfile: dest=/etc/mongod.conf regexp='^bind_ip' line='bind_ip=127.0.0.1,{{ ansible_eth1.ipv4.address }}' notify: Restart mongo
+
+The regexp directive will search for a line that starts with “bind_ip” and change it to contain the private ip address of this node using an Ansible fact.
+
+Running the playbook
+
+To run the playbook, i will specify the dynamic inventory file (digital_ocean.py) to be used with ansible, which will communicate with DigitalOcean API to get information about the hosts, the running command will be like the following:
+
+$ ansible-playbook -i digital_ocean.py playbook.yml
+
+You should finally see something like the following and the application will run on the IP of node1 on port 80:
+
+PLAY RECAP ******************************************************************** localhost : ok=0 changed=4 unreachable=0 failed=0 node1 : ok=0 changed=61 unreachable=0 failed=0 node2 : ok=0 changed=48 unreachable=0 failed=0

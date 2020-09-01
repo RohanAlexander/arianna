@@ -1,0 +1,15 @@
+I plan to report only "bright" Supernova (above mag 17.5) on this page. Note that you are going to need a big telescope to find most of these things, for instance, a "Mag 14" SN probably won't be visible to the eye in anything less than a 10" telescope. A CCD, however, can often detect a Mag 14 object with a much smaller objective. Those SN which are easily findable by amateurs (above mag 14.0) will be in red .
+
+The format is as follows:
+
+Name of SN, Discovery reference (link if possible), Date which the supernova first appeared (Year/Month/Date format), Name of discoverers separated by a ";" (link to discovery site(s) if possible)
+
+Name of galaxy (linked to a page describing this galaxy), RA and DEC of SN in J2000.0 coordinates (link to sky map of that area of the sky)
+
+Directions to the SN from core of host galaxy, galaxy name (linked to a Photometry Reference image of that galaxy)
+
+Magnitude of SN when LAST reported (link to the source of the last report) : date of report ("maximum brightness:date of maximum" or "rising" if that information is available), Type of SN if reported. [Spectrum if possible] (Any data which reference this SN (IAUCs; VSNET; past SNe))
+
+Any special pages dedicated to observing this SN, or a link to a sub page if enough data warrants it.
+
+If possible I will create an icon for every bright supernova. This icon will be black on a white background and mirror imaged left to right so that North is up and East is left. The exception being a color image, which will have he same orientation. All icons will be less than 100x100 pixels in size so that they load quickly.

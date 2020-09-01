@@ -1,0 +1,41 @@
+eso1235 — Photo Release
+
+A Cluster with a Secret
+
+A new image from ESO’s La Silla Observatory in Chile shows the spectacular globular star cluster Messier 4. This ball of tens of thousands of ancient stars is one of the closest and most studied of the globular clusters and recent work has revealed that one of its stars has strange and unexpected properties, apparently possessing the secret of eternal youth.
+
+The Milky Way galaxy is orbited by more than 150 globular star clusters that date back to the distant past of the Universe (eso1141). One of the closest to the Earth is the cluster Messier 4 (also known as NGC 6121) in the constellation of Scorpius (The Scorpion). This bright object can be easily seen in binoculars, close to the bright red star Antares, and a small amateur telescope can show some of its constituent stars.
+
+This new image of the cluster from the Wide Field Imager (WFI) on the MPG/ESO 2.2-metre telescope at ESO’s La Silla Observatory reveals many more of the cluster’s tens of thousands of stars and shows the cluster against the rich background of the Milky Way.
+
+Astronomers have also studied many of the stars in the cluster individually using instruments on ESO’s Very Large Telescope. By splitting the light from the stars up into its component colours they can work out their chemical composition and ages.
+
+New results for the stars in Messier 4 have been surprising. The stars in globular clusters are old and hence not expected to be rich in the heavier chemical elements [1]. This is what is found, but one of the stars in a recent survey was also found to have much more of the rare light element lithium than expected. The source of this lithium is mysterious. Normally this element is gradually destroyed over the billions of years of a star's life, but this one star amongst thousands seems to have the secret of eternal youth. It has either somehow managed to retain its original lithium, or it has found a way to enrich itself with freshly made lithium.
+
+This WFI image gives a wide view of the cluster and its rich surroundings. A complementary and more detailed view of just the central region from the orbiting NASA/ESA Hubble Space Telescope was also released this week as part of the Hubble Picture of the Week series.
+
+Notes
+
+[1] Most of the chemical elements heavier than helium are created in stars and dispersed into the interstellar medium at the end of their lives. This enriched material then forms the building blocks of future stellar generations. As a result very old stars, such as those in globular star clusters, which formed before significant enrichment had occurred, are found to have lower abundances of the heavier elements when compared to stars, such as the Sun, that formed later.
+
+More information
+
+The year 2012 marks the 50th anniversary of the founding of the European Southern Observatory (ESO). ESO is the foremost intergovernmental astronomy organisation in Europe and the world’s most productive ground-based astronomical observatory by far. It is supported by 15 countries: Austria, Belgium, Brazil, the Czech Republic, Denmark, France, Finland, Germany, Italy, the Netherlands, Portugal, Spain, Sweden, Switzerland and the United Kingdom. ESO carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities enabling astronomers to make important scientific discoveries. ESO also plays a leading role in promoting and organising cooperation in astronomical research. ESO operates three unique world-class observing sites in Chile: La Silla, Paranal and Chajnantor. At Paranal, ESO operates the Very Large Telescope, the world’s most advanced visible-light astronomical observatory and two survey telescopes. VISTA works in the infrared and is the world’s largest survey telescope and the VLT Survey Telescope is the largest telescope designed to exclusively survey the skies in visible light. ESO is the European partner of a revolutionary astronomical telescope ALMA, the largest astronomical project in existence. ESO is currently planning a 40-metre-class European Extremely Large optical/near-infrared Telescope, the E-ELT, which will become “the world’s biggest eye on the sky”.
+
+Links
+
+Contacts
+
+Richard Hook
+
+ESO, La Silla, Paranal, E-ELT & Survey Telescopes Press Officer
+
+Garching bei München, Germany
+
+Tel: +49 89 3200 6655
+
+Cell: +49 151 1537 3591
+
+Email: rhook@eso.org
+
+Connect with ESO on social media

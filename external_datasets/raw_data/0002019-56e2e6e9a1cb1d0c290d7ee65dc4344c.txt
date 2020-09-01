@@ -1,0 +1,63 @@
+The Fraud Among Us, or Within Us?
+
+It happens uncomfortably often. A successful person, who seemingly has achieved great things and earned respect and admiration, is exposed as a fraud. From Bernie Madoff to the imprisoned real estate developer who built the outsized, now foreclosed home in my neighborhood, I am reminded that people are not always what they seem.
+
+Fraud disturbs me most when it happens close to my professional home. A decade ago, a social psychologist was forced to resign her position at the University of Texas and retract four articles. Now, it has happened again. Diederik Stapel, a productive and frequently honored social psychologist and self researcher, has resigned his position at Tilburg University after admitting to fabricating data in his research.
+
+The most recent instance has been called “sad,” “shocking,” and “incomprehensible.” Cases of outright fraud in science are distressing for a lot of reasons. They damage the careers of students and collaborators, and raise doubts about nonretracted papers by the same author. Most important, they damage public trust in science and in scientists. In this case, trust in social psychologists and the work we do is undermined. Appropriately, then, SPSP has accepted Stapel’s resignation from the society, and asked him to step down from his various responsibilities.
+
+Beyond these very real consequences, I find the psychology of these cases deeply disturbing. I try to put myself in the shoes of someone exposed as a fraud, and think about what it must feel like to be them. What would it feel like to receive respect, admiration, job offers, and even honors and awards, knowing that they are based on falsehoods? Honest, authentic human connections would seem impossible, if I knew I was not the person that my peers, students, and colleagues thought I was. How isolating would that be, how lonely? How present would fear of exposure be in daily life? And how humiliating and downright frightening would it be to be exposed and lose everything—job, career, status, respect? Just thinking about it, I feel ill. It’s inexplicable to me that someone with obvious intelligence, ambition, and talent would risk everything by falsifying data.
+
+Explaining the Inexplicable
+
+Perhaps these cases seem inexplicable because we find out about them at the end, when the fraud has been exposed. By that time, bad choices leading to minor transgressions have escalated into outright career-killing fraud, likely in ways that were never intended. Bernie Madoff surely didn’t begin his Ponzi scheme planning to steal $50 billion. Social psychologists probably don’t begin down the path to scientific misconduct by inventing a study’s worth of data from whole cloth, while foreseeing that this would eventually cause their entire program of research to be doubted. These cases surely began as small missteps, smoothing over uncooperative results of one form or another. Cases of fraud are more understandable when we think about how they begin and escalate, not how they end.
+
+Stanley Milgram’s studies of obedience to authority provide insight into why people do things that are so counter to our norms and understanding of human nature that they seem either inexplicable, or the result of some form of pathology (Milgram, 1963). Usually, people interpret Milgram’s studies as revealing how obedient most of us are to authority or as evidence that the situation determines behavior. Another lesson of these experiments, however, may be more relevant to understanding cases of fraud: how easy it is to take the first small step on the slippery slope of violating our own norms and values, and how difficult it is to stop once the downward slide gains momentum (Modigliani & Rochat, 1995).
+
+In Milgram’s studies, the research subjects were placed in the role of “teacher;” they were to administer electric shock to another subject, the “learner” (actually a confederate of Milgram), each time the learner gave an incorrect answer, using a “shock generator” consisting of 30 switches, the first labeled “15 volts, slight shock,” and increasing by 15 volt increments to “420 volts, danger: severe shock, and finally, “450 volts, XXX.” The teacher was to increase the shock by 15 volts each time the learner was wrong, or did not answer. When these roles were explained, the learner revealed that he had a heart condition.1
+
+This experiment is famous because of where it ended; of the 40 subjects in the original version of the study, 26, or 65%, administered shock up to the final switch on the shock generator, well past the point at which the “learner” complained of heart pain and then stopped responding altogether. The lesson of the study seemed to be that people would violate their own moral codes and administer potentially deadly shock to an ill victim, merely on the say-so of an authority figure.
+
+But this experiment may be more important for where it begins. All participants—100%–began by giving only a “slight shock” of 15 volts in response to the learner’s first incorrect answer. With the experimenter’s assurances that the shock might be painful but was not dangerous, what could be the harm of giving 15 volts?
+
+The harm is that once people have given 15 volts of shock, they have no compelling reason to resist giving a tiny increase of another 15 volts. After all, they have implicitly conceded that 15 volts of shock is minor. And once they have given 30 volts of shock, why not 45? Each time participants administered shock—at first just a “slight” amount, then stronger shocks–that level of shock became the new “normal.” Consciously or unconsciously, teachers justified their behavior to themselves each time they pulled the switch, and each justification made pulling the next switch easier. It is much harder to see that giving shock is wrong and that one has the power to simply stop after one has already given shocks that increased from 15 to 300 or more volts. Thus did participants slide down the slippery slope toward administering potentially fatal shock (Modigliani & Rochat, 1995).2
+
+Imagine what would have happened if Milgram had asked the teachers to begin by administering 450 volts of shock, marked XXX, beyond “danger: severe shock,” at the first wrong answer by the learner. To my knowledge, this variation of the Milgram studies has never been conducted. I suspect that “obedience,” in this scenario, would drop dramatically, perhaps even to 0.
+
+For understanding fraud, the useful lesson of the Milgram studies is the significance of that first tiny step down the slippery slope, however “slight” a violation it may be. Each minor transgression, whether dropping an inconvenient data point or failing to give credit where it is due, creates a threat to self-image—“Am I that sort of person?” To avoid the discomfort, people rationalize and justify until their behavior feels comfortable and right, making the next transgression seem not only easier, but perhaps even morally right.
+
+To be fair, we are all flawed, nonperfect human beings. Although the well-being of our science and our society, require that fraud be punished severely, merely focusing on the perpetrator may divert our attention from the fraud within us all. Although we don’t all fabricate data or run Ponzi schemes, if we look closely at our lives, surely all of us can find places where we took that first step, and perhaps several, down one slippery slope or another. Perhaps we transgressed in some minor way–snapped at our children, or borrowed a few words from someone without attribution. Perhaps we refused a request for some service or another because we wanted to focus on advancing our own careers. Because people are human, if we look for things we’ve done that violate, even just a tiny bit, our own moral values, surely we will find them.
+
+Surely there are ways we are not who our colleagues think we are—we are less brilliant, witty, selfless, or helpful than we lead them to think. We already know what it feels like to be a fraud, be cause in little, nearly imperceptible ways, our desire to be well-regarded leads us to conceal our mistakes, weaknesses, and foibles from others. Perhaps, while enforcing the standards of our profession, we can still have compassion for those who transgress, knowing that it is in our nature as human beings to try to get others to see us in a positive light.
+
+This analysis shifts the focus from “them” to “us,” and shifts the question away from, “How could they do it?” to “Why do we start in the first place?” and “How can we stop?”
+
+Why do we start?
+
+All of these transgressions, minor or major, may have started with a little fear of our egos. Milgram’s studies do not address the issue of why his participants administered the first 15 volts of shock. 100% of participants in his first study took this first step, so the data offer no clues as to why people might draw the line and not even take the first step. Through the lens of my own research, I suspect that something in this situation triggers egoistic concerns for participants; some fear or little anxiety was triggered. It wasn’t fear of losing their $4.50 payment for participating; Milgram assured subjects that the money was theirs to keep, no matter what. Instead, it was likely some fear of what noncompliance would mean about them (I wasted my time coming here; I’m not helpful; I’m the trouble-maker; I’m the one who screwed up science), or fear of being judged negatively by the experimenter. In some small, perhaps imperceptible way, noncompliance represented a threat to subjects’ self-image or public image.
+
+In the same way, the first small step down the slippery slope of fraud probably starts out of some sort of egoistic fear or anxiety—fear of losing someone else’s admiration and respect, fear of letting others down, fear of being seen as a loser, fear of being a failure, or fear of not getting the job, the grant, or the award one covets.
+
+How can we stop?
+
+The difficult question then becomes, how can we stop the slide? Again, Milgram’s study is instructive. A meta-analysis of data from eight of Milgram’s obedience experiments showed that defiance of the experimenter was most likely at 150 volts, when the learner first requested to be released from the study (Packer, 2008). Although not conclusive, this finding suggests that, for defiant participants, at some point concern for the well-being of the learner took priority over concerns for self-image or public image that prevented defiance of the experimenter.
+
+And this might be the most important lesson. Cultivating concern for the rights and well-being of others, making it a daily practice, committing to act on it—these things may help us stop our slide down that slippery slope. In the case of the 15 volt steps toward scientific misconduct, thinking about the consequences for our students, colleagues, loved ones, our institution, our discipline, or science itself might help us stop our own little slides, when they inevitably happen.
+
+In this regard, we should all feel gratitude toward, and admiration for, those people who took the risk to stop something unacceptable when they saw it. Surely, they experienced egoistic fears—Will they believe me? What will happen to me? Will my own reputation be tarnished? But they acted for the common good in spite of those fears, and I, for one, thank them.
+
+Footnote
+
+1. For more information about the Milgram study see: http://www.psychologicalscience.org/index.php/news/releases/50th-anniversary-of-stanley-milgrams-obedience-experiments.html)
+
+2. I thank Marc-Andre Olivier for pointing out to me this powerful aspect of Milgram’s obedience paradigm.
+
+Reference
+
+Milgram, S. (1963). Behavioral study of obedience. Journal of Abnormal and Social Psychology, 67, 371-378.
+
+Modigliani, A., & Rochat, F. (1995). The role of interaction sequences and the timing of resistance in shaping obedience and defiance to authority. Journal of Social Issues, 51, 107-123.
+
+Packer, D. J. (2008). Identifying systematic disobedience in Milgram’s obedience experiments: A meta-analytic review. Perspectives on Psychological Science, 3, 301-304.
+
+Advertisements

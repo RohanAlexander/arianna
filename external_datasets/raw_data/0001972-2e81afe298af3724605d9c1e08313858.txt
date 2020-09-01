@@ -1,0 +1,29 @@
+Internet users have called for a boycott of web hosting giant Go Daddy over its public support of the Stop Online Piracy Act in the US.
+
+While the company has publicly supported SOPA and similarly controversial proposed legislation for months, its position went largely unnoticed until a thread on Reddit gained legs yesterday.
+
+User "selfprodigy" said he planned to move 51 domain names he has registered with Go Daddy to another registrar, adding: "I'm suggesting Dec 29th as move your domain away from GoDaddy day because of their support of SOPA. Who's with me?"
+
+The posting attracted almost 4,000 comments, largely supportive of the boycott.
+
+Ben Huh, CEO of the Cheezburger Network - the owner of sites such as FailBlog - said in a tweet that he would move his 1,000 domains away from Go Daddy unless it dropped its support for SOPA.
+
+The campaign now also has a website at GoDaddyBoycott.org (registered via Canadian registrar Tucows using a privacy service to protect the owner's identity).
+
+Go Daddy's position, however, has been firm. Not only has it supported SOPA from the outset, but it has also dismissed criticisms of the bill, which many say amounts to censorship.
+
+"The notion that the solutions that have been put forth will break the internet, or that certain legal businesses will go off-line because of new mandates, is utterly unconvincing," Go Daddy general counsel Christine Jones wrote in November. "SOPA goes a long way toward fixing the existing problems."
+
+A month later, responding to similar criticisms on her personal blog, Jones wrote: "Most of what we are seeing is either 1) rhetoric, 2) regurgitated lobbying spin, 3) criticism of language we have already fixed, or 4) retweets by people who like to steal music and buy fake, but cheap, goods."
+
+However, most companies in the domain name industry that have expressed an opinion oppose SOPA, saying it will break end-to-end authentication using DNSSEC, the emerging domain security protocol. They also say that by forcing American ISPs to block piracy sites at the domain level, SOPA will compel American internet users to use workaround DNS services operated by criminals overseas, increasing the likelihood of phishing and fraud.
+
+Go Daddy's Jones has refuted this, writing last month: "It’s hard to imagine that the limited times per year that the Attorney General seeks this remedy for a site dedicated to infringement will result in a mass exodus away from DNS as we know it. I have to believe that the average person doesn’t want to commit a crime."
+
+Go Daddy has faced calls the boycotts before, notably this March when then-CEO came under fire for posting a video online showing him shooting an elephant while on vacation in Zimbabwe. In that case, the calls for a boycott resulted in thousands of domain names being transferred to rival registrars, but the net effect of the publicity was positive for Go Daddy's sales.
+
+Nevertheless, opportunistic competitors quickly seized upon the latest scandal yesterday, taking to Twitter to promote special discounts for consumers wishing to transfer their domains away.
+
+Today, a Go Daddy spokesperson said in a statement: "Go Daddy has received some emails that appear to stem from the boycott prompt, but we have not seen any impact to our business. We understand there are many differing opinions on the SOPA regulations."
+
+Go Daddy says it registers, renews or transfers a domain name every second. It is responsible for well over a third of all .com domains registered today, not including its resellers' sales. ®
