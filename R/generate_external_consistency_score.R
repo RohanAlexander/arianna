@@ -17,7 +17,7 @@ generate_external_consistency_score <- function(text_to_check) {
   # because that collection was based on the data itself) we want to work out a measure
   # of consistency.
 
-  consistency_dataset <- read.csv("./external_datasets/external_training_dataset.csv")
+  consistency_dataset <- read.csv("https://raw.githubusercontent.com/RohanAlexander/arianna/master/external_datasets/external_training_dataset.csv")
 
   # Create tokens with errors
   tokens_from_example_with_errors <- quanteda::tokens(text_to_check, remove_punct = TRUE)
