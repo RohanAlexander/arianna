@@ -17,8 +17,12 @@ make_external_consistency_dataset <- function(body_of_text) {
   # Create ngrams from the tokens
   toks_ngram <- quanteda::tokens_ngrams(tokens_from_example, n = 3)
 
+  all_tokens <- tibble(tokens = "how_are_you")
   # Convert to tibble so we can use our familiar verbs
-  all_tokens <- tibble::tibble(tokens = toks_ngram[[1]])
+  for(i in 1:length(toks_ngram)){
+    all_tokens <- add_row(all_tokens, tokens = toks_ngram[[i]])
+  }
+  #all_tokens <- tibble::tibble(tokens = toks_ngram[[1]])
 
   # We only want the common ones, not every one.
   all_tokens <-
@@ -44,4 +48,4 @@ make_external_consistency_dataset <- function(body_of_text) {
 }
 
 external_training_data <- make_external_consistency_dataset(raw_data_corpus)
-write.csv(external_training_data, paste0(path,"/external_datasets/external_training_dataset.csv"), row.names=FALSE)
+write.csv(all_tokens, paste0(path,"/external_datasets/external_training_dataset.csv"), row.names=FALSE)
