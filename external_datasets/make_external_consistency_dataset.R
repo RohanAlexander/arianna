@@ -11,18 +11,17 @@ raw_data_corpus <- quanteda::corpus(raw_data)
 
 make_external_consistency_dataset <- function(body_of_text) {
   # Create tokens
-  tokens_from_example <- quanteda::tokens(body_of_text, remove_punct = TRUE, )
+  tokens_from_example <- quanteda::tokens(raw_data_corpus, remove_punct = TRUE, )
   tokens_from_example <- quanteda::tokens_tolower(tokens_from_example)
 
   # Create ngrams from the tokens
-  toks_ngram <- quanteda::tokens_ngrams(tokens_from_example, n = 3)
+  toks_ngram <- quanteda::tokens_ngrams(tokens_from_example, n = 5:3)
 
   all_tokens <- tibble(tokens = "how_are_you")
   # Convert to tibble so we can use our familiar verbs
   for(i in 1:length(toks_ngram)){
     all_tokens <- add_row(all_tokens, tokens = toks_ngram[[i]])
   }
-  #all_tokens <- tibble::tibble(tokens = toks_ngram[[1]])
 
   # We only want the common ones, not every one.
   all_tokens <-
@@ -36,7 +35,7 @@ make_external_consistency_dataset <- function(body_of_text) {
   all_tokens <-
     all_tokens %>%
     dplyr::mutate(tokens = stringr::str_replace_all(tokens, "_", " "),
-                  first_words = stringr::word(tokens, start = 1, end = 2),
+                  first_words = stringr::word(tokens, start = 1, end = -2),
                   last_word = stringr::word(tokens, -1),
                   tokens = stringr::str_replace_all(tokens, " ", "_"),
                   first_words = stringr::str_replace_all(first_words, " ", "_")
@@ -48,4 +47,4 @@ make_external_consistency_dataset <- function(body_of_text) {
 }
 
 external_training_data <- make_external_consistency_dataset(raw_data_corpus)
-write.csv(all_tokens, paste0(path,"/external_datasets/external_training_dataset.csv"), row.names=FALSE)
+write.csv(all_tokens, paste0(path,"/external_datasets/external_training_dataset_5-3-grams.csv"), row.names=FALSE)

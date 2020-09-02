@@ -1,23 +1,25 @@
-#' @title Generate external consistency score
+#' @title Generate internal consistency score
 #'
 #' @description This function takes a small amount of text and generates an
-#' external consistency score
+#' internal consistency score
 #'
 #' @param text_to_check smaller amount of text
 #'
-#' @return A list of two tibbles that contain external consistency and unexpected words
+#' @param consistency_dataset dataset created from make_internal_consistency_dataset
+#'
+#' @return A list of two tibbles that contain internal consistency and unexpected words
 #'
 #' @examples
-#' aRianna::generate_external_consistency_score("we had no idea that you had no idae")
+#' aRianna::generate_internal_consistency_score("we had no idea that you had no idae", consistency_dataset)
+#'
+#' @seealso `make_internal_consistency_dataset` for consistency_dataset generation
 #'
 #' @export
-generate_external_consistency_score <- function(text_to_check) {
+generate_internal_consistency_score <- function(text_to_check, consistency_dataset) {
   #### Apply to the dataset to create a consistency score ####
-  # Now that we have our collection of n-grams (this will be external consistency
+  # Now that we have our collection of n-grams (this will be internal consistency
   # because that collection was based on the data itself) we want to work out a measure
   # of consistency.
-
-  consistency_dataset <- read.csv("./external_datasets/external_training_dataset.csv")
 
   # Create tokens with errors
   tokens_from_example_with_errors <- quanteda::tokens(text_to_check, remove_punct = TRUE)
@@ -53,25 +55,23 @@ generate_external_consistency_score <- function(text_to_check) {
   }
 
   # Group dataset by tokens and sort them by as_expected
-  external_consistency <-
+  internal_consistency <-
     all_tokens_with_errors %>%
     dplyr::mutate(as_expected = last_word == last_word_expected) %>%
     dplyr::select(-last_word_expected) %>%
     dplyr::distinct() %>%
     dplyr::group_by(tokens)
-  external_consistency <- external_consistency[order(external_consistency$tokens,-external_consistency$as_expected),]
-  external_consistency <- external_consistency[!duplicated(external_consistency$tokens),]
+  internal_consistency <- internal_consistency[order(internal_consistency$tokens,-internal_consistency$as_expected),]
+  internal_consistency <- internal_consistency[!duplicated(internal_consistency$tokens),]
 
-  true_count <- length(which(external_consistency$as_expected == TRUE))
-
-  # Calculate the external consistency score:
-  external_consistency <-
-    external_consistency %>%
+  true_count <- length(which(internal_consistency$as_expected == TRUE))
+  # Calculate the internal consistency score:
+  internal_consistency <-
+    internal_consistency %>%
     dplyr::ungroup()%>%
     dplyr::filter(!is.na(as_expected)) %>%
     dplyr::count(as_expected) %>%
     dplyr::mutate(consistency = true_count/sum(n))
-
 
   # Identify which words were unexpected
   unexpected <-
@@ -83,8 +83,7 @@ generate_external_consistency_score <- function(text_to_check) {
   # Get unique last_word_expected and display 5-grams first
   unexpected <- unexpected[!duplicated(unexpected$last_word_expected),]
 
-  # Store results in a list
-  newList <- list("external consistency" = external_consistency,
+  newList <- list("internal consistency" = internal_consistency,
                   "unexpected words" = unexpected)
 
   return(newList)
