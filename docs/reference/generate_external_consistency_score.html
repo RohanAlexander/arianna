@@ -142,24 +142,28 @@ external consistency score</p>
     <p>A list of two tibbles that contain external consistency and unexpected words</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'>generate_external_consistency_score</span>(<span class='st'>"we had no idea that you had no idae"</span>)</div><div class='output co'>#&gt; $`external consistency`
+    <pre class="examples"><div class='input'><span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'>generate_external_consistency_score</span>(<span class='st'>"there was no possibiliti"</span>)</div><div class='output co'>#&gt; $`external consistency`
 #&gt; <span style='color: #555555;'># A tibble: 2 x 3</span><span>
 #&gt;   as_expected     n consistency
 #&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
-#&gt; </span><span style='color: #555555;'>1</span><span> FALSE           1       0.857
-#&gt; </span><span style='color: #555555;'>2</span><span> TRUE            6       0.857
+#&gt; </span><span style='color: #555555;'>1</span><span> FALSE           2       0.333
+#&gt; </span><span style='color: #555555;'>2</span><span> TRUE            1       0.333
 #&gt; 
 #&gt; $`unexpected words`
-#&gt; </span><span style='color: #555555;'># A tibble: 7 x 4</span><span>
-#&gt;   first_words last_word last_word_expected as_expected
-#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span>      
-#&gt; </span><span style='color: #555555;'>1</span><span> had_no      idae      choice             FALSE      
-#&gt; </span><span style='color: #555555;'>2</span><span> had_no      idae      clue               FALSE      
-#&gt; </span><span style='color: #555555;'>3</span><span> had_no      idae      doubt              FALSE      
-#&gt; </span><span style='color: #555555;'>4</span><span> had_no      idae      idea               FALSE      
-#&gt; </span><span style='color: #555555;'>5</span><span> had_no      idae      other              FALSE      
-#&gt; </span><span style='color: #555555;'>6</span><span> had_no      idae      problem            FALSE      
-#&gt; </span><span style='color: #555555;'>7</span><span> had_no      idae      right              FALSE      
+#&gt; </span><span style='color: #555555;'># A tibble: 11 x 3</span><span>
+#&gt;    first_words  last_word   last_word_expected
+#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>             
+#&gt; </span><span style='color: #555555;'> 1</span><span> there_was_no possibiliti evidence          
+#&gt; </span><span style='color: #555555;'> 2</span><span> there_was_no possibiliti immediate         
+#&gt; </span><span style='color: #555555;'> 3</span><span> there_was_no possibiliti infrastructure    
+#&gt; </span><span style='color: #555555;'> 4</span><span> there_was_no possibiliti one               
+#&gt; </span><span style='color: #555555;'> 5</span><span> there_was_no possibiliti possibility       
+#&gt; </span><span style='color: #555555;'> 6</span><span> there_was_no possibiliti sound             
+#&gt; </span><span style='color: #555555;'> 7</span><span> there_was_no possibiliti way               
+#&gt; </span><span style='color: #555555;'> 8</span><span> was_no       possibiliti good              
+#&gt; </span><span style='color: #555555;'> 9</span><span> was_no       possibiliti longer            
+#&gt; </span><span style='color: #555555;'>10</span><span> was_no       possibiliti more              
+#&gt; </span><span style='color: #555555;'>11</span><span> was_no       possibiliti wonder            
 #&gt; </div><div class='input'>
 </div></span></pre>
   </div>

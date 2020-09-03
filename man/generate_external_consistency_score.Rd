@@ -17,6 +17,6 @@ This function takes a small amount of text and generates an
 external consistency score
 }
 \examples{
-aRianna::generate_external_consistency_score("we had no idea that you had no idae")
+aRianna::generate_external_consistency_score("there was no possibiliti")
 
 }

@@ -142,12 +142,16 @@ is needed.</p>
     <p>A collection of n-gram tokens in a tibble</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='no'>some_text</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"we had no idea that you had no idea that they had no idea"</span>)
-<span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'>make_internal_consistency_dataset</span>(<span class='no'>some_text</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 2 x 3</span><span>
+    <pre class="examples"><div class='input'><span class='no'>body_of_text</span> <span class='kw'>&lt;-</span> <span class='st'>"There was no possibility of taking a walk that day.
+We had been wandering, indeed, in the leafless shrubbery an hour in
+the morning; but since dinner (Mrs. Reed, when there was no company,
+dined early) the cold winter wind had brought with it clouds so sombre,
+and a rain so penetrating, that further out-door exercise was now out
+of the question."</span>
+<span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'>make_internal_consistency_dataset</span>(<span class='no'>body_of_text</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 1 x 3</span><span>
 #&gt;   tokens       first_words last_word_expected
 #&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>             
-#&gt; </span><span style='color: #555555;'>1</span><span> had_no_idea  had_no      idea              
-#&gt; </span><span style='color: #555555;'>2</span><span> no_idea_that no_idea     that              </div><div class='input'>
+#&gt; </span><span style='color: #555555;'>1</span><span> there_was_no there_was   no                </div><div class='input'>
 </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

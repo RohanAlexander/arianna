@@ -33,16 +33,9 @@ Raw text data are often messy and unready for further analysis. The `aRianna` pa
 
 ### Getting started
 
-To install the package and load the library:
-  
-``` r
-devtools::install_github("RohanAlexander/arianna")
-library(aRianna)
-```
-
 For demonstration, we use the first paragraph of Jane Eyre as the internal text data. A sentence within the paragraph is modified with the intention to contain an error and serves as the text to be evaluated:
   
-``` r
+```r
 body_of_text <- "There was no possibility of taking a walk that day. 
 We had been wandering, indeed, in the leafless shrubbery an hour in 
 the morning; but since dinner (Mrs. Reed, when there was no company, 
@@ -53,11 +46,9 @@ of the question."
 text_to_evaluate <- "when there was na company"
 ```
 
-### Create an internal consistency dataset
-
-The first step is to turn the body of text into the internal consistency dataset. The generated internal consistency dataset is a tibble that contains the tri-grams that appear in the internal text data more than once. Since only `there_was_no` has more than one occurrence, it is the only reference tri-gram in the internal consistency dataset:
+The first step is to turn the body of text into the internal consistency dataset. The generated internal consistency dataset is a tibble that contains the 5-grams, 4-grams and tri-grams that appear in the internal text data more than once. Since only `there_was_no` has more than one occurrence, it is the only reference n-gram in the internal consistency dataset:
   
-``` r
+```r
 internal_consistency_dataset <- 
   aRianna::make_internal_consistency_dataset(body_of_text)
 internal_consistency_dataset
@@ -67,11 +58,9 @@ internal_consistency_dataset
 ## 1 there_was_no there_was   no                
 ```
 
-### Generate internal consistency score
-
 The next step is to compare the text to be evaluated with the internal consistency dataset that we created in the previous step. The function `generate_internal_consistency_score` takes in two arguments — the text to evaluate and the internal consistency dataset. The function identifies the word "na" as an unexpected word, and generates the internal consistency score as zero. The function also lists "no" as the replacement of "na":
   
-``` r
+```r
 aRianna::generate_internal_consistency_score(
   text_to_evaluate, internal_consistency_dataset)
 
@@ -82,18 +71,17 @@ aRianna::generate_internal_consistency_score(
 ## 1 FALSE           1           0
 
 ## $`unexpected words`
-## # A tibble: 1 x 4
-##   first_words last_word last_word_expected as_expected
-##   <chr>       <chr>     <chr>              <lgl>      
-## 1 there_was   na        no                 FALSE  
+## # A tibble: 1 x 3
+##   first_words last_word last_word_expected 
+##   <chr>       <chr>     <chr>                 
+## 1 there_was   na        no                 
 
 ```
 
-### Generate external consistency score
-
-To get the external consistency score, we will employ the `generate_external_consistency_score` function. The function `generate_internal_consistency_score` takes in only one argument — the text to evaluate, and compares it with the external consistency dataset. The function identifies the word "na" as an unexpected word, and generates the external consistency score as zero. Because the external dataset is larger, there are several words generated as the replacement candidates of "na":
+To get the external consistency score, we will employ the `generate_external_consistency_score` function. The function `generate_internal_consistency_score` takes in only one argument — the text to evaluate, and compares it with the external consistency dataset. Here, the text to evaluate is "there was no possibiliti", with the word "possibility" being wrongly spelled. The function identifies the word "possibiliti" as an unexpected word, and generates the external consistency score 0.833. Because the external dataset is larger, it is capable of providing more replacement candidates for "possibiliti". The replacements based on 4-grams are displayed first followed by the replacements based on tri-grams: 
   
-``` r
+```r
+text_to_evaluate <- "there was no possibiliti"
 aRianna::generate_external_consistency_score(text_to_evaluate)
 
 ## aRianna::generate_external_consistency_score(text_to_evaluate)
@@ -101,24 +89,24 @@ aRianna::generate_external_consistency_score(text_to_evaluate)
 ## # A tibble: 1 x 3
 ##   as_expected     n consistency
 ##   <lgl>       <int>       <dbl>
-## 1 FALSE           2           0
+## 1 FALSE           2       0.833
+## 2 TRUE           10       0.833
 
 ## $`unexpected words`
-## # A tibble: 11 x 4
-##    first_words last_word last_word_expected as_expected
-##    <chr>       <chr>     <chr>              <lgl>      
-##  1 there_was   na        a                  FALSE      
-##  2 there_was   na        an                 FALSE      
-##  3 there_was   na        no                 FALSE      
-##  4 there_was   na        not                FALSE      
-##  5 there_was   na        nothing            FALSE      
-##  6 there_was   na        of                 FALSE      
-##  7 there_was   na        one                FALSE      
-##  8 there_was   na        only               FALSE      
-##  9 there_was   na        plenty             FALSE      
-## 10 there_was   na        someone            FALSE      
-## 11 there_was   na        something          FALSE      
-
+## # A tibble: 11 x 3
+##    first_words  last_word    last_word_expected 
+##    <chr>        <chr>        <chr>                    
+##  1 there_was_no possibiliti  evidence          
+##  2 there_was_no possibiliti  immediate         
+##  3 there_was_no possibiliti  infrastructure    
+##  4 there_was_no possibiliti  one               
+##  5 there_was_no possibiliti  possibility       
+##  6 there_was_no possibiliti  sound             
+##  7 there_was_no possibiliti  way               
+##  8 was_no       possibiliti  good              
+##  9 was_no       possibiliti  longer            
+## 10 was_no       possibiliti  more              
+## 11 was_no       possibiliti  wonder 
 ```
 
 

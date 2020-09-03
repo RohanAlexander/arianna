@@ -8,7 +8,7 @@
 #' @return A list of two tibbles that contain external consistency and unexpected words
 #'
 #' @examples
-#' aRianna::generate_external_consistency_score("we had no idea that you had no idae")
+#' aRianna::generate_external_consistency_score("there was no possibiliti")
 #'
 #' @export
 generate_external_consistency_score <- function(text_to_check) {

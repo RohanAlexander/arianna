@@ -149,8 +149,30 @@ internal consistency score</p>
     <div class='dont-index'><p><code>make_internal_consistency_dataset</code> for consistency_dataset generation</p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'>generate_internal_consistency_score</span>(<span class='st'>"we had no idea that you had no idae"</span>, <span class='no'>consistency_dataset</span>)</div><div class='output co'>#&gt; <span class='error'>Error in dplyr::select(consistency_dataset, -tokens): object 'consistency_dataset' not found</span></div><div class='input'>
-</div></pre>
+    <pre class="examples"><div class='input'><span class='no'>body_of_text</span> <span class='kw'>&lt;-</span> <span class='st'>"There was no possibility of taking a walk that day.
+We had been wandering, indeed, in the leafless shrubbery an hour in
+the morning; but since dinner (Mrs. Reed, when there was no company,
+dined early) the cold winter wind had brought with it clouds so sombre,
+and a rain so penetrating, that further out-door exercise was now out
+of the question."</span>
+
+<span class='no'>text_to_evaluate</span> <span class='kw'>&lt;-</span> <span class='st'>"when there was na company"</span>
+
+<span class='no'>consistency_dataset</span> <span class='kw'>&lt;-</span> <span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'><a href='make_internal_consistency_dataset.html'>make_internal_consistency_dataset</a></span>(<span class='no'>body_of_text</span>)
+
+<span class='kw pkg'>aRianna</span><span class='kw ns'>::</span><span class='fu'>generate_internal_consistency_score</span>(<span class='no'>text_to_evaluate</span>, <span class='no'>consistency_dataset</span>)</div><div class='output co'>#&gt; $`internal consistency`
+#&gt; <span style='color: #555555;'># A tibble: 1 x 3</span><span>
+#&gt;   as_expected     n consistency
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'>1</span><span> FALSE           1           0
+#&gt; 
+#&gt; $`unexpected words`
+#&gt; </span><span style='color: #555555;'># A tibble: 1 x 4</span><span>
+#&gt;   first_words last_word last_word_expected as_expected
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span>      
+#&gt; </span><span style='color: #555555;'>1</span><span> there_was   na        no                 FALSE      
+#&gt; </div><div class='input'>
+</div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

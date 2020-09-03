@@ -103,47 +103,68 @@
 <div id="examples" class="section level1">
 <h1 class="hasAnchor">
 <a href="#examples" class="anchor"></a>Examples</h1>
-<div id="internal-consistency-generation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#internal-consistency-generation" class="anchor"></a>Internal consistency generation</h2>
-<div class="sourceCode" id="cb3"><pre class="r"><span class="no">some_text</span> <span class="kw">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"we had no idea that you had no idea that they had no idea"</span>)
-<span class="no">consistency_dataset</span> <span class="kw">&lt;-</span> <span class="kw pkg">aRianna</span><span class="kw ns">::</span><span class="fu"><a href="reference/make_internal_consistency_dataset.html">make_internal_consistency_dataset</a></span>(<span class="no">some_text</span>)
-<span class="kw pkg">aRianna</span><span class="kw ns">::</span><span class="fu"><a href="reference/generate_internal_consistency_score.html">generate_internal_consistency_score</a></span>(<span class="st">"we had no idea that you had no idae"</span>, <span class="no">consistency_dataset</span>)
+<div id="getting-started" class="section level3">
+<h3 class="hasAnchor">
+<a href="#getting-started" class="anchor"></a>Getting started</h3>
+<p>For demonstration, we use the first paragraph of Jane Eyre as the internal text data. A sentence within the paragraph is modified with the intention to contain an error and serves as the text to be evaluated:</p>
+<div class="sourceCode" id="cb3"><pre class="r"><span class="no">body_of_text</span> <span class="kw">&lt;-</span> <span class="st">"There was no possibility of taking a walk that day. 
+We had been wandering, indeed, in the leafless shrubbery an hour in 
+the morning; but since dinner (Mrs. Reed, when there was no company, 
+dined early) the cold winter wind had brought with it clouds so sombre, 
+and a rain so penetrating, that further out-door exercise was now out 
+of the question."</span>
+
+<span class="no">text_to_evaluate</span> <span class="kw">&lt;-</span> <span class="st">"when there was na company"</span></pre></div>
+<p>The first step is to turn the body of text into the internal consistency dataset. The generated internal consistency dataset is a tibble that contains the 5-grams, 4-grams and tri-grams that appear in the internal text data more than once. Since only <code>there_was_no</code> has more than one occurrence, it is the only reference n-gram in the internal consistency dataset:</p>
+<div class="sourceCode" id="cb4"><pre class="r"><span class="no">internal_consistency_dataset</span> <span class="kw">&lt;-</span>
+  <span class="kw pkg">aRianna</span><span class="kw ns">::</span><span class="fu"><a href="reference/make_internal_consistency_dataset.html">make_internal_consistency_dataset</a></span>(<span class="no">body_of_text</span>)
+<span class="no">internal_consistency_dataset</span>
+<span class="co">## # A tibble: 1 x 3</span>
+<span class="co">##   tokens       first_words last_word_expected</span>
+<span class="co">##   &lt;chr&gt;        &lt;chr&gt;       &lt;chr&gt;             </span>
+<span class="co">## 1 there_was_no there_was   no                </span></pre></div>
+<p>The next step is to compare the text to be evaluated with the internal consistency dataset that we created in the previous step. The function <code>generate_internal_consistency_score</code> takes in two arguments — the text to evaluate and the internal consistency dataset. The function identifies the word “na” as an unexpected word, and generates the internal consistency score as zero. The function also lists “no” as the replacement of “na”:</p>
+<div class="sourceCode" id="cb5"><pre class="r"><span class="kw pkg">aRianna</span><span class="kw ns">::</span><span class="fu"><a href="reference/generate_internal_consistency_score.html">generate_internal_consistency_score</a></span>(
+  <span class="no">text_to_evaluate</span>, <span class="no">internal_consistency_dataset</span>)
 
 <span class="co">## $`internal consistency`</span>
 <span class="co">## # A tibble: 1 x 3</span>
 <span class="co">##   as_expected     n consistency</span>
 <span class="co">##   &lt;lgl&gt;       &lt;int&gt;       &lt;dbl&gt;</span>
-<span class="co">## 1 TRUE            2       0.667</span>
+<span class="co">## 1 FALSE           1           0</span>
 
 <span class="co">## $`unexpected words`</span>
-<span class="co">## # A tibble: 1 x 5</span>
-<span class="co">##   tokens      first_words last_word last_word_expected as_expected</span>
-<span class="co">##   &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;     &lt;chr&gt;              &lt;lgl&gt;      </span>
-<span class="co">## 1 had_no_idae had_no      idae      idea               FALSE  </span></pre></div>
-</div>
-<div id="external-consistency-generation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#external-consistency-generation" class="anchor"></a>External consistency generation</h2>
-<div class="sourceCode" id="cb4"><pre class="r"><span class="kw pkg">aRianna</span><span class="kw ns">::</span><span class="fu"><a href="reference/generate_external_consistency_score.html">generate_external_consistency_score</a></span>(<span class="st">"we had no idea that you had no idae"</span>)
+<span class="co">## # A tibble: 1 x 3</span>
+<span class="co">##   first_words last_word last_word_expected </span>
+<span class="co">##   &lt;chr&gt;       &lt;chr&gt;     &lt;chr&gt;                 </span>
+<span class="co">## 1 there_was   na        no                 </span></pre></div>
+<p>To get the external consistency score, we will employ the <code>generate_external_consistency_score</code> function. The function <code>generate_internal_consistency_score</code> takes in only one argument — the text to evaluate, and compares it with the external consistency dataset. Here, the text to evaluate is “there was no possibiliti”, with the word “possibility” being wrongly spelled. The function identifies the word “possibiliti” as an unexpected word, and generates the external consistency score 0.833. Because the external dataset is larger, it is capable of providing more replacement candidates for “possibiliti”. The replacements based on 4-grams are displayed first followed by the replacements based on tri-grams:</p>
+<div class="sourceCode" id="cb6"><pre class="r"><span class="no">text_to_evaluate</span> <span class="kw">&lt;-</span> <span class="st">"there was no possibiliti"</span>
+<span class="kw pkg">aRianna</span><span class="kw ns">::</span><span class="fu"><a href="reference/generate_external_consistency_score.html">generate_external_consistency_score</a></span>(<span class="no">text_to_evaluate</span>)
 
+<span class="co">## aRianna::generate_external_consistency_score(text_to_evaluate)</span>
 <span class="co">## $`external consistency`</span>
 <span class="co">## # A tibble: 1 x 3</span>
 <span class="co">##   as_expected     n consistency</span>
 <span class="co">##   &lt;lgl&gt;       &lt;int&gt;       &lt;dbl&gt;</span>
-<span class="co">## 1 TRUE            6       0.107</span>
+<span class="co">## 1 FALSE           2       0.833</span>
+<span class="co">## 2 TRUE           10       0.833</span>
 
 <span class="co">## $`unexpected words`</span>
-<span class="co">## # A tibble: 7 x 4</span>
-<span class="co">##   first_words last_word last_word_expected as_expected</span>
-<span class="co">##   &lt;chr&gt;       &lt;chr&gt;     &lt;chr&gt;              &lt;lgl&gt;      </span>
-<span class="co">## 1 had_no      idae      choice             FALSE      </span>
-<span class="co">## 2 had_no      idae      clue               FALSE      </span>
-<span class="co">## 3 had_no      idae      doubt              FALSE      </span>
-<span class="co">## 4 had_no      idae      idea               FALSE      </span>
-<span class="co">## 5 had_no      idae      other              FALSE      </span>
-<span class="co">## 6 had_no      idae      problem            FALSE      </span>
-<span class="co">## 7 had_no      idae      right              FALSE      </span></pre></div>
+<span class="co">## # A tibble: 11 x 3</span>
+<span class="co">##    first_words  last_word    last_word_expected </span>
+<span class="co">##    &lt;chr&gt;        &lt;chr&gt;        &lt;chr&gt;                    </span>
+<span class="co">##  1 there_was_no possibiliti  evidence          </span>
+<span class="co">##  2 there_was_no possibiliti  immediate         </span>
+<span class="co">##  3 there_was_no possibiliti  infrastructure    </span>
+<span class="co">##  4 there_was_no possibiliti  one               </span>
+<span class="co">##  5 there_was_no possibiliti  possibility       </span>
+<span class="co">##  6 there_was_no possibiliti  sound             </span>
+<span class="co">##  7 there_was_no possibiliti  way               </span>
+<span class="co">##  8 was_no       possibiliti  good              </span>
+<span class="co">##  9 was_no       possibiliti  longer            </span>
+<span class="co">## 10 was_no       possibiliti  more              </span>
+<span class="co">## 11 was_no       possibiliti  wonder </span></pre></div>
 </div>
 </div>
 

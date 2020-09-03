@@ -19,7 +19,18 @@ This function takes a small amount of text and generates an
 internal consistency score
 }
 \examples{
-aRianna::generate_internal_consistency_score("we had no idea that you had no idae", consistency_dataset)
+body_of_text <- "There was no possibility of taking a walk that day.
+We had been wandering, indeed, in the leafless shrubbery an hour in
+the morning; but since dinner (Mrs. Reed, when there was no company,
+dined early) the cold winter wind had brought with it clouds so sombre,
+and a rain so penetrating, that further out-door exercise was now out
+of the question."
+
+text_to_evaluate <- "when there was na company"
+
+consistency_dataset <- aRianna::make_internal_consistency_dataset(body_of_text)
+
+aRianna::generate_internal_consistency_score(text_to_evaluate, consistency_dataset)
 
 }
 \seealso{
