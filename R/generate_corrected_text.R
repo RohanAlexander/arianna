@@ -6,14 +6,16 @@
 #'
 #' @return Corrected text data
 #'
-#' @examples
-#' aRianna::generate_corrected_text("His Majesty Government wish to add that they have no im@@fon of requesting the establishment of military bases in peace time within the area of Palestine now united to the Kis@@®m of Jordan.")
 #'
 #' @export
 ##### Prediction function
 generate_corrected_text <- function(text_original) {
+  BertForMaskedLM <- transformers$BertForMaskedLM
+  BertTokenizer <- transformers$BertTokenizer$from_pretrained('bert-base-uncased')
+  BertForMaskedLMModel <- BertForMaskedLM$from_pretrained('bert-base-uncased')
+
   ### Clean text
-  text_stripped <- textclean::strip(text_original, char.keep = c("?", ".", "’", "~~"), digit.remove = TRUE, apostrophe.remove = FALSE,
+  text_stripped <- textclean::strip(text_original, char.keep = c("?", ".", "'", "~~"), digit.remove = TRUE, apostrophe.remove = FALSE,
                          lower.case = FALSE)
   ### Collect text errors
   errors <- hunspell::hunspell(text_stripped)
