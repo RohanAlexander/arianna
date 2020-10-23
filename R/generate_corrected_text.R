@@ -6,7 +6,6 @@
 #'
 #' @return Corrected text data
 #'
-#'
 #' @export
 ##### Prediction function
 generate_corrected_text <- function(text_original) {
@@ -63,3 +62,7 @@ generate_corrected_text <- function(text_original) {
 
   return(text)
 }
+
+# segment sentences based on ! ? .
+# more than two sentences
+# if no errors, pass it

@@ -14,7 +14,7 @@ Description: The `aRianna` package provides an easy way to clean your text data 
 Config/reticulate:
   list(
     packages = list(
-      list(package = "pytorch_pretrained_bert"),
+      list(package = "transformers"),
       list(package = "pytorch"),
     )
   )
