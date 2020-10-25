@@ -9,9 +9,6 @@
 #' @export
 ##### Prediction function
 generate_corrected_text <- function(text_original) {
-  BertForMaskedLM <- transformers$BertForMaskedLM
-  BertTokenizer <- transformers$BertTokenizer$from_pretrained('bert-base-uncased')
-  BertForMaskedLMModel <- BertForMaskedLM$from_pretrained('bert-base-uncased')
 
   ### Clean text
   text_stripped <- textclean::strip(text_original, char.keep = c("?", ".", "'", "~~"), digit.remove = TRUE, apostrophe.remove = FALSE,

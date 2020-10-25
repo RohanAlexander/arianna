@@ -14,8 +14,9 @@ Description: The `aRianna` package provides an easy way to clean your text data 
 Config/reticulate:
   list(
     packages = list(
-      list(package = "transformers"),
-      list(package = "pytorch"),
+      list(package = "torch", pip = TRUE),
+      list(package = "torchvision", pip = TRUE),
+      list(package = "transformers", version = "3.1.0", pip = TRUE)
     )
   )
 License: MIT + file LICENSE
@@ -28,16 +29,17 @@ Suggests:
     testthat,
     knitr,
     rmarkdown
+Depends:
+    reticulate
 Imports: 
     quanteda,
     stringr,
     dplyr,
     tibble,
     magrittr,
-    reticulate,
     textclean,
-    rTorch,
-    hunspell
+    hunspell,
+    rTorch
 VignetteBuilder: knitr
 
 
