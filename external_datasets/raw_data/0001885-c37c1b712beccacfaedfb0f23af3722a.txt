@@ -1,5 +1,0 @@
-With most of our games, our initial prototypes are made with simple shapes to get the gameplay working as soon as possible. With Don't Grind, the concept was so simple that we decided to set the project up properly right away. So we created the spritesheets and started building the scene as we worked on the gameplay.
-
-Characters - Injecting life into inanimate objects
-
-It's important with a game like Don't Grind to feel connected with what is going on. We really wanted to bring the characters to life but avoid the whole "grinding up cute cats and dogs", so we chose to use inanimate objects. There have been thousands of games where you put animals in blenders and stuff since way back in the early days of flash, and we didn't want to make one of those.

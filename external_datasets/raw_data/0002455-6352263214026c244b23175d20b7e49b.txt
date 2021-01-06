@@ -1,9 +1,0 @@
-Advertising network Turn announced today that they will suspend their zombie tracking cookie program. Turn was recently caught using Verizon Wireless' invasive UIDH header to undelete tracking cookies that web visitors had previously deleted. This unacceptable practice means that users who delete cookies to avoid Turn's and others' tracking will continue to be tracked against their will, using information associated with their previous activity through a permanent identity.
-
-This is a step toward victory for everyone who spoke out against Turn's zombie cookies, but it is not enough. Turn's cookies just underscore the huge privacy problems with Verizon's header injection. Turn's cookies were the first example found, but Verizon enables any company to use the identifier in similarly abusive ways, some of which may not be visible to users.
-
-Verizon needs to follow Turn's lead, and end their UIDH header injection program immediately.
-
-Turn plans to "suspend" the zombie cookie program "pending re-evaluation." We again call on Turn to end their zombie cookie program permanently, and to commit not to use headers, browser fingerprinting, or any other method to circumvent individuals' decision to delete cookies. Additionally, Turn says, "By early February, Turn will not 'respawn' cookie IDs associated with the Verizon UIDH." Turn should treat this as the urgent privacy problem that it is, and end the cookie respawning today, not three weeks from now.
-
-Companies that engage in cookie syncing with Turn, as EFF described recently, should immediately disable the Turn cookie syncing program and delete existing cookie syncing data until Turn has confirmed that they have stopped respawning cookies and have purged any cookies that they may have respawned.

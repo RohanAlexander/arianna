@@ -1,9 +1,0 @@
-Bank of America and Citigroup incorrectly accounted for billions of dollars in debt over the past three years, according to a report from the Wall Street Journal.
-
-The report highlights a form of corporate borrowing increasingly under scrutiny since the financial crisis began. The loans, known as "repos," or short-term repurchase agreements, allow banks to increase the amount of risk they can take in securities trading.
-
-Both BofA and Citigroup disclosed in filings with the Securities and Exchange Commission that they have over the last three years accidentally classified some repos as sales when they should have been classified as borrowings, the newspaper reported. The amounts involved were small for the banks, though they totaled billions.
-
-It is illegal under federal securities rules to intentionally conceal debt and mislead investors. Bank of America and Citigroup claim the accounting flaws were purely accidental and represent minute portions of their overall operations.
-
-Bank of America, in addressing errors that reached up to $10.7 billion per quarter, noted that the flaws ”represented substantially less than 1 percent of our total assets," the Wall Street Journal reports.

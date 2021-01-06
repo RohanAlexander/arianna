@@ -1,8 +1,0 @@
-The end of the year is fast approaching, but the fun doesn’t have to end after the ball drops in Times Square. When you’re ready to kick off your travel plans for 2018 and take a weekend getaway, check out our trending destinations for travel inspiration, and our new features to feel confident you’re getting a good deal.
-
-Get tips when the price is right
-
-Long weekends are a great excuse to escape to warmer weather, but worrying about getting the best price for your vacation can be stressful. A recent study we did indicated that travelers are most concerned about finding the best price for their vacations – more than with any other discretionary purchase.
-
-Google Flights can help you get out of town, even when you're on a budget. Using machine learning and statistical analysis of historical flights data, Flights displays tips under your search results, and you can scroll through them to figure out when it’s best to book flights. Say you were searching for flights to Honolulu, and flights from your destination were cheaper than usual. A tip would say that “prices are less than normal” and by how much to indicate you’d spotted a deal. Or, if prices tend to remain steady for the date and place you’re searching for, a tip would indicate the price “won’t drop further” based on our price prediction algorithms.
-

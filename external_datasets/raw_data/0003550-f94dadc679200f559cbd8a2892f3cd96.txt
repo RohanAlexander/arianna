@@ -1,7 +1,0 @@
-Another Perfect Media Center Companion
-
-There is more...
-
-This is the first affordable Raspberry Pi case made out of aluminum. We wanted to ensure we didn’t sacrifice form over function, so we used the aluminum housing of the case to provide a built in heat sink. Supplied with the case is a thermal pad and 4 screws for the simplest Raspberry Pi case assembly on the market. It only takes seconds to drop your Raspberry Pi into it’s amazing new home and show it off on your counter top.
-
-We included rubber feet to raise the enclosure so it just hovers underneath your television. In addition to the built in heat sink, small ventilation slots on the bottom help keep the Raspberry Pi cool. GPIO pins are accessible through the slot on the bottom of the case and there is no need for disassembly to get to the SD card. We know you will love the attention to detail we put in throughout the case.
