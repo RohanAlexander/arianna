@@ -33,7 +33,7 @@ make_internal_consistency_dataset <- function(body_of_text) {
     all_tokens %>%
     dplyr::group_by(tokens) %>%
     dplyr::count() %>%
-    dplyr::filter(n > 1) %>%
+    # dplyr::filter(n > 1) %>%
     dplyr::ungroup()
 
   # Create a tibble that has the first two words in one column then the third
