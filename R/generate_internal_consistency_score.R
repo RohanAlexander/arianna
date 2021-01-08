@@ -37,14 +37,15 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
   tokens_from_example_with_errors <- quanteda::tokens_tolower(tokens_from_example_with_errors)
 
   # Create ngrams from the tokens with errors
-  toks_ngram_with_errors <- quanteda::tokens_ngrams(tokens_from_example_with_errors, n = 3)
+  toks_ngram_with_errors <- quanteda::tokens_ngrams(tokens_from_example_with_errors, n = 5:3)
+
   all_tokens_with_errors <- tibble::tibble(tokens = toks_ngram_with_errors[[1]])
 
   all_tokens_with_errors <-
     all_tokens_with_errors %>%
     dplyr::mutate(ngram = sapply(strsplit(tokens, "_"), length),
                   tokens = stringr::str_replace_all(tokens, "_", " "),
-                  first_words = stringr::word(tokens, start = 1, end = 2),
+                  first_words = stringr::word(tokens, start = 1, end = -2),
                   last_word = stringr::word(tokens, -1),
                   tokens = stringr::str_replace_all(tokens, " ", "_"),
                   first_words = stringr::str_replace_all(first_words, " ", "_")
@@ -74,11 +75,11 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
   internal_consistency <- internal_consistency[order(internal_consistency$tokens,-internal_consistency$as_expected),]
   internal_consistency <- internal_consistency[!duplicated(internal_consistency$tokens),]
 
+  # Calculate the internal consistency score:
   false_count <- length(internal_consistency[which(internal_consistency$as_expected == FALSE & internal_consistency$ngram == 3)])
   word_count <- sapply(strsplit(text_to_check, " "), length)
   true_count <- word_count - false_count
 
-  # Calculate the internal consistency score:
   internal_consistency <- tibble::tibble(
     "as_expected" = true_count,
     "unexpected"  = false_count,
