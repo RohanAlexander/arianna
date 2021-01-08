@@ -30,7 +30,8 @@ generate_external_consistency_score <- function(text_to_check) {
 
   all_tokens_with_errors <-
     all_tokens_with_errors %>%
-    dplyr::mutate(tokens = stringr::str_replace_all(tokens, "_", " "),
+    dplyr::mutate(ngram = sapply(strsplit(tokens, "_"), length),
+                  tokens = stringr::str_replace_all(tokens, "_", " "),
                   first_words = stringr::word(tokens, start = 1, end = -2),
                   last_word = stringr::word(tokens, -1),
                   tokens = stringr::str_replace_all(tokens, " ", "_"),
@@ -62,23 +63,27 @@ generate_external_consistency_score <- function(text_to_check) {
   external_consistency <- external_consistency[order(external_consistency$tokens,-external_consistency$as_expected),]
   external_consistency <- external_consistency[!duplicated(external_consistency$tokens),]
 
-  true_count <- length(which(external_consistency$as_expected == TRUE))
+  false_count <- length(external_consistency[which(external_consistency$as_expected == FALSE & external_consistency$ngram == 3)])
+  word_count <- sapply(strsplit(text_to_check, " "), length)
+  true_count <- word_count - false_count
 
   # Calculate the external consistency score:
-  external_consistency <-
-    external_consistency %>%
-    dplyr::ungroup()%>%
-    dplyr::filter(!is.na(as_expected)) %>%
-    dplyr::count(as_expected) %>%
-    dplyr::mutate(consistency = true_count/sum(n))
-
+  external_consistency <- tibble::tibble(
+    "as_expected" = true_count,
+    "unexpected"  = false_count,
+    "consistency" = true_count/word_count
+  )
+  external_consistency <- external_consistency %>%
+    dplyr::mutate(as_expected = true_count)%>%
+    dplyr::mutate(unexpected  = false_count)%>%
+    dplyr::mutate(consistency = true_count/word_count)
 
   # Identify which words were unexpected
   unexpected <-
     all_tokens_with_errors_only %>%
     dplyr::mutate(as_expected = last_word == last_word_expected) %>%
     dplyr::filter(as_expected == FALSE) %>%
-    dplyr::select(-c(tokens, as_expected))
+    dplyr::select(-c(tokens, as_expected, ngram))
 
   # Get unique last_word_expected and display 5-grams first
   unexpected <- unexpected[!duplicated(unexpected$last_word_expected),]

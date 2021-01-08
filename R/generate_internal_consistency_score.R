@@ -42,7 +42,8 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
 
   all_tokens_with_errors <-
     all_tokens_with_errors %>%
-    dplyr::mutate(tokens = stringr::str_replace_all(tokens, "_", " "),
+    dplyr::mutate(ngram = sapply(strsplit(tokens, "_"), length),
+                  tokens = stringr::str_replace_all(tokens, "_", " "),
                   first_words = stringr::word(tokens, start = 1, end = 2),
                   last_word = stringr::word(tokens, -1),
                   tokens = stringr::str_replace_all(tokens, " ", "_"),
@@ -73,21 +74,23 @@ generate_internal_consistency_score <- function(text_to_check, consistency_datas
   internal_consistency <- internal_consistency[order(internal_consistency$tokens,-internal_consistency$as_expected),]
   internal_consistency <- internal_consistency[!duplicated(internal_consistency$tokens),]
 
-  true_count <- length(which(internal_consistency$as_expected == TRUE))
+  false_count <- length(internal_consistency[which(internal_consistency$as_expected == FALSE & internal_consistency$ngram == 3)])
+  word_count <- sapply(strsplit(text_to_check, " "), length)
+  true_count <- word_count - false_count
+
   # Calculate the internal consistency score:
-  internal_consistency <-
-    internal_consistency %>%
-    dplyr::ungroup()%>%
-    dplyr::filter(!is.na(as_expected)) %>%
-    dplyr::count(as_expected) %>%
-    dplyr::mutate(consistency = true_count/sum(n))
+  internal_consistency <- tibble::tibble(
+    "as_expected" = true_count,
+    "unexpected"  = false_count,
+    "consistency" = true_count/word_count
+  )
 
   # Identify which words were unexpected
   unexpected <-
     all_tokens_with_errors_only %>%
     dplyr::mutate(as_expected = last_word == last_word_expected) %>%
     dplyr::filter(as_expected == FALSE) %>%
-    dplyr::select(-tokens)
+    dplyr::select(-tokens, -ngram, -as_expected)
 
   newList <- list("internal consistency" = internal_consistency,
                   "unexpected words" = unexpected)
